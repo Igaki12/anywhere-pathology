@@ -148,7 +148,7 @@ export const Setting = ({
           loadLog(appName).logs[0].remaining.length > 0 &&
           loadLog(appName).logs[0].startTime ? (
             <Button
-              bgGradient="linear(to bottom right, pink.500, red.900)"
+              bgGradient="linear(to bottom right, pink.400, red.900)"
               color={'white'}
               variant="solid"
               // borderRadius={'full'}
@@ -176,7 +176,7 @@ export const Setting = ({
             </Button>
           ) : (
             <Button
-              bgGradient="linear(to bottom right, pink.500, red.900)"
+              bgGradient="linear(to bottom right, pink.400, red.900)"
               color={'white'}
               variant="solid"
               isDisabled

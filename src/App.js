@@ -48,21 +48,14 @@ function App() {
   // const appName = 'anywhere-physiology1'
   return (
     <>
-      <Text
-        mt={'3'}
-        ml="3"
-        color="red.900"
-        mb={0}
-        fontSize="4xl"
-        fontWeight="extrabold"
-      >
+      <Heading mt={'3'} ml="3" color="red.900" mb={0}>
         どこでも試験対策
-      </Text>
+      </Heading>
       <Flex>
         <Badge
           m={1}
           mr="0"
-          mt={'-1'}
+          mt={'-0.5'}
           ml={3}
           borderRadius="full"
           px="2"
@@ -74,7 +67,7 @@ function App() {
         <Badge
           variant={'outline'}
           m={1}
-          mt="-1"
+          mt="-0.5"
           borderRadius="full"
           px="2"
           colorScheme="red"
