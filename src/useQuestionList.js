@@ -14,16 +14,16 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence:
-            '【正誤問題】仮性肥大では実質細胞数は増加するが、その容積は逆に減少している。',
+            '【〇✖問題】仮性肥大では実質細胞数は増加するが、その容積は逆に減少している。',
           answerImg: [],
-          answer: '×...仮性肥大では間質の細胞数が増加し、容積は増加する。',
+          answer: '✖...仮性肥大では間質の細胞数が増加し、容積は増加する。',
           commentary: '',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
-            '【正誤問題】前立腺肥大では実質細胞は過形成だが間質細胞は肥大を示す。',
+            '【〇✖問題】前立腺肥大では実質細胞は過形成だが間質細胞は肥大を示す。',
           answerImg: [],
           answer: '×...間質細胞も過形成される',
           commentary: '',
@@ -31,7 +31,7 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence: '【〇✖問題】',
           answerImg: [],
           answer: '',
           commentary: '',
@@ -39,7 +39,7 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence: '【〇✖問題】',
           answerImg: [],
           answer: '',
           commentary: '',
@@ -47,7 +47,7 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence: '【〇✖問題】',
           answerImg: [],
           answer: '',
           commentary: '',
@@ -55,7 +55,7 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence: '【〇✖問題】',
           answerImg: [],
           answer: '',
           commentary: '',
@@ -63,7 +63,7 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence: '【〇✖問題】',
           answerImg: [],
           answer: '',
           commentary: '',
@@ -71,7 +71,7 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence: '【〇✖問題】',
           answerImg: [],
           answer: '',
           commentary: '',
@@ -79,7 +79,7 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence: '【〇✖問題】',
           answerImg: [],
           answer: '',
           commentary: '',
@@ -87,7 +87,7 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence: '【〇✖問題】',
           answerImg: [],
           answer: '',
           commentary: '',
@@ -95,7 +95,7 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence: '【〇✖問題】',
           answerImg: [],
           answer: '',
           commentary: '',
@@ -103,7 +103,7 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence: '【〇✖問題】',
           answerImg: [],
           answer: '',
           commentary: '',
@@ -111,7 +111,7 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence: '【〇✖問題】',
           answerImg: [],
           answer: '',
           commentary: '',
@@ -119,7 +119,7 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence: '【〇✖問題】',
           answerImg: [],
           answer: '',
           commentary: '',
@@ -127,7 +127,7 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence: '【〇✖問題】',
           answerImg: [],
           answer: '',
           commentary: '',
@@ -135,7 +135,7 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence: '【〇✖問題】',
           answerImg: [],
           answer: '',
           commentary: '',
@@ -143,7 +143,7 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence: '【〇✖問題】',
           answerImg: [],
           answer: '',
           commentary: '',
@@ -151,7 +151,7 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence: '【〇✖問題】',
           answerImg: [],
           answer: '',
           commentary: '',
@@ -159,7 +159,7 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence: '【〇✖問題】',
           answerImg: [],
           answer: '',
           commentary: '',
@@ -167,7 +167,7 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence: '【〇✖問題】',
           answerImg: [],
           answer: '',
           commentary: '',

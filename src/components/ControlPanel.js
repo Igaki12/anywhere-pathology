@@ -20,22 +20,22 @@ import {
   Box,
   IconButton,
   Center,
-} from '@chakra-ui/react';
-import { SettingsIcon, ChevronDownIcon, RepeatIcon } from '@chakra-ui/icons';
+} from '@chakra-ui/react'
+import { SettingsIcon, ChevronDownIcon, RepeatIcon } from '@chakra-ui/icons'
 export const ControlPanel = ({ log, isAnswered }) => {
-  const { isOpen, onOpen, onClose } = useDisclosure(false);
+  const { isOpen, onOpen, onClose } = useDisclosure(false)
   const scrollToTheBottom = () => {
-    let element = document.documentElement;
-    let bottom = element.scrollHeight - element.clientHeight;
+    let element = document.documentElement
+    let bottom = element.scrollHeight - element.clientHeight
     window.scrollTo({
       top: bottom,
       behavior: 'smooth',
-    });
-  };
+    })
+  }
   let achievementRate = Math.floor(
     (100 * (log.asked.length + (isAnswered ? 1 : 0))) /
-      (log.asked.length + log.remaining.length + 1)
-  );
+      (log.asked.length + log.remaining.length + 1),
+  )
   return (
     <>
       <Stack
@@ -58,8 +58,8 @@ export const ControlPanel = ({ log, isAnswered }) => {
             h="45px"
             w={'45px'}
             onClick={() => {
-              onOpen();
-              console.log(isOpen);
+              onOpen()
+              console.log(isOpen)
             }}
             colorScheme="blackAlpha"
             boxShadow="dark-lg"
@@ -93,19 +93,19 @@ export const ControlPanel = ({ log, isAnswered }) => {
           <ModalCloseButton />
           <ModalBody>
             <Text>出題パターン:</Text>
-            <Tag colorScheme="teal" m={1}>
+            <Tag colorScheme="red" m={1}>
               {log.order}
             </Tag>
             <Text mt={2}>出題範囲:</Text>
             {log.range.map((year, index) => (
-              <Tag colorScheme="teal" m="1" key={index}>
+              <Tag colorScheme="red" m="1" key={index}>
                 {year}
               </Tag>
             ))}
             <Text mt={2}>単語絞り込み:</Text>
             {log.wordFilter && log.wordFilter.length > 0 ? (
               log.wordFilter.map((word, index) => (
-                <Tag colorScheme="teal" m="1" key={index}>
+                <Tag colorScheme="red" m="1" key={index}>
                   {word}
                 </Tag>
               ))
@@ -118,7 +118,7 @@ export const ControlPanel = ({ log, isAnswered }) => {
             <Text mt={2}>現在の成績:</Text>
             <Flex ml={'4'} mt={0} mb="3" alignItems={'center'}>
               <CircularProgress
-                color="teal"
+                color="red"
                 trackColor="gray.200"
                 value={achievementRate}
               >
@@ -172,8 +172,8 @@ export const ControlPanel = ({ log, isAnswered }) => {
         alignItems={'end'}
       >
         <Button
-          // colorScheme="teal"
-          bgColor={'teal'}
+          // colorScheme="red"
+          bgColor={'red'}
           opacity="0.6"
           variant="solid"
           borderRadius={'full'}
@@ -188,5 +188,5 @@ export const ControlPanel = ({ log, isAnswered }) => {
         </Button>
       </Stack>
     </>
-  );
-};
+  )
+}
