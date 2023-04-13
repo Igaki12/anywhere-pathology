@@ -141,14 +141,6 @@ function App() {
               />
             </WrapItem>
           </Wrap>
-
-          <Divider
-            orientation="horizontal"
-            maxW={'lg'}
-            mt="50px"
-            mr="auto"
-            ml="auto"
-          />
           <Text fontSize="xs" textColor={'blackAlpha.700'} textAlign="center">
             ©2022- IgaTatApps
           </Text>

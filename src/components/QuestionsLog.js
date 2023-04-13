@@ -142,7 +142,7 @@ export const QuestionsLog = ({
               <>
                 <Box
                   maxW="2xl"
-                  bgColor={'white'}
+                  bgColor={'whiteAlpha.800'}
                   borderWidth="1px"
                   borderColor={
                     log.review && log.review.indexOf(question.id) !== -1
@@ -371,7 +371,7 @@ export const QuestionsLog = ({
           <>
             <Box
               maxW="2xl"
-              bgColor={'white'}
+              bgColor={'whiteAlpha.800'}
               borderWidth="1px"
               borderColor={
                 log.review && log.review.indexOf(question.id) !== -1
@@ -738,9 +738,9 @@ export const QuestionsLog = ({
           m={1}
           ml="3"
           rightIcon={<ArrowDownIcon />}
-          colorScheme="red"
+          colorScheme="orange"
           variant={'outline'}
-          bgColor="white"
+          bgColor="whiteAlpha.800"
           onClick={() => {
             nextQuestion(appName)
             setIsAnswered(false)
@@ -750,7 +750,7 @@ export const QuestionsLog = ({
                 top: element.scrollHeight - element.clientHeight,
                 behavior: 'smooth',
               })
-            }, 500)
+            }, 100)
           }}
         >
           次の問題へ

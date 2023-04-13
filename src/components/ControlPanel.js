@@ -118,7 +118,7 @@ export const ControlPanel = ({ log, isAnswered }) => {
             <Text mt={2}>現在の成績:</Text>
             <Flex ml={'4'} mt={0} mb="3" alignItems={'center'}>
               <CircularProgress
-                color="red"
+                color="orange"
                 trackColor="gray.200"
                 value={achievementRate}
               >
@@ -136,7 +136,7 @@ export const ControlPanel = ({ log, isAnswered }) => {
             <Text mt={2}>見直しリスト：</Text>
             <Flex mt={0} ml="5">
               <IconButton
-                colorScheme={'green'}
+                colorScheme={'orange'}
                 opacity="0.7"
                 variant="solid"
                 aria-label="review this question"

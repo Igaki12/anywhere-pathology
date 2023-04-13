@@ -37,7 +37,7 @@ import '../App.css'
 import { SearchWord } from './SearchWord'
 import { useState } from 'react'
 // import jsCookie from 'js-cookie'
-import titleImg from '../img/titleImg.png'
+import titleImg from '../img/titleImg.jpg'
 export const Setting = ({
   toast,
   selected,
@@ -76,7 +76,7 @@ export const Setting = ({
   return (
     <>
       <Box
-        maxW="lg"
+        maxW="2xl"
         mr={'auto'}
         ml="auto"
         minH={'150px'}
