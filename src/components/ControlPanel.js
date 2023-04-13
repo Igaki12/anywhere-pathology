@@ -136,7 +136,7 @@ export const ControlPanel = ({ log, isAnswered }) => {
             <Text mt={2}>見直しリスト：</Text>
             <Flex mt={0} ml="5">
               <IconButton
-                colorScheme={'orange'}
+                colorScheme={'red'}
                 opacity="0.7"
                 variant="solid"
                 aria-label="review this question"
