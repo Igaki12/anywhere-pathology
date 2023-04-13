@@ -134,7 +134,13 @@ function App() {
               />
             </WrapItem>
           </Wrap>
-          <Text fontSize="xs" textColor={'blackAlpha.700'} textAlign="center">
+          <Text
+            fontSize="xs"
+            textColor={'blackAlpha.700'}
+            textAlign="center"
+            mt={2}
+            mb={2}
+          >
             ©2022- IgaTatApps
           </Text>
         </Box>

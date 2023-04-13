@@ -53,7 +53,7 @@ export const SearchWord = ({
             mr="auto"
             ml="auto"
             borderRadius="sm"
-            bgColor="orange.600"
+            bgColor="gray.600"
             color="white"
             fontSize="lg"
             fontWeight="bold"
@@ -137,7 +137,7 @@ export const SearchWord = ({
                       key={tagIndex + 'searchTag2'}
                       borderRadius="full"
                       variant="outline"
-                      colorScheme={'orange'}
+                      colorScheme={'black'}
                       onClick={() => {
                         toast({
                           title: `${tag.terms.join(' / ')}`,
@@ -172,7 +172,7 @@ export const SearchWord = ({
             mr="5%"
             ml="5%"
             w="90%"
-            colorScheme="orange"
+            colorScheme="blackAlpha"
             onClick={onOpen}
           >
             <SearchIcon boxSize={'1.2em'} mr="1" ml="1" />

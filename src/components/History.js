@@ -49,7 +49,7 @@ export const History = ({
         mr="auto"
         ml="auto"
         borderRadius="sm"
-        bgColor="orange.600"
+        bgColor="gray.600"
         color="white"
         fontSize="lg"
         fontWeight="bold"
@@ -267,7 +267,7 @@ export const History = ({
                       <Spacer />
                       {log.remaining && log.remaining.length > 0 ? (
                         <Button
-                          colorScheme={'orange'}
+                          colorScheme={'red'}
                           variant="outline"
                           size="sm"
                           onClick={() => {
