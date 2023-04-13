@@ -58,7 +58,7 @@ export const History = ({
         mb={2}
         pt="1"
       >
-        履歴を確認
+        履歴
         <ChevronDownIcon boxSize="1.5em" />
       </Box>
       {loadLog(appName) &&

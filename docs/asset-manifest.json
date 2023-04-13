@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/anywhere-pathology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-pathology/static/js/main.d71add14.js",
+    "main.js": "/anywhere-pathology/static/js/main.ce46c446.js",
     "static/media/titleImg.jpg": "/anywhere-pathology/static/media/titleImg.aaff375a334cd5b42e2a.jpg",
     "index.html": "/anywhere-pathology/index.html",
     "main.6180b9dc.css.map": "/anywhere-pathology/static/css/main.6180b9dc.css.map",
-    "main.d71add14.js.map": "/anywhere-pathology/static/js/main.d71add14.js.map"
+    "main.ce46c446.js.map": "/anywhere-pathology/static/js/main.ce46c446.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.d71add14.js"
+    "static/js/main.ce46c446.js"
   ]
 }

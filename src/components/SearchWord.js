@@ -62,7 +62,7 @@ export const SearchWord = ({
             mb={2}
             pt="1"
           >
-            頻出キーワードを確認　
+            頻出キーワード
             <ChevronDownIcon boxSize="1.5em" />
           </Box>
           <Wrap justify={'center'} pt="2" pb="2">
