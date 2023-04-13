@@ -49,7 +49,7 @@ export const History = ({
         mr="auto"
         ml="auto"
         borderRadius="sm"
-        bgColor="gray.600"
+        bgColor="orange.600"
         color="white"
         fontSize="lg"
         fontWeight="bold"
@@ -98,7 +98,7 @@ export const History = ({
                   ) : (
                     <Flex m={1} justifyContent="center">
                       <Badge
-                        colorScheme={'green'}
+                        colorScheme={'orange'}
                         variant="solid"
                         borderRadius={'full'}
                         pr="2"
@@ -173,14 +173,14 @@ export const History = ({
                                 }, 0))
                           }
                           size="xs"
-                          colorScheme="green"
+                          colorScheme="orange"
                           // hasStripe
                         />
                       </Center>
                     </Flex>
                   )}
 
-                  <Card variant="filled">
+                  <Card variant="filled" bgColor={'blackAlpha.100'}>
                     <CardHeader>
                       {('00' + date.getHours()).slice(-2)}:
                       {('00' + date.getMinutes()).slice(-2)} ~　
@@ -239,7 +239,7 @@ export const History = ({
                       {log.review && log.review.length > 0 ? (
                         <Button
                           colorScheme={'red'}
-                          variant="outline"
+                          variant="solid"
                           size="sm"
                           onClick={() => {
                             reviewLoadedLesson(
@@ -267,7 +267,7 @@ export const History = ({
                       <Spacer />
                       {log.remaining && log.remaining.length > 0 ? (
                         <Button
-                          colorScheme={'green'}
+                          colorScheme={'orange'}
                           variant="outline"
                           size="sm"
                           onClick={() => {
@@ -285,7 +285,7 @@ export const History = ({
                       ) : (
                         <Button
                           isDisabled
-                          colorScheme={'green'}
+                          colorScheme={'orange'}
                           variant="outline"
                           size="sm"
                         >

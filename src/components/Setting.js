@@ -349,6 +349,7 @@ export const Setting = ({
               log.range.includes(group.groupTag),
             ) ? (
               <Button
+                colorScheme="orange"
                 isActive={true}
                 onClick={() => {
                   toggleAllRange()
@@ -359,6 +360,7 @@ export const Setting = ({
               </Button>
             ) : (
               <Button
+                colorScheme="orange"
                 onClick={() => {
                   toggleAllRange(questionList)
                   setRenderSign(renderSign + 1)
