@@ -118,7 +118,7 @@ export const ControlPanel = ({ log, isAnswered }) => {
             <Text mt={2}>現在の成績:</Text>
             <Flex ml={'4'} mt={0} mb="3" alignItems={'center'}>
               <CircularProgress
-                color="orange"
+                color="red"
                 trackColor="gray.200"
                 value={achievementRate}
               >
@@ -155,7 +155,7 @@ export const ControlPanel = ({ log, isAnswered }) => {
             >
               タイトルに戻る
             </Button>
-            <Button colorScheme="blue" mr={3} ml="1" onClick={onClose}>
+            <Button colorScheme="orange" mr={3} ml="1" onClick={onClose}>
               Close
             </Button>
           </ModalFooter>

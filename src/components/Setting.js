@@ -189,29 +189,29 @@ export const Setting = ({
 
       <Modal isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
-        <ModalContent bgColor={'green.50'}>
+        <ModalContent bgColor={'red.50'}>
           <ModalHeader>TIPS</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
-            <List spacing={3} p={0} bgColor="green.50" fontSize={'sm'}>
+            <List spacing={3} p={0} bgColor="ews.50" fontSize={'sm'}>
               <ListItem>
-                <ListIcon as={CheckCircleIcon} color="green.500" />
+                <ListIcon as={CheckCircleIcon} color="gray.500" />
                 スマートフォン・PC・タブレットでどこでも試験対策が可能！
               </ListItem>
               <ListItem>
-                <ListIcon as={CheckCircleIcon} color="green.500" />
+                <ListIcon as={CheckCircleIcon} color="gray.500" />
                 出題パターンや出題範囲・キーワードを自由に設定して、自分好みの問題集を作ろう
               </ListItem>
               <ListItem>
-                <ListIcon as={CheckCircleIcon} color="green.500" />
+                <ListIcon as={CheckCircleIcon} color="gray.500" />
                 途中でアプリを消してしまっても、続きから再開できるので安心
               </ListItem>
               <ListItem>
-                <ListIcon as={WarningIcon} color="green.500" />
+                <ListIcon as={WarningIcon} color="gray.500" />
                 問題は一部機械作成されているので誤字があり、解答解説は間違っている可能性があります。
               </ListItem>
               <ListItem>
-                <ListIcon as={QuestionIcon} color="green.500" />
+                <ListIcon as={QuestionIcon} color="gray.500" />
                 その他説明不足・バグ等あれば本人まで。
               </ListItem>
             </List>
@@ -244,7 +244,7 @@ export const Setting = ({
           </ModalBody>
 
           <ModalFooter>
-            <Button colorScheme="blue" mr={3} onClick={onClose}>
+            <Button colorScheme="red" mr={3} onClick={onClose}>
               Close
             </Button>
           </ModalFooter>

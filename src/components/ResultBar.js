@@ -16,7 +16,7 @@ export const ResultBar = ({ log, isAnswered }) => {
     <>
       <Flex ml={'4'} mt={3} mb="-2" alignItems={'center'}>
         <CircularProgress
-          color="orange"
+          color="red"
           trackColor="white"
           value={achievementRate}
         >

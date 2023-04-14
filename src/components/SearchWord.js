@@ -301,7 +301,7 @@ export const SearchWord = ({
                     .map((termGroup, termIndex) => (
                       <Button
                         key={termIndex}
-                        colorScheme="blue"
+                        colorScheme="black"
                         variant="outline"
                         borderRadius="full"
                         m={'1'}
@@ -403,7 +403,7 @@ export const SearchWord = ({
                         <Flex m={1} mt="3">
                           <Badge
                             key={groupIndex}
-                            colorScheme="blue"
+                            colorScheme="red"
                             size="sm"
                             variant="solid"
                             borderRadius="full"
@@ -441,7 +441,7 @@ export const SearchWord = ({
 
               <ModalFooter mt="10" mb="200px">
                 <Button
-                  colorScheme="blue"
+                  colorScheme="orange"
                   mr={3}
                   onClick={() => {
                     console.log('onClick0:', inputValue)
