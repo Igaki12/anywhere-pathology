@@ -1,14 +1,16 @@
 {
   "files": {
     "main.css": "/anywhere-pathology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-pathology/static/js/main.81409737.js",
+    "main.js": "/anywhere-pathology/static/js/main.da153f16.js",
+    "static/media/fattyLiver.png": "/anywhere-pathology/static/media/fattyLiver.d78da0215a04496d6dbb.png",
+    "static/media/prostaticHyperplasia.png": "/anywhere-pathology/static/media/prostaticHyperplasia.af4cb487859c80bc7b0a.png",
     "static/media/titleImg.jpg": "/anywhere-pathology/static/media/titleImg.aaff375a334cd5b42e2a.jpg",
     "index.html": "/anywhere-pathology/index.html",
     "main.6180b9dc.css.map": "/anywhere-pathology/static/css/main.6180b9dc.css.map",
-    "main.81409737.js.map": "/anywhere-pathology/static/js/main.81409737.js.map"
+    "main.da153f16.js.map": "/anywhere-pathology/static/js/main.da153f16.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.81409737.js"
+    "static/js/main.da153f16.js"
   ]
 }
