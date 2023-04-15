@@ -50,7 +50,7 @@ export const QuestionsLog = ({
         description: '全ての問題が終わりました！',
         status: 'success',
         duration: 9000,
-        // isClosable: true,
+        isClosable: true,
       })
     }
   }
@@ -321,7 +321,7 @@ export const QuestionsLog = ({
                               description: `他に${log.review.length}問が選択されています`,
                               status: 'warning',
                               duration: 9000,
-                              // isClosable: true,
+                              isClosable: true,
                             })
                           }}
                           icon={
@@ -348,7 +348,7 @@ export const QuestionsLog = ({
                               }問が選択されています`,
                               status: 'warning',
                               duration: 9000,
-                              // isClosable: true,
+                              isClosable: true,
                             })
                           }}
                           icon={<RepeatIcon boxSize={'1.5em'} color="black" />}
@@ -687,7 +687,7 @@ export const QuestionsLog = ({
                               description: `他に${log.review.length}問が選択されています`,
                               status: 'warning',
                               duration: 9000,
-                              // isClosable: true,
+                              isClosable: true,
                             })
                           }}
                           icon={
@@ -714,7 +714,7 @@ export const QuestionsLog = ({
                               }問が選択されています`,
                               status: 'warning',
                               duration: 9000,
-                              // isClosable: true,
+                              isClosable: true,
                             })
                           }}
                           icon={<RepeatIcon boxSize={'1.5em'} color="black" />}

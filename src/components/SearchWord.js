@@ -313,7 +313,7 @@ export const SearchWord = ({
                             status: 'error',
                             variant: 'left-accent',
                             duration: 30000,
-                            // isClosable: true,
+                            isClosable: true,
                             position: 'top-right',
                           })
                         }}
