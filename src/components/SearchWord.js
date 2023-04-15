@@ -142,7 +142,7 @@ export const SearchWord = ({
                         toast({
                           title: `${tag.terms.join(' / ')}`,
                           description: `${tag.explanation}`,
-                          status: 'info',
+                          status: 'error',
                           variant: 'left-accent',
                           duration: 30000,
                           isClosable: true,
@@ -310,10 +310,10 @@ export const SearchWord = ({
                           toast({
                             title: `${termGroup.term.join(' / ')}`,
                             description: `${termGroup.explanation}`,
-                            status: 'info',
+                            status: 'error',
                             variant: 'left-accent',
                             duration: 30000,
-                            isClosable: true,
+                            // isClosable: true,
                             position: 'top-right',
                           })
                         }}

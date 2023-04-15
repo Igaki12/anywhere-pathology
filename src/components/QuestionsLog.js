@@ -45,12 +45,12 @@ export const QuestionsLog = ({
   const toastGoodJob = () => {
     if (log.remaining.length === 0) {
       toast({
-        position: 'top-right',
+        position: 'top',
         title: 'GOOD JOB',
         description: '全ての問題が終わりました！',
         status: 'success',
         duration: 9000,
-        isClosable: true,
+        // isClosable: true,
       })
     }
   }
@@ -64,7 +64,7 @@ export const QuestionsLog = ({
           return terms.term.indexOf(sentence) !== -1
         }).explanation
       }`,
-      status: 'info',
+      status: 'error',
       containerStyle: {
         maxWidth: 'sm',
       },
@@ -317,11 +317,11 @@ export const QuestionsLog = ({
                             setRenderSign(renderSign + 1)
                             toast({
                               title: 'この質問は見直しリストから除かれます',
-                              position: 'top-right',
+                              position: 'top',
                               description: `他に${log.review.length}問が選択されています`,
-                              status: 'info',
+                              status: 'warning',
                               duration: 9000,
-                              isClosable: true,
+                              // isClosable: true,
                             })
                           }}
                           icon={
@@ -342,13 +342,13 @@ export const QuestionsLog = ({
                             setRenderSign(renderSign + 1)
                             toast({
                               title: 'この質問は見直しリストに追加されます',
-                              position: 'top-right',
+                              position: 'top',
                               description: `他に${
                                 log.review.length - 1
                               }問が選択されています`,
-                              status: 'success',
+                              status: 'warning',
                               duration: 9000,
-                              isClosable: true,
+                              // isClosable: true,
                             })
                           }}
                           icon={<RepeatIcon boxSize={'1.5em'} color="black" />}
@@ -683,11 +683,11 @@ export const QuestionsLog = ({
                             setRenderSign(renderSign + 1)
                             toast({
                               title: 'この質問は見直しリストから除かれます',
-                              position: 'top-right',
+                              position: 'top',
                               description: `他に${log.review.length}問が選択されています`,
-                              status: 'info',
+                              status: 'warning',
                               duration: 9000,
-                              isClosable: true,
+                              // isClosable: true,
                             })
                           }}
                           icon={
@@ -708,13 +708,13 @@ export const QuestionsLog = ({
                             setRenderSign(renderSign + 1)
                             toast({
                               title: 'この質問は見直しリストに追加されます',
-                              position: 'top-right',
+                              position: 'top',
                               description: `他に${
                                 log.review.length - 1
                               }問が選択されています`,
-                              status: 'success',
+                              status: 'warning',
                               duration: 9000,
-                              isClosable: true,
+                              // isClosable: true,
                             })
                           }}
                           icon={<RepeatIcon boxSize={'1.5em'} color="black" />}
