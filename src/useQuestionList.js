@@ -330,14 +330,94 @@ export const useQuestionList = () => {
           answer: '〇',
           commentary: '',
         },
-        // {
-        //   detailInfo: '',
-        //   questionImg: [],
-        //   questionSentence: '【〇✖問題】',
-        //   answerImg: [],
-        //   answer: '',
-        //   commentary: '',
-        // },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【〇✖問題】COX2はアラキドン酸をプロスタグランジンへ変換する。',
+          answerImg: [],
+          answer: '〇',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【〇✖問題】COX2は常時様々な組織で発現しており血小板凝集の促進や肝血流の維持に関与している。',
+          answerImg: [],
+          answer: '✖...常時ではない',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【〇✖問題】CpGアイランド（DNA中のCGの繰り返し領域）のメチル化が生じると下流の遺伝子の発現上昇がもたらされる。',
+          answerImg: [],
+          answer:
+            '✖...CpGアイランドのメチル化によって、下流の遺伝子は発現抑制される',
+          commentary:
+            '一般的にDNAメチル化は、その下流の遺伝子発現をエピジェネティックに抑制する。',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【〇✖問題】CpGアイランドのメチル化によってがん抑制遺伝子の発現が抑制される。',
+          answerImg: [],
+          answer: '〇',
+          commentary:
+            '一般的にDNAメチル化は、その下流の遺伝子発現をエピジェネティックに抑制する。',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【〇✖問題】Criggler-Najar症候群では間接型ビリルビンが増加する。',
+          answerImg: [],
+          answer: '〇',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence: '【〇✖問題】',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence: '【〇✖問題】',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence: '【〇✖問題】',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence: '【〇✖問題】',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence: '【〇✖問題】',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
 
         // {
         //   detailInfo: '',
