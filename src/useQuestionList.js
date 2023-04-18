@@ -312,22 +312,24 @@ export const useQuestionList = () => {
           answer: '〇',
           commentary: '',
         },
-        // {
-        //   detailInfo: '',
-        //   questionImg: [],
-        //   questionSentence: '【〇✖問題】',
-        //   answerImg: [],
-        //   answer: '',
-        //   commentary: '',
-        // },
-        // {
-        //   detailInfo: '',
-        //   questionImg: [],
-        //   questionSentence: '【〇✖問題】',
-        //   answerImg: [],
-        //   answer: '',
-        //   commentary: '',
-        // },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【〇✖問題】COX1は外傷や炎症によって誘導され炎症を促進する。Coxib系はこれを阻害する。',
+          answerImg: [],
+          answer: '✖…COX1ではなくCOX2',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【〇✖問題】COX1は持続的発現を示し、COX2は発現誘導を受ける。',
+          answerImg: [],
+          answer: '〇',
+          commentary: '',
+        },
         // {
         //   detailInfo: '',
         //   questionImg: [],
