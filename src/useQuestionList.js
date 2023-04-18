@@ -730,6 +730,190 @@ export const useQuestionList = () => {
         },
       ],
     },
+    {
+      groupTag: '出席確認',
+      groupContents: [
+        {
+          detailInfo: '4/18午前',
+          questionImg: [],
+          questionSentence:
+            '【〇✖問題】COX2はアラキドン酸をプロスタグランジンへ変換する。',
+          answerImg: [],
+          answer: '〇',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/18午前',
+          questionImg: [],
+          questionSentence:
+            '【〇✖問題】α-リノレン酸はn6系の不飽和脂肪酸でアラキドン酸を経てプロスタグランジンになる',
+          answerImg: [],
+          answer:
+            '✖...α-リノレン酸はn3系不飽和脂肪酸で、DHA・EPAに変換され動脈硬化や血栓の抑止にはたらくといわれている。',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/18午前',
+          questionImg: [],
+          questionSentence:
+            '【〇✖問題】ウェルシュ菌は食中毒菌であり腸内には常在しない。',
+          answerImg: [],
+          answer: '〇',
+          commentary: '加齢とともに腸内に増えるといわれている。',
+        },
+        {
+          detailInfo: '4/18午前',
+          questionImg: [],
+          questionSentence:
+            '【〇✖問題】ヒドロキシラジカルは脳梗塞や心筋梗塞の病変拡大に寄与する',
+          answerImg: [],
+          answer: '〇',
+          commentary: 'ヒドロキシラジカルは活性酸素ROSの中心的な物質。',
+        },
+        {
+          detailInfo: '4/18午前',
+          questionImg: [],
+          questionSentence:
+            '【〇✖問題】加齢による発がんリスクの上昇は幹細胞分裂回数と関連する',
+          answerImg: [],
+          answer: '〇',
+          commentary: '一般的にがん細胞は組織幹細胞から生まれる',
+        },
+        {
+          detailInfo: '4/18午前',
+          questionImg: [],
+          questionSentence:
+            '【〇✖問題】我々は常に自然放射線や活性酸素種、紫外線やアルコール、ベンツピレン等の変異原にさらされておりDNA損傷が生じている。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/18午前',
+          questionImg: [],
+          questionSentence:
+            '【〇✖問題】活性酸素分子種の中で酵素的に分解されないのはヒドロキシラジカルである。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/18午前',
+          questionImg: [],
+          questionSentence:
+            '【〇✖問題】赤身肉の摂取は大腸がんのリスクファクターである',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/18午前',
+          questionImg: [],
+          questionSentence:
+            '【〇✖問題】高脂肪食・高糖質食は大腸発がん・転移を促進する。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/18午前',
+          questionImg: [],
+          questionSentence:
+            '【〇✖問題】腫瘍形成は多段階からなる複雑なステップを経て生じる。これらの変化にはがん遺伝子の活性化とがん抑制遺伝子の不活化の両方が含まれる。これを多段階発がんと呼ぶ。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/18午前',
+          questionImg: [],
+          questionSentence:
+            '【〇✖問題】終末糖化産物は蛋白などに酸化ストレス刺激により酵素反応により糖の修飾が生じたものである。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/18午前',
+          questionImg: [],
+          questionSentence: '【〇✖問題】成人胸腺は退縮しているのが正常である。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/18午前',
+          questionImg: [],
+          questionSentence:
+            '【〇✖問題】単純性脂肪肝の10%がNASHになりその2%以下が肝硬変に進展するといわれる。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/18午前',
+          questionImg: [],
+          questionSentence:
+            '【〇✖問題】直接型ビリルビンは血液脳関門を通過しやすい',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/18午前',
+          questionImg: [],
+          questionSentence:
+            '【〇✖問題】間接型ビリルビンはミトコンドリアの酸化的リン酸化を阻害する',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/18午前',
+          questionImg: [],
+          questionSentence:
+            '【〇✖問題】3価鉄はFenton反応によりヒドロキシラジカルを生成し発がんに関与する',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/18午前',
+          questionImg: [],
+          questionSentence:
+            '【〇✖問題】副甲状腺ホルモンは骨へのカルシウム沈着を促進する。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/18午前',
+          questionImg: [],
+          questionSentence: '【〇✖問題】フィブリノイド壊死は動脈炎で見られる',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/18午前',
+          questionImg: [],
+          questionSentence:
+            '【〇✖問題】アミロイドβはタンパク折り畳み障害により発生する。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        // {
+        //   detailInfo: '4/18午前',
+        //   questionImg: [],
+        //   questionSentence:
+        //     '【〇✖問題】アミロイドβはタンパク折り畳み障害により発生する。',
+        //   answerImg: [],
+        //   answer: '',
+        //   commentary: '',
+        // },
+      ],
+    },
   ])
   const showQuestionList = () => {
     return questionList
