@@ -18,7 +18,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】仮性肥大では実質細胞数は増加するが、その容積は逆に減少している。',
           answerImg: [],
-          answer: '誤り...仮性肥大では間質の細胞数が増加し、容積は増加する。',
+          answer: '誤り...仮性肥大では間質の細胞数が増加し、容積が増加する。',
           commentary: '',
         },
         {
@@ -314,112 +314,6 @@ export const useQuestionList = () => {
           answer: '正しい',
           commentary: '',
         },
-        {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence:
-            '【正誤問題】COX1は外傷や炎症によって誘導され炎症を促進する。Coxib系はこれを阻害する。',
-          answerImg: [],
-          answer: '誤り...COX1ではなくCOX2',
-          commentary: '',
-        },
-        {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence:
-            '【正誤問題】COX1は持続的発現を示し、COX2は発現誘導を受ける。',
-          answerImg: [],
-          answer: '正しい',
-          commentary: '',
-        },
-        {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence:
-            '【正誤問題】COX2はアラキドン酸をプロスタグランジンへ変換する。',
-          answerImg: [],
-          answer: '正しい',
-          commentary: '',
-        },
-        {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence:
-            '【正誤問題】COX2は常時様々な組織で発現しており血小板凝集の促進や肝血流の維持に関与している。',
-          answerImg: [],
-          answer: '誤り...常時ではない',
-          commentary: '',
-        },
-        {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence:
-            '【正誤問題】CpGアイランド（DNA中のCGの繰り返し領域）のメチル化が生じると下流の遺伝子の発現上昇がもたらされる。',
-          answerImg: [],
-          answer:
-            '誤り...CpGアイランドのメチル化によって、下流の遺伝子は発現抑制される',
-          commentary:
-            '一般的にDNAメチル化は、その下流の遺伝子発現をエピジェネティックに抑制する。',
-        },
-        {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence:
-            '【正誤問題】CpGアイランドのメチル化によってがん抑制遺伝子の発現が抑制される。',
-          answerImg: [],
-          answer: '正しい',
-          commentary:
-            '一般的にDNAメチル化は、その下流の遺伝子発現をエピジェネティックに抑制する。',
-        },
-        {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence:
-            '【正誤問題】Criggler-Najar症候群では間接型ビリルビンが増加する。',
-          answerImg: [],
-          answer: '正しい',
-          commentary: '',
-        },
-        {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence: '【正誤問題】',
-          answerImg: [],
-          answer: '',
-          commentary: '',
-        },
-        {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence: '【正誤問題】',
-          answerImg: [],
-          answer: '',
-          commentary: '',
-        },
-        {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence: '【正誤問題】',
-          answerImg: [],
-          answer: '',
-          commentary: '',
-        },
-        {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence: '【正誤問題】',
-          answerImg: [],
-          answer: '',
-          commentary: '',
-        },
-        {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence: '【正誤問題】',
-          answerImg: [],
-          answer: '',
-          commentary: '',
-        },
 
         // {
         //   detailInfo: '',
@@ -522,6 +416,153 @@ export const useQuestionList = () => {
             '【正誤問題】Chediak-Higashi症候群では化生酸素の産生異常により殺菌能が低下する。',
           answerImg: [],
           answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】COX1は外傷や炎症によって誘導され炎症を促進する。Coxib系はこれを阻害する。',
+          answerImg: [],
+          answer: '誤り...COX1ではなくCOX2',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】COX1は持続的発現を示し、COX2は発現誘導を受ける。',
+          answerImg: [],
+          answer: '正しい',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】COX2はアラキドン酸をプロスタグランジンへ変換する。',
+          answerImg: [],
+          answer: '正しい',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】COX2は常時様々な組織で発現しており血小板凝集の促進や肝血流の維持に関与している。',
+          answerImg: [],
+          answer: '誤り...常時ではない',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】CpGアイランド（DNA中のCGの繰り返し領域）のメチル化が生じると下流の遺伝子の発現上昇がもたらされる。',
+          answerImg: [],
+          answer:
+            '誤り...CpGアイランドのメチル化によって、下流の遺伝子は発現抑制される',
+          commentary:
+            '一般的にDNAメチル化は、その下流の遺伝子発現をエピジェネティックに抑制する。',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】CpGアイランドのメチル化によってがん抑制遺伝子の発現が抑制される。',
+          answerImg: [],
+          answer: '正しい',
+          commentary:
+            '一般的にDNAメチル化は、その下流の遺伝子発現をエピジェネティックに抑制する。',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】Criggler-Najar症候群では間接型ビリルビンが増加する。',
+          answerImg: [],
+          answer: '正しい',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】炎症とは障害刺激に対する組織と微小循環の反応で障害刺激は外傷や病原体、外来異物のほかにも脂質の蓄積や悪性新生物が挙げられる。炎症の目的は病原刺激を除去し組織を修復することである。',
+          answerImg: [],
+          answer: '正しい',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】DiGeorge症候群では胸腺の低形成により先天性にT細胞の異常を認める。',
+          answerImg: [],
+          answer: '正しい',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】DNAのメチル化が招じるとそれを認識する蛋白とHDAC（ヒストン脱アセチル化酵素）の複合体が形成されヒストンが脱アセチル化される。これにより標的遺伝子の発現亢進が起きる。',
+          answerImg: [],
+          answer: '誤り...標的遺伝子の発現は抑制される。',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】DNAのメチル化はシトシンとアデニンで見られるが、アデニンのメチル化によるエピジェネティック制御の研究はシトシンと比べて進んでいない。',
+          answerImg: [],
+          answer: '正しい',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】DNAのメチル化は分裂時にも維持されている。これは維持メチル化と呼ばれる反応によるものであり、ヒストン修飾とのクロストークが関与している。',
+          answerImg: [],
+          answer: '正しい',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】DNAはメチル化を受けても脱メチル化酵素TETによって脱メチル化される。TETの異常はエピジェネティック制御を介し腫瘍化を促進する。',
+          answerImg: [],
+          answer: '正しい',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】DNA修復機構のミスが生じると遺伝子変異が残存することとなるが、二本鎖切断の方が一本鎖切断よりもミスが生じやすい。',
+          answerImg: [],
+          answer: '正しい',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】Duchenne型筋ジストロフィーではジストロフィンに異常がある。',
+          answerImg: [],
+          answer: '正しい',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】Duchenne型筋ジストロフィーは三塩基リピート病である。',
+          answerImg: [],
+          answer: '誤り...',
           commentary: '',
         },
         {
