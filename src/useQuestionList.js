@@ -568,7 +568,26 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence:
+            '【正誤問題】Eisenmenger化とは、先天性深枝間により肺血管抵抗の低下から左→右シャントが優勢になった状態を指す。',
+          answerImg: [],
+          answer: '誤り...',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】Fallot四徴症の症状は、左室肥大・心室中隔欠損・騎乗大動脈・肺動脈閉鎖であり、チアノーゼを伴わない。',
+          answerImg: [],
+          answer: '誤り...左室肥大ではなく右室',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】Goodpasture症候群、溶血性貧血、Henoch-Schnlein紫斑症はⅡ型アレルギーで起こる。',
           answerImg: [],
           answer: '',
           commentary: '',
@@ -576,7 +595,16 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence: '【正誤問題】HbA1cは終末糖化産物ではない',
+          answerImg: [],
+          answer: '正しい',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】HIF-1αは転写因子であり低酸素時にVEGF,GLUT1などの発現を誘導する。',
           answerImg: [],
           answer: '',
           commentary: '',
@@ -584,7 +612,8 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence:
+            '【正誤問題】Hirschsprung病では、神経節を欠損し、外来神経は過形成である。',
           answerImg: [],
           answer: '',
           commentary: '',
@@ -592,7 +621,8 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence:
+            '【正誤問題】HIVは感染後数週間で血中のRNA量が急上昇するが、その後の数年は安定した値に保たれる。',
           answerImg: [],
           answer: '',
           commentary: '',
@@ -600,7 +630,8 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence:
+            '【正誤問題】HMGB1が高値のエンドトキシンショックでは予後良好である。',
           answerImg: [],
           answer: '',
           commentary: '',
@@ -608,7 +639,8 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence:
+            '【正誤問題】HMGB1は炎症性サイトカインのひとつでショックを憎悪する。',
           answerImg: [],
           answer: '',
           commentary: '',
@@ -616,7 +648,8 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence:
+            '【正誤問題】HNPCCは右側結腸に好発し、関連癌として大腸癌以外に腎盂・尿管癌や小腸癌などがある。',
           answerImg: [],
           answer: '',
           commentary: '',
@@ -624,7 +657,8 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence:
+            '【正誤問題】Hutchinson-Gilford症候群では大泉門の閉鎖不全による水頭症様の顔貌を呈する。',
           answerImg: [],
           answer: '',
           commentary: '',
@@ -632,7 +666,8 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence:
+            '【正誤問題】IgM抗体はB細胞表面に受容体として存在しており、血清中では五量体を形成している。',
           answerImg: [],
           answer: '',
           commentary: '',
@@ -640,7 +675,8 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence:
+            '【正誤問題】Kartagener症候群では内臓逆位を認め、線毛機能不全を呈し、巨大結腸症を合併する。',
           answerImg: [],
           answer: '',
           commentary: '',
@@ -648,7 +684,8 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence:
+            '【正誤問題】MELASやMERRFでは血中の尿酸やピルビン酸が高値となる。',
           answerImg: [],
           answer: '',
           commentary: '',
@@ -656,7 +693,8 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence:
+            '【正誤問題】MEN2AではRETの突然変異による発症し、副甲状腺機能亢進や褐色細胞腫を認める。',
           answerImg: [],
           answer: '',
           commentary: '',
@@ -664,7 +702,8 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence:
+            '【正誤問題】Menkes症候群は小腸での銅吸収障害をきたす伴性劣性遺伝病で、末期には肝硬変の像を呈する。',
           answerImg: [],
           answer: '',
           commentary: '',
@@ -672,7 +711,8 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence:
+            '【正誤問題】MLH1、MSH2、MGMTなどDNAミスマッチ修復遺伝子はエピジェネティックな影響を受ける。',
           answerImg: [],
           answer: '',
           commentary: '',
@@ -680,7 +720,8 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence:
+            '【正誤問題】NASHでは小滴性脂肪肝・水滴細胞出現・線維化・炎症細胞浸潤が見られる。',
           answerImg: [],
           answer: '',
           commentary: '',
@@ -688,31 +729,8 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
-          answerImg: [],
-          answer: '',
-          commentary: '',
-        },
-        {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence: '【正誤問題】',
-          answerImg: [],
-          answer: '',
-          commentary: '',
-        },
-        {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence: '【正誤問題】',
-          answerImg: [],
-          answer: '',
-          commentary: '',
-        },
-        {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence:
+            '【正誤問題】P53は4量体であり4量体結合ドメインとDNA結合ドメインを持つ。これをもとに考えるとP53は4量体結合ドメインの片アレルの変異のみで1/16まで正常蛋白量が落ちることになる。',
           answerImg: [],
           answer: '',
           commentary: '',
