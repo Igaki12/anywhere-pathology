@@ -739,7 +739,8 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence:
+            '【正誤問題】P53はDNA損傷に反応しp21などを誘導し細胞終期を停止し遺伝子を修復する。遺伝子が修復不能なほど損傷した場合はアポトーシスを誘導する。',
           answerImg: [],
           answer: '',
           commentary: '',
@@ -747,7 +748,8 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence:
+            '【正誤問題】P53やRbといったがん抑制遺伝子の欠損した家系が報告されており（P53欠損はLi-Fraumeni症候群、Rb欠損は家族性網膜芽細胞腫）悪性腫瘍を若年で発症する。',
           answerImg: [],
           answer: '',
           commentary: '',
@@ -755,7 +757,8 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence:
+            '【正誤問題】PARP阻害薬は一本鎖切断修復酵素の阻害薬でありBRCA1、BRCA2に異常のある悪性腫瘍に適応がある。BRCA1、BRCA2に異常のある細胞はDNAを修復できず分裂致死となる。',
           answerImg: [],
           answer: '',
           commentary: '',
@@ -763,7 +766,17 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence:
+            '【正誤問題】Turner症候群では父親由来のX染色体が喪失していることが多く、卵巣は痕跡的である。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】von Reclinghausen 病では多発性の神経線維腫や皮膚にカフェオレ斑がみられる。',
           answerImg: [],
           answer: '',
           commentary: '',
