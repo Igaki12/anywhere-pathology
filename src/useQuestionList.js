@@ -989,6 +989,239 @@ export const useQuestionList = () => {
           answer: '',
           commentary: '',
         },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】グルタミンはリンゴ酸に代謝されマリック・エンザイムによりピルビン酸になる。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】コール酸はコレステロール排出に重要である',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】サーチュインは脈絡層におけるカルシウムイオンの輸送に関わる',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】すべての酸化ストレスを消失させることにより寿命が著明に延長される',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】たこつぼ型心筋症では心尖部の収縮能が亢進している',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】トランス型脂肪酸はLDLを増加させ粥状動脈硬化を促進する',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】トランス型脂肪酸は人工的な合成によって生成し自然界には存在しない',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】トランス型脂肪酸は同じ炭素数のシス型脂肪酸よりも融点が高い',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】トリグリセリドはグリセロールと3個の脂肪酸からなる',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】ヒストンがHistone acetyl transferase(HAT) によってアセチル化されると転写の亢進が起きる。この逆反応はHDACが行う。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】ヒストンにはヒストンテールと呼ばれるドメインが存在しアセチル化・リン酸化・メチル化・ユビキチン化の修飾を受ける。これをヒストン修飾と呼ぶ',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】ヒストンのメチル化とアセチル化はどの部位に生じても対象の遺伝子の発現を活性化させる。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】ヒストンのメチル化はリジン残基に生じる',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】ヒストンはH2A・H2B・H3・H4が2分子ずつ結合した8量体を形成しておりそれにDNAが巻き付く。巻き付いたDNAの外からH1が結合した構造をとり、ヒストンに巻き付いたDNAは転写抑制がかかっている。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】ヒトの悪性腫瘍のほとんどは体腔や消化管などの壁面や皮膚では体表の覆いとして一面に覆っている細胞の層である上皮から発生しており、癌と呼ばれる。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】ヒドロキシラジカルは脳梗塞や心筋梗塞の病変拡大に関与する。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】ビリルビン・メラニン・リポフスチン・胆汁はいずれもHE染色では褐色顆粒として認められる。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】ビリルビンが小腸で吸収され肝臓に戻ることを腸肝循環という。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】ビリルビンの直接型・間接型はvan Gieson反応の差である。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence: '【正誤問題】ピルビン酸はLDHにより乳酸を生成する。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】プロモーターDNAのメチル化ではMeCP複合体に含まれるHATにより脱アセチル化も生じる',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】プロモーターDNAのメチル化により転写因子の結合が阻害される',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】プロモーターDNAのメチル化はCpG islandのグアニンのメチル化を指す',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】ブロモドメインタンパク質はアセチル化ヒストンのアセチル基を認識しヒストンを除去する。これにより転写が促進される',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】ベーチェット病では再発性のアフタ性口内炎やドライアイの症状が見られる。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】ポリオール代謝亢進により還元型グルタミンが減少し酸化ストレスが増加する',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
       ],
     },
     {
