@@ -333,7 +333,7 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence:
-            '【正誤問題】13トリソミーでは馬蹄腎・臍ヘルニア・揺り椅子状の測定を認めることが多い。',
+            '【正誤問題】13トリソミーでは馬蹄腎・臍ヘルニア・揺り椅子状の足底を認めることが多い。',
           answerImg: [],
           answer: '誤り...13ではない',
           commentary: '',
@@ -413,11 +413,12 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence:
-            '【正誤問題】Chediak-Higashi症候群では化生酸素の産生異常により殺菌能が低下する。',
+            '【正誤問題】Chediak-Higashi症候群では活性酸素の産生異常により殺菌能が低下する。',
           answerImg: [],
           answer: '',
           commentary: '',
         },
+
         {
           detailInfo: '',
           questionImg: [],
@@ -427,6 +428,15 @@ export const useQuestionList = () => {
           answer: '誤り...COX1ではなくCOX2',
           commentary: '',
         },
+        // {
+        //   detailInfo: '',
+        //   questionImg: [],
+        //   questionSentence:
+        //     '【正誤問題】COX1は持続的発現を示し、COX2は発現誘導を受ける。',
+        //   answerImg: [],
+        //   answer: '正しい',
+        //   commentary: '',
+        // },
         {
           detailInfo: '',
           questionImg: [],
@@ -784,7 +794,197 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】',
+          questionSentence:
+            '【正誤問題】Warburg効果とは酵素存在下でも解糖系に偏ったエネルギー酸性を行うがん細胞の特性である。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】Warburg効果により酸化ストレスの生成を低減できるとされる',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】αklothoはランゲルハンス島におけるインスリンの分泌を制御する。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】α-リノレン酸はn6頚の不飽和脂肪酸でアラキドン酸を経てプロスタグランジンになる。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】アザシチジンはDNMT(DNAメチルトランスフェラーゼ)に結合し失活させることでDNAメチル化を促進する。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】アポトーシスの主な経路は1.デスレセプター、2.生存シグナルの除去、3.RIPK経路の活性化が挙げられる。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】アミロイド、ヒアリン、フィブリノイドはHE染色の染色性の違いから鑑別される。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】アラキドン酸はシクロオキシゲナーゼCOX1・2によって代謝され、プロスタグランジンH2(PGH2)が産生される。これらはトロンボキサンや他のプロスタグランジンの基質になる。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】インスリン抵抗性は動脈硬化を抑制する。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】ウイルス性心筋炎は心筋細胞間にリンパ球浸潤がみられる。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】ウェルシュ菌は食中毒菌であり腸内には常在しない',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】がんの経過中に高カルシウム血症をきたすと腎不全を引き起こす可能性がある。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】がん幹細胞は、自己再生能と腫瘍を構成する様々な系統のがん細胞をつくり、一個から新しい集団をつくる多分化能をもつ。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】がん幹細胞を標的とした治療にWNT経路やNOTCH経路のような肝細胞性を維持するための経路の阻害や肝細胞マーカーに対する抗体治療などが挙げられる。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】がん細胞は伝的変化とクローン選択を受けながら不均一な細胞集団を作り出していると考えられているが、がん細胞の大部分を占める集団ではなく、がん幹細胞に生じた変化が主に形質として受け継がれていく。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】クルーケンベルグ踵お湯が男性に生じることは無い',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】グルコースはアルドラーゼによりソルビトールを生成し細胞外浮腫の原因となる。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】グルタミノリシスによるエネルギー産生は腫瘍細胞に特異的である。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】グルタミンはDNA合成における窒素源とナウ',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】グルタミンはα-ケトグルタル酸に代謝されペントースリン酸経路に組み込まれる。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】グルタミンはオキサロ酢酸からアセチルCoAによりクエン酸を生成する。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】グルタミンはグルタチオンの原料として細胞のレドックスに関与する',
           answerImg: [],
           answer: '',
           commentary: '',
