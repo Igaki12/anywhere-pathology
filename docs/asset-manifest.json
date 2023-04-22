@@ -1,16 +1,21 @@
 {
   "files": {
     "main.css": "/anywhere-pathology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-pathology/static/js/main.a4351f4c.js",
+    "main.js": "/anywhere-pathology/static/js/main.9c8f6d17.js",
     "static/media/fattyLiver.png": "/anywhere-pathology/static/media/fattyLiver.d78da0215a04496d6dbb.png",
     "static/media/prostaticHyperplasia.png": "/anywhere-pathology/static/media/prostaticHyperplasia.af4cb487859c80bc7b0a.png",
+    "static/media/coordinatedHiston.png": "/anywhere-pathology/static/media/coordinatedHiston.fc96e423141f967115a7.png",
+    "static/media/histonStructure.png": "/anywhere-pathology/static/media/histonStructure.2c14b5319ebee48353f9.png",
+    "static/media/methylationDNA.png": "/anywhere-pathology/static/media/methylationDNA.35b2adabc4867bb3b7b3.png",
     "static/media/titleImg.jpg": "/anywhere-pathology/static/media/titleImg.aaff375a334cd5b42e2a.jpg",
+    "static/media/maintenanceMethylationDNA.png": "/anywhere-pathology/static/media/maintenanceMethylationDNA.e84c84d20c60db7cbc3e.png",
+    "static/media/acetylationHiston.png": "/anywhere-pathology/static/media/acetylationHiston.926558ca5febc1e30647.png",
     "index.html": "/anywhere-pathology/index.html",
     "main.6180b9dc.css.map": "/anywhere-pathology/static/css/main.6180b9dc.css.map",
-    "main.a4351f4c.js.map": "/anywhere-pathology/static/js/main.a4351f4c.js.map"
+    "main.9c8f6d17.js.map": "/anywhere-pathology/static/js/main.9c8f6d17.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.a4351f4c.js"
+    "static/js/main.9c8f6d17.js"
   ]
 }

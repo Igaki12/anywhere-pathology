@@ -1,6 +1,11 @@
 import { useState } from 'react'
 import prostaticHyperplasia from './img/answer/prostaticHyperplasia.png'
 import fattyLiver from './img/answer/fattyLiver.png'
+import methylationDNA from './img/answer/methylationDNA.png'
+import maintenanceMethylationDNA from './img/answer/maintenanceMethylationDNA.png'
+import histoneStructure from './img/answer/histonStructure.png'
+import coordinatedHistone from './img/answer/coordinatedHiston.png'
+import acetylationHistone from './img/answer/acetylationHiston.png'
 
 // import from './img/answer/.png'
 
@@ -327,7 +332,7 @@ export const useQuestionList = () => {
       ],
     },
     {
-      groupTag: '正誤問題集１',
+      groupTag: '正誤問題集',
       groupContents: [
         {
           detailInfo: '',
@@ -469,7 +474,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】CpGアイランド（DNA中のCGの繰り返し領域）のメチル化が生じると下流の遺伝子の発現上昇がもたらされる。',
-          answerImg: [],
+          answerImg: [methylationDNA],
           answer:
             '誤り...CpGアイランドのメチル化によって、下流の遺伝子は発現抑制される',
           commentary:
@@ -480,7 +485,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】CpGアイランドのメチル化によってがん抑制遺伝子の発現が抑制される。',
-          answerImg: [],
+          answerImg: [methylationDNA],
           answer: '正しい',
           commentary:
             '一般的にDNAメチル化は、その下流の遺伝子発現をエピジェネティックに抑制する。',
@@ -516,10 +521,11 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence:
-            '【正誤問題】DNAのメチル化が招じるとそれを認識する蛋白とHDAC（ヒストン脱アセチル化酵素）の複合体が形成されヒストンが脱アセチル化される。これにより標的遺伝子の発現亢進が起きる。',
-          answerImg: [],
+            '【正誤問題】DNAのメチル化が生じるとそれを認識する蛋白とHDAC（ヒストン脱アセチル化酵素）の複合体が形成されヒストンが脱アセチル化される。これにより標的遺伝子の発現亢進が起きる。',
+          answerImg: [methylationDNA],
           answer: '誤り...標的遺伝子の発現は抑制される。',
-          commentary: '',
+          commentary:
+            'DNAメチル化は1.転写因子結合を阻害したり2.DNAメチル化認識タンパクMBPを介した制御を行うことで下流遺伝子の発現を抑制する。また、一般的にヒストンはHATによりアセチル化されると発現亢進され、HDACにより脱アセチル化されると発現抑制される。',
         },
         {
           detailInfo: '',
@@ -535,15 +541,16 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】DNAのメチル化は分裂時にも維持されている。これは維持メチル化と呼ばれる反応によるものであり、ヒストン修飾とのクロストークが関与している。',
-          answerImg: [],
+          answerImg: [maintenanceMethylationDNA],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            'DNAメチル化を維持する酵素DNMT1は、ユビキチン化されたH3ヒストンの23番目リシン残基と相互作用を介してメチル化部位へリクルートされる。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
-            '【正誤問題】DNAはメチル化を受けても脱メチル化酵素TETによって脱メチル化される。TETの異常はエピジェネティック制御を介し腫瘍化を促進する。',
+            '【正誤問題】DNAはメチル化を受けても脱酵素TETによって脱メチル化される。TETの異常はエピジェネティック制御を介し腫瘍化を促進する。',
           answerImg: [],
           answer: '正しい',
           commentary: '',
@@ -1084,8 +1091,8 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】ヒストンにはヒストンテールと呼ばれるドメインが存在しアセチル化・リン酸化・メチル化・ユビキチン化の修飾を受ける。これをヒストン修飾と呼ぶ',
-          answerImg: [],
-          answer: '',
+          answerImg: [coordinatedHistone],
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1093,26 +1100,28 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】ヒストンのメチル化とアセチル化はどの部位に生じても対象の遺伝子の発現を活性化させる。',
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          answerImg: [coordinatedHistone],
+          answer:
+            '誤り...ヒストンのメチル化は遺伝子発現を活性化する場合も抑制する場合も両方存在する。',
+          commentary:
+            'DNAメチル化とは異なり、ヒストンのメチル化はメチル化される場所によって転写を活性化も不活性化もする。例えばH3K4me3,H3K4me1,H3K36me3は転写を活性化、H3K27me3,H3K9me3は転写を不活性化させるといわれている。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】ヒストンのメチル化はリジン残基に生じる',
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          answerImg: [coordinatedHistone],
+          answer: '誤り...リジン残基だけでなくアルギニン残基にも生じる',
+          commentary: 'リジン→K、アルギニン→R',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】ヒストンはH2A・H2B・H3・H4が2分子ずつ結合した8量体を形成しておりそれにDNAが巻き付く。巻き付いたDNAの外からH1が結合した構造をとり、ヒストンに巻き付いたDNAは転写抑制がかかっている。',
-          answerImg: [],
-          answer: '',
+          answerImg: [histoneStructure],
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1173,26 +1182,28 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】プロモーターDNAのメチル化ではMeCP複合体に含まれるHATにより脱アセチル化も生じる',
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          answerImg: [acetylationHistone],
+          answer: '誤り...ヒストン脱アセチル化はHDACによって行われる。',
+          commentary:
+            'プロモーターDNAのメチル化ではHDACによるヒストン脱アセチル化が誘導され、いずれも遺伝子発現を抑制する。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】プロモーターDNAのメチル化により転写因子の結合が阻害される',
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          answerImg: [methylationDNA],
+          answer: '正しい',
+          commentary:
+            'DNAメチル化により、1.転写因子の結合が阻害され、2.メチル化認識タンパクMBPを介した抑制が行われる。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】プロモーターDNAのメチル化はCpG islandのグアニンのメチル化を指す',
-          answerImg: [],
-          answer: '',
+          answerImg: [maintenanceMethylationDNA],
+          answer: '誤り...CpGのシトシン',
           commentary: '',
         },
         {
@@ -2070,8 +2081,8 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】真核生物のDNAは普段ヒストンという八量体のたんぱく質に巻きついて存在しており転写される際にはDNAがヒストンから乖離する。 これはDNAのメチル化とヒストン修飾によって制御されておりエビジェネティック制御と呼ばれている',
-          answerImg: [],
-          answer: '',
+          answerImg: [histoneStructure],
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2727,67 +2738,6 @@ export const useQuestionList = () => {
         //   answer: '',
         //   commentary: '',
         // },
-        // {
-        //   detailInfo: '',
-        //   questionImg: [],
-        //   questionSentence: '【正誤問題】',
-        //   answerImg: [],
-        //   answer: '',
-        //   commentary: '',
-        // },
-        // {
-        //   detailInfo: '',
-        //   questionImg: [],
-        //   questionSentence: '【正誤問題】',
-        //   answerImg: [],
-        //   answer: '',
-        //   commentary: '',
-        // },
-        // {
-        //   detailInfo: '',
-        //   questionImg: [],
-        //   questionSentence: '【正誤問題】',
-        //   answerImg: [],
-        //   answer: '',
-        //   commentary: '',
-        // },
-        // {
-        //   detailInfo: '',
-        //   questionImg: [],
-        //   questionSentence: '【正誤問題】',
-        //   answerImg: [],
-        //   answer: '',
-        //   commentary: '',
-        // },
-        // {
-        //   detailInfo: '',
-        //   questionImg: [],
-        //   questionSentence: '【正誤問題】',
-        //   answerImg: [],
-        //   answer: '',
-        //   commentary: '',
-        // },
-        // {
-        //   detailInfo: '',
-        //   questionImg: [],
-        //   questionSentence: '【正誤問題】',
-        //   answerImg: [],
-        //   answer: '',
-        //   commentary: '',
-        // },
-      ],
-    },
-    {
-      groupTag: '正誤問題集２',
-      groupContents: [
-        {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence: '【正誤問題】',
-          answerImg: [],
-          answer: '',
-          commentary: '',
-        },
       ],
     },
     {
