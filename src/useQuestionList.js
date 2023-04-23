@@ -3,12 +3,12 @@ import prostaticHyperplasia from './img/answer/prostaticHyperplasia.png'
 import fattyLiver from './img/answer/fattyLiver.png'
 import methylationDNA from './img/answer/methylationDNA.png'
 import maintenanceMethylationDNA from './img/answer/maintenanceMethylationDNA.png'
-import histoneStructure from './img/answer/histonStructure.png'
-import coordinatedHistone from './img/answer/coordinatedHiston.png'
-import acetylationHistone from './img/answer/acetylationHiston.png'
 import NHEJ from './img/answer/NHEJ.png'
 import MMR from './img/answer/MMR.png'
 import BRD4 from './img/answer/BRD4.png'
+import histoneStructure from './img/answer/histoneStructure.png'
+import coordinatedHistone from './img/answer/coordinatedHistone.png'
+import acetylationHistone from './img/answer/acetylationHistone.png'
 
 // import from './img/answer/.png'
 
@@ -697,6 +697,15 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence:
+            '【正誤問題】Ⅰ型アレルギーでは肥満細胞のFc受容体にIgE抗体が結合することで脱顆粒がおこる。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
             '【正誤問題】Kartagener症候群では内臓逆位を認め、線毛機能不全を呈し、巨大結腸症を合併する。',
           answerImg: [],
           answer: '',
@@ -969,7 +978,7 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence:
-            '【正誤問題】グルタミンはDNA合成における窒素源とナウ',
+            '【正誤問題】グルタミンはDNA合成における窒素源となる',
           answerImg: [],
           answer: '',
           commentary: '',
@@ -988,6 +997,15 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】グルタミンはオキサロ酢酸からアセチルCoAによりクエン酸を生成する。',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】グルタミンはオキサロ酢酸からピルビン酸キナーゼによりピルビン酸になる。',
           answerImg: [],
           answer: '',
           commentary: '',
@@ -2493,7 +2511,8 @@ export const useQuestionList = () => {
             '【正誤問題】二本鎖切断の修復機構には非相同末端連結と相同組み換え修復があるが後者ではエラーがおきやすい',
           answerImg: [NHEJ],
           answer: '誤り...エラーが起こりやすいのは非相同末端連結NHEJ',
-          commentary: 'エラーが起こることはゲノム編集技術に利用されている',
+          commentary:
+            'エラーが起こりやすい性質はゲノム編集技術に利用されている',
         },
         {
           detailInfo: '',
