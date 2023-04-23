@@ -593,7 +593,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】Duchenne型筋ジストロフィーは三塩基リピート病である。',
           answerImg: [],
-          answer: '誤り...',
+          answer: '誤り...三塩基リピート病ではない',
           commentary: '',
         },
         {
@@ -602,7 +602,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】Eisenmenger化とは、先天性深枝間により肺血管抵抗の低下から左→右シャントが優勢になった状態を指す。',
           answerImg: [],
-          answer: '誤り...',
+          answer: '誤り..血管抵抗の低下ではない、左→右シャントではない.',
           commentary: '',
         },
         {
@@ -620,7 +620,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】Goodpasture症候群、溶血性貧血、Henoch-Schnlein紫斑症はⅡ型アレルギーで起こる。',
           answerImg: [],
-          answer: '',
+          answer: '誤り...Hernoch-Schnlein紫斑症ではない',
           commentary: '',
         },
         {
@@ -637,7 +637,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】HIF-1αは転写因子であり低酸素時にVEGF,GLUT1などの発現を誘導する。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -646,7 +646,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】Hirschsprung病では、神経節を欠損し、外来神経は過形成である。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -655,7 +655,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】HIVは感染後数週間で血中のRNA量が急上昇するが、その後の数年は安定した値に保たれる。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -664,7 +664,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】HMGB1が高値のエンドトキシンショックでは予後良好である。',
           answerImg: [],
-          answer: '',
+          answer: '誤り...予後不良である',
           commentary: '',
         },
         {
@@ -673,7 +673,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】HMGB1は炎症性サイトカインのひとつでショックを憎悪する。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -682,7 +682,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】HNPCCは右側結腸に好発し、関連癌として大腸癌以外に腎盂・尿管癌や小腸癌などがある。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -691,7 +691,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】Hutchinson-Gilford症候群では大泉門の閉鎖不全による水頭症様の顔貌を呈する。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -700,7 +700,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】IgM抗体はB細胞表面に受容体として存在しており、血清中では五量体を形成している。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -709,7 +709,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】Ⅰ型アレルギーでは肥満細胞のFc受容体にIgE抗体が結合することで脱顆粒がおこる。',
           answerImg: [],
-          answer: '',
+          answer: '誤り...',
           commentary: '',
         },
         {
@@ -718,7 +718,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】Kartagener症候群では内臓逆位を認め、線毛機能不全を呈し、巨大結腸症を合併する。',
           answerImg: [],
-          answer: '',
+          answer: '誤り...巨大結腸症ではない',
           commentary: '',
         },
         {
@@ -727,7 +727,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】MELASやMERRFでは血中の尿酸やピルビン酸が高値となる。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -736,7 +736,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】MEN2AではRETの突然変異による発症し、副甲状腺機能亢進や褐色細胞腫を認める。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -745,7 +745,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】Menkes症候群は小腸での銅吸収障害をきたす伴性劣性遺伝病で、末期には肝硬変の像を呈する。',
           answerImg: [],
-          answer: '',
+          answer: '誤り...肝硬変の像を呈さない',
           commentary: '',
         },
         {
@@ -764,7 +764,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】NASHでは小滴性脂肪肝・水滴細胞出現・線維化・炎症細胞浸潤が見られる。',
           answerImg: [],
-          answer: '',
+          answer: '誤り...小滴性脂肪肝ではない',
           commentary: '',
         },
         {
@@ -773,7 +773,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】P53は4量体であり4量体結合ドメインとDNA結合ドメインを持つ。これをもとに考えるとP53は4量体結合ドメインの片アレルの変異のみで1/16まで正常蛋白量が落ちることになる。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
 
@@ -783,7 +783,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】P53はDNA損傷に反応しp21などを誘導し細胞終期を停止し遺伝子を修復する。遺伝子が修復不能なほど損傷した場合はアポトーシスを誘導する。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -792,7 +792,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】P53やRbといったがん抑制遺伝子の欠損した家系が報告されており（P53欠損はLi-Fraumeni症候群、Rb欠損は家族性網膜芽細胞腫）悪性腫瘍を若年で発症する。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -811,16 +811,16 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】Turner症候群では父親由来のX染色体が喪失していることが多く、卵巣は痕跡的である。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
-            '【正誤問題】von Reclinghausen 病では多発性の神経線維腫や皮膚にカフェオレ斑がみられる。',
+            '【正誤問題】von Reclinghausen病では多発性の神経線維腫や皮膚にカフェオレ斑がみられる。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -829,7 +829,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】Warburg効果とは酵素存在下でも解糖系に偏ったエネルギー酸性を行うがん細胞の特性である。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -838,7 +838,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】Warburg効果により酸化ストレスの生成を低減できるとされる',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -847,16 +847,16 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】αklothoはランゲルハンス島におけるインスリンの分泌を制御する。',
           answerImg: [],
-          answer: '',
+          answer: '誤り...αklothoではない',
           commentary: '',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
-            '【正誤問題】α-リノレン酸はn6頚の不飽和脂肪酸でアラキドン酸を経てプロスタグランジンになる。',
+            '【正誤問題】α-リノレン酸はn-6系の不飽和脂肪酸でアラキドン酸を経てプロスタグランジンになる。',
           answerImg: [],
-          answer: '',
+          answer: '誤り...α-リノレン酸ではなくリノール酸',
           commentary: '',
         },
         {
@@ -865,7 +865,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】アザシチジンはDNMT(DNAメチルトランスフェラーゼ)に結合し失活させることでDNAメチル化を促進する。',
           answerImg: [],
-          answer: '',
+          answer: '誤り...DNAメチル化を抑制してしまう',
           commentary: '',
         },
         {
@@ -874,7 +874,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】アポトーシスの主な経路は1.デスレセプター、2.生存シグナルの除去、3.RIPK経路の活性化が挙げられる。',
           answerImg: [],
-          answer: '',
+          answer: '誤り...RIPKの経路を活性化しない',
           commentary: '',
         },
         {
@@ -883,7 +883,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】アミロイド、ヒアリン、フィブリノイドはHE染色の染色性の違いから鑑別される。',
           answerImg: [],
-          answer: '',
+          answer: '誤り...鑑別できない',
           commentary: '',
         },
         {
@@ -892,7 +892,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】アラキドン酸はシクロオキシゲナーゼCOX1・2によって代謝され、プロスタグランジンH2(PGH2)が産生される。これらはトロンボキサンや他のプロスタグランジンの基質になる。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -901,7 +901,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】インスリン抵抗性は動脈硬化を抑制する。',
           answerImg: [],
-          answer: '',
+          answer: '誤り...動脈硬化を促進する',
           commentary: '',
         },
         {
@@ -910,7 +910,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】ウイルス性心筋炎は心筋細胞間にリンパ球浸潤がみられる。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -919,7 +919,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】ウェルシュ菌は食中毒菌であり腸内には常在しない',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -928,7 +928,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】がんの経過中に高カルシウム血症をきたすと腎不全を引き起こす可能性がある。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -937,7 +937,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】がん幹細胞は、自己再生能と腫瘍を構成する様々な系統のがん細胞をつくり、一個から新しい集団をつくる多分化能をもつ。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -946,7 +946,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】がん幹細胞を標的とした治療にWNT経路やNOTCH経路のような肝細胞性を維持するための経路の阻害や肝細胞マーカーに対する抗体治療などが挙げられる。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -955,16 +955,16 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】がん細胞は伝的変化とクローン選択を受けながら不均一な細胞集団を作り出していると考えられているが、がん細胞の大部分を占める集団ではなく、がん幹細胞に生じた変化が主に形質として受け継がれていく。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
-            '【正誤問題】クルーケンベルグ踵お湯が男性に生じることは無い',
+            '【正誤問題】クルーケンベルグ腫瘍が男性に生じることは無い',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -973,7 +973,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】グルコースはアルドラーゼによりソルビトールを生成し細胞外浮腫の原因となる。',
           answerImg: [],
-          answer: '',
+          answer: '誤り...アルドラーゼではなく、細胞外浮腫ではない',
           commentary: '',
         },
         {
@@ -982,7 +982,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】グルタミノリシスによるエネルギー産生は腫瘍細胞に特異的である。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -991,7 +991,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】グルタミンはDNA合成における窒素源となる',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1000,7 +1000,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】グルタミンはα-ケトグルタル酸に代謝されペントースリン酸経路に組み込まれる。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1009,7 +1009,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】グルタミンはオキサロ酢酸からアセチルCoAによりクエン酸を生成する。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1018,7 +1018,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】グルタミンはオキサロ酢酸からピルビン酸キナーゼによりピルビン酸になる。',
           answerImg: [],
-          answer: '',
+          answer: '誤り...ピルビン酸キナーゼではない',
           commentary: '',
         },
         {
@@ -1027,7 +1027,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】グルタミンはグルタチオンの原料として細胞のレドックスに関与する',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1036,7 +1036,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】グルタミンはリンゴ酸に代謝されマリック・エンザイムによりピルビン酸になる。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1045,7 +1045,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】コール酸はコレステロール排出に重要である',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1054,7 +1054,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】サーチュインは脈絡層におけるカルシウムイオンの輸送に関わる',
           answerImg: [],
-          answer: '',
+          answer: '誤り...サーチュインではない',
           commentary: '',
         },
         {
@@ -1063,7 +1063,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】すべての酸化ストレスを消失させることにより寿命が著明に延長される',
           answerImg: [],
-          answer: '',
+          answer: '誤り...寿命が著明に延長されるわけではない',
           commentary: '',
         },
         {
@@ -1072,7 +1072,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】たこつぼ型心筋症では心尖部の収縮能が亢進している',
           answerImg: [],
-          answer: '',
+          answer: '誤り...亢進しない',
           commentary: '',
         },
         {
@@ -1081,7 +1081,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】トランス型脂肪酸はLDLを増加させ粥状動脈硬化を促進する',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1090,7 +1090,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】トランス型脂肪酸は人工的な合成によって生成し自然界には存在しない',
           answerImg: [],
-          answer: '',
+          answer: '誤り...自然界にも存在する',
           commentary: '',
         },
         {
@@ -1099,7 +1099,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】トランス型脂肪酸は同じ炭素数のシス型脂肪酸よりも融点が高い',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1108,7 +1108,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】トリグリセリドはグリセロールと3個の脂肪酸からなる',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1174,7 +1174,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】ヒドロキシラジカルは脳梗塞や心筋梗塞の病変拡大に関与する。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1183,7 +1183,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】ビリルビン・メラニン・リポフスチン・胆汁はいずれもHE染色では褐色顆粒として認められる。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1192,7 +1192,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】ビリルビンが小腸で吸収され肝臓に戻ることを腸肝循環という。',
           answerImg: [],
-          answer: '',
+          answer: '誤り...ビリルビンではない',
           commentary: '',
         },
         {
@@ -1201,7 +1201,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】ビリルビンの直接型・間接型はvan Gieson反応の差である。',
           answerImg: [],
-          answer: '',
+          answer: '誤り...van Gieson反応ではない',
           commentary: '',
         },
         {
@@ -1209,7 +1209,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '【正誤問題】ピルビン酸はLDHにより乳酸を生成する。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1257,7 +1257,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】ベーチェット病では再発性のアフタ性口内炎やドライアイの症状が見られる。',
           answerImg: [],
-          answer: '',
+          answer: '誤り...ドライアイではない',
           commentary: '',
         },
         {
@@ -1266,7 +1266,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】ポリオール代謝亢進により還元型グルタミンが減少し酸化ストレスが増加する',
           answerImg: [],
-          answer: '',
+          answer: '誤り...グルタミンではなくGSH',
           commentary: '',
         },
         {
@@ -1275,7 +1275,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】マクロファージは RAGE やスカベンジャー受容体などを介し終末糖化産物による炎症作用を発現する',
           answerImg: [],
-          answer: '',
+          answer: '誤り...抗炎症作用を発現させない',
           commentary: '',
         },
         {
@@ -1284,7 +1284,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】マクロファージは抗原提示細胞であり、Fc受容体とMHCクラスⅡ分子を有している。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1293,7 +1293,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】ミューテーター遺伝子としてミスマッチ修復にかかわるMHLや一本鎖切断修復、二本鎖切断修復にかかわる BRCA1/2 がある',
           answerImg: [],
-          answer: '',
+          answer: '誤り...MHLではない',
           commentary: '',
         },
         {
@@ -1302,7 +1302,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】リウマチ性心筋炎は溶連菌感染が関与している',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1311,7 +1311,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】リポフスチンなどの老廃物にも終末糖化産物が蓄積している',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1320,7 +1320,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】リンパ球はB細胞とT細胞に大別され、 B細胞は抗体産生を行い、 T細胞は他の白血球の活動を調節する',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1329,7 +1329,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】るいそう、低脂肪食、 野菜食は大腸癌のリスクファクターである',
           answerImg: [],
-          answer: '',
+          answer: '誤り...リスクファクターではない',
           commentary: '',
         },
         {
@@ -1338,7 +1338,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】悪性腫瘍はDNAの配列や染色体の構造を伴っていることがほとんどでこの変化を突然変異と呼ぶ。これは遺伝子突然変異と染色体突然変異に大別される',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1347,7 +1347,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】悪性腫瘍は増殖シグナルの活性化や生存シグナルの活性化が生じており、 周囲組織と関係なく自立的に増殖する。良性腫瘍ではこのような現象が観察されることは無い。',
           answerImg: [],
-          answer: '',
+          answer: '誤り...良性腫瘍でも観察される',
           commentary: '',
         },
         {
@@ -1366,7 +1366,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】異型狭心症は、冠動脈に血栓が一時的に生じて発症する',
           answerImg: [],
-          answer: '',
+          answer: '誤り...血栓が一時的に生じない',
           commentary: '',
         },
         {
@@ -1375,7 +1375,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】異型狭心症は、冠動脈の内腔が血栓により閉塞し生じる',
           answerImg: [],
-          answer: '',
+          answer: '誤り...血栓ではない',
           commentary: '',
         },
         {
@@ -1384,7 +1384,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】遺伝子転座ではキメラ蛋白を生じることがあり、代表的なものに慢性骨髄性白血病のBCR/ABL遺伝子融合がある',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1393,7 +1393,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】遺伝子突然変異はDNAの配列に生じた変化であり、 一方染色体突然変異は染色体単位での大きな構造変化をさす',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1402,7 +1402,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】遺伝子突然変異は塩基の置換や挿入、 欠失があるが、 変異が生じた原因による特徴は特にない',
           answerImg: [],
-          answer: '',
+          answer: '誤り...遺伝子突然変異は変異の原因による特徴がある',
           commentary: '',
         },
         {
@@ -1411,7 +1411,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】炎症の四徴のひとつである浮腫は間質に体液が漏れ出して組織が腫脹している。 血管の透過性が亢進している場合を炎症性浮腫と呼び比重の低い漏出液が見られる',
           answerImg: [],
-          answer: '',
+          answer: '誤り...漏出液は比重が大きい',
           commentary: '',
         },
         {
@@ -1420,7 +1420,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】炎症メディエーターはケモカイン、C5a、 リポキシゲナーゼ等の血管作動性メディエーターとヒスタミン、ブラジキニンなどの走化性因子に大別される',
           answerImg: [],
-          answer: '',
+          answer: '誤り...ケモカインは走化性因子',
           commentary: '',
         },
         {
@@ -1429,7 +1429,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】炎症時の発赤、 発熱は毛細血管の開大による血流の増加を反映している。 また、血管透過性の亢進による滲出液 (transudate) が血管外に流出することにより腫脹が起きる',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1438,7 +1438,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】黄色のビリルビンは酸化されて青色のビリベルジンになる',
           answerImg: [],
-          answer: '',
+          answer: '誤り...あおいろではない',
           commentary: '',
         },
         {
@@ -1456,7 +1456,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】家族性大腸腺腫症に脳腫瘍を合併するものを Gardner 症候群という。',
           answerImg: [],
-          answer: '',
+          answer: '誤り...Gardner症候群ではない',
           commentary: '',
         },
         {
@@ -1465,7 +1465,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】過酸化脂質は脂肪内に蓄積し肥満にける遺伝子異常に関与する',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1474,7 +1474,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】過酸化水素は好中球などで細菌などの分解に用いられる',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1483,7 +1483,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】我々は常に自然放射線や活性酸素種、紫外線やアルコール、ベンツピレン等の変異原にさらされておりDNA損傷が生じている',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1492,7 +1492,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】拡張型心筋症では線維化がみられ、 拡張障害が主にみられる',
           answerImg: [],
-          answer: '',
+          answer: '誤り...拡張障害ではない',
           commentary: '',
         },
         {
@@ -1510,7 +1510,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】活性酸素分子種の中で酵素的に分解されないのはスーパーオキサイドである',
           answerImg: [],
-          answer: '',
+          answer: '誤り...スーパーオキサイドではなくヒドロキシラジカル',
           commentary: '',
         },
         {
@@ -1519,7 +1519,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】幹細胞はニッチシグナルに依存し幹細胞性を保っている。これらのシグナルは多段階発ガンで獲得すると考えられている変異に対応する',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1528,7 +1528,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】肝では星細胞、 肺では肺胞マクロファージ、 骨髄では骨髄巨核球が線維化を惹起する',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1537,7 +1537,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】肝や膵の星細胞はエタノール (飲酒) により活性化される',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1546,7 +1546,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】肝細胞障害による脂肪肝では中心肝静脈周囲の肝細胞に脂肪滴を生じやすい',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1555,7 +1555,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】肝重量の70%以上のトリグリセリドの蓄積により脂肪肝が生じる',
           answerImg: [],
-          answer: '',
+          answer: '誤り...70%以上ではなく7%以上',
           commentary: '',
         },
         {
@@ -1564,7 +1564,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】間接型ビリルビンはミトコンドリアの酸化的リン酸化を阻害する',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1573,7 +1573,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】間接型ビリルビンは血中では免疫グロブリンと結合して運搬される',
           answerImg: [],
-          answer: '',
+          answer: '誤り...免疫グロブリンではなくグルクロン酸',
           commentary: '',
         },
         {
@@ -1582,7 +1582,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】癌幹細胞の性質として抗がん剤に耐性をもつ、 活性酸素の除去能力が強い (ALDH1 等の高発現) 足場非依存性の増殖 (スフェロイド形成能)、 幹細胞マーカーの発現があげられる ',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1619,7 +1619,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】急性炎症は炎症の急性期の反応で病原体と傷害された組織の除去、 炎症メディエーターの産生、 炎症細胞の動因が生じ、 最後に炎症メディエーターにたいする特異的阻害物質が働き炎症が終結する',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1628,7 +1628,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】牛肉の摂取は大腸癌のリスクファクターである',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1637,16 +1637,16 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】巨大化した脂肪細胞ではアディポネクチンが増加しインスリン耐性が低下する',
           answerImg: [],
-          answer: '',
+          answer: '誤り...巨大化した脂肪細胞ではない',
           commentary: '',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
-            '【正誤問題】強皮症では抗 Scl-70 抗体陽性となり、 Raynaud 現象や Gotton 徴候を認める。',
+            '【正誤問題】強皮症では抗 Scl-70 抗体陽性となり、 Raynaud現象や Gotton徴候を認める。',
           answerImg: [],
-          answer: '',
+          answer: '誤り...Gotton徴候ではない',
           commentary: '',
         },
         {
@@ -1655,7 +1655,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】筋ジストロフィーでは、 骨格筋に神経原性萎縮を生じる',
           answerImg: [],
-          answer: '',
+          answer: '誤り...神経原性萎縮ではない',
           commentary: '',
         },
         {
@@ -1664,25 +1664,25 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】筋ジストロフィーでは線維化や脂肪化により仮性肥大を起こすことがある',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
-            '【正誤問題】結合体とは卵性双生児にみられることのある二重(重複)奇形である。',
+            '【正誤問題】結合体とは二卵性双生児にみられることのある二重(重複)奇形である。',
           answerImg: [],
-          answer: '',
+          answer: '誤り...二卵性ではない',
           commentary: '',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
-            '【正誤問題】血液の流入が増加しての血は起こり、小動脈が拡張する',
+            '【正誤問題】血液の流入が増加してうっ血は起こり、小動脈が拡張する',
           answerImg: [],
-          answer: '',
+          answer: '誤り...うっ血ではない',
           commentary: '',
         },
         {
@@ -1691,7 +1691,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】血中ビリルビンが2mg/dl以上になると顕在性の黄疸を生じる',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1700,7 +1700,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】血糖の急激な上昇は酸化的リン酸化から乳酸発酵への代謝変更をもたらす',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1709,7 +1709,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】血漿由来の炎症性メディエーターにキニンや補体 (C3a, C5a) があり細胞由来のものにヒスタミンやセロトニン NOがある',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {

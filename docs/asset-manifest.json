@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-pathology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-pathology/static/js/main.9baaf6b8.js",
+    "main.js": "/anywhere-pathology/static/js/main.1d3cb583.js",
     "static/media/fattyLiver.png": "/anywhere-pathology/static/media/fattyLiver.d78da0215a04496d6dbb.png",
     "static/media/prostaticHyperplasia.png": "/anywhere-pathology/static/media/prostaticHyperplasia.af4cb487859c80bc7b0a.png",
     "static/media/carcinogenesisStep.png": "/anywhere-pathology/static/media/carcinogenesisStep.8235212115064354565a.png",
@@ -25,10 +25,10 @@
     "static/media/gatekeeper.png": "/anywhere-pathology/static/media/gatekeeper.0b5030b78aa54ba091fd.png",
     "index.html": "/anywhere-pathology/index.html",
     "main.6180b9dc.css.map": "/anywhere-pathology/static/css/main.6180b9dc.css.map",
-    "main.9baaf6b8.js.map": "/anywhere-pathology/static/js/main.9baaf6b8.js.map"
+    "main.1d3cb583.js.map": "/anywhere-pathology/static/js/main.1d3cb583.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.9baaf6b8.js"
+    "static/js/main.1d3cb583.js"
   ]
 }
