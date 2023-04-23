@@ -9,6 +9,16 @@ import BRD4 from './img/answer/BRD4.png'
 import histoneStructure from './img/answer/histoneStructure.png'
 import coordinatedHistone from './img/answer/coordinatedHistone.png'
 import acetylationHistone from './img/answer/acetylationHistone.png'
+import tumorSuppressorGene from './img/answer/tumorSuppressorGene.png'
+import PARP from './img/answer/PARP.png'
+import mutationType from './img/answer/mutationType.png'
+import LOH from './img/answer/LOH.png'
+import hematopoieticStemCell from './img/answer/hematopoieticStemCell.png'
+import gatekeeper from './img/answer/gatekeeper.png'
+import chromosomalMutation from './img/answer/chromosomalMutation.png'
+import carcinogenesisStep from './img/answer/carcinogenesisStep.png'
+import carcinogenesis from './img/answer/carcinogenesis.png'
+import cancer from './img/answer/cancer.png'
 
 // import from './img/answer/.png'
 
@@ -342,8 +352,8 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】13トリソミーでは馬蹄腎・臍ヘルニア・揺り椅子状の足底を認めることが多い。',
-          answerImg: [],
-          answer: '誤り...13ではない',
+          answerImg: [chromosomalMutation],
+          answer: '誤り...13ではなく18のトリソミー',
           commentary: '',
         },
         {
@@ -790,9 +800,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】PARP阻害薬は一本鎖切断修復酵素の阻害薬でありBRCA1、BRCA2に異常のある悪性腫瘍に適応がある。BRCA1、BRCA2に異常のある細胞はDNAを修復できず分裂致死となる。',
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          answerImg: [PARP],
+          answer: '正しい',
+          commentary:
+            'BRCA1・2は乳がん・卵巣がん細胞で異常があることが多く、相同組み換えHRに関連するがん抑制遺伝子である。',
         },
         {
           detailInfo: '',
@@ -1153,8 +1164,8 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】ヒトの悪性腫瘍のほとんどは体腔や消化管などの壁面や皮膚では体表の覆いとして一面に覆っている細胞の層である上皮から発生しており、癌と呼ばれる。',
-          answerImg: [],
-          answer: '',
+          answerImg: [cancer],
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1344,9 +1355,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】悪性腫瘍は良性腫瘍と異なり周囲組織への浸潤転移を生じる。 癌では基底膜の破壊、 脈管侵襲として観察され、 肉腫では脈管への浸潤破壊の結果出血が見られる',
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          answerImg: [carcinogenesis],
+          answer: '正しい',
+          commentary:
+            '良性腫瘍は転移浸潤を起こさない。悪性腫瘍は血行（主として静脈）・リンパ管・腹腔胸腔骨髄腔を介して転移していく。',
         },
         {
           detailInfo: '',
@@ -1435,7 +1447,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】加齢による発癌リスクの上昇は幹細胞分裂回数と関連する',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1488,8 +1500,8 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】活性化癌遺伝子よりも癌抑制遺伝子の失活のほうが家族性癌症候群の原因として多い',
-          answerImg: [],
-          answer: '',
+          answerImg: [tumorSuppressorGene],
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1577,28 +1589,29 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence:
-            '【正誤問題】癌関連遺伝子には癌遺伝子、 癌抑制遺伝子があり Gatekeeper genes と呼ばれる. 他に遺伝子修復にかかわる Caretaker genes がある',
-          answerImg: [],
-          answer: '',
+            '【正誤問題】癌関連遺伝子には癌遺伝子、 癌抑制遺伝子があり Gatekeeper genes と呼ばれる。 他に遺伝子修復にかかわる Caretaker genes がある',
+          answerImg: [gatekeeper],
+          answer: '正しい',
           commentary: '',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
-            '【正誤問題】癌抑制遺伝子が完全に不活化されるためには両アレルに変異を生じる必要があるが突然変異の生じる確立から考えると理論上ほぼ起こりえないほど低い。 実際には片アレルの変異が生じてから有糸組み換えを生じることで両アレルの変異が形成されておりこの現象をヘテロ接合性の消失 (LOH) とよぶ',
-          answerImg: [],
-          answer: '',
+            '【正誤問題】癌抑制遺伝子が完全に不活化されるためには両アレルに変異を生じる必要があるが突然変異の生じる確率から考えると理論上ほぼ起こりえないほど低い。 実際には片アレルの変異が生じてから有糸組み換えを生じることで両アレルの変異が形成されておりこの現象をヘテロ接合性の消失 (LOH) とよぶ',
+          answerImg: [LOH],
+          answer: '正しい',
           commentary: '',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
-            '【正誤問題】癌抑制遺伝子の代表的なものにP53,RAS MYC等がある',
-          answerImg: [],
-          answer: '',
-          commentary: '',
+            '【正誤問題】癌抑制遺伝子の代表的なものにP53,RAS,MYC等がある',
+          answerImg: [tumorSuppressorGene],
+          answer: '誤り...MYCはがん抑制遺伝子ではない',
+          commentary:
+            'MYCは転写因子（転写を制御する物質）を活性化する、がん遺伝子（oncogenes）である。',
         },
         {
           detailInfo: '',
@@ -1926,9 +1939,9 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】腫瘍形成は多段階からなる複雑なステップを経て生じる。 これらの変化には癌遺伝子の活性化と癌抑制遺伝子の不活化の両方が含まれる。 これを多段階発ガンとよぶ',
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          answerImg: [carcinogenesisStep],
+          answer: '正しい',
+          commentary: 'たとえばRASはがん遺伝子、P53はがん抑制遺伝子である。',
         },
         {
           detailInfo: '',
@@ -1989,9 +2002,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】上皮の発生源についてはすべて外胚葉由来でありそれゆえ、 癌という病理組織学的な分類は組織の発生学的な起源と連動している',
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          answerImg: [cancer],
+          answer:
+            '誤り...上皮には外胚葉由来の表皮のほか、消化管の内側などの内胚葉由来の組織も含まれる。',
+          commentary: '非上皮性腫瘍は中胚葉由来',
         },
         {
           detailInfo: '',
@@ -2647,18 +2661,20 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】非上皮性の悪性腫瘍の中で体中のさまざまな結合組織から生じるものを肉腫と呼ぶ。 これらの組織は中胚葉起源である',
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          answerImg: [cancer],
+          answer: '正しい',
+          commentary:
+            '肉腫は結合組織由来・造血系由来・神経系由来に分類されるが、いずれも中胚葉由来である。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】非上皮性の悪性腫瘍の中で免疫担当細胞を含むさまざまな造血組織から発生する悪性腫瘍はリンパ系列の腫瘍と骨髄球系列の腫瘍に大別される。 これらの組織は中胚葉起源である',
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          answerImg: [hematopoieticStemCell],
+          answer: '正しい',
+          commentary:
+            'リンパ球も骨髄球も造血幹細胞由来で、造血幹細胞は中腎付近の臓側中胚葉（側板中胚葉）由来。',
         },
         {
           detailInfo: '',
