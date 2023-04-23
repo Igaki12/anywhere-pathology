@@ -743,11 +743,11 @@ export const useTechnicalTerm = () => {
     //   term:[''],
     //   explanation:'',
     // },
-    {
-      term: ['癌'],
-      explanation:
-        '総称の「がん」のうち、上皮由来の上皮性腫瘍のみ、漢字の「癌」と呼ばれる。抑制の利かなくなった異常増殖細胞。増殖活性が強いので浸潤・転移あり。進行度を判定するためにTNM分類・Stage分類がある。',
-    },
+    // {
+    //   term: ['癌'],
+    //   explanation:
+    //     '総称の「がん」のうち、上皮由来の上皮性腫瘍のみ、漢字の「癌」と呼ばれる。抑制の利かなくなった異常増殖細胞。増殖活性が強いので浸潤・転移あり。進行度を判定するためにTNM分類・Stage分類がある。',
+    // },
   ])
   const showTechnicalTerm = () => {
     return technicalTerm.filter(

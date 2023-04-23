@@ -6,6 +6,9 @@ import maintenanceMethylationDNA from './img/answer/maintenanceMethylationDNA.pn
 import histoneStructure from './img/answer/histonStructure.png'
 import coordinatedHistone from './img/answer/coordinatedHiston.png'
 import acetylationHistone from './img/answer/acetylationHiston.png'
+import NHEJ from './img/answer/NHEJ.png'
+import MMR from './img/answer/MMR.png'
+import BRD4 from './img/answer/BRD4.png'
 
 // import from './img/answer/.png'
 
@@ -560,9 +563,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】DNA修復機構のミスが生じると遺伝子変異が残存することとなるが、二本鎖切断の方が一本鎖切断よりもミスが生じやすい。',
-          answerImg: [],
+          answerImg: [NHEJ],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '二本鎖修復の際のDNA修復機構はHR:相同組み換え修復とNHEJ:非相同末端連結に分類されるが、特にNHEJは鋳型が無いため変異が起こりやすい。ゲノム編集技術に利用される。',
         },
         {
           detailInfo: '',
@@ -730,9 +734,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】MLH1、MSH2、MGMTなどDNAミスマッチ修復遺伝子はエピジェネティックな影響を受ける。',
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          answerImg: [MMR],
+          answer: '誤り...MGMTはミスマッチ修復MMRの関連遺伝子ではない。',
+          commentary:
+            'ミスマッチ修復に関わるMLH1、MSH2、PMS2などはミューテーター遺伝子と呼ばれる。MGMTとはO⁶-メチルグアニンDNAメチルトランスフェラーゼで、メチル化グアニンをもとのグアニンに戻す働きをする（サーベイランス）修復酵素。',
         },
         {
           detailInfo: '',
@@ -1082,9 +1087,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】ヒストンがHistone acetyl transferase(HAT) によってアセチル化されると転写の亢進が起きる。この逆反応はHDACが行う。',
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          answerImg: [acetylationHistone],
+          answer: '正しい',
+          commentary:
+            'ヒストンのアセチル化はリジン残基に対して行われ、転写活性化の役割を担うことがおおい。',
         },
         {
           detailInfo: '',
@@ -1211,9 +1217,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】ブロモドメインタンパク質はアセチル化ヒストンのアセチル基を認識しヒストンを除去する。これにより転写が促進される',
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          answerImg: [BRD4],
+          answer: '正しい',
+          commentary:
+            'BRD4はブロモドメインによるアセチル化ヒストンへの接触に依存したヒストンシャペロン活性を持ち転写伸長を促進する。ヒストンアセチル化→転写亢進',
         },
         {
           detailInfo: '',
@@ -2484,9 +2491,9 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】二本鎖切断の修復機構には非相同末端連結と相同組み換え修復があるが後者ではエラーがおきやすい',
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          answerImg: [NHEJ],
+          answer: '誤り...エラーが起こりやすいのは非相同末端連結NHEJ',
+          commentary: 'エラーが起こることはゲノム編集技術に利用されている',
         },
         {
           detailInfo: '',
@@ -2934,7 +2941,8 @@ export const useQuestionList = () => {
           questionSentence: '細胞死の分類について述べよ',
           answerImg: [],
           answer: '',
-          commentary: '',
+          commentary:
+            'アポトーシス（プログラム細胞死）とネクローシス（事故的細胞死）の2種類。',
         },
         {
           detailInfo: '',
@@ -2942,7 +2950,8 @@ export const useQuestionList = () => {
           questionSentence: 'programmed cell deathとは何か？',
           answerImg: [],
           answer: '',
-          commentary: '',
+          commentary:
+            'アポトーシスによるType1と、オートファジーを伴うType2と、ネクローシス型（ネクロトーシス/ネクロプトーシス）のType3に分類される。リソソームに依存するかどうかで、3Aと3Bに分類することもある。',
         },
         {
           detailInfo: '',
@@ -2950,7 +2959,8 @@ export const useQuestionList = () => {
           questionSentence: 'ネクローシスの形態的特徴は何か？',
           answerImg: [],
           answer: '',
-          commentary: '',
+          commentary:
+            '細胞膜の選択的透過性が破綻することにより細胞が丸く膨潤し、細胞膜は薄くなる。核やミトコンドリアなどの細胞小器官も膨潤し、最終的には細胞膜が破裂して細胞の内容物が飛散する。',
         },
         {
           detailInfo: '',
@@ -2958,7 +2968,8 @@ export const useQuestionList = () => {
           questionSentence: 'アポトーシスの形態的特徴は何か？',
           answerImg: [],
           answer: '',
-          commentary: '',
+          commentary:
+            '細胞が四方八方に膨張して突起物を形成し、断片化されることによって最終的にアポトーシス小体を形成する。',
         },
         {
           detailInfo: '',
@@ -2966,7 +2977,7 @@ export const useQuestionList = () => {
           questionSentence: '壊疽とは何か？',
           answerImg: [],
           answer: '',
-          commentary: '',
+          commentary: '皮膚細胞が急激に死んだ状態。',
         },
         {
           detailInfo: '',
@@ -2974,7 +2985,7 @@ export const useQuestionList = () => {
           questionSentence: '乾酪壊死とは何か？',
           answerImg: [],
           answer: '',
-          commentary: '',
+          commentary: '凝固性の壊死で黄色調のチーズ上の壊死物質を形成する。',
         },
         // {
         //   detailInfo: '',
