@@ -1723,7 +1723,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】抗原提示を受けたB細胞は Th1 および Th2 サイトカインを分泌し形質細胞に分化する。',
           answerImg: [],
-          answer: '',
+          answer: '誤り...抗原提示を受けたのではない',
           commentary: '',
         },
         {
@@ -1732,7 +1732,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】高カルシウム血症では不整脈、 神経炎、 意識障害などを生じる',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1740,7 +1740,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '【正誤問題】高血圧は心筋症の原因となる',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1749,7 +1749,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】高血圧は本態性高血圧と二次性高血圧に分けられ、二次性高血圧の方が圧倒的に多い',
           answerImg: [],
-          answer: '',
+          answer: '誤り...二次高血圧は少ない',
           commentary: '',
         },
         {
@@ -1758,7 +1758,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】高血圧緊急症とは、血圧の著明な高値を示し、 臓器障害が生じる切迫した病態を指す',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1767,7 +1767,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】高血糖や酸化ストレスは蛋白質における終末糖化産物の形成を促進する',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1776,7 +1776,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】高脂肪食・高糖質食は大腸発癌・転移を促進する',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1785,7 +1785,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】高糖質により増加する酸化ストレスはミトコンドリアの抑制により減少する',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1794,7 +1794,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】最も頻度が高い先天性心疾患は心房中隔欠損(ASD)である',
           answerImg: [],
-          answer: '',
+          answer: '誤り...心房中隔欠損症ではない',
           commentary: '',
         },
         {
@@ -1803,7 +1803,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】細動脈硬化症には血管壁に硝子化が認められる',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1812,7 +1812,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】細胞性免疫においてTcはパーフォリンにより細胞膜を破壊し、 細胞に壊死を誘導する。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1821,7 +1821,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】細胞内活性酸素の発生源としてミトコンドリアとNAD(P)H レダクターゼが重要である',
           answerImg: [],
-          answer: '',
+          answer: '誤り...レダクターゼではない',
           commentary: '',
         },
         {
@@ -1830,7 +1830,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】細胞由来の炎症性メディエーターでもヒスタミンやHMGB1は細胞内で合成され貯蔵されている。 また、リン脂質やアラキドン酸の代謝に由来するものがある',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1839,7 +1839,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】酸化ストレスの一つである一酸化窒素は虚血性心疾患に抑制性に働く',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1848,7 +1848,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】酸化ストレスは蛋白変性やDNA損傷を惹き起こす',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1857,7 +1857,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】子宮頸部の生検で良性の変化を浸潤癌と誤って診断したために子宮全摘となったが、 病院長には報告しなかった。',
           answerImg: [],
-          answer: '',
+          answer: '誤り',
           commentary: '',
         },
         {
@@ -1865,7 +1865,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '【正誤問題】脂質は酸化ストレスを蓄積する',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1874,7 +1874,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】脂肪過剰摂取では小葉辺縁性の脂肪肝を生じることが多い',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1883,15 +1883,15 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】脂肪過剰摂取では大滴性の脂肪肝を生じることが多い',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '【正誤問題】脂肪肝では間質の脂肪化生が見られる',
+          questionSentence: '【正誤問題】脂肪肝では肝間質の脂肪化生が見られる',
           answerImg: [],
-          answer: '',
+          answer: '誤り...肝間質ではない',
           commentary: '',
         },
         {
@@ -1900,7 +1900,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】自己抗原に対して反応性を有するT細胞は胸腺組織において負の選択により排除される。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1909,7 +1909,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】自然免疫とは感染や外来異物に対してその侵入前から体内に備わっている免疫システムで上皮による防御、好中球やマクロファージによる貪食細胞受容体を介した免疫システムがある',
           answerImg: [],
-          answer: '',
+          answer: '誤り...貪食T細胞受容体ではない',
           commentary: '',
         },
         {
@@ -1918,7 +1918,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】実質とは問質組織以外の組織細胞であり、 線維組織・脂肪組織炎症細胞などが含まれる',
           answerImg: [],
-          answer: '',
+          answer: '誤り...線維組織・脂肪組織などは間質組織',
           commentary: '',
         },
         {
@@ -1927,7 +1927,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】若年性の動脈硬化や早老性の白髪は Werner 症候群の主要徴候である。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1936,7 +1936,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】腫瘍の間質は腫瘍細胞が生存するための重要な栄養供給源となる。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1954,7 +1954,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】収縮型心筋症では心筋細胞は肥大し、錯綜配列が認められる',
           answerImg: [],
-          answer: '',
+          answer: '誤り...収縮型ではない',
           commentary: '',
         },
         {
@@ -1963,7 +1963,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】終末糖化産物は粥状動脈硬化、 脂肪肝、 糖尿病合併症、アルツハイマー病、発癌に関与する',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -1972,7 +1972,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】終末糖化産物は受容体であるCAGE を介し細胞増殖、細胞運動、血管新生を促進する',
           answerImg: [],
-          answer: '',
+          answer: '誤り...受容体はRAGE',
           commentary: '',
         },
         {
@@ -1981,7 +1981,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】終末糖化産物は蛋白等に酸化ストレス刺激により酵素反応により糖の修飾が生じたものである',
           answerImg: [],
-          answer: '',
+          answer: '誤り...酵素反応ではない',
           commentary: '',
         },
         {
@@ -1990,7 +1990,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】終末糖化産物もHMGB1 も RAGE の受容体になる',
           answerImg: [],
-          answer: '',
+          answer: '誤り...RAGEはAGEの受容体',
           commentary: '',
         },
         {
@@ -1999,7 +1999,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】終末糖化産物遺伝子は複数の転写 variant を有する',
           answerImg: [],
-          answer: '',
+          answer: '誤り...終末糖化産物遺伝子は存在しない',
           commentary: '',
         },
         {
@@ -2018,7 +2018,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】上皮組織には共通した構造として基底膜を伴う。 基底膜は間質と呼ばれる支持結合織の層と上皮細胞の層を隔離している',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2027,7 +2027,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】常染色体優性遺伝病の患者が健常者と結婚した場合に子の2人に1人は保因者となる。',
           answerImg: [],
-          answer: '',
+          answer: '誤り...優性遺伝病の場合は1人/4人',
           commentary: '',
         },
         {
@@ -2036,7 +2036,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】食道閉鎖・食道気管瘻で最も頻度が高いのは、 Gross C型で、 食道と気管に交通はない',
           answerImg: [],
-          answer: '',
+          answer: '誤り...食道と気管は交通している',
           commentary: '',
         },
         {
@@ -2045,7 +2045,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】食物を加熱することにより発癌物質が発生する可能性がある',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2054,7 +2054,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】唇顎口蓋裂の発生機序は口唇と口蓋の低形成ないし無形成である。',
           answerImg: [],
-          answer: '',
+          answer: '誤り...無形成ではない',
           commentary: '',
         },
         {
@@ -2063,16 +2063,16 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】心サルコイドーシスでは、胸の形成がみられる',
           answerImg: [],
-          answer: '',
+          answer: '誤り...肉芽ではない',
           commentary: '',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
-            '【正誤問題】心筋梗塞の発症後から、マクロファージが認められる',
+            '【正誤問題】心筋梗塞の発症直後から、マクロファージが認められる',
           answerImg: [],
-          answer: '',
+          answer: '誤り...直後ではない',
           commentary: '',
         },
         {
@@ -2081,7 +2081,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】心筋梗塞発症から約2日経過した症例では強い線維化がみられる',
           answerImg: [],
-          answer: '',
+          answer: '誤り...二日ではない',
           commentary: '',
         },
         {
@@ -2090,7 +2090,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】心原性脳塞栓は心房細動により主に右房に形成された血栓がはがれることで生じる。',
           answerImg: [],
-          answer: '',
+          answer: '誤り...右房ではない',
           commentary: '',
         },
         {
@@ -2099,7 +2099,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】心室中隔欠損 (VSD)では、 1歳ほどは自然閉鎖が期待でき経過観察が可能である',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2108,7 +2108,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】心臓粘液腫は殆どが心房中隔に発生し、 悪性化はまれである',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2117,7 +2117,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】心不全では血管透過性が亢進し浮腫を生じる',
           answerImg: [],
-          answer: '',
+          answer: '誤り...心不全では拍出力が下がり血管透過性は下がる',
           commentary: '',
         },
         {
@@ -2134,7 +2134,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '【正誤問題】真性動脈瘤では動脈壁の破綻がみられる ',
           answerImg: [],
-          answer: '',
+          answer: '誤り...動脈壁の破綻がみられるのは仮性動脈瘤',
           commentary: '',
         },
         {
@@ -2143,7 +2143,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】神経芽腫は MYCN 遺伝子異常がある場合予後不良である',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2152,7 +2152,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】神経性筋萎縮では萎縮筋線維の束状の集族が見られる',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2161,7 +2161,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】腎癌の手術標本において、 今までにあまり見たことのない組織像であったため腎腫瘍病理の専門家にコンサルテーションを依頼した。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2170,7 +2170,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】水素ガスにより効率よく酸化ストレスを除去できる',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2178,7 +2178,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '【正誤問題】成人胸腺は退縮しているのが正常である',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2187,7 +2187,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】正常幹細胞においてステムセルニッチから離れた細胞は分化を開始する。 がん細胞にも癌幹細胞ニッチが存在しその中に癌幹細胞が存在すると考えられている',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2196,7 +2196,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】正常幹細胞に遺伝子異常が入り、 癌幹細胞に変化する現象が確認されている。 自己複製能を持っていない前駆細胞などは癌幹細胞になれない',
           answerImg: [],
-          answer: '',
+          answer: '誤り...がん細胞は比較的自由にがん幹細胞へと変化する',
           commentary: '',
         },
         {
@@ -2205,7 +2205,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】生成された終末糖化産物を分解する薬剤はまだ開発されていない',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2214,7 +2214,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】生体から完全に酸化ストレスを除去することががん予防のゴールのひとつである',
           answerImg: [],
-          answer: '',
+          answer: '誤り...酸化ストレス（活性酸素）は殺菌などで必要である。',
           commentary: '',
         },
         {
@@ -2223,7 +2223,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】赤血球のエネルギー代謝は主にミトコンドリアによる',
           answerImg: [],
-          answer: '',
+          answer: '誤り...赤血球のエネルギー代謝は解糖系のみ',
           commentary: '',
         },
         {
@@ -2232,7 +2232,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】染色体突然変異によって正常蛋白の発現量の変化が起きることがあるが、 この変化は腫瘍の悪性化には関与しない',
           answerImg: [],
-          answer: '',
+          answer: '誤り...染色体突然変異と腫瘍の悪性化は密接に関係している',
           commentary: '',
         },
         {
@@ -2241,7 +2241,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】線維化にはTGF-β、bFGF、 アンギオテンシンII などの因子が抑制性に関与する',
           answerImg: [],
-          answer: '',
+          answer: '誤り...抑制性ではない',
           commentary: '',
         },
         {
@@ -2250,7 +2250,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】組織幹細胞や生殖細胞ではhTERT によりテロメラーゼの活性化が抑えられている。',
           answerImg: [],
-          answer: '',
+          answer: '誤り...これらの細胞ではテロメラーゼが活性化されている',
           commentary: '',
         },
         {
@@ -2259,7 +2259,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】組織型の分化度の低い悪性腫瘍はより分化しているものと比較して癌幹細胞の数が多くの転移が形成される',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2268,7 +2268,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】組織形態を決定している遺伝子が発見され遺伝子から形態を予測できる',
           answerImg: [],
-          answer: '',
+          answer: '誤り...予測できていない',
           commentary: '',
         },
         {
@@ -2277,7 +2277,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】多くの癌ではアポトーシスを抑制する生存シグナルが活性化しており ERK 経路や Akt 経路がそれにあたる',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2286,7 +2286,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】大型血管にみられる粥状動脈硬化には、外膜にアテロームが形成される',
           answerImg: [],
-          answer: '',
+          answer: '誤り...外膜ではなく内膜',
           commentary: '',
         },
         {
@@ -2295,7 +2295,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】大腸癌の手術標本において、リンパ管、静脈侵襲の有無を精査するために免疫染色と特殊染色を行った。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2304,7 +2304,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】大腸発がんには COX2. iNOS. 終末糖化産物などによる慢性炎症が関与している',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2313,7 +2313,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】大動脈瘤の大半は、 粥状動脈硬化性で、 腹部大動脈に好発する',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2322,7 +2322,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】単純性脂肪肝の10%がNASHになりその2%以下が肝硬変に進展すると言われる',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2331,7 +2331,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】短時間に最も多くのエネルギーを供給できるのはフォスファーゲンである',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2340,7 +2340,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】胆汁酸中のdeoxycholic acid には大腸発がん促進作用がある',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2349,7 +2349,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】胆道結石、胆道癌、 転移性肝癌、膵炎は閉塞性黄疸の原因となる',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2358,7 +2358,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】胆嚢癌、乳癌、子宮内膜癌、大腸癌は体重増加と伴にリスクが増大する',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2367,7 +2367,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】中型筋性動脈に生じる動脈硬化病変では、中膜の硝子化がみられる',
           answerImg: [],
-          answer: '',
+          answer: '誤り...中膜の硝子化ではなく切開か',
           commentary: '',
         },
         {
@@ -2376,7 +2376,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】腸管内常在菌は年齢とともにいわゆる善玉菌が減少する',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2385,7 +2385,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】腸内環境ではオピオイドが形成されやすく免疫系に影響を与える',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2394,7 +2394,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】腸内細菌の発酵作用によりブチル酸などのエピジェネティック阻害の抑制物質が生成する',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2403,7 +2403,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】腸内細菌の変化は大腸癌のリスクとは関係しない',
           answerImg: [],
-          answer: '',
+          answer: '誤り...腸内細菌と大腸がんリスクは密接に関係している',
           commentary: '',
         },
         {
@@ -2412,7 +2412,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】直接型ビリルビンは血液脳関門を通過しやすい',
           answerImg: [],
-          answer: '',
+          answer: '誤り...直接型は通過しにくい',
           commentary: '',
         },
         {
@@ -2421,7 +2421,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】陳旧性心筋梗塞の症例では心筋間に線維性瘢痕が形成されている',
           answerImg: [],
-          answer: '',
+          answer: '誤り...心筋間ではない',
           commentary: '',
         },
         {
@@ -2430,16 +2430,16 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】低形成とは組織や臓器が正常の大きさまで達しないものである ',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
-            '【正誤問題】分化ながん細胞ほど核クロマチンは凝集しており、細胞の極性も保たれる。',
+            '【正誤問題】低分化ながん細胞ほど核クロマチンは凝集しており、細胞の極性も保たれる。',
           answerImg: [],
-          answer: '',
+          answer: '誤り...低分化ながん細胞は細胞の極性を失っている事が多い',
           commentary: '',
         },
         {
@@ -2448,7 +2448,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】糖が過剰な状況では acetyl CoA からトリグリセリドが合成され脂肪細胞に貯蔵される',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2457,7 +2457,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】糖尿病により最も発癌リスクが高まるのは胃癌である',
           answerImg: [],
-          answer: '',
+          answer: '誤り...胃がんではない',
           commentary: '',
         },
         {
@@ -2466,7 +2466,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】糖尿病性神経障害では末期では激痛は消失することが多い',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2475,7 +2475,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】糖尿病性神経障害の原因として高血糖、 酸化ストレス、終末糖化産物、 PKCE 活性化が挙げられる',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2484,7 +2484,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】動物性脂肪は飽和脂肪酸に富み融点が植物性脂肪よりも低い',
           answerImg: [],
-          answer: '',
+          answer: '誤り...動物性脂肪は融点が高い→常温で固体',
           commentary: '',
         },
         {
@@ -2493,7 +2493,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】動脈硬化は脳梗塞や虚血性心疾患のリスク因子である',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2502,7 +2502,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】動脈酸素分圧の上昇とプロスタグランジンの低下により、動脈管は閉鎖する',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2511,7 +2511,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】同じ個体に発癌物質・発癌プロモーターが同時に作用し発癌することを two hit theory という',
           answerImg: [],
-          answer: '',
+          answer: '誤り...two hit theoryではない',
           commentary: '',
         },
         {
@@ -2520,7 +2520,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】同一のシグナル経路 (例えば KRAS と PI3K や Akt) 内での変異はそうでないもの (例えば KRAS とAPC) と比較して重複することが多い',
           answerImg: [],
-          answer: '',
+          answer: '誤り...',
           commentary: '',
         },
         {
@@ -2538,15 +2538,15 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '【正誤問題】日本人の約1/3が癌により死亡する',
           answerImg: [],
-          answer: '',
-          commentary: '',
+          answer: '正しい',
+          commentary: '2/3ががんになり、1/3が死亡する時代',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence: '【正誤問題】乳酸は酸化的リン酸化を促進する',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2555,7 +2555,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】乳腺針生検で乳癌を見逃し数か月後に周囲組織への癌の浸潤とリンパ管侵襲をきたしたが、 主治医にはその事実を伝えなかった。',
           answerImg: [],
-          answer: '',
+          answer: '誤り...伝えなければならない',
           commentary: '',
         },
         {
@@ -2563,7 +2563,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '【正誤問題】乳頭筋断裂は心筋梗塞の合併症である',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2571,7 +2571,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '【正誤問題】脳梗塞では凝固壊死を呈する',
           answerImg: [],
-          answer: '',
+          answer: '誤り...凝固壊死ではなく融解壊死',
           commentary: '',
         },
         {
@@ -2580,7 +2580,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】排除が遅れたアポトーシス細胞は抗原性を示すことがある',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2588,7 +2588,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '【正誤問題】肺梗塞では、肺胞内に出血がみられる',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2597,7 +2597,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】梅毒では腹部大動脈に大動脈瘤を形成しやすく、栄養血管の炎症と中膜弾性板の破壊がみられる',
           answerImg: [],
-          answer: '',
+          answer: '誤り...胸部大動脈ではない',
           commentary: '',
         },
         {
@@ -2605,7 +2605,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '【正誤問題】白血病は出血傾向のリスクである',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2614,7 +2614,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】白内障では水晶体に変性蛋白が蓄積することで視力低下をきたす。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2622,7 +2622,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '【正誤問題】発癌物質はDNAに付加体を生じる',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2631,7 +2631,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】伴性劣性遺伝病 (X連鎖性劣性遺伝病) はいかなる場合でも女性に発症することはない。',
           answerImg: [],
-          answer: '',
+          answer: '誤り...いかなる場合でも発生しないわけではない',
           commentary: '',
         },
         {
@@ -2640,7 +2640,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】晩期型の先天性梅毒では Hutchinson の歯、 伝令性難聴、角膜炎を認めることが多い。',
           answerImg: [],
-          answer: '',
+          answer: '誤り...伝音性難聴ではない',
           commentary: '',
         },
         {
@@ -2649,7 +2649,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】肥大型心筋症では、 心室中隔が対称性に肥厚する',
           answerImg: [],
-          answer: '',
+          answer: '誤り...対称ではない',
           commentary: '',
         },
         {
@@ -2658,7 +2658,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】肥満 糖尿病、高脂血症、高血圧は動脈硬化を助長する 「死の四重奏」である。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2687,7 +2687,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】病理専門医研修指導医でありながら、 レジデントから依頼された剖検標本のチェックを正当な理由なく怠った。',
           answerImg: [],
-          answer: '',
+          answer: '誤り',
           commentary: '',
         },
         {
@@ -2696,7 +2696,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】父親由来の15q11-13 の欠失ではUBE3A の機能喪失によりAngelman症候群を発症する。',
           answerImg: [],
-          answer: '',
+          answer: '誤り...Angelman症候群ではない',
           commentary: '',
         },
         {
@@ -2705,7 +2705,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】変異によってニッチシグナルの下流が恒常活性化するとニッチから独立することができる。ニッチシグナルから完全に独立した細胞はすべて悪性腫瘍細胞となる',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2714,16 +2714,16 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】変性とは正常代謝物の異常蓄積や異常代謝物の蓄積が、 組織細胞内に生じることである',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
-            '【正誤問題】網膜芽細胞腫では遺伝子異常が認められ、 常染色体優性遺伝である',
+            '【正誤問題】網膜芽細胞腫ではWT1遺伝子異常が認められ、 常染色体優性遺伝である',
           answerImg: [],
-          answer: '',
+          answer: '誤り...WT1ではない',
           commentary: '',
         },
         {
@@ -2732,7 +2732,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】良性腫瘍は悪性腫瘍と比較して増殖能が乏しいために変性や壊死が生じやすい。',
           answerImg: [],
-          answer: '',
+          answer: '誤り...変性や壊死は起こりにくい',
           commentary: '',
         },
         {
@@ -2741,7 +2741,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】老人肺では弾性線維の減少により気腔が拡大するが肺胞は破壊されない。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2750,7 +2750,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】顆粒白血球は貪食作用の強い好中球、 アレルギー性の炎症に関与する好酸球、ヒスタミンを放出する好塩基球がある',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         // {
@@ -3202,7 +3202,8 @@ export const useQuestionList = () => {
             '【正誤問題】副甲状腺ホルモンは骨へのカルシウム沈着を促進する',
           answerImg: [],
           answer: '誤り',
-          commentary: '',
+          commentary:
+            'PTHは血中のカルシウム濃度を上げるため、骨のカルシウムの分解を促進する',
         },
         {
           detailInfo: '4/24午後',
@@ -3266,7 +3267,8 @@ export const useQuestionList = () => {
         {
           detailInfo: '4/24午後',
           questionImg: [],
-          questionSentence: '【正誤問題】ApoptosisではATPを消費してDNAを切断するため細胞の自殺と言われる',
+          questionSentence:
+            '【正誤問題】ApoptosisではATPを消費してDNAを切断するため細胞の自殺と言われる',
           answerImg: [],
           answer: '正しい',
           commentary: '',
@@ -3282,7 +3284,8 @@ export const useQuestionList = () => {
         {
           detailInfo: '4/24午後',
           questionImg: [],
-          questionSentence: '【正誤問題】乾酪壊死は、結核菌を貪食したマクロファージの壊死である',
+          questionSentence:
+            '【正誤問題】乾酪壊死は、結核菌を貪食したマクロファージの壊死である',
           answerImg: [],
           answer: '正しい',
           commentary: '',
@@ -3290,7 +3293,8 @@ export const useQuestionList = () => {
         {
           detailInfo: '4/24午後',
           questionImg: [],
-          questionSentence: '【正誤問題】壊疽性虫垂炎では高度の化膿性炎症により既存の組織構築が消失している',
+          questionSentence:
+            '【正誤問題】壊疽性虫垂炎では高度の化膿性炎症により既存の組織構築が消失している',
           answerImg: [],
           answer: '正しい',
           commentary: '',
@@ -3298,41 +3302,10 @@ export const useQuestionList = () => {
         {
           detailInfo: '4/24午後',
           questionImg: [],
-          questionSentence: '【正誤問題】内在性アポトーシス経路ではミトコンドリア膜電位低下に伴うチトクロムC放出がトリガーとなる',
+          questionSentence:
+            '【正誤問題】内在性アポトーシス経路ではミトコンドリア膜電位低下に伴うチトクロムC放出がトリガーとなる',
           answerImg: [],
           answer: '正しい',
-          commentary: '',
-        },
-        {
-          detailInfo: '4/24午後',
-          questionImg: [],
-          questionSentence: '【正誤問題】',
-          answerImg: [],
-          answer: '',
-          commentary: '',
-        },
-        {
-          detailInfo: '4/24午後',
-          questionImg: [],
-          questionSentence: '【正誤問題】',
-          answerImg: [],
-          answer: '',
-          commentary: '',
-        },
-        {
-          detailInfo: '4/24午後',
-          questionImg: [],
-          questionSentence: '【正誤問題】',
-          answerImg: [],
-          answer: '',
-          commentary: '',
-        },
-        {
-          detailInfo: '4/24午後',
-          questionImg: [],
-          questionSentence: '【正誤問題】',
-          answerImg: [],
-          answer: '',
           commentary: '',
         },
         // {
