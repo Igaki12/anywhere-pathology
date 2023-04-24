@@ -19,6 +19,11 @@ import chromosomalMutation from './img/answer/chromosomalMutation.png'
 import carcinogenesisStep from './img/answer/carcinogenesisStep.png'
 import carcinogenesis from './img/answer/carcinogenesis.png'
 import cancer from './img/answer/cancer.png'
+import programmedCellDeath from './img/answer/programmedCellDeath.png'
+import necrosisApoptosis from './img/answer/necrosisApoptosis.png'
+import necrosis from './img/answer/necrosis.png'
+import cellDeathVariations from './img/answer/cellDeathVariations.png'
+import cellDeath from './img/answer/cellDeath.png'
 
 // import from './img/answer/.png'
 
@@ -3047,14 +3052,14 @@ export const useQuestionList = () => {
             '数分から二時間程度で即時に反応し、抗原の連続曝露に対する脂肪細胞からのヒスタミン分泌によって平滑筋の収縮・仙分泌の増加・毛細血管の透過性亢進をひきおこす',
           commentary: '',
         },
-        {
-          detailInfo: '4/24午前',
-          questionImg: [],
-          questionSentence: '',
-          answerImg: [],
-          answer: '',
-          commentary: '',
-        },
+        // {
+        //   detailInfo: '4/24午前',
+        //   questionImg: [],
+        //   questionSentence: '',
+        //   answerImg: [],
+        //   answer: '',
+        //   commentary: '',
+        // },
 
         // {
         //   detailInfo: '',
@@ -3092,26 +3097,29 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence: '細胞死の分類について述べよ',
-          answerImg: [],
-          answer: '',
+          answerImg: [cellDeath, cellDeathVariations],
+          answer:
+            'Accidental とRegulatedに大別される。アポトーシスはRegulated Cell Deathの一部分でしかない。細胞死は複雑で、アポトーシスやネクローシスが複雑に噛み合って進行する。',
           commentary:
-            'アポトーシス（プログラム細胞死）とネクローシス（事故的細胞死）の2種類。',
+            '最近ではアポトーシス（プログラム細胞死）とネクローシス（偶発的細胞死）の2種類というわけでは無くなってきている。細胞死の分野は研究が盛んで、内容が常に書き変わってきている。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence: 'programmed cell deathとは何か？',
-          answerImg: [],
-          answer: '',
+          answerImg: [programmedCellDeath, cellDeathVariations],
+          answer:
+            '発生過程での時期・部位があらかじめ決まっているような細胞死で、アポトーシスやオートファジー細胞死の機序で細胞死を誘導する。細胞死誘導に一切の刺激が関与しない（PCDではないRCDは刺激を受けたことが引き金となって誘導される制御された細胞死）',
           commentary:
-            'アポトーシスによるType1と、オートファジーを伴うType2と、ネクローシス型（ネクロトーシス/ネクロプトーシス）のType3に分類される。リソソームに依存するかどうかで、3Aと3Bに分類することもある。',
+            'たとえば手指形成。刺激に一切関係なく、成長過程で計画的に細胞死が誘導される。あらゆる臓器・組織の成長・形成は細胞増殖とPCDの組み合わせによるもの。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence: 'ネクローシスの形態的特徴は何か？',
-          answerImg: [],
-          answer: '',
+          answerImg: [necrosisApoptosis],
+          answer:
+            '細胞質内部に空胞ができ、細胞核が核濃縮→核融解し、細胞質がぐちゃぐちゃになる。ヒアリン（硝子）',
           commentary:
             '細胞膜の選択的透過性が破綻することにより細胞が丸く膨潤し、細胞膜は薄くなる。核やミトコンドリアなどの細胞小器官も膨潤し、最終的には細胞膜が破裂して細胞の内容物が飛散する。',
         },
@@ -3119,26 +3127,31 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence: 'アポトーシスの形態的特徴は何か？',
-          answerImg: [],
-          answer: '',
+          answerImg: [necrosisApoptosis],
+          answer:
+            '核が分断され、アポトーシス小体を形成する。アポトーシスの形態は細胞の種類によって異なる。細胞分裂期のクロマチンとよく似た像に見えることがあり、区別が必要。最終的にアポトーシス小体をマクロファージが貪食し、完全に貪食された段階でアポトーシスは終了する。',
           commentary:
-            '細胞が四方八方に膨張して突起物を形成し、断片化されることによって最終的にアポトーシス小体を形成する。',
+            '細胞が四方八方に膨張して突起物を形成し、断片化されることによって最終的にアポトーシス小体を形成する。eat meシグナル',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence: '壊疽とは何か？',
-          answerImg: [],
-          answer: '',
-          commentary: '皮膚細胞が急激に死んだ状態。',
+          answerImg: [necrosis],
+          answer:
+            '基本的には乾性壊疽（血流障害によるミイラ化/今起こるとすれば糖尿病性ぐらい）、湿性壊疽（破傷風や嫌気性菌がガスを産生するので中で泡が発生する→握雪感/現在ではほとんど見られない）、壊疽性炎症（もともとあった組織が壊されてしまう、化膿性壊疽の強い状態）',
+          commentary:
+            '壊死の種類のひとつ。徐々に血流が無くなっていくので、凝固壊死に至らずミイラ状に黒変し硬化していき（乾性壊疽）、切断するしかなくなる。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence: '乾酪壊死とは何か？',
-          answerImg: [],
-          answer: '',
-          commentary: '凝固性の壊死で黄色調のチーズ上の壊死物質を形成する。',
+          answerImg: [necrosis],
+          answer:
+            '結核菌を貪食して死亡してしまったマクロファージの残骸（マクロファージは結核菌を殺すことができず、逆にマクロファージが利用されてしまう）がチーズ状に壊死した状態。チーズ状の元は脂肪。',
+          commentary:
+            '凝固性の壊死で黄色調のチーズ状の壊死物質を形成する。結核と一対一の関係。結核結節やランゲルハンスの巨細胞が特徴→結核結節（特徴的な組織像となる）。肉芽腫性の疾患は数が少なく、テストに出しやすい。',
         },
         // {
         //   detailInfo: '',
