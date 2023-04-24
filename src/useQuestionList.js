@@ -2956,11 +2956,129 @@ export const useQuestionList = () => {
           answer: '',
           commentary: '',
         },
+        {
+          detailInfo: '4/24午前',
+          questionImg: [],
+          questionSentence: '炎症の特徴を4つ答えてください。          ',
+          answerImg: [],
+          answer: '発赤・熱感・腫脹・疼痛',
+          commentary: '機能障害を含めて5徴とも。',
+        },
+        {
+          detailInfo: '4/24午前',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】獲得免疫で主に活躍するものは好中球やマクロファージを代表とする免疫細胞である。          ',
+          answerImg: [],
+          answer: '誤り...獲得免疫ではなく自然免疫',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/24午前',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】炎症にはさまざまな生理活性物質が関与するが、ヒスタミンは血管透過性を亢進させ疼痛をもたらす作用がある。',
+          answerImg: [],
+          answer: '誤り？...ヒスタミンには血管透過性亢進作用はあるが...',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/24午前',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】アラキドン酸カスケードのなかでNSAIDsが阻害するものはシクロオキシゲナーゼであり、プロスタグランジンなどの合成を抑制する。',
+          answerImg: [],
+          answer: '正しい',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/24午前',
+          questionImg: [],
+          questionSentence: '肉芽組織を形成する過程について記述してください。',
+          answerImg: [],
+          answer:
+            '組織が壊死して、そこに好中球マクロファージが集まり分解・貪食が進み、血管新生・線維芽細胞の活性化・増殖によって壊死病変を置換する',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/24午前',
+          questionImg: [],
+          questionSentence: '結核の病理像の特徴を述べてください。',
+          answerImg: [],
+          answer:
+            '核の無い乾酪壊死のまわりにマクロファージ由来の類上皮細胞があつまり、多核のラングハンス巨細胞もかくにんされる、肉芽腫性炎症が見られる。',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/24午前',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】甲状腺機能亢進症は甲状腺刺激ホルモン受容体に対する抗体が過剰に産生される疾患であり、III型アレルギーに代表とされる。',
+          answerImg: [],
+          answer: '誤り...バセドウ病はⅢ型ではなくⅡ型（5型）アレルギー。',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/24午前',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】酸化ストレスはミトコンドリアの酸化的リン酸化の過程で産生される一方で、SODやビタミンなどのスカベンジャーは酸化作用に抗う働きをする。',
+          answerImg: [],
+          answer: '正しい',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/24午前',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】アポトーシスとは、組織の損傷による病的な細胞死と定義される。',
+          answerImg: [],
+          answer:
+            '誤り...アポトーシスは計画された細胞死に対して、病的な細胞死はネクローシスと定義される。',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/24午前',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】I型アレルギーの特徴について述べてください。          ',
+          answerImg: [],
+          answer:
+            '数分から二時間程度で即時に反応し、抗原の連続曝露に対する脂肪細胞からのヒスタミン分泌によって平滑筋の収縮・仙分泌の増加・毛細血管の透過性亢進をひきおこす',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/24午前',
+          questionImg: [],
+          questionSentence: '',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+
         // {
-        //   detailInfo: '4/18午前',
+        //   detailInfo: '',
         //   questionImg: [],
         //   questionSentence:
-        //     '【正誤問題】アミロイドβはタンパク折り畳み障害により発生する。',
+        //     '',
+        //   answerImg: [],
+        //   answer: '',
+        //   commentary: '',
+        // },
+        // {
+        //   detailInfo: '',
+        //   questionImg: [],
+        //   questionSentence:
+        //     '',
+        //   answerImg: [],
+        //   answer: '',
+        //   commentary: '',
+        // },
+        // {
+        //   detailInfo: '',
+        //   questionImg: [],
+        //   questionSentence:
+        //     '',
         //   answerImg: [],
         //   answer: '',
         //   commentary: '',
