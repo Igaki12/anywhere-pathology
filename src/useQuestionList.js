@@ -3308,15 +3308,194 @@ export const useQuestionList = () => {
           answer: '正しい',
           commentary: '',
         },
-        // {
-        //   detailInfo: '',
-        //   questionImg: [],
-        //   questionSentence:
-        //     '',
-        //   answerImg: [],
-        //   answer: '',
-        //   commentary: '',
-        // },
+        {
+          detailInfo: '4/25午前',
+          questionImg: [],
+          questionSentence:
+            'ヌクレオソーム中にヒストンとDNAはそれぞれ何％含まれているか          ',
+          answerImg: [],
+          answer: 'ともに9%',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/25午前',
+          questionImg: [],
+          questionSentence:
+            '必ずしもタンパク質に大きな変異を示さない遺伝子変異を選べ。また、その理由を述べよ',
+          answerImg: [],
+          choices: ['ナンセンス変異', '挿入', 'ミスセンス変異', '欠失'],
+          answer:
+            'ミスセンス変異。理由：変異箇所のタンパク質は変化してしまうが、塩基のセットは変化せず終止コドンも挿入されないので他と比べると大きな変異とはならない',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/25午前',
+          questionImg: [],
+          questionSentence:
+            'SNP(一塩基多型)は人口の何パーセント以上のヒトがもつ変異のことを言うか。          ',
+          answerImg: [],
+          answer: '1％',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/25午前',
+          questionImg: [],
+          questionSentence:
+            '染色体変異のうち染色体の数の変化を示す異数性と倍数性があるが、この両者がどのような変異か簡潔に示せ。',
+          answerImg: [],
+          answer:
+            '有性生殖を行う生物は両親から染色体のセットを2つ受け取るが、受精時などの異常により染色体のセットに過不足が生じている変異。対して異数性の染色体変異はヒトの23染色体のうちいずれかが2本1対より過不足が生じている変異。',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/25午前',
+          questionImg: [],
+          questionSentence:
+            '変異原のひとつに紫外線があるが、紫外線によって障害をうける塩基はどれか',
+          answerImg: [],
+          choices: ['アデニン', 'チミン', 'グアニン', 'シトシン'],
+          answer: 'チミン',
+          commentary: 'チミンダイマーを形成',
+        },
+        {
+          detailInfo: '4/25午前',
+          questionImg: [],
+          questionSentence:
+            'タバコに含まれるベンゾピレンは、生体内に取り込まれると肝臓に含まれるAと言う酵素によって発がん性をもつBになる。AとBの名称を答えよ',
+          answerImg: [],
+          answer: 'AはCYP1A1で、Bはジオールエポキシド',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/25午前',
+          questionImg: [],
+          questionSentence:
+            '喫煙者と非喫煙者の肺がんにおける遺伝子変異は同じか。          ',
+          answerImg: [],
+          answer: 'おなじではない',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/25午前',
+          questionImg: [],
+          questionSentence:
+            'ミスマッチ修復は新生鎖の合成の際に生じるミスを修正するものであるが、新生鎖であるということをなにで認識しているか。          ',
+          answerImg: [],
+          answer: 'タンパク質としてはMutSα',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/25午前',
+          questionImg: [],
+          questionSentence:
+            'ヒストンのアセチル化は転写を促進するか、抑制するか？またアセチル化を引き起こす酵素はなにか？',
+          answerImg: [],
+          answer:
+            'アセチル化は転写を促進する。また、アセチル化を引き起こす酵素はHAT:Histone Acetyl Transferase',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/25午前',
+          questionImg: [],
+          questionSentence:
+            '新生児マススクリーニングは生後4-6日後に行なわれる。生後すぐに行なわないのはなぜか',
+          answerImg: [],
+          answer: '血小板の寿命が数日であるから。',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/25午前',
+          questionImg: [],
+          questionSentence:
+            'フェニルケトン尿症の20パーセントにみられるコドン408におこる変異の種類は？          ',
+          answerImg: [],
+          choices: [
+            'ミスセンス変異',
+            'ナンセンス変異',
+            'サイレント変異',
+            'フレームシフト',
+          ],
+          answer: 'ミスセンス変異',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/25午前',
+          questionImg: [],
+          questionSentence: '次のうちX性染色体劣勢遺伝病を選べ          ',
+          answerImg: [],
+          choices: [
+            '鎌状赤血球貧血症',
+            'Fabry病',
+            'フェニルケトン尿症',
+            '糖原病（Ⅰ型）',
+          ],
+          answer: 'Fabry病',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/25午前',
+          questionImg: [],
+          questionSentence:
+            '脈管内侵入により血管に入ったがん細胞は他の細胞との接着を失う足場非依存的な状態になる。この状態は細胞死を引き起こすが、この細胞死の名前をなんというか',
+          answerImg: [],
+          answer: 'アノイキス',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/25午前',
+          questionImg: [],
+          questionSentence:
+            '大腸発がんにおいて初期に変異が最も高頻繁にみられる遺伝子はどれか          ',
+          answerImg: [],
+          choices: ['K-ras', 'APC', 'B-raf', 'P53'],
+          answer: 'APC',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/25午前',
+          questionImg: [],
+          questionSentence:
+            'がんの変異には染色体変異あり、有名なものとして慢性骨髄性白血病がある。この原因は染色体の欠失によりBCR/ABL融合遺伝子をもったフィラデルフィア染色体が生じることである。BCR/ABL融合遺伝子はチロシンキナーゼを異常活性化する。',
+          answerImg: [],
+          answer: '染色体の欠失ではなく(9と22番染色体間の)転座。',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/25午前',
+          questionImg: [],
+          questionSentence:
+            'p53やp16、APCといった癌抑制遺伝子の欠損した家系が報告されており（p53欠損はLi-Fraumeni症候群、p16欠損は家族性網膜芽細胞腫、APCは家族性大腸ポリポーシス）悪性腫瘍を若年で発症する.。　この文章中で間違いがあればその部分を訂正し、なければ「なし｣と記入せよ',
+          answerImg: [],
+          answer: 'p16欠損は家族性悪性黒色腫と関連している',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/25午前',
+          questionImg: [],
+          questionSentence:
+            'すべてに当てはまるわけでないが、傾向として癌種では遺伝子異常が多く肉腫では染色体変異が多い。　この文章中で間違いがあればその部分を訂正し、なければ「なし｣と記入せよ',
+          answerImg: [],
+          answer: 'なし',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/25午前',
+          questionImg: [],
+          questionSentence:
+            '乳がんは受容体の有無によってタイプ分けされ、治療方針も変わる。そのうち治療抵抗性であり予後が不良なことが多い乳がんをトリプルネガティブ乳がんと言う。このトリプルネガティブ乳がんにおいて発現がみられない3つの受容体を述べよ',
+          answerImg: [],
+          answer: 'ER（エストロゲンR）、PgR（プロゲステロンR）、HER2',
+          commentary: '',
+        },
+        {
+          detailInfo: '4/25午前',
+          questionImg: [],
+          questionSentence:
+            'Ink4ファミリーはCDK4/6に直接結合しその活性を阻害するが、Cip/KipファミリーはどのCDKにどのような形で活性を阻害するかを簡潔に述べよ',
+          answerImg: [],
+          answer: 'CDK4/6以外のCyc-CDK複合体自体に結合して、CDK活性を阻害する',
+          commentary: '',
+        },
         // {
         //   detailInfo: '',
         //   questionImg: [],
