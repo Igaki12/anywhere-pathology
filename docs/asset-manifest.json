@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/anywhere-pathology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-pathology/static/js/main.754db594.js",
+    "main.js": "/anywhere-pathology/static/js/main.9c65f2f3.js",
     "static/media/fattyLiver.png": "/anywhere-pathology/static/media/fattyLiver.d78da0215a04496d6dbb.png",
     "static/media/prostaticHyperplasia.png": "/anywhere-pathology/static/media/prostaticHyperplasia.af4cb487859c80bc7b0a.png",
     "static/media/necrosisApoptosis.png": "/anywhere-pathology/static/media/necrosisApoptosis.ddb1c056da63a1125675.png",
+    "static/media/myocardialInfarctionComplication.png": "/anywhere-pathology/static/media/myocardialInfarctionComplication.a342af84627e219999ae.png",
+    "static/media/myocardialInfarctionalTissue.png": "/anywhere-pathology/static/media/myocardialInfarctionalTissue.3e979a7b517adc0e893b.png",
     "static/media/schoenleinHenoch.png": "/anywhere-pathology/static/media/schoenleinHenoch.c562a755f7450c1cf27d.png",
     "static/media/cerebralInfarction.png": "/anywhere-pathology/static/media/cerebralInfarction.3d724c133bdf89d1044a.png",
     "static/media/hypertension.png": "/anywhere-pathology/static/media/hypertension.59589571903170be0943.png",
@@ -30,6 +32,8 @@
     "static/media/LOH.png": "/anywhere-pathology/static/media/LOH.c86f4b3323bb39ad9378.png",
     "static/media/nicheSignalCancer.png": "/anywhere-pathology/static/media/nicheSignalCancer.b81c252785e74c5b41ab.png",
     "static/media/NHEJ.png": "/anywhere-pathology/static/media/NHEJ.a24120e82e7a743b8e1f.png",
+    "static/media/coronaryArteryDisease.png": "/anywhere-pathology/static/media/coronaryArteryDisease.54b447bfb3b798b530a8.png",
+    "static/media/myocardialInfarctionSymptom.png": "/anywhere-pathology/static/media/myocardialInfarctionSymptom.ff44dfc1ccc8729341e7.png",
     "static/media/cellDeath.png": "/anywhere-pathology/static/media/cellDeath.13a4d468b835b386ac66.png",
     "static/media/tumorSuppressorGene.png": "/anywhere-pathology/static/media/tumorSuppressorGene.94873c696eed1f553022.png",
     "static/media/cancerStemCell1.png": "/anywhere-pathology/static/media/cancerStemCell1.7c6dbd550f1c96f70f4c.png",
@@ -41,10 +45,10 @@
     "static/media/gatekeeper.png": "/anywhere-pathology/static/media/gatekeeper.0b5030b78aa54ba091fd.png",
     "index.html": "/anywhere-pathology/index.html",
     "main.6180b9dc.css.map": "/anywhere-pathology/static/css/main.6180b9dc.css.map",
-    "main.754db594.js.map": "/anywhere-pathology/static/js/main.754db594.js.map"
+    "main.9c65f2f3.js.map": "/anywhere-pathology/static/js/main.9c65f2f3.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.754db594.js"
+    "static/js/main.9c65f2f3.js"
   ]
 }

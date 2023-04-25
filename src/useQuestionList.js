@@ -35,6 +35,10 @@ import cancerStemCell1 from './img/answer/cancerStemCell1.png'
 import atherosclerosis1 from './img/answer/atherosclerosis1.png'
 import aneurysmTypes from './img/answer/aneurysmTypes.png'
 import schoenleinHenoch from './img/answer/schoenleinHenoch.png'
+import myocardialInfarctionSymptom from './img/answer/myocardialInfarctionSymptom.png'
+import myocardialInfarctionComplication from './img/answer/myocardialInfarctionComplication.png'
+import myocardialInfarctionalTissue from './img/answer/myocardialInfarctionalTissue.png'
+import coronaryArteryDisease from './img/answer/coronaryArteryDisease.png'
 
 // import from './img/answer/.png'
 
@@ -1382,18 +1386,20 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】異型狭心症は、冠動脈に血栓が一時的に生じて発症する',
-          answerImg: [],
-          answer: '誤り...血栓ではない',
-          commentary: '',
+          answerImg: [coronaryArteryDisease],
+          answer: '誤り...血栓ではなく動脈攣縮',
+          commentary:
+            '異型狭心症は、軽度の冠動脈動脈硬化と動脈攣縮（ホルモンなどによる一過性の血管の異常収縮）が原因の狭心症。血栓が形成される場合は心筋梗塞となる。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】異型狭心症は、冠動脈の内腔が血栓により閉塞し生じる',
-          answerImg: [],
-          answer: '誤り...血栓ではない',
-          commentary: '',
+          answerImg: [coronaryArteryDisease],
+          answer: '誤り...異型狭心症ではなく心筋梗塞',
+          commentary:
+            '異型狭心症は、軽度の冠動脈動脈硬化と動脈攣縮（ホルモンなどによる一過性の血管の異常収縮）が原因の狭心症。血栓が形成される場合は心筋梗塞となる。',
         },
         {
           detailInfo: '',
@@ -2084,8 +2090,8 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】心筋梗塞の発症直後から、マクロファージが認められる',
-          answerImg: [],
-          answer: '誤り...直後ではない',
+          answerImg: [myocardialInfarctionSymptom],
+          answer: '誤り...直後ではなく数日後～数週間後',
           commentary: '',
         },
         {
@@ -2093,8 +2099,8 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】心筋梗塞発症から約2日経過した症例では強い線維化がみられる',
-          answerImg: [],
-          answer: '誤り...二日ではない',
+          answerImg: [myocardialInfarctionSymptom],
+          answer: '誤り...2日後ではなく数週間後',
           commentary: '',
         },
         {
@@ -2435,9 +2441,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】陳旧性心筋梗塞の症例では心筋間に線維性瘢痕が形成されている',
-          answerImg: [],
+          answerImg: [myocardialInfarctionalTissue],
           answer: '誤り...心筋間ではない',
-          commentary: '',
+          commentary:
+            '心筋細胞は殆ど再生しないため、死んだ心筋細胞に置き換わる',
         },
         {
           detailInfo: '',
@@ -2507,7 +2514,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】動脈硬化は脳梗塞や虚血性心疾患のリスク因子である',
-          answerImg: [],
+          answerImg: [coronaryArteryDisease],
           answer: '正しい',
           commentary: '',
         },
@@ -2577,7 +2584,7 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence: '【正誤問題】乳頭筋断裂は心筋梗塞の合併症である',
-          answerImg: [],
+          answerImg: [myocardialInfarctionComplication],
           answer: '正しい',
           commentary: '',
         },
