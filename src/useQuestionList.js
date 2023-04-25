@@ -24,6 +24,17 @@ import necrosisApoptosis from './img/answer/necrosisApoptosis.png'
 import necrosis from './img/answer/necrosis.png'
 import cellDeathVariations from './img/answer/cellDeathVariations.png'
 import cellDeath from './img/answer/cellDeath.png'
+import nicheSignalCancer from './img/answer/nicheSignalCancer.png'
+import nicheControlCancer from './img/answer/nicheControlCancer.png'
+import moenckeberg from './img/answer/moenckeberg.png'
+import hypertension from './img/answer/hypertension.png'
+import hypermiaCongestion from './img/answer/hypermiaCongestion.png'
+import cerebralInfarction from './img/answer/cerebralInfarction.png'
+import cancerStemCell2 from './img/answer/cancerStemCell2.png'
+import cancerStemCell1 from './img/answer/cancerStemCell1.png'
+import atherosclerosis1 from './img/answer/atherosclerosis1.png'
+import aneurysmTypes from './img/answer/aneurysmTypes.png'
+import schoenleinHenoch from './img/answer/schoenleinHenoch.png'
 
 // import from './img/answer/.png'
 
@@ -173,9 +184,9 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】HDLはコレステロール密度が高く粥状動脈硬化を生じやすい',
-          answerImg: [],
+          answerImg: [atherosclerosis1],
           answer: '誤り...HDLではなくLDL',
-          commentary: '',
+          commentary: 'HDLは善玉コレステロール',
         },
         {
           detailInfo: '',
@@ -623,9 +634,9 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence:
-            '【正誤問題】Goodpasture症候群、溶血性貧血、Henoch-Schnlein紫斑症はⅡ型アレルギーで起こる。',
-          answerImg: [],
-          answer: '誤り...Hernoch-Schnlein紫斑症ではない',
+            '【正誤問題】Goodpasture症候群、溶血性貧血、Schoenlein-Henoch紫斑症はⅡ型アレルギーで起こる。',
+          answerImg: [schoenleinHenoch],
+          answer: '誤り...Hernoch-Schnlein紫斑症はIgAによるアレルギーが原因。',
           commentary: '',
         },
         {
@@ -804,7 +815,7 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence:
-            '【正誤問題】PARP阻害薬は一本鎖切断修復酵素の阻害薬でありBRCA1、BRCA2に異常のある悪性腫瘍に適応がある。BRCA1、BRCA2に異常のある細胞はDNAを修復できず分裂致死となる。',
+            '【正誤問題】PARP阻害薬 は一本鎖切断修復酵素の阻害薬でありBRCA1、BRCA2に異常のある悪性腫瘍に適応がある。BRCA1、BRCA2に異常のある細胞はDNAを修復できず分裂致死となる。',
           answerImg: [PARP],
           answer: '正しい',
           commentary:
@@ -941,18 +952,19 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】がん幹細胞は、自己再生能と腫瘍を構成する様々な系統のがん細胞をつくり、一個から新しい集団をつくる多分化能をもつ。',
-          answerImg: [],
+          answerImg: [cancerStemCell1],
           answer: '正しい',
-          commentary: '',
+          commentary: '→転移・再発（悪性度）に関与。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
-            '【正誤問題】がん幹細胞を標的とした治療にWNT経路やNOTCH経路のような肝細胞性を維持するための経路の阻害や肝細胞マーカーに対する抗体治療などが挙げられる。',
+            '【正誤問題】がん幹細胞を標的とした治療にWNT経路やNOTCH経路のよう幹細胞性を維持するための経路の阻害や幹細胞マーカーに対する抗体治療などが挙げられる。',
           answerImg: [],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            'ただしがん細胞には可塑性があり、がん幹細胞だけをターゲットにしてもがん幹細胞が復活する結果も出てきている',
         },
         {
           detailInfo: '',
@@ -1371,7 +1383,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】異型狭心症は、冠動脈に血栓が一時的に生じて発症する',
           answerImg: [],
-          answer: '誤り...血栓が一時的に生じない',
+          answer: '誤り...血栓ではない',
           commentary: '',
         },
         {
@@ -1523,9 +1535,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】幹細胞はニッチシグナルに依存し幹細胞性を保っている。これらのシグナルは多段階発ガンで獲得すると考えられている変異に対応する',
-          answerImg: [],
+          answerImg: [nicheSignalCancer],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            'ニッチシグナル経路に対応する変異：APC、KRAS、TP53、SMAD4はすべて多段階発がんにも影響している。',
         },
         {
           detailInfo: '',
@@ -1585,8 +1598,8 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence:
-            '【正誤問題】癌幹細胞の性質として抗がん剤に耐性をもつ、 活性酸素の除去能力が強い (ALDH1 等の高発現) 足場非依存性の増殖 (スフェロイド形成能)、 幹細胞マーカーの発現があげられる ',
-          answerImg: [],
+            '【正誤問題】がん幹細胞の性質として抗がん剤に耐性をもつ、 活性酸素の除去能力が強い (ALDH1 等の高発現) 足場非依存性の増殖 (スフェロイド形成能)、 幹細胞マーカーの発現があげられる ',
+          answerImg: [cancerStemCell2],
           answer: '正しい',
           commentary: '',
         },
@@ -1686,9 +1699,9 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】血液の流入が増加してうっ血は起こり、小動脈が拡張する',
-          answerImg: [],
-          answer: '誤り...うっ血ではない',
-          commentary: '',
+          answerImg: [hypermiaCongestion],
+          answer: '誤り...うっ血ではなく充血',
+          commentary: 'うっ血は流出障害で、拡張するのは小静脈。',
         },
         {
           detailInfo: '',
@@ -2133,9 +2146,9 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence: '【正誤問題】真性動脈瘤では動脈壁の破綻がみられる ',
-          answerImg: [],
+          answerImg: [aneurysmTypes],
           answer: '誤り...動脈壁の破綻がみられるのは仮性動脈瘤',
-          commentary: '',
+          commentary: '真性動脈瘤は梅毒性大動脈瘤など。',
         },
         {
           detailInfo: '',
@@ -2186,9 +2199,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】正常幹細胞においてステムセルニッチから離れた細胞は分化を開始する。 がん細胞にも癌幹細胞ニッチが存在しその中に癌幹細胞が存在すると考えられている',
-          answerImg: [],
+          answerImg: [nicheControlCancer],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            'ニッチによる制御から独立する→がん幹細胞が増え制御できなくなるにつれて悪性度（転移・再発リスク）が増す',
         },
         {
           detailInfo: '',
@@ -2257,10 +2271,11 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence:
-            '【正誤問題】組織型の分化度の低い悪性腫瘍はより分化しているものと比較して癌幹細胞の数が多くの転移が形成される',
-          answerImg: [],
+            '【正誤問題】組織型の分化度の低い悪性腫瘍はより分化しているものと比較してがん幹細胞の数が多く、多くの転移が形成される',
+          answerImg: [cancerStemCell1],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            'がん幹細胞は転移・再発に関与していて、がん幹細胞が多いほど悪性度が高い。また、がん幹細胞はがん細胞と比べて分化度が低い（多分化能）。',
         },
         {
           detailInfo: '',
@@ -2285,9 +2300,9 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】大型血管にみられる粥状動脈硬化には、外膜にアテロームが形成される',
-          answerImg: [],
+          answerImg: [atherosclerosis1],
           answer: '誤り...外膜ではなく内膜',
-          commentary: '',
+          commentary: '内膜が肥厚していくので外膜はむしろ薄くなる',
         },
         {
           detailInfo: '',
@@ -2312,7 +2327,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】大動脈瘤の大半は、 粥状動脈硬化性で、 腹部大動脈に好発する',
-          answerImg: [],
+          answerImg: [aneurysmTypes],
           answer: '正しい',
           commentary: '',
         },
@@ -2366,9 +2381,9 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】中型筋性動脈に生じる動脈硬化病変では、中膜の硝子化がみられる',
-          answerImg: [],
-          answer: '誤り...中膜の硝子化ではなく切開か',
-          commentary: '',
+          answerImg: [moenckeberg],
+          answer: '誤り...中膜の硝子化ではなく石灰化',
+          commentary: 'Moenckeberg型中膜硬化症。',
         },
         {
           detailInfo: '',
@@ -2570,7 +2585,7 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence: '【正誤問題】脳梗塞では凝固壊死を呈する',
-          answerImg: [],
+          answerImg: [cerebralInfarction],
           answer: '誤り...凝固壊死ではなく融解壊死',
           commentary: '',
         },
@@ -2596,9 +2611,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】梅毒では腹部大動脈に大動脈瘤を形成しやすく、栄養血管の炎症と中膜弾性板の破壊がみられる',
-          answerImg: [],
-          answer: '誤り...胸部大動脈ではない',
-          commentary: '',
+          answerImg: [aneurysmTypes],
+          answer: '誤り...腹部大動脈ではない',
+          commentary:
+            '梅毒性大動脈瘤は胸部（上行大動脈・大動脈弓）に好発。中膜弾性繊維破壊消失を招く。腹部大動脈に好発するのは粥状大動脈瘤で、栄養血管vasa vasorumの炎症を招くのは梅毒性大動脈瘤。',
         },
         {
           detailInfo: '',
@@ -2606,7 +2622,7 @@ export const useQuestionList = () => {
           questionSentence: '【正誤問題】白血病は出血傾向のリスクである',
           answerImg: [],
           answer: '正しい',
-          commentary: '',
+          commentary: '血小板が減少するため。',
         },
         {
           detailInfo: '',
@@ -2704,9 +2720,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】変異によってニッチシグナルの下流が恒常活性化するとニッチから独立することができる。ニッチシグナルから完全に独立した細胞はすべて悪性腫瘍細胞となる',
-          answerImg: [],
+          answerImg: [nicheSignalCancer],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '正常の幹細胞は周囲の微小環境（ニッチ）からシグナルを受けて増殖を制御されているが、ニッチシグナルの経路に遺伝子変異が蓄積することによって増殖に歯止めが効かなくなる。→この変異の蓄積が多段階発がんである',
         },
         {
           detailInfo: '',
@@ -2948,9 +2965,10 @@ export const useQuestionList = () => {
           detailInfo: '4/18午前',
           questionImg: [],
           questionSentence: '【正誤問題】フィブリノイド壊死は動脈炎で見られる',
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          answerImg: [hypertension],
+          answer: '正しい',
+          commentary:
+            'フィブリノイド（フィブリン様物質）は、変形したコラーゲン、基質、フィブリンなどがにじみこんで見られる',
         },
         {
           detailInfo: '4/18午前',
@@ -3209,9 +3227,10 @@ export const useQuestionList = () => {
           detailInfo: '4/24午後',
           questionImg: [],
           questionSentence: '【正誤問題】フィブリノイド壊死は動脈炎で見られる',
-          answerImg: [],
+          answerImg: [hypertension],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            'フィブリノイド（フィブリン様物質）は変形したコラーゲン、基質、フィブリンなどがにじみこんで形成される。',
         },
         {
           detailInfo: '4/24午後',
