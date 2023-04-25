@@ -1,4 +1,12 @@
 import { useState } from 'react'
+import mitochondria from './img/answer/mitochondria.png'
+import fattyAcid from './img/answer/fattyAcid.png'
+import causeOfDeath from './img/answer/causeOfDeath.png'
+import causeOfCancer from './img/answer/causeOfCancer.png'
+import CancerFromAGE from './img/answer/CancerFromAGE.png'
+import cancerDeathRate from './img/answer/cancerDeathRate.png'
+import AGE from './img/answer/AGE.png'
+
 import prostaticHyperplasia from './img/answer/prostaticHyperplasia.png'
 import fattyLiver from './img/answer/fattyLiver.png'
 import methylationDNA from './img/answer/methylationDNA.png'
@@ -215,9 +223,9 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】高糖質により増加する酸化ストレスはミトコンドリアの抑制により減少する',
-          answerImg: [],
+          answerImg: [mitochondria],
           answer: '正しい',
-          commentary: '',
+          commentary: 'ミトコンドリアは最大のROS発生組織である。',
         },
         {
           detailInfo: '',
@@ -321,9 +329,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】終末糖化産物は蛋白等にメーラード反応や酸化ストレスなどで非酵素的に糖の修飾が生じたものである',
-          answerImg: [],
+          answerImg: [AGE],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            'ゆっくりと様々なタンパク・脂質を糖化していく。AGEとよばれ、発がん・がん進行の原因として重視される。',
         },
         {
           detailInfo: '',
@@ -339,18 +348,19 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】終末糖化産物は受容体であるRAGEを介し細胞増殖、細胞運動、血管新生を促進する',
-          answerImg: [],
+          answerImg: [CancerFromAGE],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            'RAGEの活性化が、がんの増殖・進展を助ける。AGEや糖化HMGB1はRAGEのリガンド。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】終末糖化産物はDNA付加体の増加をもたらす',
-          answerImg: [],
+          answerImg: [CancerFromAGE],
           answer: '正しい',
-          commentary: '',
+          commentary: 'HMGB1（ヒストンの一部）を糖化させる',
         },
 
         // {
@@ -381,9 +391,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】1984年以降日本人の死因の第一位はがんである。',
-          answerImg: [],
+          answerImg: [causeOfDeath],
           answer: '誤り...1981年以降',
-          commentary: '',
+          commentary:
+            'それ以前は脳血管疾患、その前は結核。結核は特効薬ストレプトマイシンの発見によって治る病気に。',
         },
         {
           detailInfo: '',
@@ -1331,7 +1342,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】リポフスチンなどの老廃物にも終末糖化産物が蓄積している',
-          answerImg: [],
+          answerImg: [AGE],
           answer: '正しい',
           commentary: '',
         },
@@ -1785,9 +1796,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】高血糖や酸化ストレスは蛋白質における終末糖化産物の形成を促進する',
-          answerImg: [],
+          answerImg: [AGE],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '高血糖 + (酸化ストレス or 加熱)　によってAGEは形成される。AGEはがん発生・進行の原因として重視される。',
         },
         {
           detailInfo: '',
@@ -1839,9 +1851,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】細胞内活性酸素の発生源としてミトコンドリアとNAD(P)H レダクターゼが重要である',
-          answerImg: [],
-          answer: '誤り...レダクターゼではない',
-          commentary: '',
+          answerImg: [mitochondria],
+          answer: '誤り...NAD(P)Hレダクターゼではない',
+          commentary:
+            'ミトコンドリア内の電子伝達系の複合体Ⅲによって活性酸素は主に発生する。',
         },
         {
           detailInfo: '',
@@ -1990,36 +2003,39 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】終末糖化産物は受容体であるCAGE を介し細胞増殖、細胞運動、血管新生を促進する',
-          answerImg: [],
+          answerImg: [CancerFromAGE],
           answer: '誤り...受容体はRAGE',
-          commentary: '',
+          commentary:
+            'RAGEはAGEや糖化HMGB1の受容体で、RAGEの活性化ががんの増殖・進行に寄与する。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】終末糖化産物は蛋白等に酸化ストレス刺激により酵素反応により糖の修飾が生じたものである',
-          answerImg: [],
+          answerImg: [AGE],
           answer: '誤り...酵素反応ではない',
-          commentary: '',
+          commentary:
+            'AGEは比酵素的な糖の修飾で、様々なタンパク・脂質から形成される。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】終末糖化産物もHMGB1 も RAGE の受容体になる',
-          answerImg: [],
-          answer: '誤り...RAGEはAGEの受容体',
-          commentary: '',
+          answerImg: [CancerFromAGE],
+          answer: '正しい',
+          commentary:
+            'AGEもHMGB1もRAGEのリガンド。いずれもRAGEを活性化し、がん細胞の増殖・活性酸素生成・血管新生・細胞運動を助ける。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】終末糖化産物遺伝子は複数の転写 variant を有する',
-          answerImg: [],
+          answerImg: [AGE],
           answer: '誤り...終末糖化産物遺伝子は存在しない',
-          commentary: '',
+          commentary: 'AGEはタンパクや脂質に対する、非酵素的な糖化。',
         },
         {
           detailInfo: '',
@@ -2224,9 +2240,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】生成された終末糖化産物を分解する薬剤はまだ開発されていない',
-          answerImg: [],
+          answerImg: [AGE],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '様々なタンパク・脂質に対する非酵素的な糖の修飾によってAGEは生成されるので、これら全てを分解する薬剤は開発されていない。AGEが生成されにくくする薬剤は開発されてきている。',
         },
         {
           detailInfo: '',
@@ -2856,9 +2873,9 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】加齢による発がんリスクの上昇は幹細胞分裂回数と関連する',
-          answerImg: [],
+          answerImg: [cancerDeathRate],
           answer: '正しい',
-          commentary: '一般的にがん細胞は組織幹細胞から生まれる',
+          commentary: 'がん細胞は組織幹細胞から生まれると考えられている。',
         },
         {
           detailInfo: '4/18午前',
@@ -2883,8 +2900,8 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】赤身肉の摂取は大腸がんのリスクファクターである',
-          answerImg: [],
-          answer: '',
+          answerImg: [causeOfCancer],
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2892,8 +2909,8 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】高脂肪食・高糖質食は大腸発がん・転移を促進する。',
-          answerImg: [],
-          answer: '',
+          answerImg: [causeOfCancer],
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -2910,8 +2927,8 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】終末糖化産物は蛋白などに酸化ストレス刺激により酵素反応により糖の修飾が生じたものである。',
-          answerImg: [],
-          answer: '',
+          answerImg: [AGE],
+          answer: '誤り...非酵素的。',
           commentary: '',
         },
         {
@@ -3053,9 +3070,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】酸化ストレスはミトコンドリアの酸化的リン酸化の過程で産生される一方で、SODやビタミンなどのスカベンジャーは酸化作用に抗う働きをする。',
-          answerImg: [],
+          answerImg: [mitochondria],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            'ミトコンドリアの電子伝達系、複合体Ⅲで酸素分子と電子が反応する。ビタミンE、ビタミンCは抗酸化作用を持つ',
         },
         {
           detailInfo: '4/24午前',
@@ -3172,9 +3190,9 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】終末糖化産物は蛋白等に酸化ストレス刺激により酵素反応により糖の修飾が生じたものである',
-          answerImg: [],
+          answerImg: [AGE],
           answer: '誤り',
-          commentary: '',
+          commentary: '非酵素的な糖化',
         },
         {
           detailInfo: '4/24午後',
