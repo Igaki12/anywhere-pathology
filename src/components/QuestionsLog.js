@@ -47,7 +47,7 @@ export const QuestionsLog = ({
       toast({
         position: 'top',
         title: 'GOOD JOB',
-        description: '全ての問題が終わりました！',
+        description: '全問題が終了',
         status: 'success',
         duration: 9000,
         isClosable: true,
