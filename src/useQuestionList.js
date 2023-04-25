@@ -3511,7 +3511,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             'two-hit theoryについて調べ、100-200字でまとめてください。',
-          answerImg: [],
+          answerImg: [LOH],
           answer:
             'Rb,P53,p16,APCなどのがん抑制遺伝子の不活化によってがん化するとき、対応する遺伝子の両アレルに変異が生じることが原因で欠損しているとする説。実際には偶然両アレルに別々の変異が発生する確率は著しく低く、片アレルの変異が組換え異常により正常なアレルに置き換わる、ヘテロ接合性の消失(LOH)が原因という説も唱えられている。',
           commentary: '',
