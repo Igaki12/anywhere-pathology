@@ -51,6 +51,10 @@ import welsh from './img/answer/welsh.png'
 import transFattyAcid from './img/answer/transFattyAcid.png'
 import oxidativePhosphorylation from './img/answer/oxidativePhosphorylation.png'
 import carcinomaSteps from './img/answer/carcinomaSteps.png'
+import hypertrophy from './img/answer/hypertrophy.png'
+import fattyLiverDestination from './img/answer/fattyLiverDestination.png'
+import duchanne from './img/answer/duchanne.png'
+import atrophy from './img/answer/atrophy.png'
 
 // import from './img/answer/.png'
 
@@ -67,16 +71,16 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】仮性肥大では実質細胞数は増加するが、その容積は逆に減少している。',
-          answerImg: [],
+          answerImg: [hypertrophy],
           answer: '誤り...仮性肥大では間質の細胞数が増加し、容積が増加する。',
-          commentary: '',
+          commentary: '実質細胞の数が増えるのは過形成。前立腺肥大など。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】前立腺肥大では実質細胞は過形成だが間質細胞は肥大を示す。',
-          answerImg: [prostaticHyperplasia],
+          answerImg: [hypertrophy],
           answer: '誤り...間質細胞も過形成される',
           commentary: '',
         },
@@ -93,10 +97,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】萎縮とは正常の発達段階にあった組織や臓器の細胞数の減少である',
-          answerImg: [],
-          answer:
-            '誤り...萎縮には数的委縮と単純萎縮があり、この文章は数的委縮の説明である。',
-          commentary: '',
+          answerImg: [atrophy],
+          answer: '正しい',
+          commentary:
+            '細胞数が減少したり、実質細胞の大きさが縮小したりすることによって正常であった組織の重量や容積が減少することを萎縮という。',
         },
         {
           detailInfo: '',
@@ -281,9 +285,9 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】NASHでは小滴脂肪肝、水滴細胞出現、線維化、炎症細胞浸潤が見られる',
-          answerImg: [],
+          answerImg: [fattyLiver],
           answer: '誤り...小滴脂肪肝ではなく大滴脂肪肝',
-          commentary: '',
+          commentary: '悪化すると肝硬変、肝がんの原因となる。',
         },
         {
           detailInfo: '',
@@ -799,9 +803,9 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】NASHでは小滴性脂肪肝・水滴細胞出現・線維化・炎症細胞浸潤が見られる。',
-          answerImg: [],
+          answerImg: [fattyLiver],
           answer: '誤り...小滴性脂肪肝ではない',
-          commentary: '',
+          commentary: '大滴性脂肪肝',
         },
         {
           detailInfo: '',
@@ -1707,9 +1711,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】筋ジストロフィーでは線維化や脂肪化により仮性肥大を起こすことがある',
-          answerImg: [],
+          answerImg: [duchanne],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            'デュシェンヌ型筋ジストロフィーは遺伝子疾患で、初期症状としてふくらはぎの仮性肥大がみられる事が多い。',
         },
         {
           detailInfo: '',
@@ -1995,9 +2000,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】収縮型心筋症では心筋細胞は肥大し、錯綜配列が認められる',
-          answerImg: [],
+          answerImg: [hypertrophy],
           answer: '誤り...収縮型ではない',
-          commentary: '',
+          commentary:
+            '拡張型心筋症は心筋の肥大をおこす難病。収縮型心筋症は存在しない？',
         },
         {
           detailInfo: '',
@@ -2369,7 +2375,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】単純性脂肪肝の10%がNASHになりその2%以下が肝硬変に進展すると言われる',
-          answerImg: [],
+          answerImg: [fattyLiverDestination],
           answer: '正しい',
           commentary: '',
         },
@@ -2700,7 +2706,8 @@ export const useQuestionList = () => {
             '【正誤問題】肥大型心筋症では、 心室中隔が対称性に肥厚する',
           answerImg: [],
           answer: '誤り...対称ではない',
-          commentary: '',
+          commentary:
+            '肥大型心筋症は、心肥大を起こす原因となる高血圧や弁膜症などの病気が無いにもかかわらず、通常左室、ときに右室の心筋の肥大がおこる病気。',
         },
         {
           detailInfo: '',
@@ -2955,7 +2962,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】単純性脂肪肝の10%がNASHになりその2%以下が肝硬変に進展するといわれる。',
-          answerImg: [],
+          answerImg: [fattyLiverDestination],
           answer: '',
           commentary: '',
         },
@@ -3217,7 +3224,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】単純性脂肪肝の10%がNASHになりその2%以下が肝硬変に進展すると言われる',
-          answerImg: [],
+          answerImg: [fattyLiverDestination],
           answer: '正しい',
           commentary: '',
         },
