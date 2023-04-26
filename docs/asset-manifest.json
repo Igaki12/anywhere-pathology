@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-pathology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-pathology/static/js/main.32b97a1e.js",
+    "main.js": "/anywhere-pathology/static/js/main.1a515c2a.js",
     "static/media/fattyLiver.png": "/anywhere-pathology/static/media/fattyLiver.d78da0215a04496d6dbb.png",
     "static/media/prostaticHyperplasia.png": "/anywhere-pathology/static/media/prostaticHyperplasia.af4cb487859c80bc7b0a.png",
     "static/media/necrosisApoptosis.png": "/anywhere-pathology/static/media/necrosisApoptosis.ddb1c056da63a1125675.png",
@@ -14,13 +14,16 @@
     "static/media/necrosis.png": "/anywhere-pathology/static/media/necrosis.121c94bb8dd935c56a7a.png",
     "static/media/mitochondria.png": "/anywhere-pathology/static/media/mitochondria.6e782ecd57087684f7d1.png",
     "static/media/programmedCellDeath.png": "/anywhere-pathology/static/media/programmedCellDeath.1cf6da6eaa94ae84919b.png",
+    "static/media/oxidativePhosphorylation.png": "/anywhere-pathology/static/media/oxidativePhosphorylation.c65d97555b7e82e92154.png",
     "static/media/atherosclerosis1.png": "/anywhere-pathology/static/media/atherosclerosis1.98d4de40d39eabec9e3f.png",
     "static/media/carcinogenesisStep.png": "/anywhere-pathology/static/media/carcinogenesisStep.8235212115064354565a.png",
+    "static/media/welsh.png": "/anywhere-pathology/static/media/welsh.0d77919b960b5defec3a.png",
     "static/media/fattyAcid.png": "/anywhere-pathology/static/media/fattyAcid.5771855fabe84649090d.png",
     "static/media/BRD4.png": "/anywhere-pathology/static/media/BRD4.e36f4c62821063c99eda.png",
     "static/media/cancer.png": "/anywhere-pathology/static/media/cancer.50e43646b70b9bf3dfdd.png",
     "static/media/cellDeathVariations.png": "/anywhere-pathology/static/media/cellDeathVariations.8af0fc5bcbdbecf84c44.png",
     "static/media/carcinogenesis.png": "/anywhere-pathology/static/media/carcinogenesis.2d9c6657e11dd198e766.png",
+    "static/media/transFattyAcid.png": "/anywhere-pathology/static/media/transFattyAcid.972d4bd15cba3406d964.png",
     "static/media/aneurysmTypes.png": "/anywhere-pathology/static/media/aneurysmTypes.0976e0d91b051ba57e2c.png",
     "static/media/moenckeberg.png": "/anywhere-pathology/static/media/moenckeberg.2f9a70e992e745ef8db3.png",
     "static/media/coordinatedHistone.png": "/anywhere-pathology/static/media/coordinatedHistone.fc96e423141f967115a7.png",
@@ -30,6 +33,7 @@
     "static/media/causeOfDeath.png": "/anywhere-pathology/static/media/causeOfDeath.2e6ed130dabd40f36366.png",
     "static/media/nicheControlCancer.png": "/anywhere-pathology/static/media/nicheControlCancer.d0db8147a603c20315ca.png",
     "static/media/methylationDNA.png": "/anywhere-pathology/static/media/methylationDNA.35b2adabc4867bb3b7b3.png",
+    "static/media/carcinomaSteps.png": "/anywhere-pathology/static/media/carcinomaSteps.3e91c7402d9a9340be53.png",
     "static/media/AGE.png": "/anywhere-pathology/static/media/AGE.37b93d0950f68e8973b7.png",
     "static/media/titleImg.jpg": "/anywhere-pathology/static/media/titleImg.aaff375a334cd5b42e2a.jpg",
     "static/media/maintenanceMethylationDNA.png": "/anywhere-pathology/static/media/maintenanceMethylationDNA.e84c84d20c60db7cbc3e.png",
@@ -52,10 +56,10 @@
     "static/media/gatekeeper.png": "/anywhere-pathology/static/media/gatekeeper.0b5030b78aa54ba091fd.png",
     "index.html": "/anywhere-pathology/index.html",
     "main.6180b9dc.css.map": "/anywhere-pathology/static/css/main.6180b9dc.css.map",
-    "main.32b97a1e.js.map": "/anywhere-pathology/static/js/main.32b97a1e.js.map"
+    "main.1a515c2a.js.map": "/anywhere-pathology/static/js/main.1a515c2a.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.32b97a1e.js"
+    "static/js/main.1a515c2a.js"
   ]
 }

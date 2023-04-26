@@ -47,6 +47,10 @@ import myocardialInfarctionSymptom from './img/answer/myocardialInfarctionSympto
 import myocardialInfarctionComplication from './img/answer/myocardialInfarctionComplication.png'
 import myocardialInfarctionalTissue from './img/answer/myocardialInfarctionalTissue.png'
 import coronaryArteryDisease from './img/answer/coronaryArteryDisease.png'
+import welsh from './img/answer/welsh.png'
+import transFattyAcid from './img/answer/transFattyAcid.png'
+import oxidativePhosphorylation from './img/answer/oxidativePhosphorylation.png'
+import carcinomaSteps from './img/answer/carcinomaSteps.png'
 
 // import from './img/answer/.png'
 
@@ -225,7 +229,8 @@ export const useQuestionList = () => {
             '【正誤問題】高糖質により増加する酸化ストレスはミトコンドリアの抑制により減少する',
           answerImg: [mitochondria],
           answer: '正しい',
-          commentary: 'ミトコンドリアは最大のROS発生組織である。',
+          commentary:
+            'ミトコンドリアは最大のROS発生組織である。がん細胞では酸素豊富な状況でも酸化的リン酸化が抑制されていて、酸化ストレスの発生やそれに伴うアポトーシスを回避している。',
         },
         {
           detailInfo: '',
@@ -234,7 +239,7 @@ export const useQuestionList = () => {
             '【正誤問題】過剰な遊離脂肪酸は膵β細胞のインスリン分泌を促進し肝での糖新生を亢進する',
           answerImg: [],
           answer: '誤り...インスリン分泌を抑制する',
-          commentary: '',
+          commentary: '遊離脂肪酸は肝臓でケトン体に変換される、空腹時の物質。',
         },
         {
           detailInfo: '',
@@ -886,9 +891,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】α-リノレン酸はn-6系の不飽和脂肪酸でアラキドン酸を経てプロスタグランジンになる。',
-          answerImg: [],
+          answerImg: [fattyAcid],
           answer: '誤り...α-リノレン酸ではなくリノール酸',
-          commentary: '',
+          commentary:
+            'α-リノレン酸はEPA・DHAに変換され、動脈硬化・血栓を予防する作用をもつ。',
         },
         {
           detailInfo: '',
@@ -949,7 +955,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】ウェルシュ菌は食中毒菌であり腸内には常在しない',
-          answerImg: [],
+          answerImg: [welsh],
           answer: '正しい',
           commentary: '',
         },
@@ -1112,27 +1118,30 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】トランス型脂肪酸はLDLを増加させ粥状動脈硬化を促進する',
-          answerImg: [],
+          answerImg: [transFattyAcid],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            'トランス脂肪酸はマーガリン・ショートニングに多く含まれる',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】トランス型脂肪酸は人工的な合成によって生成し自然界には存在しない',
-          answerImg: [],
+          answerImg: [transFattyAcid],
           answer: '誤り...自然界にも存在する',
-          commentary: '',
+          commentary:
+            '牛乳・バター・牛肉などの反芻動物由来の食品中には天然型トランス脂肪酸が含まれる。それ以外の多くの加工食品中に含まれるトランス脂肪酸は植物油からの合成。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】トランス型脂肪酸は同じ炭素数のシス型脂肪酸よりも融点が高い',
-          answerImg: [],
+          answerImg: [transFattyAcid],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            'トランス脂肪酸の多くは植物油を水素化処理したものだが、植物油とは異なり常温で固体。',
         },
         {
           detailInfo: '',
@@ -1815,9 +1824,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】高糖質により増加する酸化ストレスはミトコンドリアの抑制により減少する',
-          answerImg: [],
+          answerImg: [mitochondria],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            'ミトコンドリアでの酸化的リン酸化がROSを発生させる。がん細胞ではROSの発生やそれに伴うアポトーシスを回避するため、酸素が豊富な条件下でも酸化的リン酸化が抑制されている。',
         },
         {
           detailInfo: '',
@@ -2845,7 +2855,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】α-リノレン酸はn6系の不飽和脂肪酸でアラキドン酸を経てプロスタグランジンになる',
-          answerImg: [],
+          answerImg: [fattyAcid],
           answer:
             '誤り...α-リノレン酸はn3系不飽和脂肪酸で、DHA・EPAに変換され動脈硬化や血栓の抑止にはたらくといわれている。',
           commentary: '',
@@ -2855,7 +2865,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】ウェルシュ菌は食中毒菌であり腸内には常在しない。',
-          answerImg: [],
+          answerImg: [welsh],
           answer: '正しい',
           commentary: '加齢とともに腸内に増えるといわれている。',
         },
@@ -2883,7 +2893,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】我々は常に自然放射線や活性酸素種、紫外線やアルコール、ベンツピレン等の変異原にさらされておりDNA損傷が生じている。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -3109,16 +3119,16 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】αリノレン酸はn6系の不飽和脂肪酸でアラキドン酸を経てプロスタグランジンになる',
-          answerImg: [],
+          answerImg: [fattyAcid],
           answer: '誤り',
-          commentary: '',
+          commentary: 'α-リノレン酸ではなくリノール酸',
         },
         {
           detailInfo: '4/24午後',
           questionImg: [],
           questionSentence:
             '【正誤問題】ウェルシュ菌は食中毒菌であり腸内には常在しない',
-          answerImg: [],
+          answerImg: [welsh],
           answer: '正しい',
           commentary: '',
         },
@@ -3490,7 +3500,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '大腸発がんにおいて初期に変異が最も高頻繁にみられる遺伝子はどれか          ',
-          answerImg: [],
+          answerImg: [carcinomaSteps],
           choices: ['K-ras', 'APC', 'B-raf', 'P53'],
           answer: 'APC',
           commentary: '',
@@ -3557,7 +3567,7 @@ export const useQuestionList = () => {
             'two-hit theoryについて調べ、100-200字でまとめてください。',
           answerImg: [LOH],
           answer:
-            'Rb,P53,p16,APCなどのがん抑制遺伝子の不活化によってがん化するとき、対応する遺伝子の両アレルに変異が生じることが原因で欠損しているとする説。実際には偶然両アレルに別々の変異が発生する確率は著しく低く、片アレルの変異が組換え異常により正常なアレルに置き換わる、ヘテロ接合性の消失(LOH)が原因という説も唱えられている。',
+            'Rb,P53,p16,APCなどのがん抑制遺伝子への変異によってがん化するとき、対応する遺伝子の両アレルに変異が生じることが原因で欠損しているとする説。実際には偶然両アレルに別々の変異が発生する確率は著しく低く、片アレルの変異が組換え異常により正常なアレルに置き換わる、ヘテロ接合性の消失(LOH)が原因という説も唱えられている。',
           commentary: '',
         },
         {
