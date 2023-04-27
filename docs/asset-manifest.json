@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-pathology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-pathology/static/js/main.e07af8a1.js",
+    "main.js": "/anywhere-pathology/static/js/main.adf535fe.js",
     "static/media/prostaticHyperplasia.png": "/anywhere-pathology/static/media/prostaticHyperplasia.af4cb487859c80bc7b0a.png",
     "static/media/necrosisApoptosis.png": "/anywhere-pathology/static/media/necrosisApoptosis.ddb1c056da63a1125675.png",
     "static/media/myocardialInfarctionComplication.png": "/anywhere-pathology/static/media/myocardialInfarctionComplication.a342af84627e219999ae.png",
@@ -60,10 +60,10 @@
     "static/media/gatekeeper.png": "/anywhere-pathology/static/media/gatekeeper.0b5030b78aa54ba091fd.png",
     "index.html": "/anywhere-pathology/index.html",
     "main.6180b9dc.css.map": "/anywhere-pathology/static/css/main.6180b9dc.css.map",
-    "main.e07af8a1.js.map": "/anywhere-pathology/static/js/main.e07af8a1.js.map"
+    "main.adf535fe.js.map": "/anywhere-pathology/static/js/main.adf535fe.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.e07af8a1.js"
+    "static/js/main.adf535fe.js"
   ]
 }
