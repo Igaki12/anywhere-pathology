@@ -81,6 +81,19 @@ import fattyLiverDestination from './img/answer/fattyLiverDestination.png'
 import duchanne from './img/answer/duchanne.png'
 import atrophy from './img/answer/atrophy.png'
 import esophagobronchialFistula from './img/answer/esophagobronchialFistula.png'
+import sarcoidosis from './img/answer/sarcoidosis.png'
+import mediatorFromCell from './img/answer/mediatorFromCell.png'
+import inflammatoryMediator from './img/answer/inflammatoryMediator.png'
+import inflammation from './img/answer/inflammation.png'
+import glanulomaTypes from './img/answer/glanulomaTypes.png'
+import glanuloma from './img/answer/glanuloma.png'
+import glanulationTissue from './img/answer/glanulationTissue.png'
+import allergy5 from './img/answer/allergy5.png'
+import allergy4 from './img/answer/allergy4.png'
+import allergy3 from './img/answer/allergy3.png'
+import allergy2 from './img/answer/allergy2.png'
+import allergy1 from './img/answer/allergy1.png'
+import acuteInflammation from './img/answer/acuteInflammation.png'
 
 // import from './img/answer/.png'
 
@@ -446,7 +459,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】Ⅲ型アレルギーはTcやマクロファージにより好酸球が増殖することで生じる。',
-          answerImg: [],
+          answerImg: [allergy4],
           answer: '誤り...Ⅲ型ではなくⅣ型',
           commentary: '',
         },
@@ -455,9 +468,9 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】Ⅳ型アレルギーでは免疫複合体の形成により補体が活性化されることで細胞が傷害される。',
-          answerImg: [],
+          answerImg: [allergy3],
           answer: '誤り...Ⅳ型ではなくⅢ型アレルギー',
-          commentary: '',
+          commentary: '免疫複合体によるアレルギー反応。関節リウマチなど。',
         },
         {
           detailInfo: '',
@@ -588,7 +601,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】炎症とは障害刺激に対する組織と微小循環の反応で障害刺激は外傷や病原体、外来異物のほかにも脂質の蓄積や悪性新生物が挙げられる。炎症の目的は病原刺激を除去し組織を修復することである。',
-          answerImg: [],
+          answerImg: [inflammation],
           answer: '正しい',
           commentary: '',
         },
@@ -780,9 +793,11 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】Ⅰ型アレルギーでは肥満細胞のFc受容体にIgE抗体が結合することで脱顆粒がおこる。',
-          answerImg: [],
-          answer: '誤り...',
-          commentary: '',
+          answerImg: [allergy1],
+          answer:
+            '誤り...肥満細胞と結合したIgE抗体に抗原抗体反応が起こることが必須',
+          commentary:
+            'IgE抗体が肥満細胞に付着→抗原抗体反応→ヒスタミンなどの脱顆粒の流れ。数分～2時間程度の即時型アレルギー/アナフィラキシー。',
         },
         {
           detailInfo: '',
@@ -1498,7 +1513,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】炎症の四徴のひとつである浮腫は間質に体液が漏れ出して組織が腫脹している。 血管の透過性が亢進している場合を炎症性浮腫と呼び比重の低い漏出液が見られる',
-          answerImg: [],
+          answerImg: [inflammation],
           answer: '誤り...漏出液は比重が大きい',
           commentary: '',
         },
@@ -1507,16 +1522,16 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】炎症メディエーターはケモカイン、C5a、 リポキシゲナーゼ等の血管作動性メディエーターとヒスタミン、ブラジキニンなどの走化性因子に大別される',
-          answerImg: [],
+          answerImg: [inflammatoryMediator],
           answer: '誤り...ケモカインは走化性因子',
-          commentary: '',
+          commentary: 'ヒスタミン・ブラジキニンは血管作動性メディエーター。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】炎症時の発赤、 発熱は毛細血管の開大による血流の増加を反映している。 また、血管透過性の亢進による滲出液 (transudate) が血管外に流出することにより腫脹が起きる',
-          answerImg: [],
+          answerImg: [inflammation],
           answer: '正しい',
           commentary: '',
         },
@@ -1709,10 +1724,11 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence:
-            '【正誤問題】急性炎症は炎症の急性期の反応で病原体と傷害された組織の除去、 炎症メディエーターの産生、 炎症細胞の動因が生じ、 最後に炎症メディエーターにたいする特異的阻害物質が働き炎症が終結する',
-          answerImg: [],
+            '【正誤問題】急性炎症は炎症の急性期の反応で病原体と傷害された組織の除去、 炎症メディエーターの産生、 炎症細胞の動因が生じ、 最後に炎症メディエーターに対する特異的阻害物質が働き炎症が終結する',
+          answerImg: [acuteInflammation],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '急性炎症でうまく治癒できない場合慢性炎症へ移行し、肉芽組織などを形成し始める。',
         },
         {
           detailInfo: '',
@@ -1922,7 +1938,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】細胞由来の炎症性メディエーターでもヒスタミンやHMGB1は細胞内で合成され貯蔵されている。 また、リン脂質やアラキドン酸の代謝に由来するものがある',
-          answerImg: [],
+          answerImg: [mediatorFromCell],
           answer: '正しい',
           commentary: '',
         },
@@ -2159,10 +2175,11 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence:
-            '【正誤問題】心サルコイドーシスでは、胸の形成がみられる',
-          answerImg: [],
-          answer: '誤り...肉芽ではない',
-          commentary: '',
+            '【正誤問題】心サルコイドーシスでは、肉芽組織の形成がみられる',
+          answerImg: [sarcoidosis],
+          answer: '誤り...肉芽組織ではなく肉芽腫',
+          commentary:
+            'サルコイド肉芽腫はサルコイドーシス患者のリンパ節・肺・皮膚・心臓・肝臓・脾臓・唾液腺・網膜などに認められる。結核結節とは異なり中心部に壊死はほとんど認められない。ラングハンス型巨細胞と異物型巨細胞の両方が認められ、星状小体やシャウマン小体が見られることがある。',
         },
         {
           detailInfo: '',
@@ -3077,7 +3094,7 @@ export const useQuestionList = () => {
           detailInfo: '4/24午前',
           questionImg: [],
           questionSentence: '炎症の特徴を4つ答えてください。          ',
-          answerImg: [],
+          answerImg: [inflammation],
           answer: '発赤・熱感・腫脹・疼痛',
           commentary: '機能障害を含めて5徴とも。',
         },
@@ -3096,7 +3113,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】炎症にはさまざまな生理活性物質が関与するが、ヒスタミンは血管透過性を亢進させ疼痛をもたらす作用がある。',
-          answerImg: [],
+          answerImg: [inflammatoryMediator],
           answer: '正しい',
           commentary:
             'ヒスタミンは⾎管透過性を亢進させたり内因性疼痛物質として痛みをもたらして炎症を促進させます。他炎症性メディエーターのセロトニンやブラジキニンも同様の作⽤があります。',
@@ -3115,7 +3132,7 @@ export const useQuestionList = () => {
           detailInfo: '4/24午前',
           questionImg: [],
           questionSentence: '肉芽組織を形成する過程について記述してください。',
-          answerImg: [],
+          answerImg: [glanulationTissue],
           answer:
             '：組織において壊死が⽣じたところを好中球やマクロファージが分解・貪⾷し、これに対して⾎管や線維芽細胞が活性化して増⽣することで壊死病変を置換し⾁芽組織が形成される。',
           commentary:
@@ -3166,7 +3183,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】I型アレルギーの特徴について述べてください。          ',
-          answerImg: [],
+          answerImg: [allergy1],
           answer:
             '即時型アレルギーであり、数分から 2 時間で反応する。IgE の関与が特徴で、肥満細胞に付着した後抗原が再侵⼊することで抗原抗体反応がおこる。ヒスタミンやロイコトリエンなどが分泌され、蕁⿇疹や呼吸困難、粘液分泌亢進による⿐⽔といった症状が出現する。',
           commentary: '',
