@@ -6,6 +6,17 @@ import causeOfCancer from './img/answer/causeOfCancer.png'
 import CancerFromAGE from './img/answer/CancerFromAGE.png'
 import cancerDeathRate from './img/answer/cancerDeathRate.png'
 import AGE from './img/answer/AGE.png'
+import Wilson from './img/answer/Wilson.png'
+import ReceptorOfAGE from './img/answer/ReceptorOfAGE.png'
+import produceROS from './img/answer/produceROS.png'
+import Menkes from './img/answer/Menkes.png'
+import MELAS from './img/answer/MELAS.png'
+import jaundiceTissue from './img/answer/jaundiceTissue.png'
+import jaundiceBrain from './img/answer/jaundiceBrain.png'
+import jaundice from './img/answer/jaundice.png'
+import bilirubinDifference from './img/answer/bilirubinDifference.png'
+import bilirubin2 from './img/answer/bilirubin2.png'
+import bilirubin from './img/answer/bilirubin.png'
 
 import prostaticHyperplasia from './img/answer/prostaticHyperplasia.png'
 import fattyLiver from './img/answer/fattyLiver.png'
@@ -548,9 +559,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】Criggler-Najar症候群では間接型ビリルビンが増加する。',
-          answerImg: [],
+          answerImg: [jaundice],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '脂溶性の間接型ビリルビンは肝細胞でグルクロン酸抱合を受けて水溶性の直接型ビリルビンに代謝されるが、Criggler-Najar症候群ではグルクロン酸抱合障害により黄疸が発生する。間接型はBBBを通過し脳に沈着する核黄疸を合併してしまう。Crigler-Najiar症候群は予後不良。',
         },
         {
           detailInfo: '',
@@ -766,7 +778,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】MELASやMERRFでは血中の尿酸やピルビン酸が高値となる。',
-          answerImg: [],
+          answerImg: [MELAS],
           answer: '正しい',
           commentary: '',
         },
@@ -784,9 +796,11 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】Menkes症候群は小腸での銅吸収障害をきたす伴性劣性遺伝病で、末期には肝硬変の像を呈する。',
-          answerImg: [],
-          answer: '誤り...肝硬変の像を呈さない',
-          commentary: '',
+          answerImg: [Menkes, Wilson],
+          answer:
+            '誤り...Menkes病は銅の代謝障害で、主に脳の神経細胞の壊死がみられる',
+          commentary:
+            'そのほか、Wilson病は常染色体劣性遺伝の銅排泄障害による過剰症であり、肝臓などの全身臓器に銅が沈着して肝硬変の像を呈する。',
         },
         {
           detailInfo: '',
@@ -1227,26 +1241,28 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】ビリルビン・メラニン・リポフスチン・胆汁はいずれもHE染色では褐色顆粒として認められる。',
-          answerImg: [],
+          answerImg: [jaundiceTissue],
           answer: '正しい',
-          commentary: '',
+          commentary: 'メラニン→褐色色素、リポフスチン→褐色萎縮',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】ビリルビンが小腸で吸収され肝臓に戻ることを腸肝循環という。',
-          answerImg: [],
-          answer: '誤り...ビリルビンではない',
-          commentary: '',
+          answerImg: [bilirubin],
+          answer: '誤り...ビリルビンではなくウロビリノーゲン',
+          commentary:
+            '胆汁として小腸へ排出されたビリルビンは腸内細菌によってウロビリノーゲンへ変換され、ウロビリノーゲンの形で小腸から一部吸収される→腸肝循環。このウロビリノーゲンは一部尿中へ排出され、尿の色のもととなる。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】ビリルビンの直接型・間接型はvan Gieson反応の差である。',
-          answerImg: [],
-          answer: '誤り...van Gieson反応ではない',
+          answerImg: [bilirubinDifference],
+          answer:
+            '誤り...van Gieson反応ではなくvan den Bergh反応。直接型ビリルビンが水溶性であるのに対して間接型ビリルビンは脂溶性なのでメタノールによる前処置がないと発色しない→間接型といわれる。',
           commentary: '',
         },
         {
@@ -1357,7 +1373,7 @@ export const useQuestionList = () => {
             '【正誤問題】リポフスチンなどの老廃物にも終末糖化産物が蓄積している',
           answerImg: [AGE],
           answer: '正しい',
-          commentary: '',
+          commentary: 'リポフスチン沈着による褐色萎縮は老化の原因となる。',
         },
         {
           detailInfo: '',
@@ -1484,9 +1500,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】黄色のビリルビンは酸化されて青色のビリベルジンになる',
-          answerImg: [],
-          answer: '誤り...あおいろではない',
-          commentary: '',
+          answerImg: [bilirubin2],
+          answer: '誤り...青色ではなく緑色',
+          commentary:
+            '直接型ビリルビンは一部酸化して緑色のビリベルジンとなる。ビリベルジンはヘムから間接ビリルビンとなる中間産物としても生成される。',
         },
         {
           detailInfo: '',
@@ -1593,7 +1610,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】肝細胞障害による脂肪肝では中心肝静脈周囲の肝細胞に脂肪滴を生じやすい',
-          answerImg: [],
+          answerImg: [fattyLiver],
           answer: '正しい',
           commentary: '',
         },
@@ -1602,7 +1619,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】肝重量の70%以上のトリグリセリドの蓄積により脂肪肝が生じる',
-          answerImg: [],
+          answerImg: [fattyLiver],
           answer: '誤り...70%以上ではなく7%以上',
           commentary: '',
         },
@@ -1611,18 +1628,20 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】間接型ビリルビンはミトコンドリアの酸化的リン酸化を阻害する',
-          answerImg: [],
+          answerImg: [jaundiceBrain],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            'Criggler-Najar症候群などで異常に増えた間接型ビリルビンは脂溶性で血液脳関門を容易に通過し核黄疸を引き起こす。アルブミン非結合型間接ビリルビンは細胞膜中のリン脂質やガングリオシドに結合し、神経細胞の酸素消費や酸化的リン酸化を阻害し脳を傷害する。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】間接型ビリルビンは血中では免疫グロブリンと結合して運搬される',
-          answerImg: [],
+          answerImg: [bilirubin],
           answer: '誤り...免疫グロブリンではなくグルクロン酸',
-          commentary: '',
+          commentary:
+            '肝細胞によって脂溶性の間接型から水溶性の直接型にグルクロン酸抱合され、胆汁へ排出される',
         },
         {
           detailInfo: '',
@@ -1739,9 +1758,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】血中ビリルビンが2mg/dl以上になると顕在性の黄疸を生じる',
-          answerImg: [],
+          answerImg: [jaundiceBrain],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '2mg/dlを超えると眼球結膜が黄染し、目に見えてわかるようになる。',
         },
         {
           detailInfo: '',
@@ -1866,10 +1886,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】細胞内活性酸素の発生源としてミトコンドリアとNAD(P)H レダクターゼが重要である',
-          answerImg: [mitochondria],
-          answer: '誤り...NAD(P)Hレダクターゼではない',
+          answerImg: [produceROS],
+          answer: '誤り...NAD(P)Hレダクターゼではなく、NAD(P)Hオキシダーゼ',
           commentary:
-            'ミトコンドリア内の電子伝達系の複合体Ⅲによって活性酸素は主に発生する。',
+            '活性酸素は1.ミトコンドリアにおける酸化的リン酸化、2.ペルオキシソームや小胞体、3.好中球の細胞膜のNADPHオキシダーゼによって産生される。活性酸素は様々な疾患の原因であるが、病原体の殺菌・薬物の解毒において重要な役割を果たす側面も持っている。',
         },
         {
           detailInfo: '',
@@ -2402,9 +2422,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】胆道結石、胆道癌、 転移性肝癌、膵炎は閉塞性黄疸の原因となる',
-          answerImg: [],
+          answerImg: [bilirubin],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '直接型ビリルビンは胆汁として排出されるが、胆道が閉塞されることで黄疸を発症する。膵炎や膵癌が胆道を圧迫することもある。',
         },
         {
           detailInfo: '',
@@ -2465,9 +2486,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】直接型ビリルビンは血液脳関門を通過しやすい',
-          answerImg: [],
+          answerImg: [bilirubinDifference],
           answer: '誤り...直接型は通過しにくい',
-          commentary: '',
+          commentary:
+            '脂溶性で核黄疸の原因となる間接型とは異なり、グルクロン酸抱合を受けた直接型は水溶性でBBBを通過しにくい。胆汁中に排出される。',
         },
         {
           detailInfo: '',
@@ -2971,27 +2993,30 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】直接型ビリルビンは血液脳関門を通過しやすい',
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          answerImg: [bilirubinDifference],
+          answer: '誤り...直接型ではなく間接型',
+          commentary:
+            '間接型ビリルビンはBBBを通過し核黄疸の原因となる。Criggler-Najar症候群など。',
         },
         {
           detailInfo: '4/18午前',
           questionImg: [],
           questionSentence:
             '【正誤問題】間接型ビリルビンはミトコンドリアの酸化的リン酸化を阻害する',
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          answerImg: [jaundiceBrain],
+          answer: '正しい',
+          commentary:
+            'Criggler-Najar症候群などで異常に増えた間接型ビリルビンは脂溶性で血液脳関門を容易に通過し核黄疸を引き起こす。アルブミン非結合型間接ビリルビンは細胞膜中のリン脂質やガングリオシドに結合し、神経細胞の酸素消費や酸化的リン酸化を阻害し脳を傷害する。',
         },
         {
           detailInfo: '4/18午前',
           questionImg: [],
           questionSentence:
             '【正誤問題】3価鉄はFenton反応によりヒドロキシラジカルを生成し発がんに関与する',
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          answerImg: [mitochondria],
+          answer: '誤り...3価鉄ではなく2価鉄',
+          commentary:
+            'ミトコンドリアで酸化的リン酸化の過程で酸化ストレスが生成される。',
         },
         {
           detailInfo: '4/18午前',
@@ -3239,8 +3264,8 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】直接型ビリルビンは血液脳関門を通過しやすい',
-          answerImg: [],
-          answer: '誤り',
+          answerImg: [bilirubinDifference],
+          answer: '誤り...直接型ではなく間接型',
           commentary: '',
         },
         {
@@ -3248,18 +3273,20 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】間接型ビリルビンはミトコンドリアの酸化的リン酸化を阻害する',
-          answerImg: [],
+          answerImg: [jaundiceBrain],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            'Criggler-Najar症候群などで異常に増えた間接型ビリルビンは脂溶性で血液脳関門を容易に通過し核黄疸を引き起こす。アルブミン非結合型間接ビリルビンは細胞膜中のリン脂質やガングリオシドに結合し、神経細胞の酸素消費や酸化的リン酸化を阻害し脳を傷害する。',
         },
         {
           detailInfo: '4/24午後',
           questionImg: [],
           questionSentence:
             '【正誤問題】3価鉄はFenton反応によりヒドロキシラジカルを生成し発癌に関与する',
-          answerImg: [],
-          answer: '誤り',
-          commentary: '',
+          answerImg: [mitochondria],
+          answer: '誤り...3価鉄ではなく2価鉄',
+          commentary:
+            'ヒドロキシラジカルなどのROSの大部分はミトコンドリアで合成される。',
         },
         {
           detailInfo: '4/24午後',
