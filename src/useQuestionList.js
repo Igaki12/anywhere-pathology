@@ -80,6 +80,7 @@ import hypertrophy from './img/answer/hypertrophy.png'
 import fattyLiverDestination from './img/answer/fattyLiverDestination.png'
 import duchanne from './img/answer/duchanne.png'
 import atrophy from './img/answer/atrophy.png'
+import esophagobronchialFistula from './img/answer/esophagobronchialFistula.png'
 
 // import from './img/answer/.png'
 
