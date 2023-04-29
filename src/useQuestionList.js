@@ -17,6 +17,20 @@ import jaundice from './img/answer/jaundice.png'
 import bilirubinDifference from './img/answer/bilirubinDifference.png'
 import bilirubin2 from './img/answer/bilirubin2.png'
 import bilirubin from './img/answer/bilirubin.png'
+import Wilms from './img/answer/Wilms.png'
+import retinoblastoma from './img/answer/retinoblastoma.png'
+import neuroblastoma from './img/answer/neuroblastoma.png'
+import nephroblastoma from './img/answer/nephroblastoma.png'
+import leukemia from './img/answer/leukemia.png'
+import Kartagener from './img/answer/Kartagener.png'
+import Hirschsprung from './img/answer/Hirschsprung.png'
+import heartMiscreation from './img/answer/heartMiscreation.png'
+import Fallot from './img/answer/Fallot.png'
+import Down from './img/answer/Down.png'
+import cancerFromDM from './img/answer/cancerFromDM.png'
+import brainTumor from './img/answer/brainTumor.png'
+import amyloidBeta from './img/answer/amyloidBeta.png'
+import amyloid from './img/answer/amyloid.png'
 
 import prostaticHyperplasia from './img/answer/prostaticHyperplasia.png'
 import fattyLiver from './img/answer/fattyLiver.png'
@@ -155,7 +169,8 @@ export const useQuestionList = () => {
             '【正誤問題】ポリオール代謝亢進により還元型グルタミンが減少し酸化ストレスが増加する',
           answerImg: [],
           answer: '誤り...還元型グルタミンではなく還元型グルタチオン',
-          commentary: '',
+          commentary:
+            '糖尿病に関連した動脈硬化の促進因子として、インスリン作用不全にもとづくポリオール代謝経路の活性亢進が報告されている。',
         },
         {
           detailInfo: '',
@@ -447,27 +462,30 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence:
-            '【正誤問題】AA型アミロイドは血清アミロイドAAタンパクに由来する。',
-          answerImg: [],
+            '【正誤問題】AA型アミロイドは血清アミロイドAA蛋白に由来する。',
+          answerImg: [amyloid],
           answer: '誤り...AA蛋白ではなくA蛋白',
-          commentary: '',
+          commentary:
+            'Serum amyloid A で血清アミロイドA蛋白由来。AA型アミロイドは急性期反応蛋白の一種で、急性・慢性疾患や加齢で増加し、肝細胞が産生する。血管壁に貯留しやすく、続発性アミロイドーシスの原因となる。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence: '【正誤問題】AGEの増加は大腸がんのリスクとなる',
-          answerImg: [],
+          answerImg: [CancerFromAGE],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            'AGEによるRAGE活性化によって、細胞の増殖・活性酸素生成・血管新生・細胞運動が誘導され発がんリスクが高まる',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】Alzheimer病ではβアミロイドが沈着した老人斑により錐体外路障害を認める。',
-          answerImg: [],
-          answer: '誤り...錐体外路障害ではない',
-          commentary: '',
+          answerImg: [amyloidBeta],
+          answer: '誤り...錐体外路障害ではなく認知症',
+          commentary:
+            'βアミロイドタンパクは老人斑に蓄積し、大脳はびまん性に萎縮する。大脳皮質の幅はせまくなり、脳回は狭く、脳溝が拡大し、認知症症状を示す。',
         },
         {
           detailInfo: '',
@@ -662,9 +680,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】Fallot四徴症の症状は、左室肥大・心室中隔欠損・騎乗大動脈・肺動脈閉鎖であり、チアノーゼを伴わない。',
-          answerImg: [],
+          answerImg: [Fallot],
           answer: '誤り...左室肥大ではなく右室',
-          commentary: '',
+          commentary:
+            '肺動脈狭窄により右室が肥大する。動脈管が開存していることが多く、R-Lシャントによって肺血流を保とうとする。',
         },
         {
           detailInfo: '',
@@ -697,7 +716,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】Hirschsprung病では、神経節を欠損し、外来神経は過形成である。',
-          answerImg: [],
+          answerImg: [Hirschsprung],
           answer: '正しい',
           commentary: '',
         },
@@ -769,9 +788,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】Kartagener症候群では内臓逆位を認め、線毛機能不全を呈し、巨大結腸症を合併する。',
-          answerImg: [],
-          answer: '誤り...巨大結腸症ではない',
-          commentary: '',
+          answerImg: [Kartagener],
+          answer:
+            '誤り...巨大結腸症ではなく慢性副鼻腔炎・中耳炎・不妊症・水頭症など',
+          commentary: '線毛の異常によって左右内臓逆位が説明できる。',
         },
         {
           detailInfo: '',
@@ -845,9 +865,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】P53やRbといったがん抑制遺伝子の欠損した家系が報告されており（P53欠損はLi-Fraumeni症候群、Rb欠損は家族性網膜芽細胞腫）悪性腫瘍を若年で発症する。',
-          answerImg: [],
+          answerImg: [tumorSuppressorGene],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            'がん抑制遺伝子は両アレル欠損によって発がんリスクが極めて高くなる→LOH理論',
         },
         {
           detailInfo: '',
@@ -939,7 +960,8 @@ export const useQuestionList = () => {
             '【正誤問題】アミロイド、ヒアリン、フィブリノイドはHE染色の染色性の違いから鑑別される。',
           answerImg: [],
           answer: '誤り...鑑別できない',
-          commentary: '',
+          commentary:
+            'すべてHE染色で好酸性。アミロイドはCongo red染色で赤橙色、フィブリノイドはvan Gieson染色で黄色を呈する。',
         },
         {
           detailInfo: '',
@@ -1010,9 +1032,9 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】がん細胞は伝的変化とクローン選択を受けながら不均一な細胞集団を作り出していると考えられているが、がん細胞の大部分を占める集団ではなく、がん幹細胞に生じた変化が主に形質として受け継がれていく。',
-          answerImg: [],
+          answerImg: [cancerStemCell1],
           answer: '正しい',
-          commentary: '',
+          commentary: 'がん幹細胞はがんの再発・転移と深く関係している。',
         },
         {
           detailInfo: '',
@@ -1118,9 +1140,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】すべての酸化ストレスを消失させることにより寿命が著明に延長される',
-          answerImg: [],
+          answerImg: [produceROS],
           answer: '誤り...寿命が著明に延長されるわけではない',
-          commentary: '',
+          commentary:
+            'ROSは白血球の殺菌作用に寄与していて、全く必要ないわけではない。',
         },
         {
           detailInfo: '',
@@ -1446,9 +1469,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】遺伝子転座ではキメラ蛋白を生じることがあり、代表的なものに慢性骨髄性白血病のBCR/ABL遺伝子融合がある',
-          answerImg: [],
+          answerImg: [leukemia],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '慢性骨髄性白血病における（相互）転座は9番染色体の断片と22番染色体の断片が入れ替わって結合する構造異常で、上皮癌によくみられる塩基配列のエラーではないが、結合部分から翻訳される融合タンパク質が異常をもたらす。',
         },
         {
           detailInfo: '',
@@ -1859,9 +1883,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】最も頻度が高い先天性心疾患は心房中隔欠損(ASD)である',
-          answerImg: [],
-          answer: '誤り...心房中隔欠損症ではない',
-          commentary: '',
+          answerImg: [heartMiscreation],
+          answer: '誤り...心房中隔欠損症ASDではなく心室中隔欠損VSD',
+          commentary:
+            '心臓は左心房左心室のほうが拍出力が大きいため、ASDもVSDも最初はL-Rシャントだが悪化するとR-Lシャントに変わり（Eisenmenger化）、チアノーゼなど重篤な症状を引き起こす。',
         },
         {
           detailInfo: '',
@@ -2106,9 +2131,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】食道閉鎖・食道気管瘻で最も頻度が高いのは、 Gross C型で、 食道と気管に交通はない',
-          answerImg: [],
+          answerImg: [esophagobronchialFistula],
           answer: '誤り...食道と気管は交通している',
-          commentary: '',
+          commentary:
+            '日本人は比較的少ないとされる奇形。約9割を占めるC型は上部食道が盲端となってしまっている。食道から発生する気管が上手く分離しないことが原因。',
         },
         {
           detailInfo: '',
@@ -2213,9 +2239,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】神経芽腫は MYCN 遺伝子異常がある場合予後不良である',
-          answerImg: [],
+          answerImg: [neuroblastoma],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            'MYCNは細胞増殖・タンパク合成などに関わるがん遺伝子。MYCN遺伝子が増幅され過剰発現することにより神経芽腫・髄芽腫の原因となる。',
         },
         {
           detailInfo: '',
@@ -2269,7 +2296,7 @@ export const useQuestionList = () => {
             '【正誤問題】正常幹細胞に遺伝子異常が入り、 癌幹細胞に変化する現象が確認されている。 自己複製能を持っていない前駆細胞などは癌幹細胞になれない',
           answerImg: [],
           answer: '誤り...がん細胞は比較的自由にがん幹細胞へと変化する',
-          commentary: '',
+          commentary: '→がん幹細胞だけを標的にした治療はうまくいかない',
         },
         {
           detailInfo: '',
@@ -2286,7 +2313,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】生体から完全に酸化ストレスを除去することががん予防のゴールのひとつである',
-          answerImg: [],
+          answerImg: [produceROS],
           answer: '誤り...酸化ストレス（活性酸素）は殺菌などで必要である。',
           commentary: '',
         },
@@ -2957,8 +2984,8 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】腫瘍形成は多段階からなる複雑なステップを経て生じる。これらの変化にはがん遺伝子の活性化とがん抑制遺伝子の不活化の両方が含まれる。これを多段階発がんと呼ぶ。',
-          answerImg: [],
-          answer: '',
+          answerImg: [carcinomaSteps],
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -3041,9 +3068,9 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】アミロイドβはタンパク折り畳み障害により発生する。',
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          answerImg: [amyloidBeta],
+          answer: '正しい',
+          commentary: 'アルツハイマー病の原因。',
         },
         {
           detailInfo: '4/24午前',
@@ -3312,9 +3339,9 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】アミロイドβはタンパク折り畳み障害により発生する',
-          answerImg: [],
+          answerImg: [amyloidBeta],
           answer: '正しい',
-          commentary: '',
+          commentary: 'アルツハイマー病の原因',
         },
         {
           detailInfo: '4/24午後',
@@ -3550,7 +3577,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             'がんの変異には染色体変異あり、有名なものとして慢性骨髄性白血病がある。この原因は染色体の欠失によりBCR/ABL融合遺伝子をもったフィラデルフィア染色体が生じることである。BCR/ABL融合遺伝子はチロシンキナーゼを異常活性化する。',
-          answerImg: [],
+          answerImg: [leukemia],
           answer: '染色体の欠失ではなく(9と22番染色体間の)転座。',
           commentary: '',
         },
@@ -3622,7 +3649,7 @@ export const useQuestionList = () => {
             '網膜芽細胞腫ではWT1遺伝子異常が認められ、常染色体優性遺伝である',
             '上記選択肢は全て誤りである',
           ],
-          answerImg: [],
+          answerImg: [brainTumor, Wilms, neuroblastoma],
           answer:
             '小児の脳腫瘍の好発部位は後頭蓋窩で、水頭症をきたすと脳圧亢進症状を認める',
           commentary:
@@ -3633,7 +3660,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '次の選択肢のうち、正しいものを選んでください。          ',
-          answerImg: [],
+          answerImg: [Kartagener, Hirschsprung, Down],
           choices: [
             'Kartagener症候群では、腺毛の運動異常を認め、慢性副鼻腔炎、中耳炎、不妊などがみられる',
             'Hirschsprung病では、外来神経叢が欠損している ',
