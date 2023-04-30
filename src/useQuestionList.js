@@ -44,6 +44,11 @@ import coordinatedHistone from './img/answer/coordinatedHistone.png'
 import acetylationHistone from './img/answer/acetylationHistone.png'
 import tumorSuppressorGene from './img/answer/tumorSuppressorGene.png'
 import PARP from './img/answer/PARP.png'
+import polyol from './img/answer/polyol.png'
+import degeneration from './img/answer/degeneration.png'
+import coagulation from './img/answer/coagulation.png'
+import apo from './img/answer/apo.png'
+
 import mutationType from './img/answer/mutationType.png'
 import LOH from './img/answer/LOH.png'
 import hematopoieticStemCell from './img/answer/hematopoieticStemCell.png'
@@ -136,7 +141,8 @@ export const useQuestionList = () => {
           questionSentence: '【正誤問題】高血圧では左心室に労働性肥大を生じる',
           answerImg: [],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '圧負荷に対しては心筋が肥大する（求心性肥大）。正常250~400gの心臓は高血圧症や虚血性心疾患の場合は600gに達することがある。',
         },
         {
           detailInfo: '',
@@ -152,43 +158,47 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence: '【正誤問題】萎縮には機能障害は関連しない',
-          answerImg: [],
+          answerImg: [atrophy],
           answer: '誤り...機能障害は関連する',
-          commentary: '',
+          commentary:
+            '萎縮した組織は大きさ、重量が縮小しており、機能低下もみられる。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】低形成とは組織や臓器が正常の大きさまで達しないものである',
-          answerImg: [],
+          answerImg: [atrophy],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '正常の大きさまで達した組織が老化等の影響を受ける場合は萎縮とよばれる。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】変性とは正常代謝物の異常蓄積や異常代謝物の蓄積が、組織・細胞内に生じることである',
-          answerImg: [],
+          answerImg: [degeneration],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '細胞障害によって脂肪やフィブリノイド、胆汁（幹細胞）などが蓄積している状態',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】グルコースはアルドラーゼによりソルビトールを生成し細胞浮腫の原因となる',
-          answerImg: [],
+          answerImg: [polyol],
           answer: '誤り...アルドラーゼではなくアルドスリダクターゼ',
-          commentary: '',
+          commentary:
+            'ソルビトールは細胞へ浸透圧ストレスを生じさせることにより糖尿病合併症（網膜・腎臓・神経など）に関与している。グルコース→ソルビトールの代謝経路はポリオール経路/ソルビトール-アルドースレダクターゼ経路とも呼ばれ、NADPHを必要とする。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】ポリオール代謝亢進により還元型グルタミンが減少し酸化ストレスが増加する',
-          answerImg: [],
+          answerImg: [polyol],
           answer: '誤り...還元型グルタミンではなく還元型グルタチオン',
           commentary:
             '糖尿病に関連した動脈硬化の促進因子として、インスリン作用不全にもとづくポリオール代謝経路の活性亢進が報告されている。',
@@ -198,17 +208,17 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】ポリオール代謝ではフルクトースから3-デオキシグルコソンが生成されAGE形成が著しい',
-          answerImg: [],
+          answerImg: [polyol],
           answer: '誤り...ポリオール代謝ではなくフルクトース代謝',
-          commentary: '',
+          commentary: 'ポリオール代謝はグルコース→フルクトースの代謝経路。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence: '【正誤問題】エンドセリンやNOは血管拡張因子である',
-          answerImg: [],
+          answerImg: [coagulation],
           answer: '誤り...エンドセリンは血管収縮因子',
-          commentary: '',
+          commentary: '血管内皮細胞から分泌される。',
         },
         {
           detailInfo: '',
@@ -217,7 +227,8 @@ export const useQuestionList = () => {
             '【正誤問題】糖尿病は続発性拡張型心筋症の原因となる',
           answerImg: [],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '糖尿病は冠動脈疾患や自律神経異常により心不全を招きやすい。',
         },
         {
           detailInfo: '',
@@ -242,9 +253,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】アポ蛋白は脂質と結合してリポ蛋白を形成し脂質を可溶化する',
-          answerImg: [],
+          answerImg: [apo],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            'ApoB-48は腸管で合成され、HDLからApoCやApoEを受け取ることによりキロミクロンとして循環血中を流れる。',
         },
         {
           detailInfo: '',
@@ -271,7 +283,8 @@ export const useQuestionList = () => {
             '【正誤問題】巨大化した脂肪細胞ではアディポネクチンが減少しインスリン耐性が低下する　',
           answerImg: [],
           answer: '誤り...インスリン耐性は増加する',
-          commentary: '',
+          commentary:
+            'アディポネクチンは小型脂肪細胞から分泌されインスリン耐性を低下させる。大型脂肪細胞からは主にレプチンが分泌される。',
         },
         {
           detailInfo: '',
@@ -308,16 +321,18 @@ export const useQuestionList = () => {
             '【正誤問題】肝細胞障害による脂肪肝では中心肝静脈周囲の肝細胞に脂肪滴を生じやすい',
           answerImg: [fattyLiver],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '初期の脂肪肝は1.小葉中心脂肪化か2.小葉辺縁性脂肪化がみられるが、アルコールや薬物摂取では小葉中心脂肪化がみられやすい。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】脂肪過剰摂取では小葉辺縁性の脂肪肝を生じることがある',
-          answerImg: [],
+          answerImg: [fattyLiver],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '初期の脂肪肝は1.小葉中心脂肪化か2.小葉辺縁性脂肪化がみられるが、脂質異常症や高脂食では2.小葉辺縁性脂肪化がみられやすい',
         },
         {
           detailInfo: '',
@@ -341,7 +356,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】単純性脂肪肝の10%がNASHによりその2%以下が肝硬変に進展すると言われる',
-          answerImg: [],
+          answerImg: [fattyLiverDestination],
           answer: '正しい',
           commentary: '',
         },
@@ -358,10 +373,10 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence:
-            '【正誤問題】脂肪化生は間葉系幹細胞の脂肪細胞への分化により生ずる場合がある',
-          answerImg: [],
+            '【正誤問題】脂肪化生は間葉系肝細胞の脂肪細胞への分化により生ずる場合がある',
+          answerImg: [fattyLiver],
           answer: '誤り...脂肪化生という言葉は存在しない',
-          commentary: '',
+          commentary: '脂肪肝では肝細胞の脂肪変性が生ずる',
         },
         {
           detailInfo: '',
@@ -370,7 +385,7 @@ export const useQuestionList = () => {
             '【正誤問題】心筋の脂肪化は致死的不整脈の原因になる',
           answerImg: [],
           answer: '正しい',
-          commentary: '',
+          commentary: '心筋はほとんど再生しない',
         },
         {
           detailInfo: '',
@@ -378,7 +393,7 @@ export const useQuestionList = () => {
           questionSentence: '【正誤問題】脳内には脂肪細胞は存在しない',
           answerImg: [],
           answer: '正しい',
-          commentary: '',
+          commentary: 'エネルギーは血中からのグルコースかケトン体に依存',
         },
         {
           detailInfo: '',
@@ -395,9 +410,9 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】終末糖化産物は粥状動脈硬化、脂肪肝、糖尿病合併症、アルツアイマー病、発癌に関与する',
-          answerImg: [],
+          answerImg: [cancerFromDM],
           answer: '正しい',
-          commentary: '',
+          commentary: 'AGEはROSを生成する',
         },
         {
           detailInfo: '',
@@ -535,9 +550,9 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】COX1は外傷や炎症によって誘導され炎症を促進する。Coxib系はこれを阻害する。',
-          answerImg: [],
+          answerImg: [mediatorFromCell],
           answer: '誤り...COX1ではなくCOX2',
-          commentary: '',
+          commentary: 'セレコキシブはCOX2選択阻害薬',
         },
         // {
         //   detailInfo: '',
@@ -553,18 +568,19 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】COX1は持続的発現を示し、COX2は発現誘導を受ける。',
-          answerImg: [],
+          answerImg: [mediatorFromCell],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            'COX1は胃粘膜保護などの役割を担っていて、NSAIDsはこれらも阻害してしまう。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】COX2はアラキドン酸をプロスタグランジンへ変換する。',
-          answerImg: [],
+          answerImg: [mediatorFromCell],
           answer: '正しい',
-          commentary: '',
+          commentary: 'COX:シクロオキシゲナーゼ',
         },
         {
           detailInfo: '',
@@ -573,7 +589,8 @@ export const useQuestionList = () => {
             '【正誤問題】COX2は常時様々な組織で発現しており血小板凝集の促進や肝血流の維持に関与している。',
           answerImg: [],
           answer: '誤り...常時ではない',
-          commentary: '',
+          commentary:
+            'COX1は常時様々な組織で発現していて胃粘膜保護などに関与する',
         },
         {
           detailInfo: '',
@@ -641,7 +658,7 @@ export const useQuestionList = () => {
             '【正誤問題】DNAのメチル化はシトシンとアデニンで見られるが、アデニンのメチル化によるエピジェネティック制御の研究はシトシンと比べて進んでいない。',
           answerImg: [],
           answer: '正しい',
-          commentary: '',
+          commentary: 'CpGのメチル化は一般的に下流遺伝子の転写を抑制する。',
         },
         {
           detailInfo: '',
@@ -696,8 +713,10 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】Eisenmenger化とは、先天性深枝間により肺血管抵抗の低下から左→右シャントが優勢になった状態を指す。',
           answerImg: [],
-          answer: '誤り..血管抵抗の低下ではない、左→右シャントではない.',
-          commentary: '',
+          answer:
+            '誤り..血管抵抗の低下ではなく増大、左→右シャントではなく右→左シャント',
+          commentary:
+            'Eisenmenger化は心房中隔欠損、心室中隔欠損などでみられる。静脈血が左心室に流入しチアノーゼなどを起こすようになる',
         },
         {
           detailInfo: '',
@@ -725,7 +744,8 @@ export const useQuestionList = () => {
           questionSentence: '【正誤問題】HbA1cは終末糖化産物ではない',
           answerImg: [],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            'HbAに糖鎖が付加されたもの。過去数か月間の血糖値の目安となる。',
         },
         {
           detailInfo: '',
@@ -795,7 +815,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】IgM抗体はB細胞表面に受容体として存在しており、血清中では五量体を形成している。',
-          answerImg: [],
+          answerImg: [allergy1],
           answer: '正しい',
           commentary: '',
         },
@@ -876,7 +896,8 @@ export const useQuestionList = () => {
             '【正誤問題】P53は4量体であり4量体結合ドメインとDNA結合ドメインを持つ。これをもとに考えるとP53は4量体結合ドメインの片アレルの変異のみで1/16まで正常蛋白量が落ちることになる。',
           answerImg: [],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '4量体を構成するタンパク質は50:50で変異型と正常型が混合している。ここから正常型のみが4量体を形成する確率は1/2の4乗',
         },
 
         {
@@ -884,9 +905,9 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】P53はDNA損傷に反応しp21などを誘導し細胞終期を停止し遺伝子を修復する。遺伝子が修復不能なほど損傷した場合はアポトーシスを誘導する。',
-          answerImg: [],
+          answerImg: [apoptosisPathway],
           answer: '正しい',
-          commentary: '',
+          commentary: 'がん抑制遺伝子',
         },
         {
           detailInfo: '',
@@ -913,7 +934,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】Turner症候群では父親由来のX染色体が喪失していることが多く、卵巣は痕跡的である。',
-          answerImg: [],
+          answerImg: [chromosomalMutation],
           answer: '正しい',
           commentary: '',
         },
@@ -999,7 +1020,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】アラキドン酸はシクロオキシゲナーゼCOX1・2によって代謝され、プロスタグランジンH2(PGH2)が産生される。これらはトロンボキサンや他のプロスタグランジンの基質になる。',
-          answerImg: [],
+          answerImg: [mediatorFromCell],
           answer: '正しい',
           commentary: '',
         },
@@ -1008,9 +1029,9 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】インスリン抵抗性は動脈硬化を抑制する。',
-          answerImg: [],
+          answerImg: [atherosclerosis1],
           answer: '誤り...動脈硬化を促進する',
-          commentary: '',
+          commentary: '終末糖化産物が炎症を引き起こす',
         },
         {
           detailInfo: '',
@@ -1081,9 +1102,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】グルコースはアルドラーゼによりソルビトールを生成し細胞外浮腫の原因となる。',
-          answerImg: [],
-          answer: '誤り...アルドラーゼではなく、細胞外浮腫ではない',
-          commentary: '',
+          answerImg: [polyol],
+          answer:
+            '誤り...アルドラーゼではなくアルドースレダクターゼ、細胞外浮腫ではなく浸透圧ストレス',
+          commentary: 'ポリオール経路と呼ばれる。糖尿病合併症の原因。',
         },
         {
           detailInfo: '',
@@ -1288,7 +1310,7 @@ export const useQuestionList = () => {
             '【正誤問題】ヒドロキシラジカルは脳梗塞や心筋梗塞の病変拡大に関与する。',
           answerImg: [],
           answer: '正しい',
-          commentary: '',
+          commentary: 'ヒドロキシラジカルは分解酵素が存在しない活性酸素',
         },
         {
           detailInfo: '',

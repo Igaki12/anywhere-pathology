@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/anywhere-pathology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-pathology/static/js/main.ad7d2cfc.js",
+    "main.js": "/anywhere-pathology/static/js/main.2288bb24.js",
+    "static/media/degeneration.png": "/anywhere-pathology/static/media/degeneration.4672a45d0daf6c2cee55.png",
     "static/media/jaundiceTissue.png": "/anywhere-pathology/static/media/jaundiceTissue.f24c229bfaa4ec365981.png",
     "static/media/prostaticHyperplasia.png": "/anywhere-pathology/static/media/prostaticHyperplasia.af4cb487859c80bc7b0a.png",
     "static/media/Hirschsprung.png": "/anywhere-pathology/static/media/Hirschsprung.8ccc81c2251172e62482.png",
+    "static/media/apo.png": "/anywhere-pathology/static/media/apo.9d6b7ce0ce88b413857b.png",
     "static/media/necrosisApoptosis.png": "/anywhere-pathology/static/media/necrosisApoptosis.ddb1c056da63a1125675.png",
     "static/media/amyloid.png": "/anywhere-pathology/static/media/amyloid.c9df4c718f41cb4ce4c3.png",
     "static/media/myocardialInfarctionComplication.png": "/anywhere-pathology/static/media/myocardialInfarctionComplication.a342af84627e219999ae.png",
@@ -36,9 +38,11 @@
     "static/media/retinoblastoma.png": "/anywhere-pathology/static/media/retinoblastoma.889e08fbfb59c645318f.png",
     "static/media/carcinogenesisStep.png": "/anywhere-pathology/static/media/carcinogenesisStep.8235212115064354565a.png",
     "static/media/hypertrophy.png": "/anywhere-pathology/static/media/hypertrophy.12724f5212844f541f67.png",
+    "static/media/polyol.png": "/anywhere-pathology/static/media/polyol.d19ea7c76890a9b2bdd7.png",
     "static/media/welsh.png": "/anywhere-pathology/static/media/welsh.0d77919b960b5defec3a.png",
     "static/media/fattyAcid.png": "/anywhere-pathology/static/media/fattyAcid.5771855fabe84649090d.png",
     "static/media/fattyLiver.png": "/anywhere-pathology/static/media/fattyLiver.77de4d0246057470215f.png",
+    "static/media/coagulation.png": "/anywhere-pathology/static/media/coagulation.0f22c06be23c17c9caa9.png",
     "static/media/BRD4.png": "/anywhere-pathology/static/media/BRD4.e36f4c62821063c99eda.png",
     "static/media/brainTumor.png": "/anywhere-pathology/static/media/brainTumor.b91c13fb7d9822966af4.png",
     "static/media/cancer.png": "/anywhere-pathology/static/media/cancer.50e43646b70b9bf3dfdd.png",
@@ -106,10 +110,10 @@
     "static/media/bilirubinDifference.png": "/anywhere-pathology/static/media/bilirubinDifference.1963d12f9aa902b7c0bf.png",
     "index.html": "/anywhere-pathology/index.html",
     "main.6180b9dc.css.map": "/anywhere-pathology/static/css/main.6180b9dc.css.map",
-    "main.ad7d2cfc.js.map": "/anywhere-pathology/static/js/main.ad7d2cfc.js.map"
+    "main.2288bb24.js.map": "/anywhere-pathology/static/js/main.2288bb24.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.ad7d2cfc.js"
+    "static/js/main.2288bb24.js"
   ]
 }
