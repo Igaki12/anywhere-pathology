@@ -94,6 +94,13 @@ import allergy3 from './img/answer/allergy3.png'
 import allergy2 from './img/answer/allergy2.png'
 import allergy1 from './img/answer/allergy1.png'
 import acuteInflammation from './img/answer/acuteInflammation.png'
+import scavenger from './img/answer/scavenger.png'
+import necroptosis from './img/answer/necroptosis.png'
+import granulocyte from './img/answer/granulocyte.png'
+import ferroptosis from './img/answer/ferroptosis.png'
+import apoptosisPathway from './img/answer/apoptosisPathway.png'
+import Warburg from './img/answer/Warburg.png'
+import synthesizeATP from './img/answer/synthesizeATP.png'
 
 // import from './img/answer/.png'
 
@@ -450,9 +457,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】1分子のグルコースから最も多くのATPを生成するのは解糖系である。',
-          answerImg: [],
+          answerImg: [synthesizeATP],
           answer: '誤り...解糖系ではなく電子伝達系',
-          commentary: '',
+          commentary:
+            '電子伝達系を稼働させるには酸素が必要で、また活性酸素を生成し細胞を傷害してしまう。がん細胞では電子伝達系は抑制されている(Warburg effect)',
         },
         {
           detailInfo: '',
@@ -461,7 +469,8 @@ export const useQuestionList = () => {
             '【正誤問題】Ⅲ型アレルギーはTcやマクロファージにより好酸球が増殖することで生じる。',
           answerImg: [allergy4],
           answer: '誤り...Ⅲ型ではなくⅣ型',
-          commentary: '',
+          commentary:
+            'Ⅲ型アレルギーは免疫複合体反応とよばれ、抗原抗体複合体が種々の臓器で沈着し（免疫複合体）、炎症が起き障害を起こす。血清病・SLEのループス腎炎・急性糸球体腎炎など、対してⅣ型アレルギーは遅延型反応と呼ばれ、感作T細胞から遊離する生理活性物質による組織障害。 ',
         },
         {
           detailInfo: '',
@@ -470,7 +479,8 @@ export const useQuestionList = () => {
             '【正誤問題】Ⅳ型アレルギーでは免疫複合体の形成により補体が活性化されることで細胞が傷害される。',
           answerImg: [allergy3],
           answer: '誤り...Ⅳ型ではなくⅢ型アレルギー',
-          commentary: '免疫複合体によるアレルギー反応。関節リウマチなど。',
+          commentary:
+            'Ⅳ型アレルギーは遅延型反応とも呼ばれ、感作T細胞から遊離する様々な生理活性物質による組織障害が原因。ツベルクリン反応・接触性皮膚炎・移植片対宿主病など。対してⅢ型アレルギーは抗原抗体複合体が種々の臓器で沈着し（免疫複合体）、補体を活性化することによる炎症および障害。',
         },
         {
           detailInfo: '',
@@ -704,9 +714,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】Goodpasture症候群、溶血性貧血、Schoenlein-Henoch紫斑症はⅡ型アレルギーで起こる。',
-          answerImg: [schoenleinHenoch],
+          answerImg: [allergy5],
           answer: '誤り...Hernoch-Schnlein紫斑症はIgAによるアレルギーが原因。',
-          commentary: '',
+          commentary:
+            '免疫性血小板減少性紫斑病はⅡ型アレルギー。Ⅱ型アレルギーの中でも、細胞ではなく受容体に対する抗体で細胞機能を制御してしまうようなアレルギー反応はⅤ型アレルギーともよばれる。',
         },
         {
           detailInfo: '',
@@ -816,7 +827,8 @@ export const useQuestionList = () => {
             '【正誤問題】MELASやMERRFでは血中の尿酸やピルビン酸が高値となる。',
           answerImg: [MELAS],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            'MELASもMERRFもミトコンドリア病で、解糖系以外のエネルギー代謝に支障をきたすようになることで発症する。',
         },
         {
           detailInfo: '',
@@ -919,18 +931,20 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】Warburg効果とは酵素存在下でも解糖系に偏ったエネルギー酸性を行うがん細胞の特性である。',
-          answerImg: [],
+          answerImg: [Warburg],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '電子伝達系に伴う活性酸素の生成を抑制することで、アポトーシスしてしまう事をふせいでいる。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】Warburg効果により酸化ストレスの生成を低減できるとされる',
-          answerImg: [],
+          answerImg: [Warburg],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            'がん細胞では、酸素を利用しない解糖系に偏ったエネルギー代謝を行っている→Warburg effect。これにより、酸化ストレス生成によるアポトーシスが起こってしまうことを防いでいる。',
         },
         {
           detailInfo: '',
@@ -965,9 +979,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】アポトーシスの主な経路は1.デスレセプター、2.生存シグナルの除去、3.RIPK経路の活性化が挙げられる。',
-          answerImg: [],
-          answer: '誤り...RIPKの経路を活性化しない',
-          commentary: '',
+          answerImg: [necroptosis],
+          answer: '誤り...RIPKの経路活性化はネクロプトーシスの経路の一つ。',
+          commentary:
+            'ネクロプトーシスは最母内外の恒常性の乱れによって引き起こされるRegulated Cell Death。MLKL,RIPK3,RIPK1のキナーゼ活性に依存する。制御された細胞死という点ではアポトーシスと共通しているが、機構は異なりネクローシスのように細胞膜が崩壊する細胞死。その他、1.デスレセプター、2.生存シグナルの除去はそれぞれアポトーシスの1.外来性経路と2.内在性経路に対応している。',
         },
         {
           detailInfo: '',
@@ -2395,9 +2410,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】多くの癌ではアポトーシスを抑制する生存シグナルが活性化しており ERK 経路や Akt 経路がそれにあたる',
-          answerImg: [],
+          answerImg: [apoptosisPathway],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '生存シグナルによって制御されるアポトーシスの経路を内在性経路と呼ぶ。',
         },
         {
           detailInfo: '',
@@ -2874,9 +2890,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】顆粒白血球は貪食作用の強い好中球、 アレルギー性の炎症に関与する好酸球、ヒスタミンを放出する好塩基球がある',
-          answerImg: [],
+          answerImg: [granulocyte],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '顆粒白血球は多型核白血球ともよばれ、分葉核が組織像で確認される。単球・リンパ球・NK細胞は含まれない。',
         },
         // {
         //   detailInfo: '',
@@ -3152,8 +3169,8 @@ export const useQuestionList = () => {
           detailInfo: '4/24午前',
           questionImg: [],
           questionSentence:
-            '【正誤問題】甲状腺機能亢進症は甲状腺刺激ホルモン受容体に対する抗体が過剰に産生される疾患であり、III型アレルギーに代表とされる。',
-          answerImg: [],
+            '【正誤問題】甲状腺機能亢進症は甲状腺刺激ホルモン受容体に対する抗体が過剰に産生される疾患であり、Ⅲ型アレルギーに代表とされる。',
+          answerImg: [allergy5],
           answer: '誤り...バセドウ病はⅢ型ではない',
           commentary:
             '甲状腺機能亢進症（バセドウ病）は V 型（II 型の亜型）です。III 型アレルギーは免疫複合体によって組織障害をもたらす反応です。',
@@ -3163,7 +3180,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】酸化ストレスはミトコンドリアの酸化的リン酸化の過程で産生される一方で、SODやビタミンなどのスカベンジャーは酸化作用に抗う働きをする。',
-          answerImg: [mitochondria],
+          answerImg: [mitochondria, scavenger],
           answer: '正しい',
           commentary:
             'ミトコンドリアの電子伝達系、複合体Ⅲで酸素分子と電子が反応する。ビタミンE、ビタミンCは抗酸化作用を持つ',
@@ -3173,7 +3190,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】アポトーシスとは、組織の損傷による病的な細胞死と定義される。',
-          answerImg: [],
+          answerImg: [necrosisApoptosis],
           answer:
             '誤り...アポトーシスは計画された細胞死に対して。問題⽂はネクローシスの説明です。',
           commentary: '',
@@ -3443,9 +3460,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】内在性アポトーシス経路ではミトコンドリア膜電位低下に伴うチトクロムC放出がトリガーとなる',
-          answerImg: [],
+          answerImg: [apoptosisPathway],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            'まずミトコンドリアが変化することによって、チトクロムCが放出され、様々なカスパーゼが活性化され、細胞死を誘導する。',
         },
         {
           detailInfo: '4/25午前',
@@ -3765,14 +3783,61 @@ export const useQuestionList = () => {
           commentary:
             '凝固性の壊死で黄色調のチーズ状の壊死物質を形成する。結核と一対一の関係。結核結節やランゲルハンスの巨細胞が特徴→結核結節（特徴的な組織像となる）。肉芽腫性の疾患は数が少なく、テストに出しやすい。',
         },
-        // {
-        //   detailInfo: '',
-        //   questionImg: [],
-        //   questionSentence: '',
-        //   answerImg: [],
-        //   answer: '',
-        //   commentary: '',
-        // },
+        {
+          detailInfo: '5/1反転講義',
+          questionImg: [],
+          questionSentence: 'EBVに関連するがんを述べよ',
+          answerImg: [],
+          answer: '',
+          commentary:
+            'EBV:ヘルペスウイルスのひとつ。上皮細胞に感染し、上咽頭がん、平滑筋肉腫、唾液腺がん、胃がんに見られる。リンパ球などにも感染し、Tリンパ腫、NKリンパ腫、白血病、慢性活動性EBV感染症',
+        },
+        {
+          detailInfo: '5/1反転講義',
+          questionImg: [],
+          questionSentence: 'ヒト発癌に関連するウイルスを述べよ',
+          answerImg: [],
+          answer:
+            'EBV:Epstein-Barr virus、HPV:Human Papillomavirus virus、B型肝炎ウイルス、C型肝炎ウイルス、ヒトTリンパ好性ウイルスⅠ型',
+          commentary:
+            'EBV、HPV、B型肝炎ウイルスはDNAウイルス。ヒトTリンパ好性ウイルスⅠ型HTLV-1はレトロウイルス。',
+        },
+        {
+          detailInfo: '5/1反転講義',
+          questionImg: [],
+          questionSentence: 'ピロリ菌の世界的分布の特徴は？',
+          answerImg: [],
+          answer:
+            '全世界で44.3%　途上国で50.8%　ラテンアメリカ・カリブ海地域で最も高く（59.3%）、北米で最も低い感染率（25.8%）を記録した。',
+          commentary: '',
+        },
+        {
+          detailInfo: '5/1反転講義',
+          questionImg: [],
+          questionSentence: 'ピロリ菌感染の特徴は？',
+          answerImg: [],
+          answer: '',
+          commentary:
+            '胃・十二指腸潰瘍など　→　腹痛・嘔吐・腹部膨張感・食欲不振・体重減少など',
+        },
+        {
+          detailInfo: '5/1反転講義',
+          questionImg: [],
+          questionSentence: 'ピロリ菌による粘膜障害機構を述べよ。',
+          answerImg: [],
+          answer:
+            'ピロリ菌の酵素ウレアーゼが尿素をアンモニアに変換し、胃の上皮を傷害する。またピロリ菌が産生するCagAタンパク質が炎症性サイトカインを誘導し胃を荒らす。',
+          commentary: '',
+        },
+        {
+          detailInfo: '5/1反転講義',
+          questionImg: [],
+          questionSentence: 'ピロリ菌に関連する疾患を挙げよ。',
+          answerImg: [],
+          answer: '',
+          commentary:
+            '慢性胃炎・胃十二指腸潰瘍・胃がん・胃MALTリンパ腫・胃ポリープ・突発性血小板減少紫斑症（Ⅱ型アレルギー）',
+        },
         // {
         //   detailInfo: '',
         //   questionImg: [],
