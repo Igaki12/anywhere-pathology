@@ -846,9 +846,9 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】MELASやMERRFでは血中の尿酸やピルビン酸が高値となる。',
           answerImg: [MELAS],
-          answer: '正しい',
+          answer: '誤り...尿酸ではなく乳酸',
           commentary:
-            'MELASもMERRFもミトコンドリア病で、解糖系以外のエネルギー代謝に支障をきたすようになることで発症する。',
+            'MELASもMERRFもミトコンドリア病で、ミトコンドリアDNAの変異が主な原因。母系遺伝で、小児～成人で発症（先天疾患だが、蓄積すると発症しやすい）。ミトコンドリアはTCA回路以降の糖代謝に関わっているので、解糖系産物であるピルビン酸や乳酸が増える。',
         },
         {
           detailInfo: '',
@@ -3579,7 +3579,7 @@ export const useQuestionList = () => {
           questionSentence:
             '新生児マススクリーニングは生後4-6日後に行なわれる。生後すぐに行なわないのはなぜか',
           answerImg: [],
-          answer: '血小板の寿命が数日であるから。',
+          answer: '血小板の寿命が数日であるから？',
           commentary: '',
         },
         {
@@ -3731,6 +3731,248 @@ export const useQuestionList = () => {
           commentary:
             'Hirschsprung病ではアウエルバッハ神経叢が欠損していて外来神経はむしろ過形成。動脈管が閉鎖するには（出生後循環移行に伴う）動脈酸素分圧の上昇とプロスタグランジン濃度低下が必要。Down症候群では早期Alzheimerや両眼解離が特徴的。',
         },
+        {
+          detailInfo: '5/01午前',
+          questionImg: [],
+          questionSentence:
+            '低酸素を感知するHIF-1αはなんと言う物質を誘導して、血管新生を引き起こすか？',
+          answerImg: [],
+          answer: 'LDHA1',
+          commentary: '',
+        },
+        {
+          detailInfo: '5/01午前',
+          questionImg: [],
+          questionSentence:
+            'メラノーマでよくみられる細胞一つ一つの運動能の亢進による浸潤の形式をなんと言う？            ',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '5/01午前',
+          questionImg: [],
+          questionSentence:
+            '細胞骨格のリモデリングを行なうときに関与するシグナルは？            ',
+          answerImg: [],
+          answer: 'KRASかC-Src',
+          commentary: '',
+        },
+        {
+          detailInfo: '5/01午前',
+          questionImg: [],
+          questionSentence: '腫瘍毛細血管の特徴を簡潔に述べよ',
+          answerImg: [],
+          answer: '管径が太く、中皮細胞がまばら',
+          commentary: '腫瘍が転移しやすいように作り変えられている',
+        },
+        {
+          detailInfo: '5/01午前',
+          questionImg: [],
+          questionSentence:
+            'TECと転移が関与することが明らかとなってきている。TECはアンジオクラインファクターを放出するが、転移に関わるアンジオクラインファクターはどれか。',
+          answerImg: [],
+          choices: ['IL-6', 'プロテオグリカンA', 'VGEF', 'CDCL12'],
+          answer: 'プロテオグリカンA',
+          commentary: '',
+        },
+        {
+          detailInfo: '5/01午前',
+          questionImg: [],
+          questionSentence:
+            'TANの転移にNETsが関与するが、転移する臓器に先に到達しているのはどちらか？',
+          answerImg: [],
+          choices: ['腫瘍', 'NETs'],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '5/01午前',
+          questionImg: [],
+          questionSentence:
+            '腫瘍細胞はPD-L1を発現し、CD8+Tcellが発現しているPD-1と結合しCD8+Tcellの抗腫瘍活性を抑制する。この結合を阻害する薬剤を免疫チェックポイント阻害剤といい本庶佑先生が開発した。間違いがなければなし、あれば間違いを訂正して記入せよ',
+          answerImg: [],
+          answer: 'ニボルマブ',
+          commentary: '',
+        },
+        {
+          detailInfo: '5/01午前',
+          questionImg: [],
+          questionSentence:
+            '幹細胞、がん幹細胞の共通する性質を２つ述べよ            ',
+          answerImg: [],
+          answer: '自己複製能・多分化能',
+          commentary: '',
+        },
+        {
+          detailInfo: '5/01午前',
+          questionImg: [],
+          questionSentence:
+            'がん幹細胞は活性酸素(ROS)を除去する能力が亢進している。このとき活性化するものはなにか？',
+          answerImg: [],
+          answer: 'ALDH1',
+          commentary: '',
+        },
+        {
+          detailInfo: '5/01午前',
+          questionImg: [],
+          questionSentence:
+            '大腸がん幹細胞に特異的に高発現がみられる遺伝子はどれか？',
+          answerImg: [],
+          choices: ['CD44', 'CD133', 'LGR5', 'SOX2'],
+          answer: 'LGR5',
+          commentary: '',
+        },
+        {
+          detailInfo: '5/01午前',
+          questionImg: [],
+          questionSentence:
+            'ATPは生体内ですぐに消費されてしまうため、別の形でストックされている。その物質とはなにか',
+          answerImg: [],
+          answer: 'クレアチンリン酸',
+          commentary: '',
+        },
+        {
+          detailInfo: '5/01午前',
+          questionImg: [],
+          questionSentence:
+            '代謝によって異化・同化がおこる。物質の例をあげて異化・同化についてそれぞれ簡潔に説明せよ',
+          answerImg: [],
+          answer: '適当に',
+          commentary: '',
+        },
+        {
+          detailInfo: '5/01午前',
+          questionImg: [],
+          questionSentence:
+            'ASCT2は何を取り込むトランスポーターであるか？            ',
+          answerImg: [],
+          choices: ['グルコース', '必須アミノ酸', 'グルタミン酸', 'グルタミン'],
+          answer: 'グルタミン酸',
+          commentary: '',
+        },
+        {
+          detailInfo: '5/01午前',
+          questionImg: [],
+          questionSentence:
+            'がんは不足する栄養を補うためにさまざまな方法で栄養を取り込む。その一つに細胞そのものを取り込む機構が存在する。これをなんと言う？',
+          answerImg: [],
+          answer: 'エントーシス',
+          commentary: '',
+        },
+        {
+          detailInfo: '5/01午前',
+          questionImg: [],
+          questionSentence:
+            'ミトコンドリアから生じたO2・―はスーパーオキシドジスムターゼ(SOD)によってH2O2に変換される。H2O2は鉄や銅と反応してヒドロキシラジカルを生成する。ヒドロキシラジカルは強い細胞障害性をもつが、GSHよって除去される。　間違いがなければなし、訂正があれば正して下さい',
+          answerImg: [],
+          answer: 'ヒドロキシラジカルはGSHでは除去できない',
+          commentary: '',
+        },
+        {
+          detailInfo: '5/01午前',
+          questionImg: [],
+          questionSentence:
+            '増殖状態にある細胞は酸化的リン酸化よりも解糖系による代謝を亢進させる。この代謝の変化は解糖系中間体に増殖に必要な分子が多数存在するからである。またこの解糖系を制御している遺伝子にPGC-1αがある。 間違いがなければなし、訂正があれば正して下さい。',
+          answerImg: [],
+          answer: 'PGC-1αではなくC-MYC',
+          commentary: '',
+        },
+        {
+          detailInfo: '5/01午前',
+          questionImg: [],
+          questionSentence:
+            'PKM1とPKM2の違いについて代謝の観点から簡潔に説明して下さい。',
+          answerImg: [],
+          answer:
+            'PKM1はTCA回路を活性化するピルビン酸キナーゼだが、PKM2はTCA回路を活性化させずにグルタミンから必要なアミノ酸や脂肪酸を合成させるように促進するピルビン酸キナーゼ',
+          commentary: '',
+        },
+        {
+          detailInfo: '5/01午前',
+          questionImg: [],
+          questionSentence:
+            'ミトコンドリアDNAには呼吸鎖複合体であるcomplex1,2,4,5の一部がコードされており、核DNAと異なりヒストンが存在しない。間違いがなければなし、訂正があれば正して下さい。',
+          answerImg: [],
+          answer: 'complex1,3,4,5',
+          commentary: 'スライドに加筆',
+        },
+        {
+          detailInfo: '5/01午前',
+          questionImg: [],
+          questionSentence:
+            '筋線維内に赤色ぼろ線維をみとめるミトコンドリア病は？            ',
+          choices: ['MERRF', 'MELAS', 'Leigh症候群'],
+          answerImg: [],
+          answer: 'MERRF',
+          commentary: '',
+        },
+        {
+          detailInfo: '5/01午前',
+          questionImg: [],
+          questionSentence:
+            'ミトコンドリアが別の細胞に移行する現象をなんと言う？            ',
+          answerImg: [],
+          answer: 'ミトコンドリアトランスファー',
+          commentary: '',
+        },
+        {
+          detailInfo: '5/01午前',
+          questionImg: [],
+          questionSentence: '',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '5/01午前',
+          questionImg: [],
+          questionSentence: '',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '5/01午前',
+          questionImg: [],
+          questionSentence: '',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '5/01午前',
+          questionImg: [],
+          questionSentence: '',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '5/01午前',
+          questionImg: [],
+          questionSentence: '',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '5/01午前',
+          questionImg: [],
+          questionSentence: '',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '5/01午前',
+          questionImg: [],
+          questionSentence: '',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+
         // {
         //   detailInfo: '',
         //   questionImg: [],
