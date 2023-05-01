@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-pathology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-pathology/static/js/main.0afd7a3f.js",
+    "main.js": "/anywhere-pathology/static/js/main.6fa51aa6.js",
     "static/media/degeneration.png": "/anywhere-pathology/static/media/degeneration.4672a45d0daf6c2cee55.png",
     "static/media/jaundiceTissue.png": "/anywhere-pathology/static/media/jaundiceTissue.f24c229bfaa4ec365981.png",
     "static/media/prostaticHyperplasia.png": "/anywhere-pathology/static/media/prostaticHyperplasia.af4cb487859c80bc7b0a.png",
@@ -63,6 +63,7 @@
     "static/media/causeOfDeath.png": "/anywhere-pathology/static/media/causeOfDeath.2e6ed130dabd40f36366.png",
     "static/media/allergy4.png": "/anywhere-pathology/static/media/allergy4.e17b16d11d88db320000.png",
     "static/media/nicheControlCancer.png": "/anywhere-pathology/static/media/nicheControlCancer.d0db8147a603c20315ca.png",
+    "static/media/MYC.png": "/anywhere-pathology/static/media/MYC.b0b36191121b80b4b8ee.png",
     "static/media/ferroptosis.png": "/anywhere-pathology/static/media/ferroptosis.bc9da3877a2ed20014f1.png",
     "static/media/methylationDNA.png": "/anywhere-pathology/static/media/methylationDNA.35b2adabc4867bb3b7b3.png",
     "static/media/bilirubin2.png": "/anywhere-pathology/static/media/bilirubin2.f45367f297318af1bba1.png",
@@ -114,12 +115,13 @@
     "static/media/Menkes.png": "/anywhere-pathology/static/media/Menkes.6168967feae7b70d2d66.png",
     "static/media/gatekeeper.png": "/anywhere-pathology/static/media/gatekeeper.0b5030b78aa54ba091fd.png",
     "static/media/bilirubinDifference.png": "/anywhere-pathology/static/media/bilirubinDifference.1963d12f9aa902b7c0bf.png",
+    "static/media/microorganismProducesEffectors.png": "/anywhere-pathology/static/media/microorganismProducesEffectors.05e098df0968aa4872ad.png",
     "index.html": "/anywhere-pathology/index.html",
     "main.6180b9dc.css.map": "/anywhere-pathology/static/css/main.6180b9dc.css.map",
-    "main.0afd7a3f.js.map": "/anywhere-pathology/static/js/main.0afd7a3f.js.map"
+    "main.6fa51aa6.js.map": "/anywhere-pathology/static/js/main.6fa51aa6.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.0afd7a3f.js"
+    "static/js/main.6fa51aa6.js"
   ]
 }

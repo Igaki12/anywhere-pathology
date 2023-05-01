@@ -19,6 +19,9 @@ import bilirubin2 from './img/answer/bilirubin2.png'
 import bilirubin from './img/answer/bilirubin.png'
 import Wilms from './img/answer/Wilms.png'
 import retinoblastoma from './img/answer/retinoblastoma.png'
+import MYC from './img/answer/MYC.png'
+import microorganismProducesEffectors from './img/answer/microorganismProducesEffectors.png'
+
 import neuroblastoma from './img/answer/neuroblastoma.png'
 import nephroblastoma from './img/answer/nephroblastoma.png'
 import leukemia from './img/answer/leukemia.png'
@@ -3789,7 +3792,7 @@ export const useQuestionList = () => {
             'TANの転移にNETsが関与するが、転移する臓器に先に到達しているのはどちらか？',
           answerImg: [],
           choices: ['腫瘍', 'NETs'],
-          answer: '',
+          answer: 'NETs',
           commentary: '',
         },
         {
@@ -3880,7 +3883,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '増殖状態にある細胞は酸化的リン酸化よりも解糖系による代謝を亢進させる。この代謝の変化は解糖系中間体に増殖に必要な分子が多数存在するからである。またこの解糖系を制御している遺伝子にPGC-1αがある。 間違いがなければなし、訂正があれば正して下さい。',
-          answerImg: [],
+          answerImg: [MYC],
           answer: 'PGC-1αではなくC-MYC',
           commentary: '',
         },
@@ -3909,7 +3912,7 @@ export const useQuestionList = () => {
           questionSentence:
             '筋線維内に赤色ぼろ線維をみとめるミトコンドリア病は？            ',
           choices: ['MERRF', 'MELAS', 'Leigh症候群'],
-          answerImg: [],
+          answerImg: [MELAS],
           answer: 'MERRF',
           commentary: '',
         },
@@ -3926,26 +3929,27 @@ export const useQuestionList = () => {
           detailInfo: '5/01午後',
           questionImg: [],
           questionSentence: '【正誤問題】微生物は発癌における大きな要因である',
-          answerImg: [],
+          answerImg: [cancerFromVirus],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '感染症が原因のがん：胃がん（ピロリ菌）・子宮頸がん（ヒトパピローマウイルス）・肝がん（B型C型肝炎ウイルス）など',
         },
         {
           detailInfo: '5/01午後',
           questionImg: [],
           questionSentence:
             '【正誤問題】EBV感染による2大悪性疾患は胃癌とバーキットリンパ腫である',
-          answerImg: [],
-          answer: '誤り',
+          answerImg: [cancerAboutEBV],
+          answer: '誤り...胃がんではなく鼻咽頭がん',
           commentary: '',
         },
         {
           detailInfo: '5/01午後',
           questionImg: [],
           questionSentence: '【正誤問題】発癌に関係するウイルスは６種類である',
-          answerImg: [],
+          answerImg: [cancerFromVirus],
           answer: '誤り',
-          commentary: '',
+          commentary: 'もっと多い？',
         },
         {
           detailInfo: '5/01午後',
@@ -3961,9 +3965,9 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】細菌による大腸癌発生促進には、細菌の産生する短鎖脂肪酸が挙げられる',
-          answerImg: [],
+          answerImg: [microorganismProducesEffectors],
           answer: '誤り',
-          commentary: '',
+          commentary: '毒素',
         },
         {
           detailInfo: '5/01午後',
@@ -3971,7 +3975,8 @@ export const useQuestionList = () => {
           questionSentence: '【正誤問題】ピロリ菌は単独で胃癌発癌をもたらす',
           answerImg: [],
           answer: '誤り',
-          commentary: '',
+          commentary:
+            'ピロリ菌は発がんプロモーターで、発がん性物質と組み合わさることで発癌を誘導する',
         },
         {
           detailInfo: '5/01午後',
@@ -4092,7 +4097,7 @@ export const useQuestionList = () => {
             '凝固性の壊死で黄色調のチーズ状の壊死物質を形成する。結核と一対一の関係。結核結節やランゲルハンスの巨細胞が特徴→結核結節（特徴的な組織像となる）。肉芽腫性の疾患は数が少なく、テストに出しやすい。',
         },
         {
-          detailInfo: '5/1反転講義',
+          detailInfo: '5/01反転講義',
           questionImg: [],
           questionSentence: 'EBVに関連するがんを述べよ',
           answerImg: [cancerAboutEBV],
@@ -4101,7 +4106,7 @@ export const useQuestionList = () => {
             'EBV:ヘルペスウイルスのひとつ。上皮細胞に感染し、上咽頭がん、平滑筋肉腫、唾液腺がん、胃がんに見られる。リンパ球などにも感染し、Tリンパ腫、NKリンパ腫、白血病、慢性活動性EBV感染症',
         },
         {
-          detailInfo: '5/1反転講義',
+          detailInfo: '5/01反転講義',
           questionImg: [],
           questionSentence: 'ヒト発癌に関連するウイルスを述べよ',
           answerImg: [cancerFromVirus],
@@ -4111,7 +4116,7 @@ export const useQuestionList = () => {
             'EBV、HPV、B型肝炎ウイルスはDNAウイルス。ヒトTリンパ好性ウイルスⅠ型HTLV-1はレトロウイルス。',
         },
         {
-          detailInfo: '5/1反転講義',
+          detailInfo: '5/01反転講義',
           questionImg: [],
           questionSentence: 'ピロリ菌の世界的分布の特徴は？',
           answerImg: [wherePylori],
@@ -4120,7 +4125,7 @@ export const useQuestionList = () => {
           commentary: '欧米では少ない。',
         },
         {
-          detailInfo: '5/1反転講義',
+          detailInfo: '5/01反転講義',
           questionImg: [],
           questionSentence: 'ピロリ菌感染の特徴は？',
           answerImg: [pyroliInfectionFeature],
@@ -4130,7 +4135,7 @@ export const useQuestionList = () => {
             'ピロリ菌が感染する生物は非常に限られている。ピロリ菌は発がんプロモーターの役割を担っていて、発がん性物質の影響を強めている。2歳までにピロリ菌が侵入するとピロリ菌を自力で排除できなくなる（持続感染）。グラフでは1986年 → 1998年で12年分平行移動した = 一度陽性になったら戻らない。ピロリ菌は弱いので感染経路が限られている→家系で感染する？',
         },
         {
-          detailInfo: '5/1反転講義',
+          detailInfo: '5/01反転講義',
           questionImg: [],
           questionSentence: 'ピロリ菌による粘膜障害機構を述べよ。',
           answerImg: [pyroliDamageMucous],
@@ -4140,7 +4145,7 @@ export const useQuestionList = () => {
             '慢性的な炎症が胃がんを招く。遊走白血球は活性酸素を産生する。',
         },
         {
-          detailInfo: '5/1反転講義',
+          detailInfo: '5/01反転講義',
           questionImg: [],
           questionSentence: 'ピロリ菌に関連する疾患を挙げよ。',
           answerImg: [pyroliMakesDisease],
