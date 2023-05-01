@@ -8,6 +8,15 @@ import cancerDeathRate from './img/answer/cancerDeathRate.png'
 import AGE from './img/answer/AGE.png'
 import Wilson from './img/answer/Wilson.png'
 import ReceptorOfAGE from './img/answer/ReceptorOfAGE.png'
+import Hutchinson from './img/answer/Hutchinson.png'
+import HNPCC from './img/answer/HNPCC.png'
+import HMGB1 from './img/answer/HMGB1.png'
+import HIV from './img/answer/HIV.png'
+import HbA1c from './img/answer/HbA1c.png'
+import glycolysisPathway from './img/answer/glycolysisPathway.png'
+import dystrophy from './img/answer/dystrophy.png'
+import ChediakHigashi from './img/answer/ChediakHigashi.png'
+
 import produceROS from './img/answer/produceROS.png'
 import Menkes from './img/answer/Menkes.png'
 import MELAS from './img/answer/MELAS.png'
@@ -549,9 +558,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】Chediak-Higashi症候群では活性酸素の産生異常により殺菌能が低下する。',
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          answerImg: [ChediakHigashi],
+          answer: '誤り...活性酸素の産生には問題ないが、輸送に問題がある',
+          commentary:
+            'チェディアック・ヒガシ症候群は、好中球・単球・NK細胞などの細胞質内に巨大な顆粒がみられる常染色体劣性遺伝病である。微小管に異常があり輸送障害によって細胞を貪食した好中球などがこれを死滅させることができないので病原体が拡散し炎症刺激が持続する事となる。',
         },
 
         {
@@ -648,7 +658,8 @@ export const useQuestionList = () => {
             '【正誤問題】DiGeorge症候群では胸腺の低形成により先天性にT細胞の異常を認める。',
           answerImg: [],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '22番染色体長腕一部欠失：22q11の常染色体優性遺伝病。第3鰓嚢のや第4鰓嚢の先天的異常に起因し、胸腺の部分的あるいは完全な欠損がみられる。胸腺は低形成や無形成となり、Tリンパ球の量的・質的な欠損をきたす',
         },
         {
           detailInfo: '',
@@ -684,9 +695,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】DNAはメチル化を受けても脱酵素TETによって脱メチル化される。TETの異常はエピジェネティック制御を介し腫瘍化を促進する。',
-          answerImg: [],
+          answerImg: [maintenanceMethylationDNA],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            'DNAの脱メチル化は分化を逆行することであり、限られた時期（配偶子形成・受精直後の2度）にしか行われない。→異常が生じると腫瘍化を促進する',
         },
         {
           detailInfo: '',
@@ -705,16 +717,18 @@ export const useQuestionList = () => {
             '【正誤問題】Duchenne型筋ジストロフィーではジストロフィンに異常がある。',
           answerImg: [],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            'デュシェンヌ型筋ジストロフィーはXp21.2のDMD遺伝子に原因をもつX伴性劣性遺伝。ジストロフィンをコードする遺伝子は全長200万塩基対に及ぶ大きさで、デュシェンヌ型筋ジストロフィーの患者の60％にエクソン領域の欠失、10%に重複のあることが判明した。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】Duchenne型筋ジストロフィーは三塩基リピート病である。',
-          answerImg: [],
-          answer: '誤り...三塩基リピート病ではない',
-          commentary: '',
+          answerImg: [dystrophy],
+          answer: '誤り...三塩基リピート病なのは筋緊張性ジストロフィー',
+          commentary:
+            'ジストロフィンをコードする遺伝子は非常に大きく、どこかで欠失（約6割）や重複（約1割）などの異常をきたすことでデュシェンヌ型筋ジストロフィーとなる（伴性劣性遺伝病）。一方筋緊張性ジストロフィーはミオトニン蛋白キナーゼ遺伝子内のCTGリピートの異常伸長によって発症する、常染色体優性遺伝病。',
         },
         {
           detailInfo: '',
@@ -751,19 +765,19 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence: '【正誤問題】HbA1cは終末糖化産物ではない',
-          answerImg: [],
-          answer: '正しい',
+          answerImg: [HbA1c],
+          answer: '誤り...終末糖化産物である',
           commentary:
-            'HbAに糖鎖が付加されたもの。過去数か月間の血糖値の目安となる。',
+            'HbA（ヘモグロビン：タンパク質）に高血糖下で還元糖が付着し、長い時間をかけて非酵素的に糖化される。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】HIF-1αは転写因子であり低酸素時にVEGF,GLUT1などの発現を誘導する。',
-          answerImg: [],
+          answerImg: [glycolysisPathway],
           answer: '正しい',
-          commentary: '',
+          commentary: 'HIF-1αは解糖系代謝を促進する',
         },
         {
           detailInfo: '',
@@ -779,9 +793,9 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】HIVは感染後数週間で血中のRNA量が急上昇するが、その後の数年は安定した値に保たれる。',
-          answerImg: [],
+          answerImg: [HIV],
           answer: '正しい',
-          commentary: '',
+          commentary: 'HIVは逆転写酵素を有するRNAウイルス。',
         },
         {
           detailInfo: '',
@@ -797,7 +811,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】HMGB1は炎症性サイトカインのひとつでショックを憎悪する。',
-          answerImg: [],
+          answerImg: [HMGB1],
           answer: '正しい',
           commentary: '',
         },
@@ -806,18 +820,20 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】HNPCCは右側結腸に好発し、関連癌として大腸癌以外に腎盂・尿管癌や小腸癌などがある。',
-          answerImg: [],
+          answerImg: [HNPCC],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            'HNPCC:遺伝性非ポリポーシス大腸癌Hereditary non-polyposis colorectal cancer。HNPCCでみられる大腸癌は組織学的に、低分化腺癌、印環細胞癌、粘液癌の割合が高く、flat adenomaや結節壊死集簇様病変が後発する',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】Hutchinson-Gilford症候群では大泉門の閉鎖不全による水頭症様の顔貌を呈する。',
-          answerImg: [],
+          answerImg: [Hutchinson],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '先天的遺伝子異常を原因とする早老症のひとつ。身長・体重の発育が乏しく、皮膚老化・脱毛・骨格・歯の形成不良をもたらす。外形的には頭頂部の大泉門の閉鎖不全を起こし、総じて小人症様となる。症状が進むと、皮膚の老化・高コレステロール血症・動脈硬化の亢進・糖尿病・骨粗鬆症などの早老変性が顕著となる。老化の進行は、本症患者の1年間の老化が、健常者の10年以上に相当するといわれている。根本的な病因は突然変異性の強い染色体異常といわれていて、基本的には家族内発症しない。',
         },
         {
           detailInfo: '',
@@ -951,10 +967,11 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence:
-            '【正誤問題】von Reclinghausen病では多発性の神経線維腫や皮膚にカフェオレ斑がみられる。',
+            '【正誤問題】von Recklinghausen病では多発性の神経線維腫や皮膚にカフェオレ斑がみられる。',
           answerImg: [],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '神経線維腫症：von Recklinghausenは遺伝性腫瘍症で最も頻度が高く、出生4000人に1患者と推定されている。末梢神経の多発性神経腫を特色とする腫瘍症であり、皮膚のカフェオレ斑が診断に重要。褐色細胞腫や神経膠腫、白血病、骨腫瘍を合併する。',
         },
         {
           detailInfo: '',
