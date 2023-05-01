@@ -31,6 +31,11 @@ import cancerFromDM from './img/answer/cancerFromDM.png'
 import brainTumor from './img/answer/brainTumor.png'
 import amyloidBeta from './img/answer/amyloidBeta.png'
 import amyloid from './img/answer/amyloid.png'
+import wherePylori from './img/answer/wherePylori.png'
+import pyroliMakesDisease from './img/answer/pyroliMakesDisease.png'
+import pyroliDamageMucous from './img/answer/pyroliDamageMucous.png'
+import cancerFromVirus from './img/answer/cancerFromVirus.png'
+import cancerAboutEBV from './img/answer/cancerAboutEBV.png'
 
 import prostaticHyperplasia from './img/answer/prostaticHyperplasia.png'
 import fattyLiver from './img/answer/fattyLiver.png'
@@ -106,6 +111,7 @@ import ferroptosis from './img/answer/ferroptosis.png'
 import apoptosisPathway from './img/answer/apoptosisPathway.png'
 import Warburg from './img/answer/Warburg.png'
 import synthesizeATP from './img/answer/synthesizeATP.png'
+import pyroliInfectionFeature from './img/answer/pyroliInfectionFeature.png'
 
 // import from './img/answer/.png'
 
@@ -3916,10 +3922,96 @@ export const useQuestionList = () => {
           answer: 'ミトコンドリアトランスファー',
           commentary: '',
         },
+        {
+          detailInfo: '5/01午後',
+          questionImg: [],
+          questionSentence: '【正誤問題】微生物は発癌における大きな要因である',
+          answerImg: [],
+          answer: '正しい',
+          commentary: '',
+        },
+        {
+          detailInfo: '5/01午後',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】EBV感染による2大悪性疾患は胃癌とバーキットリンパ腫である',
+          answerImg: [],
+          answer: '誤り',
+          commentary: '',
+        },
+        {
+          detailInfo: '5/01午後',
+          questionImg: [],
+          questionSentence: '【正誤問題】発癌に関係するウイルスは６種類である',
+          answerImg: [],
+          answer: '誤り',
+          commentary: '',
+        },
+        {
+          detailInfo: '5/01午後',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】細菌による発癌は外界に接した臓器に限定される',
+          answerImg: [],
+          answer: '誤り',
+          commentary: '',
+        },
+        {
+          detailInfo: '5/01午後',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】細菌による大腸癌発生促進には、細菌の産生する短鎖脂肪酸が挙げられる',
+          answerImg: [],
+          answer: '誤り',
+          commentary: '',
+        },
+        {
+          detailInfo: '5/01午後',
+          questionImg: [],
+          questionSentence: '【正誤問題】ピロリ菌は単独で胃癌発癌をもたらす',
+          answerImg: [],
+          answer: '誤り',
+          commentary: '',
+        },
+        {
+          detailInfo: '5/01午後',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】モンゴロイドに感染しているピロリ菌は毒性が高い',
+          answerImg: [],
+          answer: '正しい',
+          commentary: '',
+        },
+        {
+          detailInfo: '5/01午後',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】乳幼児期に感染したピロリ菌は持続感染する',
+          answerImg: [],
+          answer: '正しい',
+          commentary: '',
+        },
+        {
+          detailInfo: '5/01午後',
+          questionImg: [],
+          questionSentence: '【正誤問題】CagAはピロリ菌から粘液内に分泌される',
+          answerImg: [],
+          answer: '誤り',
+          commentary: '',
+        },
+        {
+          detailInfo: '5/01午後',
+          questionImg: [],
+          questionSentence:
+            '【正誤問題】血小板減少性紫斑病はピロリ菌除菌より改善する',
+          answerImg: [],
+          answer: '正しい',
+          commentary: '',
+        },
         // {
-        //   detailInfo: '5/01午前',
+        //   detailInfo: '5/01午後',
         //   questionImg: [],
-        //   questionSentence: '',
+        //   questionSentence: '【正誤問題】',
         //   answerImg: [],
         //   answer: '',
         //   commentary: '',
@@ -4003,8 +4095,8 @@ export const useQuestionList = () => {
           detailInfo: '5/1反転講義',
           questionImg: [],
           questionSentence: 'EBVに関連するがんを述べよ',
-          answerImg: [],
-          answer: '',
+          answerImg: [cancerAboutEBV],
+          answer: '鼻咽頭癌・Burkittリンパ腫など',
           commentary:
             'EBV:ヘルペスウイルスのひとつ。上皮細胞に感染し、上咽頭がん、平滑筋肉腫、唾液腺がん、胃がんに見られる。リンパ球などにも感染し、Tリンパ腫、NKリンパ腫、白血病、慢性活動性EBV感染症',
         },
@@ -4012,7 +4104,7 @@ export const useQuestionList = () => {
           detailInfo: '5/1反転講義',
           questionImg: [],
           questionSentence: 'ヒト発癌に関連するウイルスを述べよ',
-          answerImg: [],
+          answerImg: [cancerFromVirus],
           answer:
             'EBV:Epstein-Barr virus、HPV:Human Papillomavirus virus、B型肝炎ウイルス、C型肝炎ウイルス、ヒトTリンパ好性ウイルスⅠ型',
           commentary:
@@ -4022,37 +4114,40 @@ export const useQuestionList = () => {
           detailInfo: '5/1反転講義',
           questionImg: [],
           questionSentence: 'ピロリ菌の世界的分布の特徴は？',
-          answerImg: [],
+          answerImg: [wherePylori],
           answer:
-            '全世界で44.3%　途上国で50.8%　ラテンアメリカ・カリブ海地域で最も高く（59.3%）、北米で最も低い感染率（25.8%）を記録した。',
-          commentary: '',
+            '日本・韓国・中国東側（→東アジア）、南米（モンゴロイド系や日本移民が家系内で持ち続けている）',
+          commentary: '欧米では少ない。',
         },
         {
           detailInfo: '5/1反転講義',
           questionImg: [],
           questionSentence: 'ピロリ菌感染の特徴は？',
-          answerImg: [],
-          answer: '',
+          answerImg: [pyroliInfectionFeature],
+          answer:
+            'ピロリ菌 + 発がん性物質が両方組み合わされないと胃がんにならない。',
           commentary:
-            '胃・十二指腸潰瘍など　→　腹痛・嘔吐・腹部膨張感・食欲不振・体重減少など',
+            'ピロリ菌が感染する生物は非常に限られている。ピロリ菌は発がんプロモーターの役割を担っていて、発がん性物質の影響を強めている。2歳までにピロリ菌が侵入するとピロリ菌を自力で排除できなくなる（持続感染）。グラフでは1986年 → 1998年で12年分平行移動した = 一度陽性になったら戻らない。ピロリ菌は弱いので感染経路が限られている→家系で感染する？',
         },
         {
           detailInfo: '5/1反転講義',
           questionImg: [],
           questionSentence: 'ピロリ菌による粘膜障害機構を述べよ。',
-          answerImg: [],
+          answerImg: [pyroliDamageMucous],
           answer:
-            'ピロリ菌の酵素ウレアーゼが尿素をアンモニアに変換し、胃の上皮を傷害する。またピロリ菌が産生するCagAタンパク質が炎症性サイトカインを誘導し胃を荒らす。',
-          commentary: '',
+            'ピロリ菌は毒素を粘液細胞に打ち込み空洞を作ってしまう。この毒素は好中球遊走因子を誘導したり増殖シグナルを誘導したりする。また、ピロリ菌がウレアーゼによって産生するアンモニアによって直接障害も起こす（アンモニアは発がん物質でもある）。アンモニア + 次亜塩素酸でモノクロラミンを産生したりもする。',
+          commentary:
+            '慢性的な炎症が胃がんを招く。遊走白血球は活性酸素を産生する。',
         },
         {
           detailInfo: '5/1反転講義',
           questionImg: [],
           questionSentence: 'ピロリ菌に関連する疾患を挙げよ。',
-          answerImg: [],
-          answer: '',
+          answerImg: [pyroliMakesDisease],
+          answer:
+            '胃潰瘍・慢性胃炎・十二指腸潰瘍　→胃癌・MALTリンパ腫　慢性蕁麻疹・自己免疫疾患（血小板減少性紫斑病・関節リウマチ・シェーグレン症候群）・消化性潰瘍（胆道性疾患・膵炎）・機能性消化不良（胃もたれ・胸やけ）・心筋梗塞',
           commentary:
-            '慢性胃炎・胃十二指腸潰瘍・胃がん・胃MALTリンパ腫・胃ポリープ・突発性血小板減少紫斑症（Ⅱ型アレルギー）',
+            'ピロリ菌は十二指腸へも移動する。反復性胃潰瘍はピロリ菌を除菌することでしか完治しない。→現在ではほぼ完治する。MALTリンパ腫はほとんどピロリ菌が原因で、悪性リンパ腫の特徴を持っているのに、ピロリ菌を除菌すると自然治癒する。胃下垂はピロリ菌が原因。特に若い人でピロリ菌を除菌すると胃酸分泌が亢進されて逆に胸焼けすることがある。心筋梗塞の壊死細胞からピロリ菌の遺伝子が検出された。血小板減少性紫斑病もピロリ菌を除菌すれば治ることもある。シェーグレン症候群の原因はピロリ菌のウレアーゼではないかと提起されている。ピロリ菌は早いうちに除菌したほうがリスクは低い。',
         },
         // {
         //   detailInfo: '',

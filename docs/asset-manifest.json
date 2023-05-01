@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-pathology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-pathology/static/js/main.00d7d750.js",
+    "main.js": "/anywhere-pathology/static/js/main.0afd7a3f.js",
     "static/media/degeneration.png": "/anywhere-pathology/static/media/degeneration.4672a45d0daf6c2cee55.png",
     "static/media/jaundiceTissue.png": "/anywhere-pathology/static/media/jaundiceTissue.f24c229bfaa4ec365981.png",
     "static/media/prostaticHyperplasia.png": "/anywhere-pathology/static/media/prostaticHyperplasia.af4cb487859c80bc7b0a.png",
@@ -21,11 +21,14 @@
     "static/media/hypertension.png": "/anywhere-pathology/static/media/hypertension.59589571903170be0943.png",
     "static/media/sarcoidosis.png": "/anywhere-pathology/static/media/sarcoidosis.f8f996877ebb5e559780.png",
     "static/media/necrosis.png": "/anywhere-pathology/static/media/necrosis.121c94bb8dd935c56a7a.png",
+    "static/media/pyroliDamageMucous.png": "/anywhere-pathology/static/media/pyroliDamageMucous.dbd28dd07ef1d672045c.png",
     "static/media/Wilms.png": "/anywhere-pathology/static/media/Wilms.f754fbbfa5e40603596d.png",
     "static/media/glanulationTissue.png": "/anywhere-pathology/static/media/glanulationTissue.d65ce6fb351009d35f41.png",
     "static/media/amyloidBeta.png": "/anywhere-pathology/static/media/amyloidBeta.2556a04eceb27d5ade02.png",
     "static/media/esophagobronchialFistula.png": "/anywhere-pathology/static/media/esophagobronchialFistula.ed0708d849626d097aee.png",
+    "static/media/wherePylori.png": "/anywhere-pathology/static/media/wherePylori.865b326add36e52483ef.png",
     "static/media/Kartagener.png": "/anywhere-pathology/static/media/Kartagener.b08cf1fdd30b6636512f.png",
+    "static/media/pyroliMakesDisease.png": "/anywhere-pathology/static/media/pyroliMakesDisease.4b52bb2cd8cbe41d92e5.png",
     "static/media/apoptosisPathway.png": "/anywhere-pathology/static/media/apoptosisPathway.ce2166a9f3323e17e1eb.png",
     "static/media/glanuloma.png": "/anywhere-pathology/static/media/glanuloma.2d6d00ff892e272c628c.png",
     "static/media/mitochondria.png": "/anywhere-pathology/static/media/mitochondria.6e782ecd57087684f7d1.png",
@@ -42,6 +45,7 @@
     "static/media/welsh.png": "/anywhere-pathology/static/media/welsh.0d77919b960b5defec3a.png",
     "static/media/fattyAcid.png": "/anywhere-pathology/static/media/fattyAcid.5771855fabe84649090d.png",
     "static/media/fattyLiver.png": "/anywhere-pathology/static/media/fattyLiver.77de4d0246057470215f.png",
+    "static/media/pyroliInfectionFeature.png": "/anywhere-pathology/static/media/pyroliInfectionFeature.ba0217f609d927741396.png",
     "static/media/coagulation.png": "/anywhere-pathology/static/media/coagulation.0f22c06be23c17c9caa9.png",
     "static/media/BRD4.png": "/anywhere-pathology/static/media/BRD4.e36f4c62821063c99eda.png",
     "static/media/brainTumor.png": "/anywhere-pathology/static/media/brainTumor.b91c13fb7d9822966af4.png",
@@ -52,6 +56,7 @@
     "static/media/aneurysmTypes.png": "/anywhere-pathology/static/media/aneurysmTypes.0976e0d91b051ba57e2c.png",
     "static/media/moenckeberg.png": "/anywhere-pathology/static/media/moenckeberg.2f9a70e992e745ef8db3.png",
     "static/media/coordinatedHistone.png": "/anywhere-pathology/static/media/coordinatedHistone.fc96e423141f967115a7.png",
+    "static/media/cancerAboutEBV.png": "/anywhere-pathology/static/media/cancerAboutEBV.f46b40a4efe7d7021b43.png",
     "static/media/hematopoieticStemCell.png": "/anywhere-pathology/static/media/hematopoieticStemCell.4811eae75686386afd7d.png",
     "static/media/histoneStructure.png": "/anywhere-pathology/static/media/histoneStructure.2c14b5319ebee48353f9.png",
     "static/media/causeOfCancer.png": "/anywhere-pathology/static/media/causeOfCancer.fa77f62e2ae79b3f396d.png",
@@ -88,6 +93,7 @@
     "static/media/cellDeath.png": "/anywhere-pathology/static/media/cellDeath.13a4d468b835b386ac66.png",
     "static/media/neuroblastoma.png": "/anywhere-pathology/static/media/neuroblastoma.cb81fd4e149679b05837.png",
     "static/media/allergy5.png": "/anywhere-pathology/static/media/allergy5.f2d3776f3c78fea9e0b5.png",
+    "static/media/cancerFromVirus.png": "/anywhere-pathology/static/media/cancerFromVirus.2f07eb717e3534d2c953.png",
     "static/media/glanulomaTypes.png": "/anywhere-pathology/static/media/glanulomaTypes.11424375af5c1457e084.png",
     "static/media/inflammation.png": "/anywhere-pathology/static/media/inflammation.190183f2db12e603714c.png",
     "static/media/tumorSuppressorGene.png": "/anywhere-pathology/static/media/tumorSuppressorGene.94873c696eed1f553022.png",
@@ -110,10 +116,10 @@
     "static/media/bilirubinDifference.png": "/anywhere-pathology/static/media/bilirubinDifference.1963d12f9aa902b7c0bf.png",
     "index.html": "/anywhere-pathology/index.html",
     "main.6180b9dc.css.map": "/anywhere-pathology/static/css/main.6180b9dc.css.map",
-    "main.00d7d750.js.map": "/anywhere-pathology/static/js/main.00d7d750.js.map"
+    "main.0afd7a3f.js.map": "/anywhere-pathology/static/js/main.0afd7a3f.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.00d7d750.js"
+    "static/js/main.0afd7a3f.js"
   ]
 }
