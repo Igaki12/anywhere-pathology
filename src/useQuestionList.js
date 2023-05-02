@@ -16,6 +16,12 @@ import HbA1c from './img/answer/HbA1c.png'
 import glycolysisPathway from './img/answer/glycolysisPathway.png'
 import dystrophy from './img/answer/dystrophy.png'
 import ChediakHigashi from './img/answer/ChediakHigashi.png'
+import NADPH from './img/answer/NADPH.png'
+import myocarditis from './img/answer/myocarditis.png'
+import MEN from './img/answer/MEN.png'
+import glutaminolysis from './img/answer/glutaminolysis.png'
+import cholestanol from './img/answer/cholestanol.png'
+import cancerProduceCalcium from './img/answer/cancerProduceCalcium.png'
 
 import produceROS from './img/answer/produceROS.png'
 import Menkes from './img/answer/Menkes.png'
@@ -880,9 +886,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】MEN2AではRETの突然変異による発症し、副甲状腺機能亢進や褐色細胞腫を認める。',
-          answerImg: [],
+          answerImg: [MEN],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '多発性内分泌腫瘍症2型：MEN(Multiple Endocrine Neoplasia) type2は甲状腺髄様癌、複甲状腺機能亢進症、褐色細胞腫を合併する遺伝性腫瘍症。消化管の機能異常、骨格異常などを合併する。2A型（合併症なし）と2B型（合併症あり）に分類されるが、いずれもRETに原因遺伝子を持つ常染色体優性遺伝病。',
         },
         {
           detailInfo: '',
@@ -911,8 +918,8 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】NASHでは小滴性脂肪肝・水滴細胞出現・線維化・炎症細胞浸潤が見られる。',
           answerImg: [fattyLiver],
-          answer: '誤り...小滴性脂肪肝ではない',
-          commentary: '大滴性脂肪肝',
+          answer: '誤り...小滴性脂肪肝ではなく大滴性',
+          commentary: '',
         },
         {
           detailInfo: '',
@@ -1000,7 +1007,7 @@ export const useQuestionList = () => {
             '【正誤問題】αklothoはランゲルハンス島におけるインスリンの分泌を制御する。',
           answerImg: [],
           answer: '誤り...αklothoではない',
-          commentary: '',
+          commentary: 'Klotho（クロトー）は日本人が見つけた抗老化分子。',
         },
         {
           detailInfo: '',
@@ -1017,9 +1024,9 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】アザシチジンはDNMT(DNAメチルトランスフェラーゼ)に結合し失活させることでDNAメチル化を促進する。',
-          answerImg: [],
+          answerImg: [maintenanceMethylationDNA],
           answer: '誤り...DNAメチル化を抑制してしまう',
-          commentary: '',
+          commentary: 'DNMTはDNAメチル化酵素である。',
         },
         {
           detailInfo: '',
@@ -1064,9 +1071,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】ウイルス性心筋炎は心筋細胞間にリンパ球浸潤がみられる。',
-          answerImg: [],
+          answerImg: [myocarditis],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '先進国では心筋炎はウイルス感染によるものが最も多い。原因ウイルスはコクサッキーウイルス・エコーウイルス・インフルエンザウイルスなど。多くの症例で心臓は拡張していて、心筋層の間質に単核細胞（特にリンパ球）が主体の炎症細胞浸潤がみられ、治癒期には部分的に線維化も起こる',
         },
         {
           detailInfo: '',
@@ -1082,9 +1090,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】がんの経過中に高カルシウム血症をきたすと腎不全を引き起こす可能性がある。',
-          answerImg: [],
+          answerImg: [cancerProduceCalcium],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '肺がんなどに随伴して高カルシウム血症を引き起こすことがある。高カルシウム血症は急性腎不全を招く。',
         },
         {
           detailInfo: '',
@@ -1121,7 +1130,8 @@ export const useQuestionList = () => {
             '【正誤問題】クルーケンベルグ腫瘍が男性に生じることは無い',
           answerImg: [],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '胃がんなどが一側ないし両側卵巣へ転移することをクルーケンベルグ腫瘍:Krukenbergs tumorという。',
         },
         {
           detailInfo: '',
@@ -1138,72 +1148,79 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】グルタミノリシスによるエネルギー産生は腫瘍細胞に特異的である。',
-          answerImg: [],
+          answerImg: [glutaminolysis],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            'グルタミノリシスはリンパ球や胸腺細胞、結腸細胞、脂肪細胞、そしてとくに腫瘍細胞といった全ての増殖している細胞で起こる。腫瘍細胞ではTCA回路が阻害されているため、解糖系に加えてグルタミノリシスがもうひとつの大きなエネルギー産生の柱である。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】グルタミンはDNA合成における窒素源となる',
-          answerImg: [],
+          answerImg: [glutaminolysis],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            'グルタミンおよびその分解生成物であるグルタミン酸およびアスパラギン酸は、核酸およびセリンの前駆体である。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】グルタミンはα-ケトグルタル酸に代謝されペントースリン酸経路に組み込まれる。',
-          answerImg: [],
-          answer: '正しい',
-          commentary: '',
+          answerImg: [glutaminolysis],
+          answer: '誤り...ペントースリン酸経路ではなくTCA回路(クエン酸回路)',
+          commentary:
+            'Glu → α-KG → TCA回路。グルタミノリシスで生成されるNADPHは抗酸化作用をもち酸化ストレスから腫瘍細胞を守るはたらきがある。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】グルタミンはオキサロ酢酸からアセチルCoAによりクエン酸を生成する。',
-          answerImg: [],
+          answerImg: [glutaminolysis],
           answer: '正しい',
-          commentary: '',
+          commentary: 'クエン酸回路',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】グルタミンはオキサロ酢酸からピルビン酸キナーゼによりピルビン酸になる。',
-          answerImg: [],
-          answer: '誤り...ピルビン酸キナーゼではない',
-          commentary: '',
+          answerImg: [glutaminolysis],
+          answer:
+            '誤り...ピルビン酸キナーゼ(PKMなど)はホスホエノールピルビン酸PEPをピルビン酸へリン酸化する酵素',
+          commentary:
+            'グルタミノリシスではグルタミンはリンゴ酸に代謝されMEによってピルビン酸に変換される。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】グルタミンはグルタチオンの原料として細胞のレドックスに関与する',
-          answerImg: [],
+          answerImg: [NADPH],
           answer: '正しい',
-          commentary: '',
+          commentary: 'グルタチオン:GSH、レドックス:酸化還元',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】グルタミンはリンゴ酸に代謝されマリック・エンザイムによりピルビン酸になる。',
-          answerImg: [],
+          answerImg: [glutaminolysis],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            'ME1:マリック・エンザイム。がん細胞ではTCA回路が阻害されており、必要なアミノ酸の合成をグルタミンから行っている（→グルタミノリシス）。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】コール酸はコレステロール排出に重要である',
-          answerImg: [],
+          answerImg: [cholestanol],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            'コレステロールはエネルギーとして利用されず、胆汁として排出される。胆汁酸塩はコレステロールの代謝産物であり、またコレステロール胆汁排泄の安定剤でもある。',
         },
         {
           detailInfo: '',
@@ -1371,9 +1388,10 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence: '【正誤問題】ピルビン酸はLDHにより乳酸を生成する。',
-          answerImg: [],
+          answerImg: [glycolysisPathway],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            'Pyruvate → Lactate。HIF-1αやC-MYCによって誘導される酵素。C-MYCは解糖系代謝を誘導するのでがん細胞で発現亢進している。',
         },
         {
           detailInfo: '',
@@ -1428,7 +1446,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】ポリオール代謝亢進により還元型グルタミンが減少し酸化ストレスが増加する',
-          answerImg: [],
+          answerImg: [polyol],
           answer: '誤り...グルタミンではなくGSH',
           commentary: '',
         },
