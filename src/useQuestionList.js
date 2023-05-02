@@ -22,6 +22,13 @@ import MEN from './img/answer/MEN.png'
 import glutaminolysis from './img/answer/glutaminolysis.png'
 import cholestanol from './img/answer/cholestanol.png'
 import cancerProduceCalcium from './img/answer/cancerProduceCalcium.png'
+import Th from './img/answer/Th.png'
+import TDimer from './img/answer/TDimer.png'
+import rheumaticHeartDisease from './img/answer/rheumaticHeartDisease.png'
+import macrophageReceptors from './img/answer/macrophageReceptors.png'
+import macrophage from './img/answer/macrophage.png'
+import HMGB1InhibitMacrophage from './img/answer/HMGB1InhibitMacrophage.png'
+import AGEActivity from './img/answer/AGEActivity.png'
 
 import produceROS from './img/answer/produceROS.png'
 import Menkes from './img/answer/Menkes.png'
@@ -808,18 +815,20 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】HMGB1が高値のエンドトキシンショックでは予後良好である。',
-          answerImg: [],
+          answerImg: [macrophage],
           answer: '誤り...予後不良である',
-          commentary: '',
+          commentary:
+            'HMGB1はマクロファージ系細胞にアポトーシスを誘導し、エンドトキシンショックに対処できなくする。活性化マクロファージは貪食した微生物を殺したり、傷害された組織の細胞を破壊・免疫担当細胞の動員などを促進する生理活性物質を産生することでエンドトキシンショックに対処する。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
-            '【正誤問題】HMGB1は炎症性サイトカインのひとつでショックを憎悪する。',
-          answerImg: [HMGB1],
+            '【正誤問題】HMGB1は炎症性サイトカインのひとつでショックを増悪する。',
+          answerImg: [HMGB1InhibitMacrophage],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            'HMGB1はRAGEを活性化させ増殖・活性酸素生成を行うほか、ショックに対処するマクロファージ系細胞にアポトーシスを誘導するのでショックが増悪される。',
         },
         {
           detailInfo: '',
@@ -1454,37 +1463,41 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence:
-            '【正誤問題】マクロファージは RAGE やスカベンジャー受容体などを介し終末糖化産物による炎症作用を発現する',
-          answerImg: [],
-          answer: '誤り...抗炎症作用を発現させない',
-          commentary: '',
+            '【正誤問題】マクロファージは RAGE やスカベンジャー受容体などを介し終末糖化産物による抗炎症作用を発現する',
+          answerImg: [AGEActivity],
+          answer: '誤り...抗炎症作用ではなく炎症誘導',
+          commentary:
+            'その他、AGEによって増えたHMGB1はショックに対応する各組織のマクロファージ系細胞にアポトーシスを誘導したりもする。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】マクロファージは抗原提示細胞であり、Fc受容体とMHCクラスⅡ分子を有している。',
-          answerImg: [],
+          answerImg: [macrophageReceptors],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '抗原提示能は樹状細胞の方が高い。外来性抗原をヘルパーT細胞に提示するためにFc受容体とMHC ClassⅡ分子が必要。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】ミューテーター遺伝子としてミスマッチ修復にかかわるMHLや一本鎖切断修復、二本鎖切断修復にかかわる BRCA1/2 がある',
-          answerImg: [],
-          answer: '誤り...MHLではない',
-          commentary: '',
+          answerImg: [MMR],
+          answer: '誤り...MHLではなくMLH1',
+          commentary:
+            '二本鎖のミスマッチをMutSαやMutLαが認識して新生鎖を除去する→ミスマッチ修復',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】リウマチ性心筋炎は溶連菌感染が関与している',
-          answerImg: [],
+          answerImg: [rheumaticHeartDisease],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            'リウマチ熱はA群β溶血性連鎖球菌の感染による咽頭炎後、2～3週間の間隔をおいて生じる炎症性疾患（発熱・心筋炎・多関節炎など）。発生機序として、溶連菌感染に伴い連鎖球菌のある株のM蛋白に対する抗体が作られ、その抗体が心臓の糖タンパクとの交差反応を起こし急性炎症反応がひきおこされるためといわれている。',
         },
         {
           detailInfo: '',
@@ -1500,7 +1513,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】リンパ球はB細胞とT細胞に大別され、 B細胞は抗体産生を行い、 T細胞は他の白血球の活動を調節する',
-          answerImg: [],
+          answerImg: [Th],
           answer: '正しい',
           commentary: '',
         },
@@ -1518,9 +1531,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】悪性腫瘍はDNAの配列や染色体の構造を伴っていることがほとんどでこの変化を突然変異と呼ぶ。これは遺伝子突然変異と染色体突然変異に大別される',
-          answerImg: [],
+          answerImg: [mutationType],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '上皮性がんには遺伝子突然変異、非上皮性がんには染色体突然変異が多い。',
         },
         {
           detailInfo: '',
@@ -1576,18 +1590,20 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】遺伝子突然変異はDNAの配列に生じた変化であり、 一方染色体突然変異は染色体単位での大きな構造変化をさす',
-          answerImg: [],
+          answerImg: [leukemia],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '塩基の置換・挿入・欠失などの変異は遺伝子突然変異とよばれ、上皮性がんに多い。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
-            '【正誤問題】遺伝子突然変異は塩基の置換や挿入、 欠失があるが、 変異が生じた原因による特徴は特にない',
-          answerImg: [],
+            '【正誤問題】遺伝子突然変異は塩基の置換や挿入、欠失があるが、変異が生じた原因による特徴は特にない',
+          answerImg: [TDimer],
           answer: '誤り...遺伝子突然変異は変異の原因による特徴がある',
-          commentary: '',
+          commentary:
+            '例えば紫外線は隣接するチミンを二量体に変化させてしまう（チミンダイマー）。',
         },
         {
           detailInfo: '',
@@ -2929,9 +2945,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】網膜芽細胞腫ではWT1遺伝子異常が認められ、 常染色体優性遺伝である',
-          answerImg: [],
-          answer: '誤り...WT1ではない',
-          commentary: '',
+          answerImg: [retinoblastoma],
+          answer: '誤り...WT1ではなくRb遺伝子の異常',
+          commentary:
+            'Rb遺伝子はがん抑制遺伝子で、高発癌家系では片側のアレルが不活化されていて、もう一方のアレルに何らかの障害が起こると修復することができない。→がん抑制遺伝子は両アレルが不活化されると機能を失うが、片アレルが不活化された状態が遺伝するので遺伝形式は優性遺伝となる。',
         },
         {
           detailInfo: '',
