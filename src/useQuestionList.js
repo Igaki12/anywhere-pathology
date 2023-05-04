@@ -4307,7 +4307,7 @@ export const useQuestionList = () => {
           questionImg: [practice4],
           questionSentence:
             '脂肪滴が⾒られるのは、中⼼静脈周囲か⾨脈域周囲のどちらか？脂肪肝から⽣じる肝炎を何というか？その発症に関わる要因は？',
-          answerImg: [fattyAcid],
+          answerImg: [fattyLiver],
           answer:
             'この脂肪滴は門脈域周辺。進行するとNASHを発症する。NASHの原因として、肥満・高血糖・高脂血症が挙げられる。',
           commentary:
@@ -4362,7 +4362,7 @@ export const useQuestionList = () => {
           answerImg: [atherosclerosis4],
           answer: '粥状動脈硬化',
           commentary:
-            '大型・中型の動脈に好発。動脈内腔の狭窄や閉塞をきたし、虚血性心疾患・狭心症・心筋梗塞・脳梗塞・下肢の壊疽のなどを引き起こす。また大動脈の動脈瘤の形成・その破綻などを生ずることもある。脂肪斑に泡沫細胞の集簇が見られる。',
+            '大型・中型の動脈に好発。動脈内腔の狭窄や閉塞をきたし、虚血性心疾患・狭心症・心筋梗塞・脳梗塞・下肢の壊疽などを引き起こす。また大動脈の動脈瘤の形成・その破綻などを生ずることもある。脂肪斑に泡沫細胞の集簇が見られる。',
         },
         {
           detailInfo: '',
