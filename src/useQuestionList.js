@@ -5,6 +5,33 @@ import causeOfDeath from './img/answer/causeOfDeath.png'
 import causeOfCancer from './img/answer/causeOfCancer.png'
 import CancerFromAGE from './img/answer/CancerFromAGE.png'
 import cancerDeathRate from './img/answer/cancerDeathRate.png'
+import SSc from './img/answer/SSc.png'
+import lipidPeroxide from './img/answer/lipidPeroxide.png'
+import practice9 from './img/question/practice9.png'
+import practice8 from './img/question/practice8.png'
+import practice7 from './img/question/practice7.png'
+import practice6 from './img/question/practice6.png'
+import practice5 from './img/question/practice5.png'
+import practice4 from './img/question/practice4.png'
+import practice3 from './img/question/practice3.png'
+import practice2 from './img/question/practice2.png'
+import practice13 from './img/question/practice13.png'
+import practice12 from './img/question/practice12.png'
+import practice11 from './img/question/practice11.png'
+import practice10 from './img/question/practice10.png'
+import practice1 from './img/question/practice1.png'
+import TakayasuArteritis from './img/answer/TakayasuArteritis.png'
+import subarachnoidHemorrhage from './img/answer/subarachnoidHemorrhage.png'
+import rosette from './img/answer/rosette.png'
+import pulmonaryInfarction from './img/answer/pulmonaryInfarction.png'
+import pulmonaryEdema from './img/answer/pulmonaryEdema.png'
+import practice1answer from './img/answer/practice1answer.png'
+import medulloblastoma from './img/answer/medulloblastoma.png'
+import intracerebralHemorrhage from './img/answer/intracerebralHemorrhage.png'
+import hemochromatosis from './img/answer/hemochromatosis.png'
+import atherosclerosis4 from './img/answer/atherosclerosis4.png'
+import practice0 from './img/question/practice0.png'
+
 import AGE from './img/answer/AGE.png'
 import Wilson from './img/answer/Wilson.png'
 import ReceptorOfAGE from './img/answer/ReceptorOfAGE.png'
@@ -1447,8 +1474,9 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】ベーチェット病では再発性のアフタ性口内炎やドライアイの症状が見られる。',
           answerImg: [],
-          answer: '誤り...ドライアイではない',
-          commentary: '',
+          answer: '誤り...ドライアイではなく眼の（ぶどう膜の）炎症',
+          commentary:
+            'ベーチェット病は口腔粘膜のアフタ性潰瘍・外陰部潰瘍・皮膚症状・眼症状の4つの症状を主症状とする慢性再発性の全身炎症性疾患。眼の炎症を含め、特異的な初期症状が出る。',
         },
         {
           detailInfo: '',
@@ -1543,7 +1571,7 @@ export const useQuestionList = () => {
             '【正誤問題】悪性腫瘍は増殖シグナルの活性化や生存シグナルの活性化が生じており、 周囲組織と関係なく自立的に増殖する。良性腫瘍ではこのような現象が観察されることは無い。',
           answerImg: [],
           answer: '誤り...良性腫瘍でも観察される',
-          commentary: '',
+          commentary: '転移・浸潤があるかどうか',
         },
         {
           detailInfo: '',
@@ -1647,7 +1675,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】加齢による発癌リスクの上昇は幹細胞分裂回数と関連する',
-          answerImg: [],
+          answerImg: [cancerDeathRate],
           answer: '正しい',
           commentary: '',
         },
@@ -1657,33 +1685,35 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】家族性大腸腺腫症に脳腫瘍を合併するものを Gardner 症候群という。',
           answerImg: [],
-          answer: '誤り...Gardner症候群ではない',
+          answer:
+            '誤り...Gardner症候群は家族性大腸腺腫症に骨腫や多発性の皮膚病変を伴うことを特徴とする。',
           commentary: '',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
-            '【正誤問題】過酸化脂質は脂肪内に蓄積し肥満にける遺伝子異常に関与する',
-          answerImg: [],
+            '【正誤問題】過酸化脂質は脂肪内に蓄積し肥満における遺伝子異常に関与する',
+          answerImg: [lipidPeroxide],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            'ヒドロキシラジカルなどが脂質と反応し、過酸化脂質として蓄積される',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】過酸化水素は好中球などで細菌などの分解に用いられる',
-          answerImg: [],
+          answerImg: [produceROS],
           answer: '正しい',
-          commentary: '',
+          commentary: 'ROSは殺菌作用をもつ',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】我々は常に自然放射線や活性酸素種、紫外線やアルコール、ベンツピレン等の変異原にさらされておりDNA損傷が生じている',
-          answerImg: [],
+          answerImg: [TDimer],
           answer: '正しい',
           commentary: '',
         },
@@ -1693,8 +1723,8 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】拡張型心筋症では線維化がみられ、 拡張障害が主にみられる',
           answerImg: [],
-          answer: '誤り...拡張障害ではない',
-          commentary: '',
+          answer: '誤り...拡張障害ではなく収縮障害',
+          commentary: 'うっ血性心筋症ともよばれる。',
         },
         {
           detailInfo: '',
@@ -1712,7 +1742,7 @@ export const useQuestionList = () => {
             '【正誤問題】活性酸素分子種の中で酵素的に分解されないのはスーパーオキサイドである',
           answerImg: [],
           answer: '誤り...スーパーオキサイドではなくヒドロキシラジカル',
-          commentary: '',
+          commentary: 'ヒドロキシラジカルは脂質に蓄積し発がんに寄与する',
         },
         {
           detailInfo: '',
@@ -1749,7 +1779,8 @@ export const useQuestionList = () => {
             '【正誤問題】肝細胞障害による脂肪肝では中心肝静脈周囲の肝細胞に脂肪滴を生じやすい',
           answerImg: [fattyLiver],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '脂肪肝は大きく1.小葉中心脂肪化と、2.小葉辺縁性脂肪化に起因し進行すると肝小葉全体にわたって脂肪化するびまん性脂肪化状態となる。アルコールや薬物摂取では小葉中心脂肪化がみられることがおおい。',
         },
         {
           detailInfo: '',
@@ -1843,25 +1874,28 @@ export const useQuestionList = () => {
             '【正誤問題】巨大化した脂肪細胞ではアディポネクチンが増加しインスリン耐性が低下する',
           answerImg: [],
           answer: '誤り...巨大化した脂肪細胞ではない',
-          commentary: '',
+          commentary:
+            'アディポネクチンは小型脂肪細胞から分泌され、TNF-αの産生と機能を阻害することでインスリン感受性を改善する。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】強皮症では抗 Scl-70 抗体陽性となり、 Raynaud現象や Gotton徴候を認める。',
-          answerImg: [],
-          answer: '誤り...Gotton徴候ではない',
-          commentary: '',
+          answerImg: [SSc],
+          answer: '誤り...Gotton徴候ではなくCREST症候群',
+          commentary:
+            '全身性硬化症は皮膚・消化管・心・腎・肺などの間質結合組織での膠原繊維の過剰造成によって重篤な臓器硬化を招く疾患で、強皮症sclerodermaとも呼ばれる。CREST徴候:Calcinosis + Raynauds phenomenon + Esophageal hypomotility + Sclerodactyly + Telangiectasia。　疾患特異的とされるScl-70が本症の発症にいかにかかわるかは不明。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】筋ジストロフィーでは、 骨格筋に神経原性萎縮を生じる',
-          answerImg: [],
-          answer: '誤り...神経原性萎縮ではない',
-          commentary: '',
+          answerImg: [duchanne],
+          answer: '誤り...神経原性萎縮ではなく筋原性の萎縮',
+          commentary:
+            'デュシェンヌ型筋ジストロフィーは遺伝子疾患で、ジストロフィンを体内で合成できないので筋細胞膜が壊れやすくなる。',
         },
         {
           detailInfo: '',
@@ -1879,8 +1913,9 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】結合体とは二卵性双生児にみられることのある二重(重複)奇形である。',
           answerImg: [],
-          answer: '誤り...二卵性ではない',
-          commentary: '',
+          answer: '誤り...二卵性ではなく一卵性双生児',
+          commentary:
+            '一卵性双生児の分離するタイミングが遅くなると分離しきれず、一部がくっついた状態で誕生すると考えられている。',
         },
         {
           detailInfo: '',
@@ -1915,7 +1950,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】血漿由来の炎症性メディエーターにキニンや補体 (C3a, C5a) があり細胞由来のものにヒスタミンやセロトニン NOがある',
-          answerImg: [],
+          answerImg: [mediatorFromCell],
           answer: '正しい',
           commentary: '',
         },
@@ -4230,14 +4265,147 @@ export const useQuestionList = () => {
         //   answer: '',
         //   commentary: '',
         // },
-        // {
-        //   detailInfo: '',
-        //   questionImg: [],
-        //   questionSentence: '',
-        //   answerImg: [],
-        //   answer: '',
-        //   commentary: '',
-        // },
+      ],
+    },
+    {
+      groupTag: '実習課題',
+      groupContents: [
+        {
+          detailInfo: '',
+          questionImg: [practice0, practice1],
+          questionSentence:
+            'A~Cを心筋梗塞からの時系列に沿って並べ、それぞれの組織所見を示してください。例：心筋細胞の変化、間質の変化、浸潤する炎症細胞など',
+          answerImg: [myocardialInfarctionSymptom, practice1answer],
+          answer:
+            'A.心筋細胞が壊死し好酸性変化。横紋が消失し、核の濃縮・崩壊がみられる。（～24時間）　B.壊死心筋にマクロファージが集積し貪食が進行。線維芽細胞・新生血管などからなる肉芽組織がみられるようになる。（～3週）　C.心筋梗塞部位の線維化が認められ、白色の梗塞瘢痕が認められるようになる。（～8週）',
+          commentary:
+            '最初の12~18時間ごろまでに心筋細胞の凝固壊死像があきらかになる。壊死した心筋層には24時間以内に好中球浸潤が出現。壊死した心筋細胞のマクロファージによる貪食により、4週ごろまでに、壊死心筋巣の殆どが取り除かれる。また梗塞部位の肉が組織内のコラーゲン沈着も進み、コラーゲン繊維はより緻密になるとともに、血管も減少していき、8週ごろまでには、梗塞部位は緻密な瘢痕組織で置換される（→梗塞瘢痕）',
+        },
+        {
+          detailInfo: '',
+          questionImg: [practice2],
+          questionSentence:
+            '肺胞内にみられる、矢印で示す細胞の名前は？この細胞内に認められる顆粒は何か？',
+          answerImg: [pulmonaryEdema],
+          answer:
+            '心不全細胞:heart failure cell。貪食した多数のヘモジデリンが顆粒として認められる。',
+          commentary:
+            '肺は肉眼的に褐色硬化を示す、組織学的に肺胞間質は肥厚し毛細血管が拡張する。肺胞内には多数のヘモジデリンを貪食したマクロファージがみられる。ヘモジデリンは赤血球から遊離したヘモグロビンの残骸',
+        },
+        {
+          detailInfo: '',
+          questionImg: [practice3],
+          questionSentence:
+            '肺に梗塞が起こると、出血性梗塞か貧⾎性梗塞のどちらを⽰すか？組織像では梗塞範囲は壊死を呈するが、凝固壊死、融解壊死のどちらに分類されるか？',
+          answerImg: [pulmonaryInfarction],
+          answer: '出血性梗塞で凝固壊死。',
+          commentary:
+            '肺動脈分枝の閉塞後にその血管の支配領域の肺組織が壊死に陥ることをいう。組織学的には肺組織の凝固壊死をみるが、気管支動脈の血流量が増加することにより血管が破綻し出血を伴う。いわゆる出血性梗塞を示すが、時間がたつとヘモジデリンを貪食したマクロファージを伴う肉芽組織や線維性瘢痕組織となる。',
+        },
+        {
+          detailInfo: '',
+          questionImg: [practice4],
+          questionSentence:
+            '脂肪滴が⾒られるのは、中⼼静脈周囲か⾨脈域周囲のどちらか？脂肪肝から⽣じる肝炎を何というか？その発症に関わる要因は？',
+          answerImg: [fattyAcid],
+          answer:
+            'この脂肪滴は門脈域周辺。進行するとNASHを発症する。NASHの原因として、肥満・高血糖・高脂血症が挙げられる。',
+          commentary:
+            '脂肪肝には1.小葉中心性脂肪化、2.小葉辺縁性脂肪化があり、これらが進行すると肝小葉全体にわたって脂肪化がみられる、3.びまん性脂肪化がみられるようになる。組織学的に幹細胞の脂肪沈着のみを認める単純性脂肪肝から、脂肪沈着に加え壊死炎症反応や線維化を伴うと非アルコール性脂肪肝炎NASHに進行する。これらを総称してNAFLDと呼ぶこともある。その他、アルコール性肝炎や糖尿病性肝炎も存在する。',
+        },
+        {
+          detailInfo: '',
+          questionImg: [practice5],
+          questionSentence:
+            '脳内出⾎とくも膜下出⾎のどちらか？脳出⾎の原因となり得るものは何か？          ',
+          answerImg: [intracerebralHemorrhage],
+          answer: '脳内出血で、原因は高血圧による微小脳動脈瘤（の破綻）',
+          commentary:
+            '頭蓋内に出血した血液がクモ膜下腔にとどまっている状態をくも膜下出血と呼び、脳実質内の局所に血腫が形成される出血を脳内出血と呼ぶ。微小動脈瘤の破綻による脳出血は、高血圧症に合併する頻度が高い（80％）。',
+        },
+        {
+          detailInfo: '',
+          questionImg: [practice6],
+          questionSentence:
+            '脳内出⾎とくも膜下出⾎のどちらか？この脳出⾎が⾮外傷性で起こる場合、最も多い原因は何か？',
+          answerImg: [subarachnoidHemorrhage],
+          answer:
+            'くも膜下出血で、原因は太い脳動脈瘤分岐部に発生した動脈瘤（の破綻）',
+          commentary:
+            '頭蓋内に出血した血液がクモ膜下腔にとどまっている状態をくも膜下出血と呼び、脳実質内の局所に血腫が形成される出血を脳内出血と呼ぶ。くも膜下出血の原因はウィリス動脈瘤前半部に好発する動脈瘤であることが多く、先天性の果実状動脈瘤が原因であることもある。',
+        },
+        {
+          detailInfo: '',
+          questionImg: [practice7],
+          questionSentence:
+            '脳組織では、凝固壊死、融解壊死のどちらが⽣じるか？脳梗塞の原因は何が挙げられるか？          ',
+          answerImg: [cerebralInfarction],
+          answer:
+            '融解壊死liquifactive necrosis。　原因として動脈硬化が挙げられる。',
+          commentary:
+            '脳梗塞の多くは中大脳動脈・後大脳動脈・脳底動脈・内頚動脈などの粥状動脈硬化症を基礎として血栓で閉塞することにより発生することが多い。貧血性梗塞が基本であるが、一旦閉塞した血栓が溶けるか細かくなって末梢に流れた場合は、虚血部位に血液の再流入が起こり、出血性梗塞となる。微小な毛線塞栓症が脳に発生した場合は通常多発性であり、出血性梗塞の形をとる。脳は脂肪成分が多くタンパク成分の比較的少ない組織のひとつで、タンパク質の分解が進むため細胞・組織は融解する → 融解壊死。',
+        },
+        {
+          detailInfo: '',
+          questionImg: [practice8],
+          questionSentence:
+            '若い⼥性に好発する、⾎管炎の組織写真です。考えられる疾患名は？',
+          answerImg: [TakayasuArteritis],
+          answer: '高安動脈炎',
+          commentary:
+            'アジア・中近東で若い女性に多い。大型血管への自己免疫への関与により栄養血管へのリンパ球浸潤・外中膜の肉芽腫様肥厚・内膜の線維性肥厚を起こす。内膜肥厚による内腔の狭窄や閉塞が起こり、潅流域の虚血障害がもたらされる。',
+        },
+        {
+          detailInfo: '',
+          questionImg: [practice9],
+          questionSentence: '⾼齢者に多い⾎管炎の組織写真です。疾患名は？',
+          answerImg: [atherosclerosis4],
+          answer: '粥状動脈硬化',
+          commentary:
+            '大型・中型の動脈に好発。動脈内腔の狭窄や閉塞をきたし、虚血性心疾患・狭心症・心筋梗塞・脳梗塞・下肢の壊疽のなどを引き起こす。また大動脈の動脈瘤の形成・その破綻などを生ずることもある。脂肪斑に泡沫細胞の集簇が見られる。',
+        },
+        {
+          detailInfo: '',
+          questionImg: [practice10],
+          questionSentence:
+            '下図に認められる顆粒は何か？この組織像から考えられる病名は？          ',
+          answerImg: [hemochromatosis],
+          answer: 'ヘモクロマトーシス',
+          commentary:
+            'ベルリンブルー染色はヘモジデリンを青色に染める。輸血の反復や長期間にわたって赤血球崩壊が続く疾患では、ヘモジデリンは脾臓・骨髄・肝臓の網内系細胞や腎尿細管に強く沈着し、ヘモジデローシスとなる。網内系細胞に加えて実質細胞にもヘモジデリンの沈着が認められ、機能障害をきたすものをヘモクロマトーシスと呼び、原発性（HFE遺伝子変異などの遺伝子疾患）と続発性（輸血の反復・鉄の摂取増加・無効造血をきたす疾患・肝疾患）がある。肝臓は線維化から肝硬変を生じる。肝腫大・糖尿病・皮膚色素沈着が、ヘモクロマトーシスの三大主徴である。',
+        },
+        {
+          detailInfo: '',
+          questionImg: [practice11],
+          questionSentence: 'このロゼットの名称は？予後に関わる遺伝⼦は何か？',
+          answerImg: [neuroblastoma, rosette],
+          answer:
+            '神経芽腫ロゼット/Homer-Wrightロゼット。N-myc遺伝子(MYCN)の増幅は予後不良である。',
+          commentary:
+            '小児の固形腫瘍としては最も頻度が高く、交感神経節や副腎髄質に発生する。7~8割の症例では尿中にカテコールアミン代謝産物（バニリルマンデル酸など）の排泄が増加する。細胞間に細線維性基質を認めることや、腫瘍細胞が花冠状の配列を示すこともある。予後は年齢・病期・組織像・腫瘍の生物学的特性に依存し、N-myc遺伝子の増幅は予後不良因子である。MYCN遺伝子は細胞増殖・タンパク合成などに関係する遺伝子である。',
+        },
+        {
+          detailInfo: '',
+          questionImg: [practice12],
+          questionSentence:
+            'このロゼットの名称は？    Rb遺伝⼦の変異が胚細胞に⾒られる場合、気をつけるべきことは何か？',
+          answerImg: [retinoblastoma, rosette],
+          answer:
+            '真正ロゼット/上衣ロゼット。　骨肉腫など他の悪性腫瘍の発生に気を付けなければならない',
+          commentary:
+            '網膜芽腫/網膜芽細胞腫retinoblastomaはがん抑制遺伝子Rb遺伝子を原因とする。Rbタンパクは核に存在し、G₁期→S期の細胞周期を調節している。Rb遺伝子自体は両アレルの変異で機能を失うが、遺伝的に片アレルに変異を持っていて腫瘍化しやすい家族性背景（常染色体優性遺伝）の場合もある（→two-hit theory）。ほかに、骨肉腫・肺小細胞がんなどでRb遺伝子に変異がみられる。',
+        },
+        {
+          detailInfo: '',
+          questionImg: [practice13],
+          questionSentence:
+            'このロゼットの名称は? 好発年齢、部位は？その好発部位から⽣じる臨床症状は何か？',
+          answerImg: [medulloblastoma, rosette],
+          answer:
+            'Homer-Wrightロゼット/神経芽腫ロゼット。5~14歳、小脳虫部の下部に好発。症状は歩行時・立位のふらつき（小脳の機能障害由来）と頭痛・嘔吐（水頭症による頭蓋内圧亢進症状）が最も多い。',
+          commentary:
+            '髄芽腫medulloblastomaは小児の小脳に発生する腫瘍で、未分化な腫瘍細胞からなる。細胞の増殖は活発で、脳室壁やくも膜下腔にしばしば播種を起こし、臨床的悪性度が高い。腫瘍細胞は人参形carrot-shapedを呈し、クロマチンの豊富な類円形核ときわめて狭い細胞質をもち、細胞質の一側から短い突起が伸びている。核分裂像が多い。花冠状の細胞配列Homer-Wrightロゼットがときに認められる。',
+        },
       ],
     },
   ])
