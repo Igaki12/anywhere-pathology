@@ -31,6 +31,9 @@ import intracerebralHemorrhage from './img/answer/intracerebralHemorrhage.png'
 import hemochromatosis from './img/answer/hemochromatosis.png'
 import atherosclerosis4 from './img/answer/atherosclerosis4.png'
 import practice0 from './img/question/practice0.png'
+import TcCell from './img/answer/TcCell.png'
+import Bcell from './img/answer/Bcell.png'
+import Angelman from './img/answer/Angelman.png'
 
 import AGE from './img/answer/AGE.png'
 import Wilson from './img/answer/Wilson.png'
@@ -1959,8 +1962,8 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】抗原提示を受けたB細胞は Th1 および Th2 サイトカインを分泌し形質細胞に分化する。',
-          answerImg: [],
-          answer: '誤り...抗原提示を受けたのではない',
+          answerImg: [Bcell],
+          answer: '誤り...抗原提示を受けるのはTh細胞',
           commentary: '',
         },
         {
@@ -1970,7 +1973,8 @@ export const useQuestionList = () => {
             '【正誤問題】高カルシウム血症では不整脈、 神経炎、 意識障害などを生じる',
           answerImg: [],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '軽度の高カルシウム血症では便秘・吐き気・嘔吐・腹痛・食欲不振・脱水・口喝　→重度の高カルシウム血症では錯乱・情動障害・せん妄・幻覚・昏睡を伴う脳の機能障害を引き起こし、不整脈から死に至ることもある。　長期間の高カルシウム血症では、腎結石・腎不全が生じることがある。',
         },
         {
           detailInfo: '',
@@ -1986,17 +1990,20 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】高血圧は本態性高血圧と二次性高血圧に分けられ、二次性高血圧の方が圧倒的に多い',
           answerImg: [],
-          answer: '誤り...二次高血圧は少ない',
-          commentary: '',
+          answer:
+            '誤り...二次高血圧は少なく(10%以下)、大部分は本態性高血圧症。',
+          commentary:
+            '高血圧の原因は多種多様であり、その大部分は原因がわからず本態性高血圧症とされる。高血圧のうち原因のはっきりするものは10%以下で、二次性高血圧症あるいは症候性高血圧症とよばれる。若年者・家族性素因がない、急速に進行するなどの特徴がある。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】高血圧緊急症とは、血圧の著明な高値を示し、 臓器障害が生じる切迫した病態を指す',
-          answerImg: [],
+          answerImg: [hypertension],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '悪性高血圧の別名。単に血圧が異常に高いだけでなく、血圧上昇によって脳・心臓・腎臓・大動脈などに急性の障害が起こり進行する。早急な治療が必要。',
         },
         {
           detailInfo: '',
@@ -2042,7 +2049,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】細動脈硬化症には血管壁に硝子化が認められる',
-          answerImg: [],
+          answerImg: [hypertension],
           answer: '正しい',
           commentary: '',
         },
@@ -2050,10 +2057,11 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence:
-            '【正誤問題】細胞性免疫においてTcはパーフォリンにより細胞膜を破壊し、 細胞に壊死を誘導する。',
-          answerImg: [],
+            '【正誤問題】細胞性免疫においてTcはパーフォリンにより細胞膜を破壊し、 細胞に自死を誘導する。',
+          answerImg: [TcCell],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            'Tc細胞はCD8分子がMHC Class1分子に結合するなどによって活性化され、ウイルス感染などがあった標的細胞を傷害する分子としてパーフォリンperforin、リンホトキシン、IFN-γなどを放出する。これらは標的細胞にアポトーシスを誘導する。',
         },
         {
           detailInfo: '',
@@ -2081,16 +2089,16 @@ export const useQuestionList = () => {
             '【正誤問題】酸化ストレスの一つである一酸化窒素は虚血性心疾患に抑制性に働く',
           answerImg: [],
           answer: '正しい',
-          commentary: '',
+          commentary: '血管拡張作用をもつ。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
-            '【正誤問題】酸化ストレスは蛋白変性やDNA損傷を惹き起こす',
-          answerImg: [],
+            '【正誤問題】酸化ストレスは蛋白変性やDNA損傷を引き起こす',
+          answerImg: [produceROS],
           answer: '正しい',
-          commentary: '',
+          commentary: '発がんの原因となる',
         },
         {
           detailInfo: '',
@@ -2105,25 +2113,27 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence: '【正誤問題】脂質は酸化ストレスを蓄積する',
-          answerImg: [],
+          answerImg: [NADPH],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '例えば対応する酵素が存在しないヒドロキシラジカルは過酸化脂質として脂質に蓄積されることが知られる。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】脂肪過剰摂取では小葉辺縁性の脂肪肝を生じることが多い',
-          answerImg: [],
+          answerImg: [fattyLiver],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '初期の脂肪肝には1.小葉中心脂肪化と、2.小葉辺縁性脂肪化がみられる。脂質異常症や高脂食では小葉辺縁性脂肪化がみられることが多い。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】脂肪過剰摂取では大滴性の脂肪肝を生じることが多い',
-          answerImg: [],
+          answerImg: [fattyLiver],
           answer: '正しい',
           commentary: '',
         },
@@ -2131,8 +2141,8 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence: '【正誤問題】脂肪肝では肝間質の脂肪化生が見られる',
-          answerImg: [],
-          answer: '誤り...肝間質ではない',
+          answerImg: [fattyLiver],
+          answer: '誤り...肝間質ではなく肝実質（肝細胞）',
           commentary: '',
         },
         {
@@ -2148,10 +2158,11 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence:
-            '【正誤問題】自然免疫とは感染や外来異物に対してその侵入前から体内に備わっている免疫システムで上皮による防御、好中球やマクロファージによる貪食細胞受容体を介した免疫システムがある',
-          answerImg: [],
-          answer: '誤り...貪食T細胞受容体ではない',
-          commentary: '',
+            '【正誤問題】自然免疫とは感染や外来異物に対してその侵入前から体内に備わっている免疫システムで上皮による防御、好中球やマクロファージによる貪食T細胞受容体を介した免疫システムがある',
+          answerImg: [Th],
+          answer: '誤り...貪食T細胞受容体ではなくヘルパーT細胞',
+          commentary:
+            'Th1細胞は自然免疫に関与する。その他、Th2細胞は液性免疫、Tc細胞は細胞障害性免疫に関与する。',
         },
         {
           detailInfo: '',
@@ -2176,7 +2187,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】腫瘍の間質は腫瘍細胞が生存するための重要な栄養供給源となる。',
-          answerImg: [],
+          answerImg: [nicheControlCancer],
           answer: '正しい',
           commentary: '',
         },
@@ -2204,7 +2215,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】終末糖化産物は粥状動脈硬化、 脂肪肝、 糖尿病合併症、アルツハイマー病、発癌に関与する',
-          answerImg: [],
+          answerImg: [AGEActivity],
           answer: '正しい',
           commentary: '',
         },
@@ -2290,7 +2301,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】食物を加熱することにより発癌物質が発生する可能性がある',
-          answerImg: [],
+          answerImg: [AGE],
           answer: '正しい',
           commentary: '',
         },
@@ -2300,8 +2311,8 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】唇顎口蓋裂の発生機序は口唇と口蓋の低形成ないし無形成である。',
           answerImg: [],
-          answer: '誤り...無形成ではない',
-          commentary: '',
+          answer: '誤り...無形成ではなく癒合不全',
+          commentary: '日本人に多い先天異常（約1/500）',
         },
         {
           detailInfo: '',
@@ -2337,17 +2348,17 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】心原性脳塞栓は心房細動により主に右房に形成された血栓がはがれることで生じる。',
           answerImg: [],
-          answer: '誤り...右房ではない',
-          commentary: '',
+          answer: '誤り...右房ではなく左房',
+          commentary: '右房の血栓は肺へ向かう',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】心室中隔欠損 (VSD)では、 1歳ほどは自然閉鎖が期待でき経過観察が可能である',
-          answerImg: [],
+          answerImg: [heartMiscreation],
           answer: '正しい',
-          commentary: '',
+          commentary: '50%程度で自然閉鎖。Eisenmenger化すると危険',
         },
         {
           detailInfo: '',
@@ -2356,7 +2367,8 @@ export const useQuestionList = () => {
             '【正誤問題】心臓粘液腫は殆どが心房中隔に発生し、 悪性化はまれである',
           answerImg: [],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '粘液状あるいはゼリー状のやわらかい腫瘤が心臓の中にできて次第に大きくなる病気。がんのように悪性ではなく両性だが、心臓の機能を悪化させたり、腫瘍の一部が飛んで脳梗塞などを引き起こす恐ろしい病気で、手術で切除する必要がある場合も。',
         },
         {
           detailInfo: '',
@@ -2417,7 +2429,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】水素ガスにより効率よく酸化ストレスを除去できる',
-          answerImg: [],
+          answerImg: [NADPH],
           answer: '正しい',
           commentary: '',
         },
@@ -2501,7 +2513,7 @@ export const useQuestionList = () => {
             '【正誤問題】組織幹細胞や生殖細胞ではhTERT によりテロメラーゼの活性化が抑えられている。',
           answerImg: [],
           answer: '誤り...これらの細胞ではテロメラーゼが活性化されている',
-          commentary: '',
+          commentary: '染色体の末端にあるテロメアを伸ばす酵素',
         },
         {
           detailInfo: '',
@@ -2684,7 +2696,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】低形成とは組織や臓器が正常の大きさまで達しないものである ',
-          answerImg: [],
+          answerImg: [atrophy],
           answer: '正しい',
           commentary: '',
         },
@@ -2711,9 +2723,9 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】糖尿病により最も発癌リスクが高まるのは胃癌である',
-          answerImg: [],
+          answerImg: [causeOfCancer],
           answer: '誤り...胃がんではない',
-          commentary: '',
+          commentary: '胃がんはピロリ菌感染で最もリスクが高まる。',
         },
         {
           detailInfo: '',
@@ -2758,7 +2770,7 @@ export const useQuestionList = () => {
             '【正誤問題】動脈酸素分圧の上昇とプロスタグランジンの低下により、動脈管は閉鎖する',
           answerImg: [],
           answer: '正しい',
-          commentary: '',
+          commentary: '動脈管開存の治療にプロスタグランジン投与が有効',
         },
         {
           detailInfo: '',
@@ -2767,16 +2779,18 @@ export const useQuestionList = () => {
             '【正誤問題】同じ個体に発癌物質・発癌プロモーターが同時に作用し発癌することを two hit theory という',
           answerImg: [],
           answer: '誤り...two hit theoryではない',
-          commentary: '',
+          commentary:
+            'two-hit theoryはがん抑制遺伝子などで両アレルに変異が必要であることを説明した理論。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】同一のシグナル経路 (例えば KRAS と PI3K や Akt) 内での変異はそうでないもの (例えば KRAS とAPC) と比較して重複することが多い',
-          answerImg: [],
-          answer: '誤り...',
-          commentary: '',
+          answerImg: [carcinogenesisStep],
+          answer: '誤り...同一シグナル経路内での変異は重複しにくい',
+          commentary:
+            'ある変異が生じて、関係するシグナル経路が変化した場合、同じ経路内の別の遺伝子変異には淘汰圧は働きにくい。→多段階発癌',
         },
         {
           detailInfo: '',
@@ -2792,7 +2806,7 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence: '【正誤問題】日本人の約1/3が癌により死亡する',
-          answerImg: [],
+          answerImg: [causeOfDeath],
           answer: '正しい',
           commentary: '2/3ががんになり、1/3が死亡する時代',
         },
@@ -2842,9 +2856,10 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence: '【正誤問題】肺梗塞では、肺胞内に出血がみられる',
-          answerImg: [],
+          answerImg: [pulmonaryInfarction],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '肺胞壁は凝固壊死し肺胞腔内へ出血。赤血球などが確認される。',
         },
         {
           detailInfo: '',
@@ -2871,13 +2886,14 @@ export const useQuestionList = () => {
             '【正誤問題】白内障では水晶体に変性蛋白が蓄積することで視力低下をきたす。',
           answerImg: [],
           answer: '正しい',
-          commentary: '',
+          commentary:
+            '白内障cataractは水晶体が混濁するもので、発生要因には外傷・糖尿病・ぶどう膜炎・緑内障・ステロイドの副作用・加齢・先天性風疹ウイルス感染など多くのものがある',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence: '【正誤問題】発癌物質はDNAに付加体を生じる',
-          answerImg: [],
+          answerImg: [TDimer],
           answer: '正しい',
           commentary: '',
         },
@@ -2887,17 +2903,19 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】伴性劣性遺伝病 (X連鎖性劣性遺伝病) はいかなる場合でも女性に発症することはない。',
           answerImg: [],
-          answer: '誤り...いかなる場合でも発生しないわけではない',
-          commentary: '',
+          answer: '誤り...女性も発症する場合がある。',
+          commentary:
+            '女性は正常な染色体が異常な染色体を補ってしまう（→保因者）が、X染色体不活化の程度によっては、軽微な症状が認められる場合がある。血友病など。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
-            '【正誤問題】晩期型の先天性梅毒では Hutchinson の歯、 伝令性難聴、角膜炎を認めることが多い。',
+            '【正誤問題】晩期型の先天性梅毒では Hutchinson の歯、 伝音性難聴、角膜炎を認めることが多い。',
           answerImg: [],
-          answer: '誤り...伝音性難聴ではない',
-          commentary: '',
+          answer: '誤り...伝音性難聴ではなく感音性難聴',
+          commentary:
+            '先天性梅毒は経胎盤感染によっておこる。生後2年以降にHutchison3徴候:角膜炎・内耳性難聴（感音性難聴）・Hutchisonの歯などを呈する。　梅毒は細菌性感染症で、ペニシリンが有効。',
         },
         {
           detailInfo: '',
@@ -2952,9 +2970,10 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】父親由来の15q11-13 の欠失ではUBE3A の機能喪失によりAngelman症候群を発症する。',
-          answerImg: [],
-          answer: '誤り...Angelman症候群ではない',
-          commentary: '',
+          answerImg: [Angelman],
+          answer: '誤り...Angelman症候群ではなくPrader-Willi症候性',
+          commentary:
+            'ゲノムインプリンティングの一例。生殖細胞が精子や卵子に分化するときに異なるDNAメチル化が行われることが原因。Prader-Willi遺伝子は父親由来の15番染色体からしか発現しない。',
         },
         {
           detailInfo: '',
@@ -2991,8 +3010,9 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】良性腫瘍は悪性腫瘍と比較して増殖能が乏しいために変性や壊死が生じやすい。',
           answerImg: [],
-          answer: '誤り...変性や壊死は起こりにくい',
-          commentary: '',
+          answer: '誤り...良性腫瘍も増殖能をもっている',
+          commentary:
+            '良性腫瘍は転移・浸潤しない。一方で悪性化する場合もあるし、周りを押しのける形で膨らむことはある。',
         },
         {
           detailInfo: '',
@@ -3055,7 +3075,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】COX2はアラキドン酸をプロスタグランジンへ変換する。',
-          answerImg: [],
+          answerImg: [mediatorFromCell],
           answer: '正しい',
           commentary: '',
         },
@@ -3083,7 +3103,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】ヒドロキシラジカルは脳梗塞や心筋梗塞の病変拡大に寄与する',
-          answerImg: [],
+          answerImg: [mitochondria],
           answer: '正しい',
           commentary: 'ヒドロキシラジカルは活性酸素ROSの中心的な物質。',
         },
@@ -3101,7 +3121,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】我々は常に自然放射線や活性酸素種、紫外線やアルコール、ベンツピレン等の変異原にさらされておりDNA損傷が生じている。',
-          answerImg: [],
+          answerImg: [TDimer],
           answer: '正しい',
           commentary: '',
         },
@@ -3110,9 +3130,9 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】活性酸素分子種の中で酵素的に分解されないのはヒドロキシラジカルである。',
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          answerImg: [NADPH],
+          answer: '正しい',
+          commentary: '過酸化脂質の形で脂質に蓄積したりする。',
         },
         {
           detailInfo: '4/18午前',
@@ -3156,7 +3176,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】成人胸腺は退縮しているのが正常である。',
           answerImg: [],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -3165,7 +3185,7 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】単純性脂肪肝の10%がNASHになりその2%以下が肝硬変に進展するといわれる。',
           answerImg: [fattyLiverDestination],
-          answer: '',
+          answer: '正しい',
           commentary: '',
         },
         {
@@ -3204,7 +3224,8 @@ export const useQuestionList = () => {
           questionSentence:
             '【正誤問題】副甲状腺ホルモンは骨へのカルシウム沈着を促進する。',
           answerImg: [],
-          answer: '',
+          answer:
+            '誤り...PTHは血中カルシウム濃度を上げるため、破骨細胞の活動を促進する。',
           commentary: '',
         },
         {
@@ -3391,7 +3412,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】赤身肉の摂取は大腸癌のリスクファクターである',
-          answerImg: [],
+          answerImg: [causeOfCancer],
           answer: '正しい',
           commentary: '',
         },
@@ -3400,7 +3421,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】高脂肪食・高糖質食は大腸発癌・転移を促進する',
-          answerImg: [],
+          answerImg: [causeOfCancer],
           answer: '正しい',
           commentary: '',
         },
@@ -3409,7 +3430,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】腫瘍形成は多段階からなる複雑なステップを経て生じる。これらの変化には癌遺伝子の活性化と癌抑制遺伝子の不活化の両方が含まれる。これを多段階発ガンとよぶ',
-          answerImg: [],
+          answerImg: [carcinomaSteps],
           answer: '正しい',
           commentary: '',
         },
@@ -3508,7 +3529,7 @@ export const useQuestionList = () => {
           detailInfo: '4/24午後',
           questionImg: [],
           questionSentence: '【正誤問題】ネクローシスは受動的な細胞死である',
-          answerImg: [],
+          answerImg: [necrosisApoptosis],
           answer: '正しい',
           commentary: '',
         },
@@ -3516,8 +3537,8 @@ export const useQuestionList = () => {
           detailInfo: '4/24午後',
           questionImg: [],
           questionSentence: '【正誤問題】アポトーシスは受動的な細胞死である',
-          answerImg: [],
-          answer: '誤り',
+          answerImg: [necrosisApoptosis],
+          answer: '誤り...能動的な細胞死',
           commentary: '',
         },
         {
@@ -3527,16 +3548,16 @@ export const useQuestionList = () => {
             '【正誤問題】細胞死は死細胞にのみ影響する現象である',
           answerImg: [],
           answer: '誤り',
-          commentary: '',
+          commentary: '成長段階で計画された細胞死も存在する',
         },
         {
           detailInfo: '4/24午後',
           questionImg: [],
           questionSentence:
             '【正誤問題】Programmed cell deathとはapoptosisのことである',
-          answerImg: [],
+          answerImg: [cellDeathVariations],
           answer: '誤り',
-          commentary: '',
+          commentary: 'アポトーシスだけではない。',
         },
         {
           detailInfo: '4/24午後',
@@ -3551,7 +3572,7 @@ export const useQuestionList = () => {
           detailInfo: '4/24午後',
           questionImg: [],
           questionSentence: '【正誤問題】核融解はネクローシスの特徴である',
-          answerImg: [],
+          answerImg: [necrosis],
           answer: '正しい',
           commentary: '',
         },
@@ -3562,7 +3583,7 @@ export const useQuestionList = () => {
             '【正誤問題】乾酪壊死は、結核菌を貪食したマクロファージの壊死である',
           answerImg: [],
           answer: '正しい',
-          commentary: '',
+          commentary: 'マクロファージは結核菌を殺菌することができない。',
         },
         {
           detailInfo: '4/24午後',
@@ -3610,7 +3631,7 @@ export const useQuestionList = () => {
             'SNP(一塩基多型)は人口の何パーセント以上のヒトがもつ変異のことを言うか。          ',
           answerImg: [],
           answer: '1％',
-          commentary: '',
+          commentary: '1％未満は多型ではなく突然変異',
         },
         {
           detailInfo: '4/25午前',
@@ -3627,7 +3648,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '変異原のひとつに紫外線があるが、紫外線によって障害をうける塩基はどれか',
-          answerImg: [],
+          answerImg: [TDimer],
           choices: ['アデニン', 'チミン', 'グアニン', 'シトシン'],
           answer: 'チミン',
           commentary: 'チミンダイマーを形成',
@@ -3639,7 +3660,7 @@ export const useQuestionList = () => {
             'タバコに含まれるベンゾピレンは、生体内に取り込まれると肝臓に含まれるAと言う酵素によって発がん性をもつBになる。AとBの名称を答えよ',
           answerImg: [],
           answer: 'AはCYP1A1で、Bはジオールエポキシド',
-          commentary: '',
+          commentary: 'シトクロムの一種',
         },
         {
           detailInfo: '4/25午前',
@@ -3655,7 +3676,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             'ミスマッチ修復は新生鎖の合成の際に生じるミスを修正するものであるが、新生鎖であるということをなにで認識しているか。          ',
-          answerImg: [],
+          answerImg: [MMR],
           answer: 'タンパク質としてはMutSα',
           commentary: '',
         },
@@ -3664,7 +3685,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             'ヒストンのアセチル化は転写を促進するか、抑制するか？またアセチル化を引き起こす酵素はなにか？',
-          answerImg: [],
+          answerImg: [acetylationHistone],
           answer:
             'アセチル化は転写を促進する。また、アセチル化を引き起こす酵素はHAT:Histone Acetyl Transferase',
           commentary: '',
@@ -3749,7 +3770,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             'すべてに当てはまるわけでないが、傾向として癌種では遺伝子異常が多く肉腫では染色体変異が多い。　この文章中で間違いがあればその部分を訂正し、なければ「なし｣と記入せよ',
-          answerImg: [],
+          answerImg: [mutationType],
           answer: 'なし',
           commentary: '',
         },
@@ -3832,9 +3853,9 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '低酸素を感知するHIF-1αはなんと言う物質を誘導して、血管新生を引き起こすか？',
-          answerImg: [],
+          answerImg: [glycolysisPathway],
           answer: 'LDHA1',
-          commentary: '',
+          commentary: '乳酸脱水素酵素A1',
         },
         {
           detailInfo: '5/01午前',
@@ -3896,7 +3917,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '幹細胞、がん幹細胞の共通する性質を２つ述べよ            ',
-          answerImg: [],
+          answerImg: [cancerStemCell1],
           answer: '自己複製能・多分化能',
           commentary: '',
         },
@@ -3961,7 +3982,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             'ミトコンドリアから生じたO2・―はスーパーオキシドジスムターゼ(SOD)によってH2O2に変換される。H2O2は鉄や銅と反応してヒドロキシラジカルを生成する。ヒドロキシラジカルは強い細胞障害性をもつが、GSHよって除去される。　間違いがなければなし、訂正があれば正して下さい',
-          answerImg: [],
+          answerImg: [NADPH],
           answer: 'ヒドロキシラジカルはGSHでは除去できない',
           commentary: '',
         },

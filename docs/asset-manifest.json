@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-pathology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-pathology/static/js/main.90b37463.js",
+    "main.js": "/anywhere-pathology/static/js/main.56628ed1.js",
     "static/media/practice12.png": "/anywhere-pathology/static/media/practice12.29bc13058e8fe5818cde.png",
     "static/media/practice1answer.png": "/anywhere-pathology/static/media/practice1answer.2ec284a72b1a0551c347.png",
     "static/media/degeneration.png": "/anywhere-pathology/static/media/degeneration.4672a45d0daf6c2cee55.png",
@@ -62,6 +62,7 @@
     "static/media/apoptosisPathway.png": "/anywhere-pathology/static/media/apoptosisPathway.ce2166a9f3323e17e1eb.png",
     "static/media/glanuloma.png": "/anywhere-pathology/static/media/glanuloma.2d6d00ff892e272c628c.png",
     "static/media/mitochondria.png": "/anywhere-pathology/static/media/mitochondria.6e782ecd57087684f7d1.png",
+    "static/media/TcCell.png": "/anywhere-pathology/static/media/TcCell.f6010a06d9b965df7d00.png",
     "static/media/programmedCellDeath.png": "/anywhere-pathology/static/media/programmedCellDeath.1cf6da6eaa94ae84919b.png",
     "static/media/oxidativePhosphorylation.png": "/anywhere-pathology/static/media/oxidativePhosphorylation.c65d97555b7e82e92154.png",
     "static/media/subarachnoidHemorrhage.png": "/anywhere-pathology/static/media/subarachnoidHemorrhage.88cae36409c53a149828.png",
@@ -77,6 +78,7 @@
     "static/media/polyol.png": "/anywhere-pathology/static/media/polyol.d19ea7c76890a9b2bdd7.png",
     "static/media/intracerebralHemorrhage.png": "/anywhere-pathology/static/media/intracerebralHemorrhage.82529f3756fccf5059ee.png",
     "static/media/welsh.png": "/anywhere-pathology/static/media/welsh.0d77919b960b5defec3a.png",
+    "static/media/Bcell.png": "/anywhere-pathology/static/media/Bcell.2aac50770041e8c56da9.png",
     "static/media/fattyAcid.png": "/anywhere-pathology/static/media/fattyAcid.5771855fabe84649090d.png",
     "static/media/fattyLiver.png": "/anywhere-pathology/static/media/fattyLiver.77de4d0246057470215f.png",
     "static/media/pyroliInfectionFeature.png": "/anywhere-pathology/static/media/pyroliInfectionFeature.ba0217f609d927741396.png",
@@ -101,6 +103,7 @@
     "static/media/nicheControlCancer.png": "/anywhere-pathology/static/media/nicheControlCancer.d0db8147a603c20315ca.png",
     "static/media/MYC.png": "/anywhere-pathology/static/media/MYC.b0b36191121b80b4b8ee.png",
     "static/media/SSc.png": "/anywhere-pathology/static/media/SSc.6d0d896e02afa09da30a.png",
+    "static/media/Angelman.png": "/anywhere-pathology/static/media/Angelman.4e339577f6cfcb68f788.png",
     "static/media/dystrophy.png": "/anywhere-pathology/static/media/dystrophy.34778d3660022a2f200e.png",
     "static/media/ferroptosis.png": "/anywhere-pathology/static/media/ferroptosis.bc9da3877a2ed20014f1.png",
     "static/media/methylationDNA.png": "/anywhere-pathology/static/media/methylationDNA.35b2adabc4867bb3b7b3.png",
@@ -165,10 +168,10 @@
     "static/media/NADPH.png": "/anywhere-pathology/static/media/NADPH.7abbecb7d44d23a061de.png",
     "index.html": "/anywhere-pathology/index.html",
     "main.6180b9dc.css.map": "/anywhere-pathology/static/css/main.6180b9dc.css.map",
-    "main.90b37463.js.map": "/anywhere-pathology/static/js/main.90b37463.js.map"
+    "main.56628ed1.js.map": "/anywhere-pathology/static/js/main.56628ed1.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.90b37463.js"
+    "static/js/main.56628ed1.js"
   ]
 }
