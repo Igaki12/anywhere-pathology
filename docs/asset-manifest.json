@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-pathology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-pathology/static/js/main.56628ed1.js",
+    "main.js": "/anywhere-pathology/static/js/main.f64d0b47.js",
     "static/media/practice12.png": "/anywhere-pathology/static/media/practice12.29bc13058e8fe5818cde.png",
     "static/media/practice1answer.png": "/anywhere-pathology/static/media/practice1answer.2ec284a72b1a0551c347.png",
     "static/media/degeneration.png": "/anywhere-pathology/static/media/degeneration.4672a45d0daf6c2cee55.png",
@@ -156,6 +156,7 @@
     "static/media/acuteInflammation.png": "/anywhere-pathology/static/media/acuteInflammation.1e616e83e369c09fc5b3.png",
     "static/media/mutationType.png": "/anywhere-pathology/static/media/mutationType.aead653485c45b232310.png",
     "static/media/glutaminolysis.png": "/anywhere-pathology/static/media/glutaminolysis.c0cf00a6cd0c9ce4edf7.png",
+    "static/media/pyroli.png": "/anywhere-pathology/static/media/pyroli.ba3739399efc046368c1.png",
     "static/media/fattyLiverDestination.png": "/anywhere-pathology/static/media/fattyLiverDestination.e23619e50f6c26ad3a3e.png",
     "static/media/acetylationHistone.png": "/anywhere-pathology/static/media/acetylationHistone.926558ca5febc1e30647.png",
     "static/media/scavenger.png": "/anywhere-pathology/static/media/scavenger.b1f8fe9899a385e219ea.png",
@@ -163,15 +164,16 @@
     "static/media/atrophy.png": "/anywhere-pathology/static/media/atrophy.daf12a3fdb0c462ab21f.png",
     "static/media/Menkes.png": "/anywhere-pathology/static/media/Menkes.6168967feae7b70d2d66.png",
     "static/media/gatekeeper.png": "/anywhere-pathology/static/media/gatekeeper.0b5030b78aa54ba091fd.png",
+    "static/media/pyloliStayLong.png": "/anywhere-pathology/static/media/pyloliStayLong.5af86433d30e24a52bb4.png",
     "static/media/bilirubinDifference.png": "/anywhere-pathology/static/media/bilirubinDifference.1963d12f9aa902b7c0bf.png",
     "static/media/microorganismProducesEffectors.png": "/anywhere-pathology/static/media/microorganismProducesEffectors.05e098df0968aa4872ad.png",
     "static/media/NADPH.png": "/anywhere-pathology/static/media/NADPH.7abbecb7d44d23a061de.png",
     "index.html": "/anywhere-pathology/index.html",
     "main.6180b9dc.css.map": "/anywhere-pathology/static/css/main.6180b9dc.css.map",
-    "main.56628ed1.js.map": "/anywhere-pathology/static/js/main.56628ed1.js.map"
+    "main.f64d0b47.js.map": "/anywhere-pathology/static/js/main.f64d0b47.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.56628ed1.js"
+    "static/js/main.f64d0b47.js"
   ]
 }

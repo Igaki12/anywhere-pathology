@@ -301,7 +301,7 @@ export const Setting = ({
           //  defaultValue={log.range}
         >
           <Stack
-            w={'sm'}
+            maxW={'sm'}
             spacing={[2, 2]}
             direction={['column']}
             bg="whiteAlpha.800"

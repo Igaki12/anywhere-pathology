@@ -167,6 +167,8 @@ import apoptosisPathway from './img/answer/apoptosisPathway.png'
 import Warburg from './img/answer/Warburg.png'
 import synthesizeATP from './img/answer/synthesizeATP.png'
 import pyroliInfectionFeature from './img/answer/pyroliInfectionFeature.png'
+import pyroli from './img/answer/pyroli.png'
+import pyloliStayLong from './img/answer/pyloliStayLong.png'
 
 // import from './img/answer/.png'
 
@@ -4100,17 +4102,18 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】乳幼児期に感染したピロリ菌は持続感染する',
-          answerImg: [],
+          answerImg: [pyloliStayLong],
           answer: '正しい',
-          commentary: '',
+          commentary: '早期に感染した場合に胃がん発生率が急増する。',
         },
         {
           detailInfo: '5/01午後',
           questionImg: [],
           questionSentence: '【正誤問題】CagAはピロリ菌から粘液内に分泌される',
-          answerImg: [],
+          answerImg: [pyroli, pyroliDamageMucous],
           answer: '誤り',
-          commentary: '',
+          commentary:
+            'CagAはピロリ菌が上皮細胞に分泌する毒素。粘膜はiNOSやアンモニアが破壊する',
         },
         {
           detailInfo: '5/01午後',
