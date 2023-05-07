@@ -59,6 +59,7 @@ import macrophageReceptors from './img/answer/macrophageReceptors.png'
 import macrophage from './img/answer/macrophage.png'
 import HMGB1InhibitMacrophage from './img/answer/HMGB1InhibitMacrophage.png'
 import AGEActivity from './img/answer/AGEActivity.png'
+import intestinalBacteria from './img/answer/intestinalBacteria.png';   import deoxycholicAcid from './img/answerdeoxycholicAcid.png';   import CrP from './img/answer/CrP.png';   import cancerFromFat from './img/answer/cancerFromFat.png';  
 
 import produceROS from './img/answer/produceROS.png'
 import Menkes from './img/answer/Menkes.png'
@@ -2544,7 +2545,7 @@ export const useQuestionList = () => {
           answerImg: [apoptosisPathway],
           answer: '正しい',
           commentary:
-            '生存シグナルによって制御されるアポトーシスの経路を内在性経路と呼ぶ。',
+            '生存シグナルによって制御されるアポトーシスの経路を内在性経路と呼ぶ。ERK経路はMAPK経路ともよばれる。',
         },
         {
           detailInfo: '',
@@ -2569,9 +2570,9 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】大腸発がんには COX2. iNOS. 終末糖化産物などによる慢性炎症が関与している',
-          answerImg: [],
+          answerImg: [CancerFromAGE],
           answer: '正しい',
-          commentary: '',
+          commentary: 'COX2はリノール酸などのω-6系列の脂肪酸から合成されるプロスタグランジンで、慢性炎症を惹起する。iNOSは誘導型/マクロファージ型NO合成酵素で、本来は外敵の侵入阻止のための毒素生成の役割を担っている。',
         },
         {
           detailInfo: '',
@@ -2596,18 +2597,18 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】短時間に最も多くのエネルギーを供給できるのはフォスファーゲンである',
-          answerImg: [],
+          answerImg: [CrP],
           answer: '正しい',
-          commentary: '',
+          commentary: 'フォスファーゲンは高エネルギーリン酸化合物の総称。加水分解でリン酸結合を切ることにより多量のエネルギーを放出できるリン酸化合物。例えば骨格筋のクレアチンリン酸（フォスファクレアチン）が挙げられる。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】胆汁酸中のdeoxycholic acid には大腸発がん促進作用がある',
-          answerImg: [],
+          answerImg: [deoxycholicAcid],
           answer: '正しい',
-          commentary: '',
+          commentary: 'デオキシコール酸は二次胆汁酸ともよばれ、腸内細菌の代謝産物でもある。腸内のデオキシコール酸は90%が吸収され、肝臓や大腸の発がんを促進する。デオキシコール酸は2段階発癌における発がんプロモーターの役割を担っている。',
         },
         {
           detailInfo: '',
@@ -2624,9 +2625,9 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】胆嚢癌、乳癌、子宮内膜癌、大腸癌は体重増加と伴にリスクが増大する',
-          answerImg: [],
+          answerImg: [cancerFromFat],
           answer: '正しい',
-          commentary: '',
+          commentary: '肥満関連癌。',
         },
         {
           detailInfo: '',
@@ -2642,7 +2643,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】腸管内常在菌は年齢とともにいわゆる善玉菌が減少する',
-          answerImg: [],
+          answerImg: [ welsh],
           answer: '正しい',
           commentary: '',
         },
@@ -2651,25 +2652,25 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】腸内環境ではオピオイドが形成されやすく免疫系に影響を与える',
-          answerImg: [],
+          answerImg: [intestinalBacteria],
           answer: '正しい',
-          commentary: '',
+          commentary: 'オピオイドは大腸炎などを抑制する作用をもつ。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】腸内細菌の発酵作用によりブチル酸などのエピジェネティック阻害の抑制物質が生成する',
-          answerImg: [],
+          answerImg: [intestinalBacteria],
           answer: '正しい',
-          commentary: '',
+          commentary: 'エピジェネティック抑制→分化を逆行→発癌しやすい',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence:
             '【正誤問題】腸内細菌の変化は大腸癌のリスクとは関係しない',
-          answerImg: [],
+          answerImg: [intestinalBacteria],
           answer: '誤り...腸内細菌と大腸がんリスクは密接に関係している',
           commentary: '',
         },
@@ -2718,7 +2719,7 @@ export const useQuestionList = () => {
             '【正誤問題】糖が過剰な状況では acetyl CoA からトリグリセリドが合成され脂肪細胞に貯蔵される',
           answerImg: [],
           answer: '正しい',
-          commentary: '',
+          commentary: '脂肪酸合成',
         },
         {
           detailInfo: '',
@@ -2743,7 +2744,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '【正誤問題】糖尿病性神経障害の原因として高血糖、 酸化ストレス、終末糖化産物、 PKCE 活性化が挙げられる',
-          answerImg: [],
+          answerImg: [cancerFromDM],
           answer: '正しい',
           commentary: '',
         },
@@ -2782,7 +2783,7 @@ export const useQuestionList = () => {
           answerImg: [],
           answer: '誤り...two hit theoryではない',
           commentary:
-            'two-hit theoryはがん抑制遺伝子などで両アレルに変異が必要であることを説明した理論。',
+            'two-hit theoryはがん抑制遺伝子などで両アレルに変異が必要であることを説明した理論。発癌物質・発癌プロモーターに分類する理論は2段階発癌とよばれる。',
         },
         {
           detailInfo: '',
@@ -2818,7 +2819,7 @@ export const useQuestionList = () => {
           questionSentence: '【正誤問題】乳酸は酸化的リン酸化を促進する',
           answerImg: [],
           answer: '正しい',
-          commentary: '',
+          commentary: '乳酸は嫌気性代謝産物',
         },
         {
           detailInfo: '',
