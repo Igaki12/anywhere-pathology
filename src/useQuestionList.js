@@ -34,6 +34,17 @@ import practice0 from './img/question/practice0.png'
 import TcCell from './img/answer/TcCell.png'
 import Bcell from './img/answer/Bcell.png'
 import Angelman from './img/answer/Angelman.png'
+import intestinalBacteria from './img/answer/intestinalBacteria.png';
+import entosis from './img/answer/entosis.png';
+import deoxycholicAcid from './img/answer/deoxycholicAcid.png';
+import CrP from './img/answer/CrP.png';
+import cancerFromFat from './img/answer/cancerFromFat.png';
+import NETs from './img/answer/NETs.png';
+import intestinalBacteria from './img/answer/intestinalBacteria.png';
+import entosis from './img/answer/entosis.png';
+import deoxycholicAcid from './img/answer/deoxycholicAcid.png';
+import CrP from './img/answer/CrP.png';
+import cancerFromFat from './img/answer/cancerFromFat.png';
 
 import AGE from './img/answer/AGE.png'
 import Wilson from './img/answer/Wilson.png'
@@ -1110,7 +1121,7 @@ export const useQuestionList = () => {
                     questionSentence: '【正誤問題】たこつぼ型心筋症では心尖部の収縮能が亢進している',
                     answerImg: [],
                     answer: '誤り...亢進しない',
-                    commentary: '',
+                    commentary: 'たこつぼ型心筋症は高齢の閉経女性に多く見られ、季節的には夏に多いとされる。ストレスなどの交感神経の異常により、胸の圧迫感や痛み・動悸・呼吸困難などが突然生じる。症状・心電図・血液検査が急性心筋梗塞と非常に似ているが、心臓を栄養している血管である冠動脈には何の異常もなく、多くの場合は特別な治療をしなくても治癒する。',
                 },
                 {
                     detailInfo: '',
@@ -1198,7 +1209,7 @@ export const useQuestionList = () => {
                     questionSentence: '【正誤問題】ヒドロキシラジカルは脳梗塞や心筋梗塞の病変拡大に関与する。',
                     answerImg: [],
                     answer: '正しい',
-                    commentary: 'ヒドロキシラジカルは分解酵素が存在しない活性酸素',
+                    commentary: 'ヒドロキシラジカルは分解酵素が存在しない活性酸素で、脂質と反応することで過酸化脂質として体内に蓄積されていってしまう。',
                 },
                 {
                     detailInfo: '',
@@ -3333,7 +3344,7 @@ export const useQuestionList = () => {
                     detailInfo: '5/01午前',
                     questionImg: [],
                     questionSentence: '細胞骨格のリモデリングを行なうときに関与するシグナルは？            ',
-                    answerImg: [],
+                    answerImg: [entosis],
                     answer: 'KRASかC-Src',
                     commentary: '',
                 },
@@ -3358,10 +3369,10 @@ export const useQuestionList = () => {
                     detailInfo: '5/01午前',
                     questionImg: [],
                     questionSentence: 'TANの転移にNETsが関与するが、転移する臓器に先に到達しているのはどちらか？',
-                    answerImg: [],
+                    answerImg: [NETs],
                     choices: ['腫瘍', 'NETs'],
                     answer: 'NETs',
-                    commentary: '',
+                    commentary: 'NETsは流れるがん幹細胞をキャッチすることで、がんの転移を促進してしまう。',
                 },
                 {
                     detailInfo: '5/01午前',
@@ -3369,7 +3380,7 @@ export const useQuestionList = () => {
                     questionSentence: '腫瘍細胞はPD-L1を発現し、CD8+Tcellが発現しているPD-1と結合しCD8+Tcellの抗腫瘍活性を抑制する。この結合を阻害する薬剤を免疫チェックポイント阻害剤といい本庶佑先生が開発した。間違いがなければなし、あれば間違いを訂正して記入せよ',
                     answerImg: [],
                     answer: 'ニボルマブ',
-                    commentary: '',
+                    commentary: 'ニボルマブは、本庶祐博士の発見：免疫細胞にPD-1が発現していることを元に開発された免疫チェックポイント阻害剤。',
                 },
                 {
                     detailInfo: '5/01午前',
@@ -3383,7 +3394,7 @@ export const useQuestionList = () => {
                     detailInfo: '5/01午前',
                     questionImg: [],
                     questionSentence: 'がん幹細胞は活性酸素(ROS)を除去する能力が亢進している。このとき活性化するものはなにか？',
-                    answerImg: [],
+                    answerImg: [cancerStemCell2],
                     answer: 'ALDH1',
                     commentary: '',
                 },
@@ -3391,7 +3402,7 @@ export const useQuestionList = () => {
                     detailInfo: '5/01午前',
                     questionImg: [],
                     questionSentence: '大腸がん幹細胞に特異的に高発現がみられる遺伝子はどれか？',
-                    answerImg: [],
+                    answerImg: [nicheSignalCancer],
                     choices: ['CD44', 'CD133', 'LGR5', 'SOX2'],
                     answer: 'LGR5',
                     commentary: '',
@@ -3400,9 +3411,9 @@ export const useQuestionList = () => {
                     detailInfo: '5/01午前',
                     questionImg: [],
                     questionSentence: 'ATPは生体内ですぐに消費されてしまうため、別の形でストックされている。その物質とはなにか',
-                    answerImg: [],
+                    answerImg: [CrP],
                     answer: 'クレアチンリン酸',
-                    commentary: '',
+                    commentary: '骨格筋に分布',
                 },
                 {
                     detailInfo: '5/01午前',
@@ -3416,18 +3427,18 @@ export const useQuestionList = () => {
                     detailInfo: '5/01午前',
                     questionImg: [],
                     questionSentence: 'ASCT2は何を取り込むトランスポーターであるか？            ',
-                    answerImg: [],
+                    answerImg: [glutaminolysis],
                     choices: ['グルコース', '必須アミノ酸', 'グルタミン酸', 'グルタミン'],
-                    answer: 'グルタミン酸',
-                    commentary: '',
+                    answer: 'グルタミン',
+                    commentary: 'がん細胞で亢進しているグルタミノリシスに必要なグルタミンを主に取り込んでいる。',
                 },
                 {
                     detailInfo: '5/01午前',
                     questionImg: [],
                     questionSentence: 'がんは不足する栄養を補うためにさまざまな方法で栄養を取り込む。その一つに細胞そのものを取り込む機構が存在する。これをなんと言う？',
-                    answerImg: [],
+                    answerImg: [entosis],
                     answer: 'エントーシス',
-                    commentary: '',
+                    commentary: 'エントーシス:entosisは細胞死のひとつ。',
                 },
                 {
                     detailInfo: '5/01午前',
@@ -3443,13 +3454,13 @@ export const useQuestionList = () => {
                     questionSentence: '増殖状態にある細胞は酸化的リン酸化よりも解糖系による代謝を亢進させる。この代謝の変化は解糖系中間体に増殖に必要な分子が多数存在するからである。またこの解糖系を制御している遺伝子にPGC-1αがある。 間違いがなければなし、訂正があれば正して下さい。',
                     answerImg: [MYC],
                     answer: 'PGC-1αではなくC-MYC',
-                    commentary: '',
+                    commentary: 'がん細胞では解糖系代謝が亢進しているため、関与する酵素も活性化している。',
                 },
                 {
                     detailInfo: '5/01午前',
                     questionImg: [],
                     questionSentence: 'PKM1とPKM2の違いについて代謝の観点から簡潔に説明して下さい。',
-                    answerImg: [],
+                    answerImg: [glycolysisPathway],
                     answer: 'PKM1はTCA回路を活性化するピルビン酸キナーゼだが、PKM2はTCA回路を活性化させずにグルタミンから必要なアミノ酸や脂肪酸を合成させるように促進するピルビン酸キナーゼ',
                     commentary: '',
                 },
@@ -3459,7 +3470,7 @@ export const useQuestionList = () => {
                     questionSentence: 'ミトコンドリアDNAには呼吸鎖複合体であるcomplex1,2,4,5の一部がコードされており、核DNAと異なりヒストンが存在しない。間違いがなければなし、訂正があれば正して下さい。',
                     answerImg: [],
                     answer: 'complex1,3,4,5',
-                    commentary: 'スライドに加筆',
+                    commentary: 'スライドに加筆。ミトコンドリアDNA:mtDNAは完全に母系遺伝。',
                 },
                 {
                     detailInfo: '5/01午前',
@@ -3733,8 +3744,8 @@ export const useQuestionList = () => {
                     questionImg: [practice4],
                     questionSentence: '脂肪滴が⾒られるのは、中⼼静脈周囲か⾨脈域周囲のどちらか？脂肪肝から⽣じる肝炎を何というか？その発症に関わる要因は？',
                     answerImg: [fattyLiver],
-                    answer: 'この脂肪滴は門脈域周辺。進行するとNASHを発症する。NASHの原因として、肥満・高血糖・高脂血症が挙げられる。',
-                    commentary: '脂肪肝には1.小葉中心性脂肪化、2.小葉辺縁性脂肪化があり、これらが進行すると肝小葉全体にわたって脂肪化がみられる、3.びまん性脂肪化がみられるようになる。組織学的に幹細胞の脂肪沈着のみを認める単純性脂肪肝から、脂肪沈着に加え壊死炎症反応や線維化を伴うと非アルコール性脂肪肝炎NASHに進行する。これらを総称してNAFLDと呼ぶこともある。その他、アルコール性肝炎や糖尿病性肝炎も存在する。',
+                    answer: 'この脂肪滴は中心静脈周囲？　進行するとNASHを発症する。NASHの原因として、肥満・高血糖・高脂血症が挙げられる。',
+                    commentary: '中心静脈は1本の静脈であるが、門脈の周辺には胆管・動脈・グリソン鞘が見える。脂肪肝には1.小葉中心性脂肪化、2.小葉辺縁性脂肪化があり、これらが進行すると肝小葉全体にわたって脂肪化がみられる、3.びまん性脂肪化がみられるようになる。組織学的に幹細胞の脂肪沈着のみを認める単純性脂肪肝から、脂肪沈着に加え壊死炎症反応や線維化を伴うと非アルコール性脂肪肝炎NASHに進行する。これらを総称してNAFLDと呼ぶこともある。その他、アルコール性肝炎や糖尿病性肝炎も存在する。',
                 },
                 {
                     detailInfo: '',
