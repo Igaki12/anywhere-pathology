@@ -40,12 +40,6 @@ import deoxycholicAcid from './img/answer/deoxycholicAcid.png';
 import CrP from './img/answer/CrP.png';
 import cancerFromFat from './img/answer/cancerFromFat.png';
 import NETs from './img/answer/NETs.png';
-import intestinalBacteria from './img/answer/intestinalBacteria.png';
-import entosis from './img/answer/entosis.png';
-import deoxycholicAcid from './img/answer/deoxycholicAcid.png';
-import CrP from './img/answer/CrP.png';
-import cancerFromFat from './img/answer/cancerFromFat.png';
-
 import AGE from './img/answer/AGE.png'
 import Wilson from './img/answer/Wilson.png'
 import ReceptorOfAGE from './img/answer/ReceptorOfAGE.png'
@@ -70,10 +64,6 @@ import macrophageReceptors from './img/answer/macrophageReceptors.png'
 import macrophage from './img/answer/macrophage.png'
 import HMGB1InhibitMacrophage from './img/answer/HMGB1InhibitMacrophage.png'
 import AGEActivity from './img/answer/AGEActivity.png'
-import intestinalBacteria from './img/answer/intestinalBacteria.png';
-import deoxycholicAcid from './img/answer/deoxycholicAcid.png';
-import CrP from './img/answer/CrP.png';
-import cancerFromFat from './img/answer/cancerFromFat.png';
 
 import produceROS from './img/answer/produceROS.png'
 import Menkes from './img/answer/Menkes.png'
