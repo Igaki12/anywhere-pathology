@@ -96,7 +96,7 @@ import pyroliMakesDisease from './img/answer/pyroliMakesDisease.png'
 import pyroliDamageMucous from './img/answer/pyroliDamageMucous.png'
 import cancerFromVirus from './img/answer/cancerFromVirus.png'
 import cancerAboutEBV from './img/answer/cancerAboutEBV.png'
-
+import giantCellArteritis from './img/answer/giantCellArteritis.png'
 import prostaticHyperplasia from './img/answer/prostaticHyperplasia.png'
 import fattyLiver from './img/answer/fattyLiver.png'
 import methylationDNA from './img/answer/methylationDNA.png'
@@ -3734,8 +3734,8 @@ export const useQuestionList = () => {
                     questionImg: [practice4],
                     questionSentence: '脂肪滴が⾒られるのは、中⼼静脈周囲か⾨脈域周囲のどちらか？脂肪肝から⽣じる肝炎を何というか？その発症に関わる要因は？',
                     answerImg: [fattyLiver],
-                    answer: 'この脂肪滴は中心静脈周囲？　進行するとNASHを発症する。NASHの原因として、肥満・高血糖・高脂血症が挙げられる。',
-                    commentary: '中心静脈は1本の静脈であるが、門脈の周辺には胆管・動脈・グリソン鞘が見える。脂肪肝には1.小葉中心性脂肪化、2.小葉辺縁性脂肪化があり、これらが進行すると肝小葉全体にわたって脂肪化がみられる、3.びまん性脂肪化がみられるようになる。組織学的に幹細胞の脂肪沈着のみを認める単純性脂肪肝から、脂肪沈着に加え壊死炎症反応や線維化を伴うと非アルコール性脂肪肝炎NASHに進行する。これらを総称してNAFLDと呼ぶこともある。その他、アルコール性肝炎や糖尿病性肝炎も存在する。',
+                    answer: 'この脂肪滴は中心静脈周囲。　進行するとNASHを発症する。NASHの原因として、肥満・高血糖・高脂血症が挙げられる。',
+                    commentary: '中心静脈は1本の静脈である一方で、門脈の周辺には胆管・動脈・グリソン鞘が見える。脂肪肝には1.小葉中心性脂肪化、2.小葉辺縁性脂肪化があり、これらが進行すると肝小葉全体にわたって脂肪化がみられる、3.びまん性脂肪化がみられるようになる。組織学的に幹細胞の脂肪沈着のみを認める単純性脂肪肝から、脂肪沈着に加え壊死炎症反応や線維化を伴うと非アルコール性脂肪肝炎NASHに進行する。これらを総称してNAFLDと呼ぶこともある。その他、アルコール性肝炎や糖尿病性肝炎も存在する。',
                 },
                 {
                     detailInfo: '',
@@ -3773,16 +3773,16 @@ export const useQuestionList = () => {
                     detailInfo: '',
                     questionImg: [practice9],
                     questionSentence: '⾼齢者に多い⾎管炎の組織写真です。疾患名は？',
-                    answerImg: [atherosclerosis4],
-                    answer: '粥状動脈硬化',
-                    commentary: '大型・中型の動脈に好発。動脈内腔の狭窄や閉塞をきたし、虚血性心疾患・狭心症・心筋梗塞・脳梗塞・下肢の壊疽などを引き起こす。また大動脈の動脈瘤の形成・その破綻などを生ずることもある。脂肪斑に泡沫細胞の集簇が見られる。',
+                    answerImg: [giantCellArteritis],
+                    answer: '巨細胞性動脈炎giant cell arteritis （側頭動脈炎 temporal arteritis）。',
+                    commentary: '頭蓋内の動脈、特に側頭動脈に好発する原因不明の血管炎であり、50歳以上の高齢者に最も多くみられる。罹患動脈の病変部位は結節的に肥厚し、内腔が狭窄するほか、血栓形成が認められる事もある。内弾性板の断裂・断片化と、多核巨細胞・マクロファージ・リンパ球の集積を伴う肉芽腫性炎症が、内弾性板周囲の中膜に認められる。瘢痕期には線維化が見られる場合もある。臨床的には側頭部の頭痛や圧痛がみられ、眼神経が侵された場合は視力低下・視野障害・失明が認められる。',
                 },
                 {
                     detailInfo: '',
                     questionImg: [practice10],
                     questionSentence: '下図に認められる顆粒は何か？この組織像から考えられる病名は？          ',
                     answerImg: [hemochromatosis],
-                    answer: 'ヘモクロマトーシス',
+                    answer: '顆粒はヘモジデリンで、病名はヘモクロマトーシス',
                     commentary: 'ベルリンブルー染色はヘモジデリンを青色に染める。輸血の反復や長期間にわたって赤血球崩壊が続く疾患では、ヘモジデリンは脾臓・骨髄・肝臓の網内系細胞や腎尿細管に強く沈着し、ヘモジデローシスとなる。網内系細胞に加えて実質細胞にもヘモジデリンの沈着が認められ、機能障害をきたすものをヘモクロマトーシスと呼び、原発性（HFE遺伝子変異などの遺伝子疾患）と続発性（輸血の反復・鉄の摂取増加・無効造血をきたす疾患・肝疾患）がある。肝臓は線維化から肝硬変を生じる。肝腫大・糖尿病・皮膚色素沈着が、ヘモクロマトーシスの三大主徴である。',
                 },
                 {

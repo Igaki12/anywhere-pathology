@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-pathology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-pathology/static/js/main.9ea88a5b.js",
+    "main.js": "/anywhere-pathology/static/js/main.016ee695.js",
     "static/media/practice12.png": "/anywhere-pathology/static/media/practice12.29bc13058e8fe5818cde.png",
     "static/media/practice1answer.png": "/anywhere-pathology/static/media/practice1answer.2ec284a72b1a0551c347.png",
     "static/media/degeneration.png": "/anywhere-pathology/static/media/degeneration.4672a45d0daf6c2cee55.png",
@@ -15,6 +15,7 @@
     "static/media/practice3.png": "/anywhere-pathology/static/media/practice3.34981d7901d1038dd525.png",
     "static/media/HMGB1.png": "/anywhere-pathology/static/media/HMGB1.3b50734fc670a1f6f572.png",
     "static/media/practice1.png": "/anywhere-pathology/static/media/practice1.596558c87b2a237a7be2.png",
+    "static/media/giantCellArteritis.png": "/anywhere-pathology/static/media/giantCellArteritis.5445902d1f044a0f9503.png",
     "static/media/practice0.png": "/anywhere-pathology/static/media/practice0.17c65bf2e175ee8e9eab.png",
     "static/media/practice13.png": "/anywhere-pathology/static/media/practice13.6eea9ce71b4fb2253c3f.png",
     "static/media/practice10.png": "/anywhere-pathology/static/media/practice10.6587cbf4ce73e7a12537.png",
@@ -176,10 +177,10 @@
     "static/media/NADPH.png": "/anywhere-pathology/static/media/NADPH.7abbecb7d44d23a061de.png",
     "index.html": "/anywhere-pathology/index.html",
     "main.6180b9dc.css.map": "/anywhere-pathology/static/css/main.6180b9dc.css.map",
-    "main.9ea88a5b.js.map": "/anywhere-pathology/static/js/main.9ea88a5b.js.map"
+    "main.016ee695.js.map": "/anywhere-pathology/static/js/main.016ee695.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.9ea88a5b.js"
+    "static/js/main.016ee695.js"
   ]
 }
