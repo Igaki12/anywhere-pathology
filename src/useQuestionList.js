@@ -978,8 +978,8 @@ export const useQuestionList = () => {
                     questionImg: [],
                     questionSentence: '【正誤問題】ウェルシュ菌は食中毒菌であり腸内には常在しない',
                     answerImg: [welsh],
-                    answer: '正しい',
-                    commentary: '',
+                    answer: '誤り...特に高齢者では増える',
+                    commentary: 'いわゆる悪玉菌で、ウェルシュ毒素はがん細胞にEMT(上皮間葉転換)を促進してしまう',
                 },
                 {
                     detailInfo: '',
@@ -2662,7 +2662,7 @@ export const useQuestionList = () => {
                     questionImg: [],
                     questionSentence: '【正誤問題】ウェルシュ菌は食中毒菌であり腸内には常在しない。',
                     answerImg: [welsh],
-                    answer: '正しい',
+                    answer: '誤り...特に高齢者では腸内で増える',
                     commentary: '加齢とともに腸内に増えるといわれている。',
                 },
                 {
@@ -2894,8 +2894,8 @@ export const useQuestionList = () => {
                     questionImg: [],
                     questionSentence: '【正誤問題】ウェルシュ菌は食中毒菌であり腸内には常在しない',
                     answerImg: [welsh],
-                    answer: '正しい',
-                    commentary: '',
+                    answer: '誤り...特に高齢者では増える',
+                    commentary: 'ウェルシュ菌は病原性が高く、腸内でウェルシュ毒素（腸管毒）を産生し、がん細胞にEMT（上皮間葉転換）を促進してしまう',
                 },
                 {
                     detailInfo: '4/24午後',
@@ -3039,7 +3039,7 @@ export const useQuestionList = () => {
                     questionSentence: '【正誤問題】ネクローシスは受動的な細胞死である',
                     answerImg: [necrosisApoptosis],
                     answer: '正しい',
-                    commentary: '',
+                    commentary: 'ネクローシス（受動的） v.s. アポトーシス',
                 },
                 {
                     detailInfo: '4/24午後',
@@ -3055,7 +3055,7 @@ export const useQuestionList = () => {
                     questionSentence: '【正誤問題】細胞死は死細胞にのみ影響する現象である',
                     answerImg: [],
                     answer: '誤り',
-                    commentary: '成長段階で計画された細胞死も存在する',
+                    commentary: '成長段階で計画された細胞死も存在する。指の間の部分など。',
                 },
                 {
                     detailInfo: '4/24午後',
@@ -3481,7 +3481,7 @@ export const useQuestionList = () => {
                     questionSentence: '【正誤問題】微生物は発癌における大きな要因である',
                     answerImg: [cancerFromVirus],
                     answer: '正しい',
-                    commentary: '感染症が原因のがん：胃がん（ピロリ菌）・子宮頸がん（ヒトパピローマウイルス）・肝がん（B型C型肝炎ウイルス）など',
+                    commentary: '感染症が原因のがん：胃がん（ピロリ菌）・子宮頸がん（ヒトパピローマウイルス）・肝がん（B型C型肝炎ウイルス）・HTLV-1など',
                 },
                 {
                     detailInfo: '5/01午後',
@@ -3489,7 +3489,7 @@ export const useQuestionList = () => {
                     questionSentence: '【正誤問題】EBV感染による2大悪性疾患は胃癌とバーキットリンパ腫である',
                     answerImg: [cancerAboutEBV],
                     answer: '誤り...胃がんではなく鼻咽頭がん',
-                    commentary: '',
+                    commentary: 'EBVは咽頭に感染し、唾液中にウイルスを排出し続けるため、キス感染症ともよばれる。感染数週間後にギランバレー症候群を発症することもある→微生物学',
                 },
                 {
                     detailInfo: '5/01午後',
@@ -3505,7 +3505,7 @@ export const useQuestionList = () => {
                     questionSentence: '【正誤問題】細菌による発癌は外界に接した臓器に限定される',
                     answerImg: [],
                     answer: '誤り',
-                    commentary: '',
+                    commentary: '例えば常在菌やその産物の浸潤は、腫瘍関連骨髄球系細胞を活性化し、腫瘍促進炎症を誘発する。',
                 },
                 {
                     detailInfo: '5/01午後',
@@ -3513,7 +3513,7 @@ export const useQuestionList = () => {
                     questionSentence: '【正誤問題】細菌による大腸癌発生促進には、細菌の産生する短鎖脂肪酸が挙げられる',
                     answerImg: [microorganismProducesEffectors],
                     answer: '誤り',
-                    commentary: '毒素',
+                    commentary: '毒素？二次胆汁酸？',
                 },
                 {
                     detailInfo: '5/01午後',
