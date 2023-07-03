@@ -496,7 +496,7 @@ export const useQuestionList = () => {
                     questionSentence: '【正誤問題】1分子のグルコースから最も多くのATPを生成するのは解糖系である。',
                     answerImg: [synthesizeATP],
                     answer: '誤り...解糖系ではなく電子伝達系',
-                    commentary: '電子伝達系を稼働させるには酸素が必要で、また活性酸素を生成し細胞を傷害してしまう。がん細胞では電子伝達系は抑制されている(Warburg effect)',
+                    commentary: '電子伝達系を稼働させるには酸素が必要で、また活性酸素を生成し細胞を傷害してしまう。がん細胞では電子伝達系は抑制される(Warburg effect)',
                 },
                 {
                     detailInfo: '',
@@ -520,7 +520,7 @@ export const useQuestionList = () => {
                     questionSentence: '【正誤問題】AA型アミロイドは血清アミロイドAA蛋白に由来する。',
                     answerImg: [amyloid],
                     answer: '誤り...AA蛋白ではなくA蛋白',
-                    commentary: 'Serum amyloid A で血清アミロイドA蛋白由来。AA型アミロイドは急性期反応蛋白の一種で、急性・慢性疾患や加齢で増加し、肝細胞が産生する。血管壁に貯留しやすく、続発性アミロイドーシスの原因となる。',
+                    commentary: 'Serum amyloid A で血清アミロイドA蛋白。AA型アミロイドは急性期反応蛋白の一種で、急性・慢性疾患や加齢で増加し、肝細胞が産生する。血管壁に貯留しやすく、続発性アミロイドーシスの原因となる。',
                 },
                 {
                     detailInfo: '',
@@ -695,7 +695,7 @@ export const useQuestionList = () => {
                 {
                     detailInfo: '',
                     questionImg: [],
-                    questionSentence: '【正誤問題】Eisenmenger化とは、先天性深枝間により肺血管抵抗の低下から左→右シャントが優勢になった状態を指す。',
+                    questionSentence: '【正誤問題】Eisenmenger化とは、先天性心疾患により肺血管抵抗の低下から左→右シャントが優勢になった状態を指す。',
                     answerImg: [],
                     answer: '誤り..血管抵抗の低下ではなく増大、左→右シャントではなく右→左シャント',
                     commentary: 'Eisenmenger化は心房中隔欠損、心室中隔欠損などでみられる。静脈血が左心室に流入しチアノーゼなどを起こすようになる',
