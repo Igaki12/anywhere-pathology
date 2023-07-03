@@ -730,7 +730,7 @@ export const useQuestionList = () => {
                     questionSentence: '【正誤問題】HIF-1αは転写因子であり低酸素時にVEGF,GLUT1などの発現を誘導する。',
                     answerImg: [glycolysisPathway],
                     answer: '正しい',
-                    commentary: 'HIF-1αは解糖系代謝を促進する',
+                    commentary: 'VEGFは血管新生因子、GLUT1は糖の取り込みに必要で、HIF-1αはがん細胞に関連する。HIF-1αは低酸素時に解糖系代謝も促進する',
                 },
                 {
                     detailInfo: '',
