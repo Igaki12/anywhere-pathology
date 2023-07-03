@@ -850,7 +850,7 @@ export const useQuestionList = () => {
                     questionSentence: '【正誤問題】P53は4量体であり4量体結合ドメインとDNA結合ドメインを持つ。これをもとに考えるとP53は4量体結合ドメインの片アレルの変異のみで1/16まで正常蛋白量が落ちることになる。',
                     answerImg: [],
                     answer: '正しい',
-                    commentary: '4量体を構成するタンパク質は50:50で変異型と正常型が混合している。ここから正常型のみが4量体を形成する確率は1/2の4乗',
+                    commentary: '4量体を結合するドメインは50:50で変異型と正常型が混合している。ここから正常型のみが4量体を形成する確率は1/2の4乗',
                 },
 
                 {
@@ -896,7 +896,7 @@ export const useQuestionList = () => {
                 {
                     detailInfo: '',
                     questionImg: [],
-                    questionSentence: '【正誤問題】Warburg効果とは酵素存在下でも解糖系に偏ったエネルギー酸性を行うがん細胞の特性である。',
+                    questionSentence: '【正誤問題】Warburg効果とは酵素存在下でも解糖系に偏ったエネルギー産生を行うがん細胞の特性である。',
                     answerImg: [Warburg],
                     answer: '正しい',
                     commentary: '電子伝達系に伴う活性酸素の生成を抑制することで、アポトーシスしてしまう事をふせいでいる。',
@@ -1491,7 +1491,7 @@ export const useQuestionList = () => {
                     questionSentence: '【正誤問題】活性化癌遺伝子よりも癌抑制遺伝子の失活のほうが家族性癌症候群の原因として多い',
                     answerImg: [tumorSuppressorGene],
                     answer: '正しい',
-                    commentary: '',
+                    commentary: '一般的に、活性化がん遺伝子は片アレル変異で起こり、優性遺伝する→自然淘汰されやすい。一方でがん抑制遺伝子の失活は両アレル変異で起こり、劣性遺伝する→自然淘汰されないキャリア（保因者）が多い。　優性遺伝であっても、高齢で発症するなど、自然淘汰されにくい遺伝子疾患は存在する。',
                 },
                 {
                     detailInfo: '',
