@@ -698,7 +698,7 @@ export const useQuestionList = () => {
                     questionSentence: '【正誤問題】Eisenmenger化とは、先天性心疾患により肺血管抵抗の低下から左→右シャントが優勢になった状態を指す。',
                     answerImg: [],
                     answer: '誤り..血管抵抗の低下ではなく増大、左→右シャントではなく右→左シャント',
-                    commentary: 'Eisenmenger化は心房中隔欠損、心室中隔欠損などでみられる。静脈血が左心室に流入しチアノーゼなどを起こすようになる',
+                    commentary: 'Eisenmenger化は心房中隔欠損、心室中隔欠損、動脈管開存などでみられる。一般的に左心室のほうが内圧が高いため初期は左→右シャント（チアノーゼは起こらない）であることが多いが、肺への負荷により次第に肺血管抵抗が増大し、右→左シャントに変化する（Eisenmenger化）。右→左シャントでは静脈血が左心室に流入しチアノーゼなどを起こすようになる',
                 },
                 {
                     detailInfo: '',
@@ -713,8 +713,8 @@ export const useQuestionList = () => {
                     questionImg: [],
                     questionSentence: '【正誤問題】Goodpasture症候群、溶血性貧血、Schoenlein-Henoch紫斑症はⅡ型アレルギーで起こる。',
                     answerImg: [allergy5],
-                    answer: '誤り...Hernoch-Schnlein紫斑症はIgAによるアレルギーが原因。',
-                    commentary: '免疫性血小板減少性紫斑病はⅡ型アレルギー。Ⅱ型アレルギーの中でも、細胞ではなく受容体に対する抗体で細胞機能を制御してしまうようなアレルギー反応はⅤ型アレルギーともよばれる。',
+                    answer: '誤り...Hernoch-Schnlein紫斑症はIgA免疫複合体の沈着によるⅢ型アレルギー。',
+                    commentary: 'Schoenlein-Henoch紫斑症(IgA血管炎）は、細菌（溶血性連鎖球菌など）やウイルス感染、薬剤性（抗生物質など）、悪性腫瘍、食物などの環境因子が誘因となり、IgA1型免疫複合体沈着→血管炎が生じると考えられている。　免疫性血小板減少性紫斑病ならⅡ型アレルギー。Ⅱ型アレルギーの中でも、細胞ではなく受容体に対する抗体で細胞機能を制御してしまうようなアレルギー反応はⅤ型アレルギーともよばれる。',
                 },
                 {
                     detailInfo: '',
