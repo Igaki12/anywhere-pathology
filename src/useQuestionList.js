@@ -1673,7 +1673,7 @@ export const useQuestionList = () => {
                     detailInfo: '',
                     questionImg: [],
                     questionSentence: '【正誤問題】血漿由来の炎症性メディエーターにキニンや補体 (C3a, C5a) があり細胞由来のものにヒスタミンやセロトニン NOがある',
-                    answerImg: [mediatorFromCell],
+                    answerImg: [inflammatoryMediator],
                     answer: '正しい',
                     commentary: '',
                 },
