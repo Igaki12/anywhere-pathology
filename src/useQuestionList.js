@@ -980,7 +980,7 @@ export const useQuestionList = () => {
                     questionImg: [],
                     questionSentence: '【正誤問題】ウェルシュ菌は食中毒菌であり腸内には常在しない',
                     answerImg: [welsh],
-                    answer: '誤り...特に高齢者では増える',
+                    answer: '誤り...腸内常在菌で、特に高齢者では増える',
                     commentary: 'いわゆる悪玉菌で、ウェルシュ毒素はがん細胞にEMT(上皮間葉転換)を促進してしまう',
                 },
                 {
@@ -2837,7 +2837,7 @@ export const useQuestionList = () => {
                     questionImg: [],
                     questionSentence: '【正誤問題】ウェルシュ菌は食中毒菌であり腸内には常在しない。',
                     answerImg: [welsh],
-                    answer: '誤り...特に高齢者では腸内で増える',
+                    answer: '誤り...腸内常在菌で、特に高齢者では増える',
                     commentary: '加齢とともに腸内に増えるといわれている。',
                 },
                 {
@@ -3069,7 +3069,7 @@ export const useQuestionList = () => {
                     questionImg: [],
                     questionSentence: '【正誤問題】ウェルシュ菌は食中毒菌であり腸内には常在しない',
                     answerImg: [welsh],
-                    answer: '誤り...特に高齢者では増える',
+                    answer: '誤り...腸内常在菌で、特に高齢者では増える',
                     commentary: 'ウェルシュ菌は病原性が高く、腸内でウェルシュ毒素（腸管毒）を産生し、がん細胞にEMT（上皮間葉転換）を促進してしまう',
                 },
                 {
