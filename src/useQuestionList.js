@@ -175,6 +175,7 @@ import deoxycholicAcid from './img/answer/deoxycholicAcid.png';
 import CrP from './img/answer/CrP.png';
 import cancerFromFat from './img/answer/cancerFromFat.png';
 import TGFBeta from './img/answer/TGFBeta.png';
+import lacticAcid from './img/answer/lacticAcid.png';
 
 
 
@@ -2417,9 +2418,9 @@ export const useQuestionList = () => {
                     detailInfo: '',
                     questionImg: [],
                     questionSentence: '【正誤問題】乳酸は酸化的リン酸化を促進する',
-                    answerImg: [],
+                    answerImg: [lacticAcid],
                     answer: '正しい',
-                    commentary: '乳酸は嫌気性代謝産物',
+                    commentary: '乳酸は嫌気性代謝産物で、ピルビン酸→乳酸生成時にできるNADHをNAD⁺に戻すために電子伝達系が促進される。',
                 },
                 {
                     detailInfo: '',
@@ -2621,23 +2622,106 @@ export const useQuestionList = () => {
                 //   answer: '',
                 //   commentary: '',
                 // },
-                // {
-                //   detailInfo: '',
-                //   questionImg: [],
-                //   questionSentence: '【正誤問題】',
-                //   answerImg: [],
-                //   answer: '',
-                //   commentary: '',
-                // },
-                // {
-                //   detailInfo: '',
-                //   questionImg: [],
-                //   questionSentence: '【正誤問題】',
-                //   answerImg: [],
-                //   answer: '',
-                //   commentary: '',
-                // },
             ],
+        }, {
+            groupTag: "2021年追加分",
+            groupContents: [{
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '【正誤問題】先天性心奇形の約10%に心房中隔欠損がある',
+                    answerImg: [heartMiscreation],
+                    answer: '正しい',
+                    commentary: '約10~15%で、女性に多い。Eisenmenger化すると予後不良。',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '【正誤問題】先天性心疾患から生じる肺高血圧は肺血流が増加して肺動脈圧が増加し、L→Rシャント化してEisenmenger化がおこる',
+                    answerImg: [],
+                    answer: '誤り...L→RではなくR→Lシャント',
+                    commentary: '心房中隔欠損や心室中隔欠損、Fallot四徴症でL→Rの方向のシャントが起こり肺動脈の血圧が高くなりやすい。負担により肺血管抵抗が高まると、シャントの向きがR→L方向になる：Eisenmenger化し、予後不良。',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '【正誤問題】ダウン症候群では精神発達遅延、先天性心疾患、消化管奇形、白血病、耳介変形、大動脈解離の若年発症、早期アルツハイマー病がみられる',
+                    answerImg: [Down],
+                    answer: '誤り...大動脈解離は無関係',
+                    commentary: '染色体全体の疾患であるため症状は多岐にわたる。両眼解離なども。',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '【正誤問題】腸重積では遠位の腸に近位の腸が嵌頓し、血行障害が生じる。長時間腹痛が続いた後、いちごゼリー状粘血便がみられる。',
+                    answerImg: [],
+                    answer: '',
+                    commentary: '腸重積',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '【正誤問題】',
+                    answerImg: [],
+                    answer: '',
+                    commentary: '',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '【正誤問題】',
+                    answerImg: [],
+                    answer: '',
+                    commentary: '',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '【正誤問題】',
+                    answerImg: [],
+                    answer: '',
+                    commentary: '',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '【正誤問題】',
+                    answerImg: [],
+                    answer: '',
+                    commentary: '',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '【正誤問題】',
+                    answerImg: [],
+                    answer: '',
+                    commentary: '',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '【正誤問題】',
+                    answerImg: [],
+                    answer: '',
+                    commentary: '',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '【正誤問題】',
+                    answerImg: [],
+                    answer: '',
+                    commentary: '',
+                },
+                // {
+                //   detailInfo: '',
+                //   questionImg: [],
+                //   questionSentence: '【正誤問題】',
+                //   answerImg: [],
+                //   answer: '',
+                //   commentary: '',
+                // },
+            ]
         },
         {
             groupTag: '出席確認',

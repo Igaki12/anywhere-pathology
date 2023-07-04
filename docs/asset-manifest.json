@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-pathology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-pathology/static/js/main.9bedea94.js",
+    "main.js": "/anywhere-pathology/static/js/main.752f1e97.js",
     "static/media/practice12.png": "/anywhere-pathology/static/media/practice12.29bc13058e8fe5818cde.png",
     "static/media/practice1answer.png": "/anywhere-pathology/static/media/practice1answer.2ec284a72b1a0551c347.png",
     "static/media/degeneration.png": "/anywhere-pathology/static/media/degeneration.4672a45d0daf6c2cee55.png",
@@ -77,6 +77,7 @@
     "static/media/myocarditis.png": "/anywhere-pathology/static/media/myocarditis.b5bf5ffade5397d5ce1d.png",
     "static/media/Warburg.png": "/anywhere-pathology/static/media/Warburg.77fb83df90fd3d3c92e1.png",
     "static/media/nephroblastoma.png": "/anywhere-pathology/static/media/nephroblastoma.08c5971e9d07df2af4a6.png",
+    "static/media/lacticAcid.png": "/anywhere-pathology/static/media/lacticAcid.9aa0a449e6f5365e9136.png",
     "static/media/retinoblastoma.png": "/anywhere-pathology/static/media/retinoblastoma.889e08fbfb59c645318f.png",
     "static/media/carcinogenesisStep.png": "/anywhere-pathology/static/media/carcinogenesisStep.8235212115064354565a.png",
     "static/media/hypertrophy.png": "/anywhere-pathology/static/media/hypertrophy.12724f5212844f541f67.png",
@@ -179,10 +180,10 @@
     "static/media/NADPH.png": "/anywhere-pathology/static/media/NADPH.7abbecb7d44d23a061de.png",
     "index.html": "/anywhere-pathology/index.html",
     "main.6180b9dc.css.map": "/anywhere-pathology/static/css/main.6180b9dc.css.map",
-    "main.9bedea94.js.map": "/anywhere-pathology/static/js/main.9bedea94.js.map"
+    "main.752f1e97.js.map": "/anywhere-pathology/static/js/main.752f1e97.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.9bedea94.js"
+    "static/js/main.752f1e97.js"
   ]
 }
