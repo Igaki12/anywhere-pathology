@@ -2712,7 +2712,7 @@ export const useQuestionList = () => {
                     questionImg: [],
                     questionSentence: '【正誤問題】NADP⁺は異化作用に使われる',
                     answerImg: [NADPH],
-                    answer: '',
+                    answer: '誤り...同化作用',
                     commentary: 'ペントースリン酸経路などで合成されたNADPHは、酸化物質の還元や脂肪酸合成など同化作用に利用される。NAD⁺はピルビン酸→アセチルCoAなど、専ら異化作用に利用される',
                 },
                 {
@@ -2744,7 +2744,7 @@ export const useQuestionList = () => {
                   questionImg: [],
                   questionSentence: '【正誤問題】スーパーオキシドはSODにより過酸化水素となり、GPxによってH₂Oに変換される',
                   answerImg: [NADPH],
-                  answer: '',
+                  answer: '正しい',
                   commentary: 'NADPHオキシダーゼなどにより発生したスーパーオキシド(O₂⁻)は、SODによって過酸化水素H₂O₂となる。H₂O₂はカタラーゼやGPxによりH₂Oに無害化される。SODやGPxなど、抗酸化作用をもつ物質を総称してスカベンジャーとよぶ。',
                 },
                 {
