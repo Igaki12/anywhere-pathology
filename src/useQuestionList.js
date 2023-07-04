@@ -3077,7 +3077,7 @@ export const useQuestionList = () => {
                     detailInfo: '4/24午後',
                     questionImg: [],
                     questionSentence: '【正誤問題】核融解はネクローシスの特徴である',
-                    answerImg: [necrosis],
+                    answerImg: [],
                     answer: '正しい',
                     commentary: '',
                 },
@@ -3085,7 +3085,7 @@ export const useQuestionList = () => {
                     detailInfo: '4/24午後',
                     questionImg: [],
                     questionSentence: '【正誤問題】乾酪壊死は、結核菌を貪食したマクロファージの壊死である',
-                    answerImg: [],
+                    answerImg: [necrosis],
                     answer: '正しい',
                     commentary: 'マクロファージは結核菌を殺菌することができない。',
                 },
@@ -3128,7 +3128,7 @@ export const useQuestionList = () => {
                     questionSentence: '染色体変異のうち染色体の数の変化を示す異数性と倍数性があるが、この両者がどのような変異か簡潔に示せ。',
                     answerImg: [],
                     answer: '基本の染色体数が増加(n=69など)するものを倍数性、全体の染色体数が多い、少ない(n =47,48など )ものを異数性という。',
-                    commentary: '有性生殖を行う生物は両親から染色体のセットを2つ受け取るが、受精時などの異常により染色体のセットに過不足が生じている変異。対して異数性の染色体変異はヒトの23染色体のうちいずれかが2本1対より過不足が生じている変異。',
+                    commentary: '有性生殖を行う生物は両親から染色体のセットを2つ受け取るが、受精時などの異常により染色体がセット単位で増えてしまっているのが倍数性変異。対して異数性の染色体変異はセット（23染色体）の中のいずれかの染色体で、2本1対より過不足が生じている変異。',
                 },
                 {
                     detailInfo: '4/25午前',
@@ -3196,7 +3196,7 @@ export const useQuestionList = () => {
                 {
                     detailInfo: '4/25午前',
                     questionImg: [],
-                    questionSentence: '次のうちX性染色体劣勢遺伝病を選べ          ',
+                    questionSentence: '次のうちX性染色体劣性遺伝病を選べ          ',
                     answerImg: [],
                     choices: [
                         '鎌状赤血球貧血症',
@@ -3205,7 +3205,7 @@ export const useQuestionList = () => {
                         '糖原病（Ⅰ型）',
                     ],
                     answer: 'Fabry病',
-                    commentary: '',
+                    commentary: '鎌状赤血球貧血症はβ-グロビンを構成するアミノ酸の置換によって発症し、常染色体優性遺伝病フェニルケトン尿症はPAH遺伝子の失活変異で、常染色体劣性遺伝。Fabry病はライソゾーム病の一つで、α-ガラクトシダーゼA活性の失活変異。糖原病Ⅰ型はグルコース-6-フォスファターゼの失活変異で、常染色体劣性遺伝。　2,3,4は先天性代謝異常症に分類される。代謝酵素は両アレルが欠損しない限りは正常アレルで機能が補完されることが多く、劣性遺伝であることが多い。',
                 },
                 {
                     detailInfo: '4/25午前',
