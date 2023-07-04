@@ -2035,7 +2035,7 @@ export const useQuestionList = () => {
                     questionSentence: '【正誤問題】心不全では血管透過性が亢進し浮腫を生じる',
                     answerImg: [],
                     answer: '誤り...心不全では拍出力が下がり血管透過性は下がる',
-                    commentary: '',
+                    commentary: '心不全ではうっ血（流出障害）による浮腫が生じる場合はある',
                 },
                 {
                     detailInfo: '',
