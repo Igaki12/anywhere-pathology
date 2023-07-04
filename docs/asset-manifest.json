@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-pathology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-pathology/static/js/main.752f1e97.js",
+    "main.js": "/anywhere-pathology/static/js/main.bf413300.js",
     "static/media/practice12.png": "/anywhere-pathology/static/media/practice12.29bc13058e8fe5818cde.png",
     "static/media/practice1answer.png": "/anywhere-pathology/static/media/practice1answer.2ec284a72b1a0551c347.png",
     "static/media/degeneration.png": "/anywhere-pathology/static/media/degeneration.4672a45d0daf6c2cee55.png",
@@ -24,6 +24,7 @@
     "static/media/rheumaticHeartDisease.png": "/anywhere-pathology/static/media/rheumaticHeartDisease.9bd0b99b880f0a5621a0.png",
     "static/media/hemochromatosis.png": "/anywhere-pathology/static/media/hemochromatosis.2744b0bb4e4662f3352f.png",
     "static/media/prostaticHyperplasia.png": "/anywhere-pathology/static/media/prostaticHyperplasia.af4cb487859c80bc7b0a.png",
+    "static/media/complex.png": "/anywhere-pathology/static/media/complex.2ebb52e929e9148d6ce5.png",
     "static/media/HMGB1InhibitMacrophage.png": "/anywhere-pathology/static/media/HMGB1InhibitMacrophage.79da339646622d89c370.png",
     "static/media/MEN.png": "/anywhere-pathology/static/media/MEN.9cc811fa146719a19e19.png",
     "static/media/pulmonaryInfarction.png": "/anywhere-pathology/static/media/pulmonaryInfarction.ee447975da0d9c04ebae.png",
@@ -180,10 +181,10 @@
     "static/media/NADPH.png": "/anywhere-pathology/static/media/NADPH.7abbecb7d44d23a061de.png",
     "index.html": "/anywhere-pathology/index.html",
     "main.6180b9dc.css.map": "/anywhere-pathology/static/css/main.6180b9dc.css.map",
-    "main.752f1e97.js.map": "/anywhere-pathology/static/js/main.752f1e97.js.map"
+    "main.bf413300.js.map": "/anywhere-pathology/static/js/main.bf413300.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.752f1e97.js"
+    "static/js/main.bf413300.js"
   ]
 }
