@@ -1956,7 +1956,7 @@ export const useQuestionList = () => {
                     questionImg: [],
                     questionSentence: '【正誤問題】常染色体優性遺伝病の患者が健常者と結婚した場合に子の2人に1人は保因者となる。',
                     answerImg: [],
-                    answer: '誤り...優性遺伝病の場合は1人/4人',
+                    answer: '正しい',
                     commentary: '',
                 },
                 {
