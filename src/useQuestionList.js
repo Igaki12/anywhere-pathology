@@ -2787,14 +2787,14 @@ export const useQuestionList = () => {
                     answer: '誤り...GSHは抗酸化作用が強い',
                     commentary: 'GSHはグルタチオンの還元型で、GSSGは酸化型。GSHがおもに抗酸化作用を示す。',
                   },
-                //   {
-                //     detailInfo: '',
-                //     questionImg: [],
-                //     questionSentence: '【正誤問題】',
-                //     answerImg: [],
-                //     answer: '',
-                //     commentary: '',
-                //   },
+                  {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '【正誤問題】増殖状態にある細胞は、酸化的リン酸化よりも、解糖系優位な代謝を行う。これは、解糖系中間体を生合成に利用するためである。',
+                    answerImg: [],
+                    answer: '正しい',
+                    commentary: 'がん細胞ではPKM2によって解糖系優位な代謝が行われている。解糖系中間体から生成できるNADPHやリボース5-リン酸などは生合成に利用できる。酸化的リン酸化はROSを産生するため抑制されていて、代わりにグルタミンを取り込んでTCA回路を回す→グルタミノリシス',
+                  },
                 //   {
                 //     detailInfo: '',
                 //     questionImg: [],
