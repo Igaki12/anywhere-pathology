@@ -2283,7 +2283,7 @@ export const useQuestionList = () => {
                     questionSentence: '【正誤問題】腸内細菌の発酵作用によりブチル酸などのエピジェネティック阻害の抑制物質が生成する',
                     answerImg: [intestinalBacteria],
                     answer: '正しい',
-                    commentary: 'エピジェネティック抑制→分化を逆行→発癌しやすい',
+                    commentary: 'エピジェネティック阻害→分化を逆行→発がん性　、の抑制物質。',
                 },
                 {
                     detailInfo: '',
@@ -2352,7 +2352,7 @@ export const useQuestionList = () => {
                 {
                     detailInfo: '',
                     questionImg: [],
-                    questionSentence: '【正誤問題】糖尿病性神経障害の原因として高血糖、 酸化ストレス、終末糖化産物、 PKCE 活性化が挙げられる',
+                    questionSentence: '【正誤問題】糖尿病性神経障害の原因として高血糖、酸化ストレス、終末糖化産物、PKC活性化が挙げられる',
                     answerImg: [cancerFromDM],
                     answer: '正しい',
                     commentary: '',
