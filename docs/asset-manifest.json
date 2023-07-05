@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-pathology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-pathology/static/js/main.d9cbadf8.js",
+    "main.js": "/anywhere-pathology/static/js/main.da68d60c.js",
     "static/media/practice12.png": "/anywhere-pathology/static/media/practice12.29bc13058e8fe5818cde.png",
     "static/media/practice1answer.png": "/anywhere-pathology/static/media/practice1answer.2ec284a72b1a0551c347.png",
     "static/media/degeneration.png": "/anywhere-pathology/static/media/degeneration.4672a45d0daf6c2cee55.png",
@@ -44,6 +44,7 @@
     "static/media/ChediakHigashi.png": "/anywhere-pathology/static/media/ChediakHigashi.4c6d2b53f99270c5fc06.png",
     "static/media/mitophagy.png": "/anywhere-pathology/static/media/mitophagy.247a08fef0a726b5621a.png",
     "static/media/CancerFromAGE.png": "/anywhere-pathology/static/media/CancerFromAGE.fecff669d87a323c1408.png",
+    "static/media/CAFInfluence.png": "/anywhere-pathology/static/media/CAFInfluence.892840be3acbb9953fe9.png",
     "static/media/Wilson.png": "/anywhere-pathology/static/media/Wilson.48664b7821c8653956d6.png",
     "static/media/cancerFactors.png": "/anywhere-pathology/static/media/cancerFactors.c1c95c38cb625b7690b7.png",
     "static/media/cancerFromDM.png": "/anywhere-pathology/static/media/cancerFromDM.64a67b7a4b2e6c6656c3.png",
@@ -54,6 +55,7 @@
     "static/media/cerebralInfarction.png": "/anywhere-pathology/static/media/cerebralInfarction.3d724c133bdf89d1044a.png",
     "static/media/bilirubin.png": "/anywhere-pathology/static/media/bilirubin.63d6b3d818633e33a118.png",
     "static/media/Hutchinson.png": "/anywhere-pathology/static/media/Hutchinson.faa3860ed960bb412fad.png",
+    "static/media/TEC.png": "/anywhere-pathology/static/media/TEC.a7d193780a283d3b46a4.png",
     "static/media/hypertension.png": "/anywhere-pathology/static/media/hypertension.59589571903170be0943.png",
     "static/media/sarcoidosis.png": "/anywhere-pathology/static/media/sarcoidosis.f8f996877ebb5e559780.png",
     "static/media/necrosis.png": "/anywhere-pathology/static/media/necrosis.121c94bb8dd935c56a7a.png",
@@ -129,6 +131,7 @@
     "static/media/bilirubin2.png": "/anywhere-pathology/static/media/bilirubin2.f45367f297318af1bba1.png",
     "static/media/allergy1.png": "/anywhere-pathology/static/media/allergy1.0d45380b761c808e6c51.png",
     "static/media/carcinomaSteps.png": "/anywhere-pathology/static/media/carcinomaSteps.3e91c7402d9a9340be53.png",
+    "static/media/TAMInfluence.png": "/anywhere-pathology/static/media/TAMInfluence.8482b94b207770ece747.png",
     "static/media/entosis.png": "/anywhere-pathology/static/media/entosis.5095dd2648001e605bee.png",
     "static/media/AGE.png": "/anywhere-pathology/static/media/AGE.37b93d0950f68e8973b7.png",
     "static/media/produceROS.png": "/anywhere-pathology/static/media/produceROS.cf36241eae353df13755.png",
@@ -149,6 +152,7 @@
     "static/media/allergy3.png": "/anywhere-pathology/static/media/allergy3.77b2fca3361d1cd8aa92.png",
     "static/media/nicheSignalCancer.png": "/anywhere-pathology/static/media/nicheSignalCancer.b81c252785e74c5b41ab.png",
     "static/media/cholestanol.png": "/anywhere-pathology/static/media/cholestanol.9dba96bfb866213685f3.png",
+    "static/media/CAF.png": "/anywhere-pathology/static/media/CAF.db5a26f9252a0c033e25.png",
     "static/media/NHEJ.png": "/anywhere-pathology/static/media/NHEJ.a24120e82e7a743b8e1f.png",
     "static/media/Th.png": "/anywhere-pathology/static/media/Th.69c036543e9592c454d9.png",
     "static/media/HIV.png": "/anywhere-pathology/static/media/HIV.77997fd0fa7f5e246f5b.png",
@@ -192,10 +196,10 @@
     "static/media/NADPH.png": "/anywhere-pathology/static/media/NADPH.7abbecb7d44d23a061de.png",
     "index.html": "/anywhere-pathology/index.html",
     "main.6180b9dc.css.map": "/anywhere-pathology/static/css/main.6180b9dc.css.map",
-    "main.d9cbadf8.js.map": "/anywhere-pathology/static/js/main.d9cbadf8.js.map"
+    "main.da68d60c.js.map": "/anywhere-pathology/static/js/main.da68d60c.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.d9cbadf8.js"
+    "static/js/main.da68d60c.js"
   ]
 }

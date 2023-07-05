@@ -74,6 +74,11 @@ import jaundiceBrain from './img/answer/jaundiceBrain.png';
 import jaundice from './img/answer/jaundice.png';
 import intracerebralHemorrhage from './img/answer/intracerebralHemorrhage.png';
 import inflammatoryMediator from './img/answer/inflammatoryMediator.png';
+import TEC from './img/answer/TEC.png';
+import TAMInfluence from './img/answer/TAMInfluence.png';
+import CAFInfluence from './img/answer/CAFInfluence.png';
+import CAF from './img/answer/CAF.png';
+
 import inflammation from './img/answer/inflammation.png';
 import hypertrophy from './img/answer/hypertrophy.png';
 import hypertension from './img/answer/hypertension.png';
@@ -3027,6 +3032,68 @@ export const useQuestionList = () => {
                     answer: '正解',
                     commentary: 'PKM1(ピルビン酸キナーゼ)は解糖系代謝・TCA回路・乳酸からピルビン酸への経路のように全体的な代謝活性が亢進する一方で、PKM2はTCA回路への流れを抑制する。これにより、がん細胞特有のGlutaminolysisやwarburg effectが誘導される。',
                 },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '乳酸はモノカルボン酸トランスポーター(MCT)により細胞外に排出される。MCT にはさまざまなサブタイプが存在し、がんで特に発現が上昇するのは MCT4 である。',
+                    answerImg: [cancerNutrient],
+                    answer: '誤り...MCT1',
+                    commentary: 'がんでは解糖系代謝が亢進していて、最終生成物の乳酸が大量に産生される。',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '腫瘍ではグルコースの取り込み量が増えるが、同時に Gln の取り込みも亢進する。Gln のトランスポーター は ASCT2 である。この Gln の取り込み亢進は Glutaminolysis と呼ばれる。 ',
+                    answerImg: [glutaminolysis],
+                    answer: '正解',
+                    commentary: '腫瘍の細胞ではクエン酸回路(TCA回路)をうまく回すことができない。代わりにグルタミン(Gln)を使った特殊な代謝を行う。これをグルタミノリシスという。',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '腫瘍増大に伴い、TAM や腫瘍が低酸素に晒されると、HIF-1α を誘導され VEGF の放出が促進され血管新生が生じる。',
+                    answerImg: [TAMInfluence],
+                    answer: '正解',
+                    commentary: '後期がんでは腫瘍促進活性の高いM2マクロファージ（TAM）が増えてきて、がん細胞の増殖・血管新生・免疫抑制・転移浸潤などの手助けをする',
+                },
+
+
+                {
+
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: 'CAF はさまざまな間葉系由来細胞が分化して機能しているため、不均一な集団である。',
+                    answerImg: [CAF],
+                    answer: '正解',
+                    commentary: '',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '腫瘍が浸潤する際に CAF が腫瘍の前方に存在して、MMPs を放出して細胞外基質を分解する働きをする。',
+                    answerImg: [CAFInfluence],
+                    answer: '正解',
+                    commentary: 'メラノーマなどで起こる細胞一つ一つの運動性の亢進：individual cell migrationにもCAFが関与する。RhoA/ROCKシグナルの活性化は細胞骨格のリモデリングに関与する。',
+                },
+
+
+
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: 'TEC は腫瘍組織に存在する血管内皮細胞である。TEC は細胞同士の接着が疎かであり血管透過性が亢進し ており、薬剤や酸素が届きやすい。',
+                    answerImg: [TEC],
+                    answer: '誤り...TECは薬剤排出能を亢進させていて、抗がん剤に耐性がある。',
+                    commentary: '血管透過性や酸素については正しい。',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '好中球細胞外トラップ(NETs）は、顆粒タンパク質で覆われたクロマチン DNA フィラメントで構成されて いて、好中球から放出され、微生物を捕捉する。腫瘍においては転移先にいる NETs の DNA が、がん表面たん ぱくに結合することによって血中のがんをトラップし転移先で腫瘍形成を促進している。',
+                    answerImg: [NETs],
+                    answer: '正解',
+                    commentary: 'NETsは腫瘍に先行する。',
+                },
 
 
                 //   {
@@ -3723,7 +3790,7 @@ export const useQuestionList = () => {
                     detailInfo: '5/01午前',
                     questionImg: [],
                     questionSentence: 'メラノーマでよくみられる細胞一つ一つの運動能の亢進による浸潤の形式をなんと言う？            ',
-                    answerImg: [],
+                    answerImg: [CAFInfluence],
                     answer: 'Individual cell migration',
                     commentary: '',
                 },
@@ -3731,7 +3798,7 @@ export const useQuestionList = () => {
                     detailInfo: '5/01午前',
                     questionImg: [],
                     questionSentence: '細胞骨格のリモデリングを行なうときに関与するシグナルは？            ',
-                    answerImg: [entosis],
+                    answerImg: [CAFInfluence],
                     answer: 'RhoA/ROCKシグナル',
                     commentary: '',
                 },
@@ -3747,7 +3814,7 @@ export const useQuestionList = () => {
                     detailInfo: '5/01午前',
                     questionImg: [],
                     questionSentence: 'TECと転移が関与することが明らかとなってきている。TECはアンジオクラインファクターを放出するが、転移に関わるアンジオクラインファクターはどれか。',
-                    answerImg: [],
+                    answerImg: [TEC],
                     choices: ['IL-6', 'プロテオグリカンA', 'VGEF', 'CDCL12'],
                     answer: 'プロテオグリカンA',
                     commentary: '',
