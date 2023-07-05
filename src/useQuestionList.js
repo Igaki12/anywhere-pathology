@@ -92,6 +92,10 @@ import histoneStructure from './img/answer/histoneStructure.png';
 import Hirschsprung from './img/answer/Hirschsprung.png';
 import hemochromatosis from './img/answer/hemochromatosis.png';
 import hematopoieticStemCell from './img/answer/hematopoieticStemCell.png';
+import MMP from './img/answer/MMP.png';
+import CML from './img/answer/CML.png';
+import cancerDrugs from './img/answer/cancerDrugs.png';
+
 import heartMiscreation from './img/answer/heartMiscreation.png';
 import HbA1c from './img/answer/HbA1c.png';
 import granulocyte from './img/answer/granulocyte.png';
@@ -3093,6 +3097,88 @@ export const useQuestionList = () => {
                     answerImg: [NETs],
                     answer: '正解',
                     commentary: 'NETsは腫瘍に先行する。',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '正常細胞の細胞増殖や細胞死は制御を受けている非自律の状態である。一方がん細胞は制御機構から逸脱する自律状態であり、過剰の増殖や、細胞死から逸れる性質をもつ。 ',
+                    answerImg: [],
+                    answer: '正解',
+                    commentary: '',
+                },
+                {
+
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: 'MMP は現在 23 個確認されており、膜型と分泌型がある。がんにおいて発現が亢進しているものの一つに MMP2 がある。 ',
+                    answerImg: [MMP],
+                    answer: '正解',
+                    commentary: 'pro-MMP2複合体ががんの浸潤に寄与する',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: 'ダサチニブはフィラデルフィア染色体に対する分子標的薬である。',
+                    answerImg: [cancerDrugs, CML],
+                    answer: '正解',
+                    commentary: 'フィラデルフィア染色体とは、慢性骨髄性白血病CMLで9番染色体と22番染色体が転座することによって生じる染色体。BCR/ABL融合遺伝子からできるタンパク質が有害で、分子標的薬が開発されている。',
+                },
+
+
+                {
+
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: 'p53、p16、APCはそれぞれ何の疾患と関連があるか。',
+                    answerImg: [tumorSuppressorGene],
+                    answer: 'p53—リフラウメニ症候群、p16—家族性悪性黒色腫、APC—家族性大腸ポリポーシス',
+                    commentary: 'いずれもがん抑制遺伝子',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: 'ヒトの悪性腫瘍のほとんどは体腔や消化管などの壁面や皮膚では体表の覆いとして一面に覆っている細胞 の層である上皮から発生しており、癌と呼ばれる。',
+                    answerImg: [cancer],
+                    answer: '正しい',
+                    commentary: '外胚葉あるいは内胚葉由来',
+                },
+
+
+
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '上皮の発生源についてはすべて外胚葉由来でありそれゆえ、癌という病理組織学的な分類は組織の発生学的起源と連動している。 ',
+                    answerImg: [cancer],
+                    answer: '誤り...腸管上皮などは内胚葉由来',
+                    commentary: '癌腫は外胚葉あるいは内胚葉由来、肉腫は中胚葉由来',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '上皮組織には共通した構造として基底膜を伴う。基底膜は間質と呼ばれる支持結合織の層と上皮細胞の層 を隔離している。',
+                    answerImg: [],
+                    answer: '正解',
+                    commentary: '基底膜はがん浸潤の指標となる',
+                },
+
+
+                {
+
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '非上皮性の悪性腫瘍の中で体中のさまざまな結合組織から生じるものを肉腫と呼ぶ。これらの組織は中胚葉起源である。',
+                    answerImg: [cancer],
+                    answer: '正解',
+                    commentary: '癌腫は外胚葉あるいは内胚葉由来、肉腫は中胚葉由来',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '非上皮性の悪性腫瘍の中で免疫担当細胞を含むさまざまな造血組織から発生する悪性腫瘍のリンパ系列の 腫瘍と骨髄球系列の腫瘍に大別される。これらの組織は中胚葉起源である。 ',
+                    answerImg: [cancer],
+                    answer: '正解',
+                    commentary: '悪性腫瘍は良性腫瘍と異なり周囲組織への浸潤転移を生じる。癌では基底膜の破壊、脈管侵襲として観察さ れ、肉腫では脈管への浸潤破壊の結果出血が見られる。',
                 },
 
 

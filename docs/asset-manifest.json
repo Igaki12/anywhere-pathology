@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-pathology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-pathology/static/js/main.da68d60c.js",
+    "main.js": "/anywhere-pathology/static/js/main.67677377.js",
     "static/media/practice12.png": "/anywhere-pathology/static/media/practice12.29bc13058e8fe5818cde.png",
     "static/media/practice1answer.png": "/anywhere-pathology/static/media/practice1answer.2ec284a72b1a0551c347.png",
     "static/media/degeneration.png": "/anywhere-pathology/static/media/degeneration.4672a45d0daf6c2cee55.png",
@@ -95,6 +95,7 @@
     "static/media/intracerebralHemorrhage.png": "/anywhere-pathology/static/media/intracerebralHemorrhage.82529f3756fccf5059ee.png",
     "static/media/welsh.png": "/anywhere-pathology/static/media/welsh.0d77919b960b5defec3a.png",
     "static/media/Bcell.png": "/anywhere-pathology/static/media/Bcell.2aac50770041e8c56da9.png",
+    "static/media/CML.png": "/anywhere-pathology/static/media/CML.480afaea907752d0074f.png",
     "static/media/fattyAcid.png": "/anywhere-pathology/static/media/fattyAcid.5771855fabe84649090d.png",
     "static/media/fattyLiver.png": "/anywhere-pathology/static/media/fattyLiver.77de4d0246057470215f.png",
     "static/media/pyroliInfectionFeature.png": "/anywhere-pathology/static/media/pyroliInfectionFeature.ba0217f609d927741396.png",
@@ -107,6 +108,7 @@
     "static/media/duchanne.png": "/anywhere-pathology/static/media/duchanne.efb147c28ec17354e624.png",
     "static/media/transFattyAcid.png": "/anywhere-pathology/static/media/transFattyAcid.972d4bd15cba3406d964.png",
     "static/media/ThDifferentiation.png": "/anywhere-pathology/static/media/ThDifferentiation.bc2d02e4883e6e3aadb2.png",
+    "static/media/MMP.png": "/anywhere-pathology/static/media/MMP.0763526bc6f631cc36a0.png",
     "static/media/aneurysmTypes.png": "/anywhere-pathology/static/media/aneurysmTypes.0976e0d91b051ba57e2c.png",
     "static/media/moenckeberg.png": "/anywhere-pathology/static/media/moenckeberg.2f9a70e992e745ef8db3.png",
     "static/media/macrophage.png": "/anywhere-pathology/static/media/macrophage.c3d1a28d622511fa85b3.png",
@@ -156,6 +158,7 @@
     "static/media/NHEJ.png": "/anywhere-pathology/static/media/NHEJ.a24120e82e7a743b8e1f.png",
     "static/media/Th.png": "/anywhere-pathology/static/media/Th.69c036543e9592c454d9.png",
     "static/media/HIV.png": "/anywhere-pathology/static/media/HIV.77997fd0fa7f5e246f5b.png",
+    "static/media/cancerDrugs.png": "/anywhere-pathology/static/media/cancerDrugs.6eed450bf9b0ec13c16c.png",
     "static/media/HNPCC.png": "/anywhere-pathology/static/media/HNPCC.2be672c8f245ee947f71.png",
     "static/media/MELAS.png": "/anywhere-pathology/static/media/MELAS.bd9865fa4366428a3098.png",
     "static/media/coronaryArteryDisease.png": "/anywhere-pathology/static/media/coronaryArteryDisease.54b447bfb3b798b530a8.png",
@@ -196,10 +199,10 @@
     "static/media/NADPH.png": "/anywhere-pathology/static/media/NADPH.7abbecb7d44d23a061de.png",
     "index.html": "/anywhere-pathology/index.html",
     "main.6180b9dc.css.map": "/anywhere-pathology/static/css/main.6180b9dc.css.map",
-    "main.da68d60c.js.map": "/anywhere-pathology/static/js/main.da68d60c.js.map"
+    "main.67677377.js.map": "/anywhere-pathology/static/js/main.67677377.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.da68d60c.js"
+    "static/js/main.67677377.js"
   ]
 }
