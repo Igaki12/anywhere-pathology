@@ -3294,6 +3294,151 @@ export const useQuestionList = () => {
                 },
 
 
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '染色体突然変異によって正常蛋白の発現量の変化が起きることがあるが、この変化は腫瘍の悪性化には関与 しない。 ',
+                    answerImg: [leukemia],
+                    answer: '誤っている。',
+                    commentary: '',
+                },
+
+
+                {
+
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '真核生物の DNA は普段ヒストンという八量体のたんぱく質に巻きついて存在しており転写される際には DNA がヒストンから乖離する。これは DNA のメチル化とヒストン修飾によって制御されておりエピジェネテ ィック制御と呼ばれている。 ',
+                    answerImg: [histoneStructure],
+                    answer: '正解',
+                    commentary: '',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: 'DNA のメチル化は分裂時にも維持されている。これは維持メチル化と呼ばれる反応によるものであり、ヒス トン修飾とのクロストークが関与している。 ',
+                    answerImg: [maintenanceMethylationDNA],
+                    answer: '正解',
+                    commentary: '',
+                },
+
+                {
+
+
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: 'CpG アイランド（DNA 中の CG の繰り返し領域）のメチル化が生じると下流の遺伝子の発現上昇がもたら される。 ',
+                    answerImg: [methylationDNA],
+                    answer: '誤っている...発現上昇ではなく発現抑制',
+                    commentary: 'メチル化は分化状態を反映していて、がん細胞ではメチル化に異常が含まれている事も多い',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: 'DNA のメチル化が生じるとそれを認識する蛋白と HDAC（ヒストン脱アセチル化酵素）の複合体が形成されヒストンが脱アセチル化される。これにより標的遺伝子の発現亢進がおきる。',
+                    answerImg: [acetylationHistone],
+                    answer: '誤り...亢進ではなく抑制',
+                    commentary: 'ヒストンはアセチル化により発現亢進され、脱アセチル化により発現抑制される',
+                },
+
+
+                {
+
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: 'DNA はメチル化を受けても脱メチル化酵素 TET によって脱メチル化される。TET の異常はエピジェネテ ィック制御を介し腫瘍化を促進する。 ',
+                    answerImg: [maintenanceMethylationDNA],
+                    answer: '正しい。',
+                    commentary: 'メチル化は細胞の分化を反映しており、腫瘍細胞は未分化な状態であることが多い',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: ' DNA のメチル化はシトシンとアデニンで見られるが、アデニンのメチル化によるエピジェネティック制御 の研究はシトシンと比べ進んでいない。',
+                    answerImg: [],
+                    answer: '正しい。',
+                    commentary: '',
+                },
+
+
+
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: 'ヒストンはH2A、H2B、H3、H4が二分子づつ結合した8量体を形成しておりそれにDNAが巻きつく。 巻きついたDNAは転写抑制がかかっている。',
+                    answerImg: [histoneStructure],
+                    answer: '正しい。',
+                    commentary: '',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: 'ヒストンにはヒストンテールと呼ばれるドメインが存在しアセチル化、リン酸化、メチル化、ユビキチン化の修飾を受ける。これをヒストン修飾とよぶ。',
+                    answerImg: [coordinatedHistone],
+                    answer: '正しい。',
+                    commentary: '',
+                },
+
+
+                {
+
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: 'ヒストンのメチル化とアセチル化はどの部位に生じても対象の遺伝子の発現を活性化させる。',
+                    answerImg: [coordinatedHistone],
+                    answer: '誤っている。',
+                    commentary: 'アセチル化はほぼ発現活性化に働く。ヒストンのメチル化は活性・抑制化両方に働く',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: 'ヒストンが Histone acetyl transferase (HAT)によりアセチル化されると転写の亢進がおきる。この逆反応 は HDAC が行う。',
+                    answerImg: [acetylationHistone],
+                    answer: '正しい。',
+                    commentary: '',
+                },
+
+
+                {
+
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: 'ブロモドメインたんぱく質はアセチル化ヒストンのアセチル基を認識しヒストンを除去する。これにより 転写が促進される。',
+                    answerImg: [BRD4],
+                    answer: '正しい。',
+                    commentary: 'ブロモドメインBRD4により、アセチル化ヒストンの発現が亢進される',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: 'アザシチジンは DNMT(DNA メチルトランスフェラーゼ）に結合し失活させることで DNA のメチル化を 促進する。',
+                    answerImg: [maintenanceMethylationDNA],
+                    answer: '誤り...推進ではなく抑制',
+                    commentary: 'DNAメチルトランスフェラーゼ、は名前の通りDNAメチル化を促進させるものである。したがってこれに結合して失活させるアザシチジンはDNAメチル化を抑制する。アザシチジンは急性骨髄性白血病などで原因となる腫瘍細胞の増殖を抑える医薬品。',
+                },
+
+
+
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '正常細胞を腫瘍細胞とセンダイウイルス等を用いて融合させると腫瘍形成能が失われる。このことは癌抑制遺伝子の存在で説明できる。',
+                    answerImg: [],
+                    answer: '正解',
+                    commentary: '',
+                },
+
+
+
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '癌抑制遺伝子の代表的なものに P53、RAS,cMYC 等がある。 ',
+                    answerImg: [tumorSuppressorGene],
+                    answer: '誤り。',
+                    commentary: 'RAS, c–MYCはがん遺伝子。',
+                },
+
                 //   {
                 //     detailInfo: '',
                 //     questionImg: [],
@@ -4222,151 +4367,6 @@ export const useQuestionList = () => {
                     commentary: '',
                 },
 
-
-                {
-                    detailInfo: '',
-                    questionImg: [],
-                    questionSentence: '染色体突然変異によって正常蛋白の発現量の変化が起きることがあるが、この変化は腫瘍の悪性化には関与 しない。 ',
-                    answerImg: [leukemia],
-                    answer: '誤っている。',
-                    commentary: '',
-                },
-
-
-                {
-
-                    detailInfo: '',
-                    questionImg: [],
-                    questionSentence: '真核生物の DNA は普段ヒストンという八量体のたんぱく質に巻きついて存在しており転写される際には DNA がヒストンから乖離する。これは DNA のメチル化とヒストン修飾によって制御されておりエピジェネテ ィック制御と呼ばれている。 ',
-                    answerImg: [histoneStructure],
-                    answer: '正解',
-                    commentary: '',
-                },
-                {
-                    detailInfo: '',
-                    questionImg: [],
-                    questionSentence: 'DNA のメチル化は分裂時にも維持されている。これは維持メチル化と呼ばれる反応によるものであり、ヒス トン修飾とのクロストークが関与している。 ',
-                    answerImg: [maintenanceMethylationDNA],
-                    answer: '正解',
-                    commentary: '',
-                },
-
-                {
-
-
-                    detailInfo: '',
-                    questionImg: [],
-                    questionSentence: 'CpG アイランド（DNA 中の CG の繰り返し領域）のメチル化が生じると下流の遺伝子の発現上昇がもたら される。 ',
-                    answerImg: [methylationDNA],
-                    answer: '誤っている...発現上昇ではなく発現抑制',
-                    commentary: 'メチル化は分化状態を反映していて、がん細胞ではメチル化に異常が含まれている事も多い',
-                },
-                {
-                    detailInfo: '',
-                    questionImg: [],
-                    questionSentence: 'DNA のメチル化が生じるとそれを認識する蛋白と HDAC（ヒストン脱アセチル化酵素）の複合体が形成されヒストンが脱アセチル化される。これにより標的遺伝子の発現亢進がおきる。',
-                    answerImg: [acetylationHistone],
-                    answer: '誤り...亢進ではなく抑制',
-                    commentary: 'ヒストンはアセチル化により発現亢進され、脱アセチル化により発現抑制される',
-                },
-
-
-                {
-
-                    detailInfo: '',
-                    questionImg: [],
-                    questionSentence: 'DNA はメチル化を受けても脱メチル化酵素 TET によって脱メチル化される。TET の異常はエピジェネテ ィック制御を介し腫瘍化を促進する。 ',
-                    answerImg: [maintenanceMethylationDNA],
-                    answer: '正しい。',
-                    commentary: 'メチル化は細胞の分化を反映しており、腫瘍細胞は未分化な状態であることが多い',
-                },
-                {
-                    detailInfo: '',
-                    questionImg: [],
-                    questionSentence: ' DNA のメチル化はシトシンとアデニンで見られるが、アデニンのメチル化によるエピジェネティック制御 の研究はシトシンと比べ進んでいない。',
-                    answerImg: [],
-                    answer: '正しい。',
-                    commentary: '',
-                },
-
-
-
-                {
-                    detailInfo: '',
-                    questionImg: [],
-                    questionSentence: 'ヒストンはH2A、H2B、H3、H4が二分子づつ結合した8量体を形成しておりそれにDNAが巻きつく。 巻きついたDNAは転写抑制がかかっている。',
-                    answerImg: [histoneStructure],
-                    answer: '正しい。',
-                    commentary: '',
-                },
-                {
-                    detailInfo: '',
-                    questionImg: [],
-                    questionSentence: 'ヒストンにはヒストンテールと呼ばれるドメインが存在しアセチル化、リン酸化、メチル化、ユビキチン化の修飾を受ける。これをヒストン修飾とよぶ。',
-                    answerImg: [coordinatedHistone],
-                    answer: '正しい。',
-                    commentary: '',
-                },
-
-
-                {
-
-                    detailInfo: '',
-                    questionImg: [],
-                    questionSentence: 'ヒストンのメチル化とアセチル化はどの部位に生じても対象の遺伝子の発現を活性化させる。',
-                    answerImg: [coordinatedHistone],
-                    answer: '誤っている。',
-                    commentary: 'アセチル化はほぼ発現活性化に働く。ヒストンのメチル化は活性・抑制化両方に働く',
-                },
-                {
-                    detailInfo: '',
-                    questionImg: [],
-                    questionSentence: 'ヒストンが Histone acetyl transferase (HAT)によりアセチル化されると転写の亢進がおきる。この逆反応 は HDAC が行う。',
-                    answerImg: [acetylationHistone],
-                    answer: '正しい。',
-                    commentary: '',
-                },
-
-
-                {
-
-                    detailInfo: '',
-                    questionImg: [],
-                    questionSentence: 'ブロモドメインたんぱく質はアセチル化ヒストンのアセチル基を認識しヒストンを除去する。これにより 転写が促進される。',
-                    answerImg: [BRD4],
-                    answer: '正しい。',
-                    commentary: 'ブロモドメインBRD4により、アセチル化ヒストンの発現が亢進される',
-                },
-                {
-                    detailInfo: '',
-                    questionImg: [],
-                    questionSentence: 'アザシチジンは DNMT(DNA メチルトランスフェラーゼ）に結合し失活させることで DNA のメチル化を 促進する。',
-                    answerImg: [maintenanceMethylationDNA],
-                    answer: '誤り...推進ではなく抑制',
-                    commentary: 'DNAメチルトランスフェラーゼ、は名前の通りDNAメチル化を促進させるものである。したがってこれに結合して失活させるアザシチジンはDNAメチル化を抑制する。アザシチジンは急性骨髄性白血病などで原因となる腫瘍細胞の増殖を抑える医薬品。',
-                },
-
-
-
-                {
-                    detailInfo: '',
-                    questionImg: [],
-                    questionSentence: '正常細胞を腫瘍細胞とセンダイウイルス等を用いて融合させると腫瘍形成能が失われる。このことは癌抑制遺伝子の存在で説明できる。',
-                    answerImg: [],
-                    answer: '正解',
-                    commentary: '',
-                },
-
-
-
-                {
-                    detailInfo: '',
-                    questionImg: [],
-                    questionSentence: '癌抑制遺伝子の代表的なものに P53、RAS,cMYC 等がある。 ',
-                    answerImg: [tumorSuppressorGene],
-                    answer: '誤り。',
-                    commentary: 'RAS, c–MYCはがん遺伝子。',
-                },
 
                 // {
                 //   detailInfo: '5/01午後',
