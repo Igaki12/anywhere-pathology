@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-pathology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-pathology/static/js/main.67677377.js",
+    "main.js": "/anywhere-pathology/static/js/main.b3704735.js",
     "static/media/practice12.png": "/anywhere-pathology/static/media/practice12.29bc13058e8fe5818cde.png",
     "static/media/practice1answer.png": "/anywhere-pathology/static/media/practice1answer.2ec284a72b1a0551c347.png",
     "static/media/degeneration.png": "/anywhere-pathology/static/media/degeneration.4672a45d0daf6c2cee55.png",
@@ -25,6 +25,7 @@
     "static/media/hemochromatosis.png": "/anywhere-pathology/static/media/hemochromatosis.2744b0bb4e4662f3352f.png",
     "static/media/prostaticHyperplasia.png": "/anywhere-pathology/static/media/prostaticHyperplasia.af4cb487859c80bc7b0a.png",
     "static/media/HMGB1InhibitMacrophage.png": "/anywhere-pathology/static/media/HMGB1InhibitMacrophage.79da339646622d89c370.png",
+    "static/media/leukemia.png": "/anywhere-pathology/static/media/leukemia.4a9dd2731d1ca7b2c41b.png",
     "static/media/MEN.png": "/anywhere-pathology/static/media/MEN.9cc811fa146719a19e19.png",
     "static/media/pulmonaryInfarction.png": "/anywhere-pathology/static/media/pulmonaryInfarction.ee447975da0d9c04ebae.png",
     "static/media/lipotoxicity.png": "/anywhere-pathology/static/media/lipotoxicity.418301187053f0334021.png",
@@ -100,6 +101,7 @@
     "static/media/fattyLiver.png": "/anywhere-pathology/static/media/fattyLiver.77de4d0246057470215f.png",
     "static/media/pyroliInfectionFeature.png": "/anywhere-pathology/static/media/pyroliInfectionFeature.ba0217f609d927741396.png",
     "static/media/coagulation.png": "/anywhere-pathology/static/media/coagulation.0f22c06be23c17c9caa9.png",
+    "static/media/chromosomeNumber.png": "/anywhere-pathology/static/media/chromosomeNumber.df1076ffc51334b3230e.png",
     "static/media/BRD4.png": "/anywhere-pathology/static/media/BRD4.e36f4c62821063c99eda.png",
     "static/media/brainTumor.png": "/anywhere-pathology/static/media/brainTumor.b91c13fb7d9822966af4.png",
     "static/media/mtDNA.png": "/anywhere-pathology/static/media/mtDNA.6f59a65efdfd26f05755.png",
@@ -139,7 +141,6 @@
     "static/media/produceROS.png": "/anywhere-pathology/static/media/produceROS.cf36241eae353df13755.png",
     "static/media/titleImg.jpg": "/anywhere-pathology/static/media/titleImg.aaff375a334cd5b42e2a.jpg",
     "static/media/cancerProduceCalcium.png": "/anywhere-pathology/static/media/cancerProduceCalcium.60b9e1903e5dd53e1cf3.png",
-    "static/media/leukemia.png": "/anywhere-pathology/static/media/leukemia.a81592acc2590ddea043.png",
     "static/media/cellDeathVariations.png": "/anywhere-pathology/static/media/cellDeathVariations.48fec175d00226be4754.png",
     "static/media/maintenanceMethylationDNA.png": "/anywhere-pathology/static/media/maintenanceMethylationDNA.e84c84d20c60db7cbc3e.png",
     "static/media/MMR.png": "/anywhere-pathology/static/media/MMR.12e5fb6249c7c12209a2.png",
@@ -199,10 +200,10 @@
     "static/media/NADPH.png": "/anywhere-pathology/static/media/NADPH.7abbecb7d44d23a061de.png",
     "index.html": "/anywhere-pathology/index.html",
     "main.6180b9dc.css.map": "/anywhere-pathology/static/css/main.6180b9dc.css.map",
-    "main.67677377.js.map": "/anywhere-pathology/static/js/main.67677377.js.map"
+    "main.b3704735.js.map": "/anywhere-pathology/static/js/main.b3704735.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.67677377.js"
+    "static/js/main.b3704735.js"
   ]
 }

@@ -74,6 +74,7 @@ import jaundiceBrain from './img/answer/jaundiceBrain.png';
 import jaundice from './img/answer/jaundice.png';
 import intracerebralHemorrhage from './img/answer/intracerebralHemorrhage.png';
 import inflammatoryMediator from './img/answer/inflammatoryMediator.png';
+import chromosomeNumber from './img/answer/chromosomeNumber.png';
 import TEC from './img/answer/TEC.png';
 import TAMInfluence from './img/answer/TAMInfluence.png';
 import CAFInfluence from './img/answer/CAFInfluence.png';
@@ -3182,6 +3183,117 @@ export const useQuestionList = () => {
                 },
 
 
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '悪性腫瘍は増殖シグナルの活性化や生存シグナルの活性化が生じており、周囲組織と関係なく自立的に増殖する。良性腫瘍ではこのような現象が観察されることはない。 ',
+                    answerImg: [],
+                    answer: '誤り',
+                    commentary: '腫瘍は、悪性良性関係なく周囲組織から独立して増殖することが出来る。良性と悪性の差は、転移浸潤の有無である。',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '悪性腫瘍は DNA の配列や染色体の構造を伴っていることがほとんどでこの変化を突然変異と呼ぶ。これは 遺伝子突然変異と染色体突然変異に大別される。 ',
+                    answerImg: [mutationType],
+                    answer: '正解',
+                    commentary: '',
+                },
+                {
+
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '遺伝子突然変異は DNA の配列に生じた変化であり、一方染色体突然変異は染色体単位での大きな構造変化をさす。',
+                    answerImg: [leukemia],
+                    answer: '正解',
+                    commentary: '',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '遺伝子突然変異には塩基の置換や挿入、欠失があるが、変異が生じた原因による特徴は特にない。',
+                    answerImg: [TDimer],
+                    answer: '誤り',
+                    commentary: '例えば喫煙者にはC→Aの変異が増える',
+                },
+
+
+
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: 'ミスセンス突然変異やナンセンス突然変異では変異の生じたたんぱく質の機能が大きく変化する。 ',
+                    answerImg: [],
+                    answer: '正解',
+                    commentary: '',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '遺伝子の挿入または欠失ではフレームシフトが生じるため必ず大きな変化となる。',
+                    answerImg: [],
+                    answer: '誤っている。',
+                    commentary: '3の倍数個遺伝子が挿入または欠失する場合フレームシフトは起きない。',
+                },
+
+
+                {
+
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '我々は常に自然放射線や活性酸素種、紫外線やアルコール、ベンツピレン等の変異原にさらされており DNA 損傷が生じている。',
+                    answerImg: [TDimer],
+                    answer: '正しい',
+                    commentary: '',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: 'DNA 修復機構のミスが生じると遺伝子変異が残存することとなるが、二本鎖切断のほうが一本鎖切断よりもミスが生じやすい。 ',
+                    answerImg: [NHEJ],
+                    answer: '正しい',
+                    commentary: '二本鎖修復機構としてNHEJ・HR(相同組み換え修復）が存在するが、特にNHEJはミスが起こりやすく、遺伝子編集に利用される。',
+                },
+
+
+                {
+
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '染色体突然変異では数的変化（倍数性、異数性）、形態変化（切断、欠失、逆位、重複）がある。',
+                    answerImg: [chromosomeNumber, leukemia],
+                    answer: '正解',
+                    commentary: '',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '染色体の数的異常は細胞分裂する際に分裂期（M 期）で染色体の分配の異常が原因で起こる。 ',
+                    answerImg: [chromosomeNumber],
+                    answer: '正解',
+                    commentary: '数的異常には倍数性と異数性があるが、倍数性の場合は受精時に精子を複数受け入れてしまって起こることもある。',
+                },
+
+
+                {
+
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '遺伝子転座ではキメラ蛋白を生じることがあり、代表的なものに慢性骨髄性白血病の BCR/ABL 遺伝子融合がある。',
+                    answerImg: [CML],
+                    answer: '正解',
+                    commentary: 'フィラデルフィア染色体（転座）',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '欠失とは染色体に切断が生じて染色体の一部が失われることをさす。',
+                    answerImg: [leukemia],
+                    answer: '正解',
+                    commentary: '',
+                },
+
+
                 //   {
                 //     detailInfo: '',
                 //     questionImg: [],
@@ -3680,7 +3792,7 @@ export const useQuestionList = () => {
                     detailInfo: '4/25午前',
                     questionImg: [],
                     questionSentence: '染色体変異のうち染色体の数の変化を示す異数性と倍数性があるが、この両者がどのような変異か簡潔に示せ。',
-                    answerImg: [],
+                    answerImg: [chromosomeNumber],
                     answer: '基本の染色体数が増加(n=69など)するものを倍数性、全体の染色体数が多い、少ない(n =47,48など )ものを異数性という。',
                     commentary: '有性生殖を行う生物は両親から染色体のセットを2つ受け取るが、受精時などの異常により染色体がセット単位で増えてしまっているのが倍数性変異。対して異数性の染色体変異はセット（23染色体）の中のいずれかの染色体で、2本1対より過不足が生じている変異。',
                 },
@@ -3707,7 +3819,7 @@ export const useQuestionList = () => {
                     questionSentence: '喫煙者と非喫煙者の肺がんにおける遺伝子変異は同じか。          ',
                     answerImg: [],
                     answer: 'おなじではない',
-                    commentary: '',
+                    commentary: '喫煙者ではジオールエポキシドによるC→Aの置換が多い',
                 },
                 {
                     detailInfo: '4/25午前',
