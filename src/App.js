@@ -147,7 +147,7 @@ function App() {
             fontSize="xs"
             textColor={'blackAlpha.700'}
             textAlign="center"
-            mt={2}
+            mt={0}
             mb={0}
           >
             Writer: Y.Koizumi

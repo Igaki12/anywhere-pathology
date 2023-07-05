@@ -185,6 +185,10 @@ import mitochondriaFusion from './img/answer/mitochondriaFusion.png';
 import carnitineShuttle from './img/answer/carnitineShuttle.png';
 import cancerFactors from './img/answer/cancerFactors.png';
 import cancerDMRatio from './img/answer/cancerDMRatio.png';
+import PKM from './img/answer/PKM.png';
+import lipotoxicity from './img/answer/lipotoxicity.png';
+import cancerNutrient from './img/answer/cancerNutrient.png';
+
 
 
 
@@ -2892,7 +2896,7 @@ export const useQuestionList = () => {
                     questionImg: [],
                     questionSentence: 'HMGB1 の役割でないものをすべて選べ',
                     choices: ['癌細胞の増殖', '重症感染症の増悪', 'ショックの増悪', '自然免疫の活性化', '凝固の促進'],
-                    answerImg: [HMGB1,HMGB1InhibitMacrophage],
+                    answerImg: [HMGB1, HMGB1InhibitMacrophage],
                     answer: 'ショックの増悪・自然免疫の活性化',
                     commentary: 'HMGB1はリジンに富む核内タンパク質で、RAGEを活性化しがん細胞の増殖・マクロファージの抑制（→転移促進）を起こす。AGEの生物活性：マクロファージ活性化による炎症誘導と混同しやすく注意',
                 },
@@ -2905,6 +2909,125 @@ export const useQuestionList = () => {
                     answer: 'すべて誤り',
                     commentary: '体内で使用される脂肪酸の大部分は食事から得られるが、食事後などは糖代謝産物から脂肪酸合成が行われ、貯蔵される。脂質は脂肪酸・リン脂質・ステロイド・糖脂質などに分類されるが、このうち脂肪酸は予備エネルギー材料として利用されるほか、プロスタグランジンなどホルモンの材料となることがある。カルニチンシャトルにより長鎖脂肪酸由来アシルCoAはミトコンドリアマトリックスへ輸送され、β酸化による非常に効率の良いエネルギー産生が行われる。12炭素より短い脂肪酸はカルニチンやCPT系を必要としないでミトコンドリア内膜を通過することができる。β酸化では2炭素分ずつ短くなる間にATPや電子供与体(NADHやFADH₂)が産生されるが、奇数個の炭素原子を持った脂肪酸の酸化では、最後の3炭素原子(プロピオニルCoA)になるまでしかβ酸化では代謝されない。消化後のVLDLにはトリグリセリドが豊富に含まれているが、飢餓時には血中を遊離脂肪酸が移動し、ケトン体合成などの材料となる。',
                 },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: 'AGE に関して誤っているものをすべて選べ ',
+                    choices: ['AGE は酵素反応により生成する', 'AGE は酵素反応により分解される ', 'AGE は酵素反応により分解される ', 'AGE の受容体は存在しない', 'AGE はオートファジーを促進する'],
+                    answerImg: [AGE],
+                    answer: 'AGE は酵素反応により生成する,AGE は酵素反応により分解される,AGE の受容体は存在しない',
+                    commentary: 'AGEはタンパクや脂質が非酵素的に糖化してできる。AGEの受容体としてRAGEが存在する。AGE存在下ではAGEを分解するためにオートファジーが促進されるという報告あり。',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '父方と母方の 2 つの遺伝子を有することに起因するものをすべて選べ',
+                    choices: ['two hit theory', '2 段階発がん', 'ドライバー遺伝子 ', '多段階発がん ', 'イニシエーション・プロモーション・プログレッション'],
+                    answerImg: [deoxycholicAcid, carcinomaSteps],
+                    answer: 'two hit theory・多段階発がん',
+                    commentary: 'two hit theoryはRb,P53,p16,APCなどのがん抑制遺伝子への変異によってがん化するとき、対応する遺伝子の両アレルに変異が生じることが原因で欠損しているとする説。実際には偶然両アレルに別々の変異が発生する確率は著しく低く、片アレルの変異が組換え異常により正常なアレルに置き換わる、ヘテロ接合性の消失(LOH)が原因という説も唱えられている。多段階発癌の過程にがん抑制遺伝子が関わっているので、これも含まれる',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '病理医のタスクに含まれるものをすべて選べ',
+                    choices: ['病理診断', '教育', '治療', '研究', '剖検'],
+                    answerImg: [],
+                    answer: 'すべて含まれる',
+                    commentary: '病理医は主治医や内科医などとともにチームを組み、治療方針の決定や治療効果の判定を行う→チーム医療の中の病理の役割',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '脂肪毒性に含まれるものをすべて選べ ',
+                    choices: ['インスリン分泌低下 ', '高血糖', '血管内皮障害', '神経産生 ', '下垂体機能低下 '],
+                    answerImg: [lipotoxicity],
+                    answer: 'インスリン分泌低下,高血糖,血管内皮障害',
+                    commentary: '内臓脂肪から遊離脂肪酸が過剰放出されることにより、インスリン分泌が低下したり、肝臓での糖取り込みや糖新生に影響したり、血管内皮が脂肪酸により傷害されたりする。',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: 'AGEが関連する疾患や病態をすべて選べ',
+                    choices: ['粥状動脈硬化', '神経変性疾患 ', 'NASH', '悪性腫瘍'],
+                    answerImg: [AGEActivity],
+                    answer: '全て正解',
+                    commentary: '',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: 'AGE によって起こる形質をすべて選べ',
+                    choices: ['細胞増殖', '酸化ストレス ', '細胞運動', 'サイトカイン産生', '創傷治癒遅延'],
+                    answerImg: [],
+                    answer: '全て正解',
+                    commentary: 'AGEは現在では糖尿病だけでなく老化・動脈硬化・神経変性疾患・腎透析合併症などのさまざまな病態に関わっていることが知られている。',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: 'ミトコンドリア DNA には呼吸鎖複合体である complex 1,2,4,5 がコードされている。',
+                    answerImg: [mtDNA],
+                    answer: '誤り...complex1,3,4,5',
+                    commentary: 'complex 2はTCA回路のコハク酸脱水素酵素と共通',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: 'TCAサイクルと酸化的リン酸化は密接に関与しており、クエン酸をフマル酸に変換する際に生じた FADHを酸化することで、FADにする。',
+                    answerImg: [cancerNutrient],
+                    answer: '誤り...クエン酸ではなくコハク酸、FADHではなくFADH₂',
+                    commentary: 'TCA回路の覚え歌、焦って食え急いで食えけどすぐには怖くて古いリンゴは置き去りさクエン酸回路、というものがある→　　https://www.youtube.com/watch?v=7vzctiS6i1M&pp=ygUW44Kv44Ko44Oz6YW45Zue6LevIOatjA%3D%3D',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: 'がん細胞は通常の組織と異なるエネルギー代謝を行い、異常な細胞増殖に伴う代謝亢進を補うために栄養を取り込む。その機構として、グルコースやアミノ酸トランスフェラーゼの発現が亢進する。そのうち必須アミノ 酸を取り込むのが LAT1 である。',
+                    answerImg: [cancerNutrient],
+                    answer: '正解',
+                    commentary: 'がん細胞では圧倒的に不足する栄養を取り込むため様々な経路が活性化する。グルタミンからGlutaminolysisによってTCA回路で合成できるアミノ酸が合成され、合成できない必須アミノ酸はLAT1によってグルタミンと交換輸送される。マクロピノサイトーシスでは、Kras の変異や c-Src の活性により細胞骨格でアクチンを リモデリングすることで取り込みが起こり、取り込まれたたんぱくは MPS に包まれリソソームによって分解さ れる。 ',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '細胞そのものを取り込んで分解し、栄養を得る機構はエントーシスと呼ばれる。これはアポトーシスなどと 同様に細胞死の一種である。 ',
+                    answerImg: [entosis],
+                    answer: '正解',
+                    commentary: '飽和脂肪酸であるステアリン酸は SCD1 によって二重結合を 1 つ付加され不飽和脂肪酸であるオレイン酸 となる。この機構は TCA 回路が機能することによって生じるが、がん細胞では TCA 回路がうまく機能してお らず、不飽和脂肪酸を十分に生成することができないため、マクロピノサイトーシスによってリゾリン脂質を取 り込み、加水分解して不飽和脂肪酸を生成する。',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: 'がんは好気性条件でも嫌気呼吸を行う。そのため糖を取り込むトランスポーターである GLUT2 の発現が亢 進している。',
+                    answerImg: [cancerNutrient],
+                    answer: '誤り...GLUT2ではなくGLUT1',
+                    commentary: '',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: 'ミトコンドリアから生じた O₂・⁻ はスーパーオキシドジスムターゼ(SOD)によって過酸化水素に変換される。',
+                    answerImg: [NADPH],
+                    answer: '正解',
+                    commentary: 'H₂O₂はGPxやカタラーゼとグルタチオンGSHによって無害化される',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '・H₂O₂は GSH・GSSG によって無害な水に変換される。このとき弱い活性の GSSG を強い活性をもつ GSH にするために NADPH が利用される。',
+                    answerImg: [NADPH],
+                    answer: '誤り',
+                    commentary: 'GSHは還元型グルタチオンで活性を持つが、GSSGは酸化型で活性を持たない',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: 'PK は PKM1 と PKM2 の 2 つのタイプがある。がんでは PKM2 の発現が優位である。この PKM2 は単量 体か 2 量体として存在しているが、活性化型は 4 量体であり活性型になるために、アロステリック活性因子であるフルクトース 1,6 ビスリン酸やセリンが必要である。',
+                    answerImg: [PKM],
+                    answer: '正解',
+                    commentary: 'PKM1(ピルビン酸キナーゼ)は解糖系代謝・TCA回路・乳酸からピルビン酸への経路のように全体的な代謝活性が亢進する一方で、PKM2はTCA回路への流れを抑制する。これにより、がん細胞特有のGlutaminolysisやwarburg effectが誘導される。',
+                },
+
 
                 //   {
                 //     detailInfo: '',
