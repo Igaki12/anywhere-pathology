@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-pathology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-pathology/static/js/main.8cc8373d.js",
+    "main.js": "/anywhere-pathology/static/js/main.cea667ee.js",
     "static/media/practice12.png": "/anywhere-pathology/static/media/practice12.29bc13058e8fe5818cde.png",
     "static/media/practice1answer.png": "/anywhere-pathology/static/media/practice1answer.2ec284a72b1a0551c347.png",
     "static/media/degeneration.png": "/anywhere-pathology/static/media/degeneration.4672a45d0daf6c2cee55.png",
@@ -24,7 +24,6 @@
     "static/media/rheumaticHeartDisease.png": "/anywhere-pathology/static/media/rheumaticHeartDisease.9bd0b99b880f0a5621a0.png",
     "static/media/hemochromatosis.png": "/anywhere-pathology/static/media/hemochromatosis.2744b0bb4e4662f3352f.png",
     "static/media/prostaticHyperplasia.png": "/anywhere-pathology/static/media/prostaticHyperplasia.af4cb487859c80bc7b0a.png",
-    "static/media/complex.png": "/anywhere-pathology/static/media/complex.2ebb52e929e9148d6ce5.png",
     "static/media/HMGB1InhibitMacrophage.png": "/anywhere-pathology/static/media/HMGB1InhibitMacrophage.79da339646622d89c370.png",
     "static/media/MEN.png": "/anywhere-pathology/static/media/MEN.9cc811fa146719a19e19.png",
     "static/media/pulmonaryInfarction.png": "/anywhere-pathology/static/media/pulmonaryInfarction.ee447975da0d9c04ebae.png",
@@ -36,12 +35,16 @@
     "static/media/amyloid.png": "/anywhere-pathology/static/media/amyloid.c9df4c718f41cb4ce4c3.png",
     "static/media/pulmonaryEdema.png": "/anywhere-pathology/static/media/pulmonaryEdema.d5e893435b8ee00f7e8e.png",
     "static/media/myocardialInfarctionComplication.png": "/anywhere-pathology/static/media/myocardialInfarctionComplication.a342af84627e219999ae.png",
+    "static/media/mitochondriaFusion.png": "/anywhere-pathology/static/media/mitochondriaFusion.68e9887363b03ff827f6.png",
     "static/media/atherosclerosis4.png": "/anywhere-pathology/static/media/atherosclerosis4.348ece3f38e4d5ac534c.png",
+    "static/media/cancerDMRatio.png": "/anywhere-pathology/static/media/cancerDMRatio.e063f3c07d8b5962af48.png",
     "static/media/myocardialInfarctionalTissue.png": "/anywhere-pathology/static/media/myocardialInfarctionalTissue.3e979a7b517adc0e893b.png",
     "static/media/medulloblastoma.png": "/anywhere-pathology/static/media/medulloblastoma.a2231f6e349a65f7faba.png",
     "static/media/ChediakHigashi.png": "/anywhere-pathology/static/media/ChediakHigashi.4c6d2b53f99270c5fc06.png",
+    "static/media/mitophagy.png": "/anywhere-pathology/static/media/mitophagy.247a08fef0a726b5621a.png",
     "static/media/CancerFromAGE.png": "/anywhere-pathology/static/media/CancerFromAGE.fecff669d87a323c1408.png",
     "static/media/Wilson.png": "/anywhere-pathology/static/media/Wilson.48664b7821c8653956d6.png",
+    "static/media/cancerFactors.png": "/anywhere-pathology/static/media/cancerFactors.c1c95c38cb625b7690b7.png",
     "static/media/cancerFromDM.png": "/anywhere-pathology/static/media/cancerFromDM.64a67b7a4b2e6c6656c3.png",
     "static/media/Fallot.png": "/anywhere-pathology/static/media/Fallot.2f14b67bb5b4c4e0819a.png",
     "static/media/glycolysisPathway.png": "/anywhere-pathology/static/media/glycolysisPathway.574b062000ff632d549c.png",
@@ -75,10 +78,13 @@
     "static/media/TGFBeta.png": "/anywhere-pathology/static/media/TGFBeta.0ad88c14a7ea0fce6598.png",
     "static/media/atherosclerosis1.png": "/anywhere-pathology/static/media/atherosclerosis1.98d4de40d39eabec9e3f.png",
     "static/media/jaundiceBrain.png": "/anywhere-pathology/static/media/jaundiceBrain.c1f51176bb34c03ec388.png",
+    "static/media/carnitineShuttle.png": "/anywhere-pathology/static/media/carnitineShuttle.49c90b339c0a2818d117.png",
     "static/media/myocarditis.png": "/anywhere-pathology/static/media/myocarditis.b5bf5ffade5397d5ce1d.png",
     "static/media/Warburg.png": "/anywhere-pathology/static/media/Warburg.77fb83df90fd3d3c92e1.png",
     "static/media/nephroblastoma.png": "/anywhere-pathology/static/media/nephroblastoma.08c5971e9d07df2af4a6.png",
+    "static/media/mitochondriaROS.png": "/anywhere-pathology/static/media/mitochondriaROS.01a7ed269a922ee0e0a2.png",
     "static/media/lacticAcid.png": "/anywhere-pathology/static/media/lacticAcid.9aa0a449e6f5365e9136.png",
+    "static/media/TAM.png": "/anywhere-pathology/static/media/TAM.bde485b8b92d4231ecd3.png",
     "static/media/retinoblastoma.png": "/anywhere-pathology/static/media/retinoblastoma.889e08fbfb59c645318f.png",
     "static/media/carcinogenesisStep.png": "/anywhere-pathology/static/media/carcinogenesisStep.8235212115064354565a.png",
     "static/media/hypertrophy.png": "/anywhere-pathology/static/media/hypertrophy.12724f5212844f541f67.png",
@@ -92,6 +98,7 @@
     "static/media/coagulation.png": "/anywhere-pathology/static/media/coagulation.0f22c06be23c17c9caa9.png",
     "static/media/BRD4.png": "/anywhere-pathology/static/media/BRD4.e36f4c62821063c99eda.png",
     "static/media/brainTumor.png": "/anywhere-pathology/static/media/brainTumor.b91c13fb7d9822966af4.png",
+    "static/media/mtDNA.png": "/anywhere-pathology/static/media/mtDNA.6f59a65efdfd26f05755.png",
     "static/media/cancer.png": "/anywhere-pathology/static/media/cancer.50e43646b70b9bf3dfdd.png",
     "static/media/carcinogenesis.png": "/anywhere-pathology/static/media/carcinogenesis.2d9c6657e11dd198e766.png",
     "static/media/duchanne.png": "/anywhere-pathology/static/media/duchanne.efb147c28ec17354e624.png",
@@ -146,6 +153,7 @@
     "static/media/MELAS.png": "/anywhere-pathology/static/media/MELAS.bd9865fa4366428a3098.png",
     "static/media/coronaryArteryDisease.png": "/anywhere-pathology/static/media/coronaryArteryDisease.54b447bfb3b798b530a8.png",
     "static/media/cancerDeathRate.png": "/anywhere-pathology/static/media/cancerDeathRate.7e169a1d27dd469637bd.png",
+    "static/media/complex.png": "/anywhere-pathology/static/media/complex.d92bc10cef4d5f05261b.png",
     "static/media/jaundice.png": "/anywhere-pathology/static/media/jaundice.01f9b7c56a043f9fd291.png",
     "static/media/granulocyte.png": "/anywhere-pathology/static/media/granulocyte.91832170c9612e044905.png",
     "static/media/myocardialInfarctionSymptom.png": "/anywhere-pathology/static/media/myocardialInfarctionSymptom.ff44dfc1ccc8729341e7.png",
@@ -181,10 +189,10 @@
     "static/media/NADPH.png": "/anywhere-pathology/static/media/NADPH.7abbecb7d44d23a061de.png",
     "index.html": "/anywhere-pathology/index.html",
     "main.6180b9dc.css.map": "/anywhere-pathology/static/css/main.6180b9dc.css.map",
-    "main.8cc8373d.js.map": "/anywhere-pathology/static/js/main.8cc8373d.js.map"
+    "main.cea667ee.js.map": "/anywhere-pathology/static/js/main.cea667ee.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.8cc8373d.js"
+    "static/js/main.cea667ee.js"
   ]
 }

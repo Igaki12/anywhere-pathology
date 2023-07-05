@@ -147,6 +147,15 @@ function App() {
             fontSize="xs"
             textColor={'blackAlpha.700'}
             textAlign="center"
+            mt={2}
+            mb={0}
+          >
+            Writer: Y.Koizumi
+          </Text>
+          <Text
+            fontSize="xs"
+            textColor={'blackAlpha.700'}
+            textAlign="center"
             mt={0}
             mb={2}
           >

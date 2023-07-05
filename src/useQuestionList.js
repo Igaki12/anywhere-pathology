@@ -177,6 +177,14 @@ import cancerFromFat from './img/answer/cancerFromFat.png';
 import TGFBeta from './img/answer/TGFBeta.png';
 import lacticAcid from './img/answer/lacticAcid.png';
 import complex from './img/answer/complex.png';
+import TAM from './img/answer/TAM.png';
+import mtDNA from './img/answer/mtDNA.png';
+import mitophagy from './img/answer/mitophagy.png';
+import mitochondriaROS from './img/answer/mitochondriaROS.png';
+import mitochondriaFusion from './img/answer/mitochondriaFusion.png';
+import carnitineShuttle from './img/answer/carnitineShuttle.png';
+import cancerFactors from './img/answer/cancerFactors.png';
+import cancerDMRatio from './img/answer/cancerDMRatio.png';
 
 
 
@@ -2625,7 +2633,7 @@ export const useQuestionList = () => {
                 // },
             ],
         }, {
-            groupTag: "2021年追加分",
+            groupTag: "2021年以降追加分",
             groupContents: [{
                     detailInfo: '',
                     questionImg: [],
@@ -2721,7 +2729,7 @@ export const useQuestionList = () => {
                     questionSentence: '【正誤問題】ミトコンドリア膜間腔の水素イオン濃度は低い',
                     answerImg: [complex],
                     answer: '誤り...比較的高い',
-                    commentary: 'ミトコンドリアは膜間腔より内膜の方が水素イオン濃度が低い。膜間腔→内膜（マトリックス）の水素イオン濃度差の圧でATP合成を行う',
+                    commentary: 'ミトコンドリアは膜間腔よりマトリックスの方が水素イオン濃度が低い。膜間腔→マトリックスの水素イオン濃度差の圧でATP合成を行う',
                 },
                 {
                     detailInfo: '',
@@ -2732,20 +2740,20 @@ export const useQuestionList = () => {
                     commentary: '心ループは右心房と左心房を繋げる過程であるため、心ループ形成に問題はないと考えられる。健常児でも出生前には卵円孔が空いていて、出生ととともに肺動脈圧が下がり左心房圧が右心房圧より高くなることでふさがる。周囲の大血管などに異常があると、こうならず心房中隔の孔がふさがらない。',
                 },
                 {
-                  detailInfo: '',
-                  questionImg: [],
-                  questionSentence: '【正誤問題】染色体突然変異の一つに逆位があり、これは同一染色体内での2箇所の切断で生じた部分が逆向きに再結合することで生じるが、動原体を挟んで起こることは無い',
-                  answerImg: [leukemia],
-                  answer: '誤り...動原体（セントロメア）を挟んで起こることはある',
-                  commentary: '逆位は、染色体が2つの場所で切断され、生じたDNAが逆になって再び染色体に挿入されることで起こります。染色体の切断の結果、遺伝物質が欠損する場合もあれば、欠損しない場合もあります。染色体のくびれ部（セントロメア）を含む逆位は腕間逆位と呼ばれます。長腕（q）または短腕（p）に生じ、セントロメアを含まない逆位を腕内逆位といいます。',
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '【正誤問題】染色体突然変異の一つに逆位があり、これは同一染色体内での2箇所の切断で生じた部分が逆向きに再結合することで生じるが、動原体を挟んで起こることは無い',
+                    answerImg: [leukemia],
+                    answer: '誤り...動原体（セントロメア）を挟んで起こることはある',
+                    commentary: '逆位は、染色体が2つの場所で切断され、生じたDNAが逆になって再び染色体に挿入されることで起こります。染色体の切断の結果、遺伝物質が欠損する場合もあれば、欠損しない場合もあります。染色体のくびれ部（セントロメア）を含む逆位は腕間逆位と呼ばれます。長腕（q）または短腕（p）に生じ、セントロメアを含まない逆位を腕内逆位といいます。',
                 },
-                                {
-                  detailInfo: '',
-                  questionImg: [],
-                  questionSentence: '【正誤問題】スーパーオキシドはSODにより過酸化水素となり、GPxによってH₂Oに変換される',
-                  answerImg: [NADPH],
-                  answer: '正しい',
-                  commentary: 'NADPHオキシダーゼなどにより発生したスーパーオキシド(O₂⁻)は、SODによって過酸化水素H₂O₂となる。H₂O₂はカタラーゼやGPxによりH₂Oに無害化される。SODやGPxなど、抗酸化作用をもつ物質を総称してスカベンジャーとよぶ。',
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '【正誤問題】スーパーオキシドはSODにより過酸化水素となり、GPxによってH₂Oに変換される',
+                    answerImg: [NADPH],
+                    answer: '正しい',
+                    commentary: 'NADPHオキシダーゼなどにより発生したスーパーオキシド(O₂⁻)は、SODによって過酸化水素H₂O₂となる。H₂O₂はカタラーゼやGPxによりH₂Oに無害化される。SODやGPxなど、抗酸化作用をもつ物質を総称してスカベンジャーとよぶ。',
                 },
                 {
                     detailInfo: '',
@@ -2754,55 +2762,150 @@ export const useQuestionList = () => {
                     answerImg: [NADPH],
                     answer: '正しい',
                     commentary: 'スーパーオキシドはミトコンドリア電子伝達系で二価鉄などによりヒドロキシラジカルになることがある(Fenton反応)。スーパーオキシドもヒドロキシラジカルも活性酸素種に分類されるが、スーパーオキシドはSODなどのスカベンジャーによって酵素的に還元されていくのに対して、ヒドロキシラジカルは酵素的には還元されず、脂肪組織などに蓄積し、発がんの原因となる。',
-                  },
-                  {
+                },
+                {
                     detailInfo: '',
                     questionImg: [],
                     questionSentence: '【正誤問題】SODは、一重項酸素を過酸化水素に還元する反応を触媒する',
                     answerImg: [mitochondria],
                     answer: '誤り...一重項酸素ではなくスーパーオキシド',
                     commentary: '生体内で大量に発生し、SODによって過酸化水素へ還元される活性酸素はスーパーオキシド(O₂⁻)。一重項酸素(¹O₂)は活性酸素であるがβ-カロテンなどのスカベンジャーによって処理される一重項酸素は反応性（毒性）が強く、レーザーによって腫瘍細胞に故意に発生させることで、がん治療に利用されている',
-                  },
-                  {
+                },
+                {
                     detailInfo: '',
                     questionImg: [],
                     questionSentence: '【正誤問題】ニトロソアミンはアルギニンから生じる',
                     answerImg: [],
                     answer: '正しい',
                     commentary: 'ニトロソアミンは、大気、水、食品、化粧品、タバコなどに微量ながら含まれていることが確認されている。食品では加工した肉や魚、一部の調味料類に比較的多く存在する。ニトロソアミンは発がん性物質で、肉を燻製にするなど、高温調理で増える傾向にある。アルギニン→硝酸塩→ニトロソアミン',
-                  },
-                  {
+                },
+                {
                     detailInfo: '',
                     questionImg: [],
                     questionSentence: '【正誤問題】DIC(播種性血管内凝固症候群)は、全身の微小血管内にフィブリン血栓が生じ、血小板や凝固因子が急激に消費され、また線溶系も活性化される病態である。このうち基礎疾患を原因としないものを本態性DICという。',
                     answerImg: [],
                     answer: '正しい？',
                     commentary: '播種性血管内凝固症候群(DIC:disseminated intravascular coagulation)は、全身の微小血管内にフィブリン血栓が生じ、血小板や凝固因子が急激に消費され、線溶系が活性化する、全身に出血傾向がみられる疾患。出血と血栓が全身で多発し、腎糸球体や肺などに微小フィブリン血栓が病理形態学的に確認される。DICの原因となる基礎疾患として、敗血症・急性白血病・固形がんが三大疾患とされ、他にも外傷・感染症・産科合併症など様々である。「本態性」とは、ある症状・疾患は存在するが、その原因が明らかでないものであることを指し、意味としては通じるが...',
-                  },
-                  {
+                },
+                {
                     detailInfo: '',
                     questionImg: [],
                     questionSentence: '【正誤問題】GSHは抗酸化作用がよわいため、酸化力の強いGSSGに変換される。このときにNADPHが利用される。',
                     answerImg: [NADPH],
                     answer: '誤り...GSHは抗酸化作用が強い',
                     commentary: 'GSHはグルタチオンの還元型で、GSSGは酸化型。GSHがおもに抗酸化作用を示す。',
-                  },
-                  {
+                },
+                {
                     detailInfo: '',
                     questionImg: [],
                     questionSentence: '【正誤問題】増殖状態にある細胞は、酸化的リン酸化よりも、解糖系優位な代謝を行う。これは、解糖系中間体を生合成に利用するためである。',
                     answerImg: [],
                     answer: '正しい',
                     commentary: 'がん細胞ではPKM2によって解糖系優位な代謝が行われている。解糖系中間体から生成できるNADPHやリボース5-リン酸などは生合成に利用できる。酸化的リン酸化はROSを産生するため抑制されていて、代わりにグルタミンを取り込んでTCA回路を回す→グルタミノリシス',
-                  },
-                //   {
-                //     detailInfo: '',
-                //     questionImg: [],
-                //     questionSentence: '【正誤問題】',
-                //     answerImg: [],
-                //     answer: '',
-                //     commentary: '',
-                //   },
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '【正誤問題】細胞内のミトコンドリアは、融合Fusionや分裂Fissionすることで形態を変化させ存在している。融合を制御する遺伝子はDRP1であり、分裂を制御する遺伝子はMFN1/2である',
+                    answerImg: [mitochondriaFusion],
+                    answer: '誤り...Drp1は分裂を、Mfn1/2はFusionを制御する',
+                    commentary: 'Fusion→MFN1/2。ミトコンドリアは細胞とはある程度独立して分裂・融合する。精子には含まれないため、ミトコンドリアは全て卵子由来で母系遺伝。',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '【正誤問題】腫瘍周辺の微小環境では、免疫細胞であるM1タイプマクロファージが多く存在している。このマクロファージは、産生される乳酸によりpHが低下することによって引き起こされる。',
+                    answerImg: [TAM],
+                    answer: '誤り...M2マクロファージ',
+                    commentary: 'M1マクロファージは炎症初期に増えるマクロファージで、免疫抑制活性・腫瘍促進活性は低い。一方がんが進行すると、低酸素・高乳酸・がんによる誘導によって免疫抑制性のM2マクロファージが増える。腫瘍随伴マクロファージTAMとも呼ばれ、がん細胞の増殖を誘導したりVEGFによる血管新生を誘導したりPD-L1やTGF-βの産生によって免疫抑制を誘導したりがん細胞のEMTを促進させ転移・浸潤を誘導したりすることによってがんを進行させてしまう。',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '【正誤問題】ミトコンドリアは1つにつき5-10個程度の環状1本鎖DNAを持っている。',
+                    answerImg: [mtDNA],
+                    answer: '誤り...環状2本鎖',
+                    commentary: '',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '【正誤問題】ミトコンドリアDNAは核内と同様にヒストンで覆われており、アセチル化やメチル化によって遺伝子発現が制御されている',
+                    answerImg: [mtDNA],
+                    answer: '誤り...ヒストンなし',
+                    commentary: 'ミトコンドリアDNAにはイントロンもない',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '【正誤問題】Mitophagyとはミトコンドリア選択的分解機構であり、PINK1が膜電位を低下したミトコンドリアを認識して結合し、Parkinを誘導することでアセチル化を引き起こす。これがmitophagyの第一段階で生じる',
+                    answerImg: [mitophagy],
+                    answer: '誤り...アセチル化ではなくユビキチン化',
+                    commentary: '不良ミトコンドリアの膜電位低下を認識してPINK1がParkinを誘導（リクルート）するところまでは正しい。Parkinは不良ミトコンドリアを次々とユビキチン化していき、オートファジーを誘導する。',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '【正誤問題】PINK1やParkinによってmitophagyの反応が進行したあと、オートファゴソームによって隔離される。その後リソソームと融合しオートリソソームとなり分解される',
+                    answerImg: [mitophagy],
+                    answer: '正しい',
+                    commentary: 'オートファジーによりミトコンドリアは分解される。',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '電子伝達系複合体の中で活性酸素を発生しやすいのはどれか 1 つ選べ',
+                    choices: ['複合体Ⅰと複合体Ⅱ', '複合体Ⅰと複合体Ⅲ', '複合体Ⅰと複合体Ⅳ', '複合体Ⅰと複合体Ⅴ', ' 複合体Ⅳと複合体Ⅴ'],
+                    answerImg: [mitochondriaROS],
+                    answer: '複合体Ⅰと複合体Ⅲ',
+                    commentary: '複合体ⅠとⅢがNADHなどを受け取りH⁺を膜間腔へ汲みだす。このとき酸素を消費するので、活性酸素を発生しやすい',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '糖尿病により発癌リスクが著明に増加する癌の組み合わせはどれか１つ選べ ',
+                    choices: ['肝癌 膵癌 肺癌', '大腸癌 膵癌 白血病', '肝臓癌 膵癌 悪性リンパ腫', '肺癌 膵癌 大腸癌', '肝臓癌 大腸癌 膵癌 '],
+                    answerImg: [cancerDMRatio],
+                    answer: '肝臓癌・大腸癌・膵癌',
+                    commentary: '国内外で発表された研究によると、糖尿病（主に2型糖尿病）がある方は、がんリスクが20%ほど高いことが報告されています。日本人では特に大腸がん、肝臓がん、膵臓がんのリスクが高いとされています。一方で、糖尿病があると（なかでも肥満がある場合）前立腺癌のリスクは低くなるといわれています。インスリン過剰分泌→膵癌、AGE・ROSによる炎症→大腸がん、脂肪肝や炎症→肝臓がん',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '大腸癌のリスクファクターではないものをすべて選べ  ',
+                    choices: ['血清コレステロール', 'BMI', '皮下脂肪面積 ', '内臓脂肪面積', 'HBA1c'],
+                    answerImg: [cancerFactors, cancerDMRatio],
+                    answer: '血清コレステロール・皮下脂肪面積(SFA)',
+                    commentary: 'BMI・内臓脂肪面積(VFA)・糖尿病は大腸癌リスクファクターである。その他にも、アディポネクチン（小型脂肪細胞から分泌）・ウエストなどとも関与する',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '糖尿病合併大腸癌で正しいものをすべて選べ',
+                    choices: ['発癌リスクが増加する', '死亡率が増加する ', 'アポトーシスが増加する ', '転移が増加する', '再発が増加する'],
+                    answerImg: [cancerDMRatio],
+                    answer: '発がんリスクが増加する・死亡率が増加する・転移が増加する・再発が増加する',
+                    commentary: '糖尿病はIGF1（増殖因子）を活性化し、ROSやAGEを増やす。罹患率・死亡率が増え、stageも悪い（転移も多い）・再発率も有意に高い(P=0.0010)と、非常に予後が悪い。',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: 'HMGB1 の役割でないものをすべて選べ',
+                    choices: ['癌細胞の増殖', '重症感染症の増悪', 'ショックの増悪', '自然免疫の活性化', '凝固の促進'],
+                    answerImg: [HMGB1,HMGB1InhibitMacrophage],
+                    answer: 'ショックの増悪・自然免疫の活性化',
+                    commentary: 'HMGB1はリジンに富む核内タンパク質で、RAGEを活性化しがん細胞の増殖・マクロファージの抑制（→転移促進）を起こす。AGEの生物活性：マクロファージ活性化による炎症誘導と混同しやすく注意',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '脂肪酸について誤っているものをすべて選べ ',
+                    choices: ['脂肪酸はすべて体内で合成される ', '脂肪酸はすべてカルニチンシャトルを経てミトコンドリアに移行する', '脂肪酸はすべて β 酸化の基質となる ', '脂肪酸はすべてエネルギー産生の材料となることが役割である', '脂肪酸はすべてトリグリセリドの形態で血中を移動する '],
+                    answerImg: [carnitineShuttle, fattyAcid],
+                    answer: 'すべて誤り',
+                    commentary: '体内で使用される脂肪酸の大部分は食事から得られるが、食事後などは糖代謝産物から脂肪酸合成が行われ、貯蔵される。脂質は脂肪酸・リン脂質・ステロイド・糖脂質などに分類されるが、このうち脂肪酸は予備エネルギー材料として利用されるほか、プロスタグランジンなどホルモンの材料となることがある。カルニチンシャトルにより長鎖脂肪酸由来アシルCoAはミトコンドリアマトリックスへ輸送され、β酸化による非常に効率の良いエネルギー産生が行われる。12炭素より短い脂肪酸はカルニチンやCPT系を必要としないでミトコンドリア内膜を通過することができる。β酸化では2炭素分ずつ短くなる間にATPや電子供与体(NADHやFADH₂)が産生されるが、奇数個の炭素原子を持った脂肪酸の酸化では、最後の3炭素原子(プロピオニルCoA)になるまでしかβ酸化では代謝されない。消化後のVLDLにはトリグリセリドが豊富に含まれているが、飢餓時には血中を遊離脂肪酸が移動し、ケトン体合成などの材料となる。',
+                },
+
                 //   {
                 //     detailInfo: '',
                 //     questionImg: [],
@@ -3629,7 +3732,7 @@ export const useQuestionList = () => {
                     detailInfo: '5/01午前',
                     questionImg: [],
                     questionSentence: 'ミトコンドリアDNAには呼吸鎖複合体であるcomplex1,2,4,5の一部がコードされており、核DNAと異なりヒストンが存在しない。間違いがなければなし、訂正があれば正して下さい。',
-                    answerImg: [],
+                    answerImg: [mtDNA],
                     answer: 'complex1,3,4,5',
                     commentary: 'スライドに加筆。ミトコンドリアDNA:mtDNAは完全に母系遺伝。',
                 },
