@@ -919,7 +919,7 @@ export const useTechnicalTerm = () => {
         'グルタミン+水 → α-ケトグルタル酸を触媒する酵素。がん細胞では亢進されている。',
     },
     {
-      term: ['Glutaminolysis'],
+      term: ['Glutaminolysis',"グルタミノリシス"],
       explanation:
         'がん細胞が酸化ストレスを生成しないようにしながら必要なアミノ酸や脂質を合成する仕組み。がん細胞ではTCA回路が抑制されている代わりに、グルタミンを多く取り込んでグルタミンから必要な栄養源を合成している。これをGlutaminolysisという。',
     },
