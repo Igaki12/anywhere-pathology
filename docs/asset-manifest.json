@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-pathology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-pathology/static/js/main.bf8e46a8.js",
+    "main.js": "/anywhere-pathology/static/js/main.5cb751a6.js",
     "static/media/practice12.png": "/anywhere-pathology/static/media/practice12.29bc13058e8fe5818cde.png",
     "static/media/practice1answer.png": "/anywhere-pathology/static/media/practice1answer.2ec284a72b1a0551c347.png",
     "static/media/degeneration.png": "/anywhere-pathology/static/media/degeneration.4672a45d0daf6c2cee55.png",
@@ -11,19 +11,25 @@
     "static/media/practice2.png": "/anywhere-pathology/static/media/practice2.3baac183839122c52b94.png",
     "static/media/practice7.png": "/anywhere-pathology/static/media/practice7.37377b86dce064652b87.png",
     "static/media/practice4.png": "/anywhere-pathology/static/media/practice4.b4ce30e547a32eaa5c19.png",
+    "static/media/question20225.png": "/anywhere-pathology/static/media/question20225.89dea17254cac95e160b.png",
     "static/media/practice5.png": "/anywhere-pathology/static/media/practice5.94abd94b783c1037ad58.png",
     "static/media/practice3.png": "/anywhere-pathology/static/media/practice3.34981d7901d1038dd525.png",
     "static/media/HMGB1.png": "/anywhere-pathology/static/media/HMGB1.3b50734fc670a1f6f572.png",
+    "static/media/question20221.png": "/anywhere-pathology/static/media/question20221.1bbc8eb8fa47147b9a16.png",
     "static/media/practice1.png": "/anywhere-pathology/static/media/practice1.596558c87b2a237a7be2.png",
     "static/media/giantCellArteritis.png": "/anywhere-pathology/static/media/giantCellArteritis.5445902d1f044a0f9503.png",
     "static/media/practice0.png": "/anywhere-pathology/static/media/practice0.17c65bf2e175ee8e9eab.png",
     "static/media/practice13.png": "/anywhere-pathology/static/media/practice13.6eea9ce71b4fb2253c3f.png",
     "static/media/practice10.png": "/anywhere-pathology/static/media/practice10.6587cbf4ce73e7a12537.png",
     "static/media/practice11.png": "/anywhere-pathology/static/media/practice11.4eb3e9c3133943f490f8.png",
+    "static/media/question20224.png": "/anywhere-pathology/static/media/question20224.44712d49b76f98657bee.png",
     "static/media/jaundiceTissue.png": "/anywhere-pathology/static/media/jaundiceTissue.f24c229bfaa4ec365981.png",
     "static/media/rheumaticHeartDisease.png": "/anywhere-pathology/static/media/rheumaticHeartDisease.9bd0b99b880f0a5621a0.png",
+    "static/media/PAN.png": "/anywhere-pathology/static/media/PAN.83aa6eb96978db52b71d.png",
     "static/media/hemochromatosis.png": "/anywhere-pathology/static/media/hemochromatosis.2744b0bb4e4662f3352f.png",
     "static/media/prostaticHyperplasia.png": "/anywhere-pathology/static/media/prostaticHyperplasia.af4cb487859c80bc7b0a.png",
+    "static/media/question20223.png": "/anywhere-pathology/static/media/question20223.966eda67fcd1f1a318e6.png",
+    "static/media/question20222.png": "/anywhere-pathology/static/media/question20222.ac2e9bf59f0e0f7c41bd.png",
     "static/media/HMGB1InhibitMacrophage.png": "/anywhere-pathology/static/media/HMGB1InhibitMacrophage.79da339646622d89c370.png",
     "static/media/leukemia.png": "/anywhere-pathology/static/media/leukemia.4a9dd2731d1ca7b2c41b.png",
     "static/media/MEN.png": "/anywhere-pathology/static/media/MEN.9cc811fa146719a19e19.png",
@@ -142,6 +148,7 @@
     "static/media/titleImg.jpg": "/anywhere-pathology/static/media/titleImg.aaff375a334cd5b42e2a.jpg",
     "static/media/cancerProduceCalcium.png": "/anywhere-pathology/static/media/cancerProduceCalcium.60b9e1903e5dd53e1cf3.png",
     "static/media/cellDeathVariations.png": "/anywhere-pathology/static/media/cellDeathVariations.48fec175d00226be4754.png",
+    "static/media/p53Rb.png": "/anywhere-pathology/static/media/p53Rb.804ef06db8849c5977a2.png",
     "static/media/maintenanceMethylationDNA.png": "/anywhere-pathology/static/media/maintenanceMethylationDNA.e84c84d20c60db7cbc3e.png",
     "static/media/MMR.png": "/anywhere-pathology/static/media/MMR.12e5fb6249c7c12209a2.png",
     "static/media/inflammatoryMediator.png": "/anywhere-pathology/static/media/inflammatoryMediator.8b954f7cc03241f45042.png",
@@ -200,10 +207,10 @@
     "static/media/NADPH.png": "/anywhere-pathology/static/media/NADPH.7abbecb7d44d23a061de.png",
     "index.html": "/anywhere-pathology/index.html",
     "main.6180b9dc.css.map": "/anywhere-pathology/static/css/main.6180b9dc.css.map",
-    "main.bf8e46a8.js.map": "/anywhere-pathology/static/js/main.bf8e46a8.js.map"
+    "main.5cb751a6.js.map": "/anywhere-pathology/static/js/main.5cb751a6.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.bf8e46a8.js"
+    "static/js/main.5cb751a6.js"
   ]
 }

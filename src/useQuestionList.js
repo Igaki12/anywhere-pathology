@@ -198,6 +198,13 @@ import cancerDMRatio from './img/answer/cancerDMRatio.png';
 import PKM from './img/answer/PKM.png';
 import lipotoxicity from './img/answer/lipotoxicity.png';
 import cancerNutrient from './img/answer/cancerNutrient.png';
+import PAN from './img/answer/PAN.png';
+import p53Rb from './img/answer/p53Rb.png';
+import question20225 from './img/question/question20225.png';
+import question20224 from './img/question/question20224.png';
+import question20223 from './img/question/question20223.png';
+import question20222 from './img/question/question20222.png';
+import question20221 from './img/question/question20221.png';
 
 
 
@@ -3437,6 +3444,197 @@ export const useQuestionList = () => {
                     answerImg: [tumorSuppressorGene],
                     answer: '誤り。',
                     commentary: 'RAS, c–MYCはがん遺伝子。',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: 'p53 は DNA 損傷に反応し p21 等を誘導し細胞周期を停止し遺伝子を修復する。遺伝子が修復不能なほど損傷した場合はアポトーシスを誘導する。 ',
+                    answerImg: [p53Rb],
+                    answer: '正しい',
+                    commentary: '',
+                },
+
+
+
+
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: 'p53 は 4 量体であり 4 量体結合ドメインと DNA 結合ドメインを持つ。これをもとに考えると p53 は 4 量体 結合ドメインの片アレルの変異のみで1/16 まで正常蛋白量が落ちることになる。',
+                    answerImg: [p53Rb],
+                    answer: '正しい。',
+                    commentary: '',
+                },
+
+
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: 'アポトーシスの主な経路は1.デスレセプター2．生存シグナルの除去 3.RIPK 経路の活性化があげられる。',
+                    answerImg: [apoptosisPathway],
+                    answer: '誤り。',
+                    commentary: 'RIPK経路はアポトーシスではなくネクローシスの経路。',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '幹細胞はニッチシグナルに依存し幹細胞性を保っている。これらのシグナルは多段階発ガンで獲得すると考えられている変異に対応する。',
+                    answerImg: [nicheSignalCancer, carcinomaSteps],
+                    answer: '正しい',
+                    commentary: '例えばWnt経路に対応する変異APCは、多段階発癌の初期で獲得される変異の一つ。',
+                },
+
+
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '炎症の四徴のひとつである浮腫は間質に体液が漏れ出して組織が腫脹している。血管の透過生が亢進して いる場合を炎症性浮腫と呼び比重の低い漏出液が見られる。',
+                    answerImg: [inflammation],
+                    answer: '誤り。',
+                    commentary: '浮腫は炎症の四徴に入っていない。なお、機能障害を含めて五徴とする場合もある。炎症性浮腫では比重の大きい漏出液がみられる',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '炎症時の発赤、発熱は毛細血管の開大による血流の増加を反映している。また、血管透過性の亢進による 滲出液(transudate)が血管外に流出することにより腫脹が起きる。',
+                    answerImg: [inflammation],
+                    answer: '正しい',
+                    commentary: '',
+                },
+
+                {
+
+
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: 'COX1 は外傷や炎症によって誘導され炎症を促進する。Coxib 系はこれを阻害する。',
+                    answerImg: [],
+                    answer: '誤り。',
+                    commentary: 'COX1は常時さまざまな組織で発現しており血小板凝集の促進や肝血流の維持に関与している。coxib系はCOX2を選択的に阻害する',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '好中球がうまく抗原を消化できない場合、寿命の短い好中球では細胞内に抗原を隔離していくことができず炎症は終結しない。マクロファージは類上皮となり抗原を隔離し、肉芽を形成する。',
+                    answerImg: [glanuloma],
+                    answer: '正しい',
+                    commentary: 'この場合は肉芽組織ではなく肉芽腫を形成する。肉芽腫の原因は結核（抗酸菌）・サルコイドーシスなど',
+                },
+
+
+                {
+                    detailInfo: '',
+                    questionImg: [],
+                    questionSentence: '肉芽腫性炎症は慢性炎症の一種であり類上皮細胞やラングハンス巨細胞が出現する。特に結核で生じる結核結節は内部で乾酪壊死が観察される。非感染性のものとしてはサルコイドーシス、過敏性肺炎、ウェゲナー肉腫がある。',
+                    answerImg: [glanuloma],
+                    answer: '正しい',
+                    commentary: '肉芽組織では類上皮細胞やラングハンス巨細胞が見られない点で区別される',
+                },
+
+
+                {
+                    detailInfo: '',
+                    questionImg: [question20221],
+                    questionSentence: '図の組織像から最も適した診断名を次から 1 つ選べ',
+                    choices: ['うっ血', '出血', '梗塞 ', '塞栓 ', '膿瘍'],
+                    answerImg: [],
+                    answer: 'うっ血',
+                    commentary: '右心不全→肝臓うっ血で、ニクズク肝/ナツメグ肝。うっ血は流出障害',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [question20221],
+                    questionSentence: '図について次から 1 つ選べ',
+                    choices: ['肺で同様の病態が見られた場合、肺胞内では出血が見られ、肺の色調は暗赤色である。', '門脈の拡張、小葉中心性の変性、壊死やへモジデリン沈着が見られる。 ', '慢性的に心不全が見られる場合、肝硬変が見られる。', '心筋梗塞はこの病態の原因とならない。', '心筋梗塞はこの病態の原因とならない。', '脾臓でも同様の病態が見られる場合、白脾髄の増加が見られる。'],
+                    answerImg: [],
+                    answer: '慢性心不全→肝硬変',
+                    commentary: '左心不全は肺うっ血（肺水腫）を招き、心不全細胞がみられるが、赤暗色にはならない。',
+                },
+
+
+                {
+                    detailInfo: '',
+                    questionImg: [question20222],
+                    questionSentence: ' 図の組織像から最も適した診断名を次から 1 つ選べ。',
+                    choices: ['脳内出血', '脳動脈瘤', '.凝固壊死', '脳梗塞', 'くも膜下出血'],
+                    answerImg: [intracerebralHemorrhage],
+                    answer: '脳内出血',
+                    commentary: 'くも膜下出血は脳の下部に頻発し、大脳実質の外に出血する',
+                },
+                {
+                    detailInfo: '',
+                    questionImg: [question20222],
+                    questionSentence: '図について、正しいものを次から１つ選べ',
+                    choices: ['原因で最も多いのは、外傷性である。', '病変周囲の組織は圧迫され、浮腫を生じ、さらに脳圧を圧迫する。 ', '病変の中心の組織には線維性喀痰が見られる。 ', '脳腫瘍は血管に乏しく、原因とはならない。 ', ' 原因として、大動脈破裂が最も多く、次に多いのは高血圧である。', '脳実質内よりも、脳周囲に血腫が生じている。'],
+                    answerImg: [intracerebralHemorrhage],
+                    answer: '病変周囲の組織は圧迫され、浮腫を生じ、さらに脳圧を圧迫する。 ',
+                    commentary: '脳内出血は脳実質内を通る比較的小さい血管の破裂で、特にレンズ核周辺に頻発する。高血圧が主な原因。くも膜下出血はくも膜下を通る大きい血管の破裂で、特にウィリス動脈輪など脳の下部に頻発する。遺伝的な動脈瘤や、動脈硬化が原因となりやすい。硬膜下血腫は高齢者に多い長期的な出血で、認知症を合併しやすく、外傷が最大の原因。',
+                },
+
+
+                {
+                    detailInfo: '',
+                    questionImg: [question20223],
+                    questionSentence: '図の組織像から最も適した診断名を次から 1 つ選べ',
+                    choices: ['アテローム性動脈硬化', '脂肪塞栓 ', 'コレステリン塞栓', 'Mönckeberg 型中膜硬化症', '細動脈硬化 '],
+                    answerImg: [atherosclerosis4],
+                    answer: 'アテローム性動脈硬化',
+                    commentary: '',
+                },
+
+
+                {
+                    detailInfo: '',
+                    questionImg: [question20223],
+                    questionSentence: '図について誤っているものを次から 1 つ選べ',
+                    choices: ['末梢臓器では、虚血症状を呈する', '脳梗塞の原因となる ', 'Marfun 症候群でよく見られる。', '内膜に炎症細胞、脂質、平滑筋が蓄積している', '血栓形成の原因となる'],
+                    answerImg: [atherosclerosis4],
+                    answer: 'Marfun症候群でよく見られる。',
+                    commentary: 'Marfun（マルファン症候群）では動脈壁が脆く、若年で大動脈解離を発症する',
+                },
+
+
+                {
+                    detailInfo: '',
+                    questionImg: [question20224],
+                    questionSentence: '図と同様の組織像が多臓器の血管に散見された。最も適した組織像は次のうちどれか ',
+                    choices: [' 川崎病', '顕微鏡的多発血管炎', '巨細胞性血管炎 ', '高安動脈炎', '結節性多発性動脈炎'],
+                    answerImg: [PAN],
+                    answer: '結節性多発性動脈炎(PAN)',
+                    commentary: '',
+                },
+
+
+                {
+                    detailInfo: '',
+                    questionImg: [question20224],
+                    questionSentence: '図について正しいものを次から 1 つ選べ',
+                    choices: ['女性に好発、大動脈からの主分岐の動脈病変が生じ、橈骨動脈に生じた場合は拍動の消失が見られる', '	肺、腎臓、脳に出血が見られやすい。', '血管壁に好酸球が多数浸潤し、気道症状が先行する。', '多核巨細胞や Langdans巨細胞の 浸潤がみられる', '病変のある血管壁にはフィブリノイド壊死が認められ 、病変のある動脈区域に血栓や梗塞が生じる', '若年男性の 上下肢に好発し 、血管内膜にフィブリノイド変性'],
+                    answerImg: [PAN],
+                    answer: '病変のある血管壁にはフィブリノイド壊死が認められ 、病変のある動脈区域に血栓や梗塞が生じる',
+                    commentary: 'PAN（結節性多発性動脈炎）。中年男性に好発。血管壁にはIgG、C3（補体）、フィブリノゲンが沈着する。リンパ球・好中球の浸潤もみられ、フィブリノイド壊死が特徴的。',
+                },
+
+
+                {
+                    detailInfo: '',
+                    questionImg: [question20225],
+                    questionSentence: '図の組織像は 5歳男児、腹部の腫瘍切除をしたもの？？最も適したものを次から選べ ',
+                    choices: ['神経芽腫', '神経節芽腫', '腎芽腫', '網膜芽腫', '筋肉筋肉'],
+                    answerImg: [rosette],
+                    answer: '神経芽腫',
+                    commentary: 'Homer-Wrightロゼットは髄芽腫か神経芽腫。髄芽腫は5~14歳、神経芽腫は0~5歳の発症が多い。',
+                },
+
+
+                {
+                    detailInfo: '',
+                    questionImg: [question20225],
+                    questionSentence: '図について正しいものをひとつ選べ',
+                    choices: ['13番染色体異常による常染色体優性遺伝である ', 'MYCN 遺伝子の異常の場合予後良好である ', '年長児では予後不良である'],
+                    answerImg: [neuroblastoma],
+                    answer: '年長児では予後不良である。',
+                    commentary: 'MYCN遺伝子異常がみられた場合は予後不良。年齢1歳未満の発症は予後良好。網膜芽腫の原因遺伝子Rb1は13番染色体の異常で優性遺伝（両アレルに変異が入らないと発症しないが、片方のアレルに変異が入っている＝変異が入りやすい状態が遺伝するので優性遺伝）',
                 },
 
                 //   {
