@@ -926,7 +926,7 @@ export const useTechnicalTerm = () => {
     {
       term: ['MFN'],
       explanation:
-        'ミトコンドリアの融合に必要な酵素がMFN1/2：MitoFusin1/2である。',
+        'ミトコンドリアの融合に必要な酵素がMFN1/2：MitoFusin1/2',
     },
     {
       term: ['mtDNA', 'ミトコンドリアDNA'],
